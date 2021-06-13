@@ -1,0 +1,12 @@
+
+if (!isset($_SESSION['prius'])) $_SESSION['prius'] = 0;
+if (!isset($_SESSION['consec'])) $_SESSION['consec'] = 0;
+if ($recte) {
+    $_SESSION['consec']++;
+} else {
+   if ($_SESSION['consec'] > $_SESSION['prius'])
+       $_SESSION['prius'] = $_SESSION['consec'];
+   $_SESSION['consec'] = 0;
+}
+echo "(".$_SESSION['consec']." prius ".$_SESSION['prius'].")";
+session_register('consec');

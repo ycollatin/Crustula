@@ -1,0 +1,33 @@
+<?php
+$nomina = array (
+"acies"=>array("10","","","ei, f. : la ligne de bataille;  le regard"),
+"alluuies"=>array("10","","","ei, f. : l'eau débordée, le débordement"),
+"caesaries"=>array("10","","","ei, f. : la chevelure"),
+"canities"=>array("10","","","ei, f. : la blancheur (des cheveux, de la barbe), la vieillesse"),
+"colluuies"=>array("10","","","ei, f. : les eaux sales, les immondices;  le mélange impur, le chaos"),
+"congeries"=>array("10","","","ei, f. : l'amas, le monceau"),
+"conluuies"=>array("10","","","ei, f. : les eaux grasses, les immondices;  la confusion, le chaos"),
+"dies"=>array("10","","","ei, m. et f. : jour"),
+"effigies"=>array("10","","","ei, f. : la représentation, l'image, le portrait, la copie, le fantôme"),
+"facies"=>array("10","","","ei, f. : 1.  la forme extérieure, l'aspect l'apparence, la beauté  2.  la figure  3.  le genre, l'espèce"),
+"fides" =>array("10","fid","","ei, f. : 1.  la foi, la confiance 2.  le crédit  3.  la loyauté  4. la promesse, la parole donnée  5.  la protection"),
+"glacies"=>array("10","glaci","","ei, f. : la glace"),
+"ingluuies"=>array("10","","","ei, f. : 1.  le gésier  2.  la voracité, la gloutonnerie"),
+"inluuies"=>array("10","","","ei, f. : la saleté;  la mare boueuse"),
+"intemperies"=>array("10","","","ei, f. : état excessif, immodéré de qqch ; caprices"),
+"macies"=>array("10","","","iei, f. : maigreur"),
+"materies"=>array("10","","","ei, f. : la matière, les matériaux, le sujet, la thèse"),
+"meridies"=>array("10","","meridi","ei, m. : midi, sud"),
+"pauperies"=>array("10","","","ei, f. : pauvreté"),
+"pernicies"=>array("10","","","iei, f. : perte"),
+"planities"=>array("10","","","ei, f. : la plaine"),
+"plebes"=>array("10","","","ei, f. : la plèbe"),
+"progenies"=>array("10","","","ei, f. : la fille, le fils, la race, la famille"),
+"rabies"=>array("10","","","em, e : la rage"),
+"res"=>array("10","","","rei, f. : la chose, l'événement, la circonstance, l'affaire judiciaire;  les biens"),
+"sanies"=>array("10","","","ei, f. : la sang souillé, le pus"),
+"series"=>array("10","","","ei, f. : la suite, la rangée"),
+"species"=>array("10","","","ei, f : l'apparence, l'aspect"),
+"spes"=>array("10","","","ei, f. : espoir")
+);
+?>

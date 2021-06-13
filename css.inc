@@ -1,0 +1,60 @@
+<style>
+body {
+   border-style: solid;
+   border-color: dd0000;
+   border-width: 14px;
+   //height: 90%;
+   padding-top: 7px;
+   padding-left: 5em;
+   padding-right: 4em;
+   padding-bottom: 7px;
+}        
+.titre {
+font-family : sans-serif;
+font-size : 25px;
+font-weight : bold;
+text-align : center;
+padding: 7;
+background-color : Silver;
+}
+.juste {
+font-family : sans-serif;
+font-size : large;
+  color : Green;
+}
+.faux {
+font-family : sans-serif;
+font-size : large;
+color : Red;
+}   
+.question {
+text-align : center;
+font-size : 30px;
+color : Teal;
+}
+.questmin {
+text-align : center;
+font-size : 20px;
+color : Teal;
+}
+.textelat {
+font-size : 30px;
+color : DarkSlateGray;
+}
+.questlat {
+text-align : center;
+font-size : 20px;
+font-style : italic;
+color : maroon;
+}
+.conseil {
+font-style : italic;
+color : Red;
+}
+.rep {
+font-size: 18pt;
+}
+.redi {
+display: list-item;
+}        
+</style>
