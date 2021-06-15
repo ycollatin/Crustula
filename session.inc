@@ -9,4 +9,4 @@ if ($recte) {
    $_SESSION['consec'] = 0;
 }
 echo "(".$_SESSION['consec']." prius ".$_SESSION['prius'].")";
-session_register('consec');
+//session_register('consec');
