@@ -118,9 +118,9 @@ if (!isset($niveau)) {                   // initialisation
             $n++;
         } else {
             echo "<div class=\"faux\"> Errauisti. Respondisti : $resp</div>";
-            if ($n > 0) $n--; 
+            if (isset($n) && $n > 0) $n--; 
         }
-        $status{$pos} = (string)$n;
+        if (isset($n)) $status{$pos} = (string)$n;
     } elseif ($niveau == 2) {
         $priorV = $_POST['priorV'];
         $priorV = stripslashes($priorV);
