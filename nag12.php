@@ -111,7 +111,7 @@ function declin($lem, $casus, $plur = 0) {
          $pro[] = '/a$/'; $dic[] = 'am';
          $pro[] = '/us$/'; $dic[] = 'um';
          break;
-      case 'gén':
+      case 'gé':
          $pro[] = '/a$/'; $dic[] = 'ae';
          $pro[] = '/us$/'; $dic[] = 'i';
          break;
@@ -158,7 +158,7 @@ function sorsColl($c) {
 }
 
 $lemme = sorsColl($lexicum);
-$quaestio = sorscoll($casus);
+$quaestio = sorsColl($casus);
 session_start();
 ?>
 <html>
@@ -192,6 +192,7 @@ if (isset($priorQ)){
 	   echo "<div class=\"juste\">RECTE !</div>"; 
    else 
 	   echo "<div class=\"faux\"> Errauisti. Respondisti : $resp</div>";
+	   //echo "<div class=\"faux\"> Errauisti. Respondisti : $resp pro $sol";
    include "session.php.html";    
 } else {
    $_SESSION['prius'] = 0;
