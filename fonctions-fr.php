@@ -20,6 +20,10 @@
 #
 ###############################################################################
 */
+// ad errores inueniendos. eradere ad productionem
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1); error_reporting(E_ALL);
+
 $titre = "INITIATION AUX CAS : LES VALEURS";
 $data = array(
    array('La terre est -tendre-.',
@@ -235,7 +239,7 @@ echo '<input type="hidden" name="niveau" value="'.$niveau.'">'."\n";
 echo '<input type="hidden" name="status" value="'.$status.'">'."\n";
 echo '<input type="submit" value="Respondi">'."\n";
 echo "</form>\n";
-echo "<span class=\"conseil\">$message</span>$alin";
+if (isset($message)) echo "<span class=\"conseil\">$message</span>$alin";
 //echo $alin.$status; // debog
 }
 ?>
