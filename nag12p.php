@@ -112,7 +112,7 @@ function declin($lem, $casus, $plur = 0) {
          $pro[] = '/a$/'; $dic[] = 'am';
          $pro[] = '/us$/'; $dic[] = 'um';
          break;
-      case 'gén':
+      case 'gé':
          $pro[] = '/a$/'; $dic[] = 'ae';
          $pro[] = '/us$/'; $dic[] = 'i';
          break;
@@ -135,7 +135,7 @@ function declin($lem, $casus, $plur = 0) {
          $pro[] = '/a$/'; $dic[] = 'as';
          $pro[] = '/us$/'; $dic[] = 'os';
          break;
-      case 'gén':
+      case 'gé':
          $pro[] = '/a$/'; $dic[] = 'arum';
          $pro[] = '/us$/'; $dic[] = 'orum';
          break;
