@@ -22,7 +22,13 @@
 #
 ###############################################################################
 */
+
+// debog. has duas lineas tolle ad productionem.
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1); error_reporting(E_ALL);
+
 $alin = "<br>\n";
+
 $nomina = array(
    array('pat-er-rem', 'm', 'mon père'),     // 0
    array('mat-er-rem', 'f', 'ma mère'),      // 1
@@ -39,6 +45,7 @@ $verbe = array("j'aime",'tu aimes','aime','nous aimons', 'vous aimez','ils aimen
 
 function sors ($c) 
 {
+    if (!is_array($c)) return 0;
     if (count ($c) == 1) return 0;
     return mt_rand(0, count ($c)-1);
 }
@@ -130,6 +137,7 @@ function sGal($sAb)
    // uerbum sortitur
    // verbe
    $formeV = conjG ('diligo', $sAb['p'], $sAb['n']);
+   $sujet = "";
    // sujet
    if ($sAb['n'] == 's') 
    {
@@ -196,7 +204,7 @@ if (isset($schema)) {
     }
     $solC = trim ($solC);
     $respC = trim ($respC);
-    echo "Prior Sententia : $priorSent $alin";
+    //echo "Prior Sententia : $priorSent $alin";
     echo "Solutio : &laquo;$sol&raquo;$alin";
     // $recte = ($sol == $resp);
     $recte = strcasecmp($solC, $respC) == 0;
