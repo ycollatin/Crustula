@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-18 18:23+0200\n"
-"PO-Revision-Date: 2021-06-18 18:39+0200\n"
+"PO-Revision-Date: 2021-06-18 22:59+0200\n"
 "Last-Translator: Georges Khaznadar <georgesk@debian.org>\n"
 "Language-Team: en_US <LL@li.org>\n"
 "Language: English\n"
@@ -154,32 +154,32 @@ msgstr "A subject noun is nominative, and a direct object complement noun is acc
 msgid ""
 "Un peu plus difficile : tu dois écrire la traduction, soit du latin au "
 "français, soit du français au latin : <a href='sov1.php'>SOV bis</a>"
-msgstr ""
+msgstr "A little bit trickier: you must write the translation, either from Latin to English, or from English to Latin: <a href='sov1.php'>SOV bis</a>"
 
 #: ../index.php:136
 msgid ""
 "Le crustulum <a href='amo.php'>AMO, PRÉSENT DE L'INDICATIF</a> te montre "
 "comment conjuguer le verbe <i>amo</i> à toutes les personnes du présent."
-msgstr ""
+msgstr "Crustulum <a href='amo.php'>AMO, PRESENT INDICATIVE</a> shows you how to conjugate the verb <i>amo</i> to all persons of present indicative"
 
 #: ../index.php:139
 msgid ""
 "La conjugaisons de <i>sum</i>, être, est abordée dans <a href='sum.php'>SVM, "
 "PRÉSENT DE L'INDICATIF</a>."
-msgstr ""
+msgstr "Conjugating <i>sum</i>, to be, is done in <a href='sum.php'>SVM, PRESENT INDICATIVE</a>."
 
 #: ../index.php:142
 msgid ""
 "Un nom au génitif a de fortes chances d'être complément du nom. Pour "
 "t'entrainer à la lecture du génitif, tu peux pratiquer <a href='gen."
 "php'>CVIVS ?</a> et <a href='est-gen.php'>QVIS QVID EST CVIVS ?</a>"
-msgstr ""
+msgstr "A name in genitive has a good chance of being a complement to the name. To trin youself to read genitive, you can practice <a href='gen.php'>CVIVS ?</a> and <a href='est-gen.php'>QVIS QVID EST CVIVS?</a>"
 
 #: ../index.php:145
 msgid ""
 "Le datif est le cas de la personne ou de la chose à qui on destine ce qui "
 "est fait."
-msgstr ""
+msgstr "The dative is the case of the person or thing to whom what is done is intended."
 
 #: ../index.php:146
 msgid ""
@@ -191,509 +191,511 @@ msgstr ""
 #: ../index.php:149
 msgid ""
 "Le crustulum pour <a href='ablatif.php'>l'ablatif</a> est un peu difficile."
-msgstr ""
+msgstr "Crustulum for <a href='ablatif.php'>the ablative</a> is a little more difficult."
 
 #: ../index.php:150
 msgid "N'insiste pas si tu ne parviens pas au cinquième niveau."
-msgstr ""
+msgstr "Do not insist if you do not make it to the fifth level."
 
 #: ../index.php:153
 msgid ""
 "Deux crustula te permettront d'être parfaitement à l'aise dans le système "
 "des cas et de leurs valeurs : d'abord <a href='fonctions-fr.php'>Initiation "
 "aux cas : les valeurs </a> puis <a href='valeurk.php'>Quem casum ?</a>"
-msgstr ""
+msgstr "Two crustula will allow you to be perfectly at your ease in the system of cases and of their values: first <a href='fonctions-fr.php'>Initiation to cases: the values</a> then <a href='valeurk.php'>Quem casum?</a>"
 
 #: ../index.php:156
 msgid ""
 "Maintenant que tu connais les cas et leurs valeurs, il faut apprendre les "
 "déclinaisons :"
-msgstr ""
+msgstr "As you are knowing cases and their values, you must learn declensions:"
 
 #: ../index.php:157
 msgid ""
 "D'abord, <a href='nag12.php'>Les deux premières déclinaisons nominatif, "
 "accusatif et génitif singuliers.</a>"
-msgstr ""
+msgstr "To begin with, <a href='nag12.php'>the to first declensions at nominative, accusative and genitive singular.</a>"
 
 #: ../index.php:159
 msgid "Puis <a href='nag12p.php'>les mêmes cas, en ajoutant le pluriel</a>."
-msgstr ""
+msgstr "Later, <a href='nag12p.php'>the same cases, adding the plural</a>."
 
 #: ../index.php:160
 msgid "Il faut ensuite apprendre"
-msgstr ""
+msgstr "Then you must learn"
 
 #: ../index.php:162
 msgid "un petit vocabulaire des deux premières déclinaisons"
-msgstr ""
+msgstr "a small vocabulary of the two first declensions"
 
 #: ../index.php:166
 msgid "Tu auras alors accès à une plus grande variété de phrases :"
-msgstr ""
+msgstr "So you will be ablke to access a greater variety of phrases:"
 
 #: ../index.php:168 ../index.php:454
 msgid "Sujet, objet, verbe (+ modèles en -er)"
-msgstr ""
+msgstr "Subject, object, verb (+ templates with -er)"
 
 #: ../index.php:170
 msgid "Voici un aperçu du même principe, avec la troisième déclinaison :"
-msgstr ""
+msgstr "Here is a sample of the same principle, with the third declension:"
 
 #: ../index.php:172 ../index.php:484
 msgid "sujet, objet, verbe (+ 3e déclinaison)"
-msgstr ""
+msgstr "Subject, object, verb (+ 3rd declension)"
 
 #: ../index.php:174
 msgid ""
 "Dans <a href='sov4.php'>sujet, objet, verbe (+ conjugaison)</a>, tu devras "
 "savoir conjuguer le présent de plusieurs verbes ;"
-msgstr ""
+msgstr "In <a href='sov4.php'>subject, object, verb (+ conjugation)</a>, you will have to conjugate the present of many verbs;"
 
 #: ../index.php:175
 msgid ""
 "et dans <a href='sov5.php'>sujet, objet, verbe, génitif, imparfait</a>, il y "
 "aura des génitifs et des imparfaits."
-msgstr ""
+msgstr "and in <a href='sov5.php'>subject, object, verb, genitive, imperfect, there will be genitive and imperfect."
 
 #: ../index.php:178
 msgid ""
 "Il est temps, maintenant, d'apprendre tous les cas grâce à des phrases "
 "d'exemple :"
-msgstr ""
+msgstr "Now, time has come to learn all the cases with example phrases:"
 
 #: ../index.php:180 ../index.php:305 ../index.php:463
 msgid "Première déclinaison et valeur des cas"
-msgstr ""
+msgstr "First declension and values of cases"
 
 #: ../index.php:182
 msgid ""
 "et <a href='amicus.php'>Deuxième déclinaison et valeur des cas</a> <a "
 "href='gladius.php'>Gladius</a> et <a href='dux.php'>Dux</a> sont une rapide "
 "révision de cette notion."
-msgstr ""
+msgstr "and <a href='amicus.php'>Second declension and values of cases</a> <a href='gladius.php'>Gladius</a> and <a href='dux.php'>Dux</a> allow you to quicly revise this notion."
 
 #: ../index.php:185
 msgid ""
 "Mais tu n'as encore vu que deux déclinaisons. Il y en a cinq ! Tu dois "
 "d'abord apprendre à reconnaître facilement les <a href='modeles.php'>modèles "
 "de déclinaison</a>."
-msgstr ""
+msgstr "However you only saw two declensions. There are five of them! You must begin with learning to recognize easily the <a href='modeles.php'>declension models</a>."
 
 #: ../index.php:186
 msgid "Ensuite, il faut apprendre progressivement toutes les déclinaisons."
-msgstr ""
+msgstr "Then, you must learn gradually all the declensions."
 
 #: ../index.php:187
 msgid ""
 "C'est assez long, et il faudra pratiquer longtemps un <a href='decliner."
 "php'>entraînement progressif à la déclinaison</a>."
-msgstr ""
+msgstr "It is rather long, and you will have to exercise yourself for a while with the <a href='decliner.php'>gradual training to declension</a>"
 
 #: ../index.php:190
 msgid "L'étude du verbe se fait suivant le même principe :"
-msgstr ""
+msgstr "Studying the verb is done with the same principle:"
 
 #: ../index.php:191
 msgid ""
 "Tu dois apprendre à reconnaître facilement les <a href='modelesv."
 "php'>modèles de conjugaison</a>."
-msgstr ""
+msgstr "You must learn to recognize easily the <a href='modelesv.php'>conjugation templates</a>."
 
 #: ../index.php:192
 msgid "Il faut alors conjuguer."
-msgstr ""
+msgstr "Then you must conjugate."
 
 #: ../index.php:193
 msgid "Il est possible d'apprendre à la fois actif et passif au présent :"
-msgstr ""
+msgstr "It is possible to learn simultaneously active and passive present:"
 
 #: ../index.php:195
 msgid ""
 "La conjugaison d'un verbe s'appuie en latin sur trois radicaux : celui du "
 "présent (ou de l'infectum), du parfait (ou du perfectu), et du supin : <a "
 "href='radicaux.php'>les trois radicaux des verbes</a>."
-msgstr ""
+msgstr "The conjugation of a Latin verb depends of three radicals: the one of the present (or of the infectum), the one of the perfect (or of the perfectum), and the one of the supine: <a href='radicaux.php'>the three radicals of verbs</a>."
 
 #: ../index.php:196
 msgid ""
 "Tu dois aussi apprendre à lire correctement ce que dit le dictionnaire "
 "lorsqu'il donne un verbe : <a href='primitifs.php'>les temps primitifs</a>."
-msgstr ""
+msgstr "You must also learn to read correctly what the dictionary means when it gives a verb: <a href='primitifs.php'>primitive times</a>."
 
 #: ../index.php:197
 msgid "Commence par le <a href='present.php'>présent</a>."
-msgstr ""
+msgstr "Begin with the <a href='present.php'>present</a>."
 
 #: ../index.php:198
 msgid ""
 "Le parfait utilise le radical du perfectum et des désinences particulières."
-msgstr ""
+msgstr "The perfect uses the radical of the perfectum and particular endingq."
 
 #: ../index.php:199
 msgid "<a href='fui.php'>Le parfait de sum</a> en est un exemple."
-msgstr ""
+msgstr "<a href='fui.php'>The perfect of sum</a>< is an example of it."
 
 #: ../index.php:200
 msgid ""
 "Applique ce principe pour travailer les <a href='amaui.php'>présent et "
 "parfait de amo</a>."
-msgstr ""
+msgstr "Apply this principle to train with <a href='amaui.php'>present and perfect of amo</a>."
 
 #: ../index.php:201
 msgid ""
 "Tu es alors équipé pour apprendre tout <a href='ind_actif.php'>l'indicatif "
 "actif</a>, l'exercice est progressif : il faut réussir le présent pour "
 "aborder le futur, le futur pour l'imparfait, etc."
-msgstr ""
+msgstr "Then you become able to learn <a href='ind_actif.php'>all of the indicative</a>, the exercise is gradual: you must succeed with the present to begin with the future, with the future to begin with the imperfect, etc."
 
 #: ../index.php:204
 msgid "MOYEN"
-msgstr ""
+msgstr "INTERMEDIATE"
 
 #: ../index.php:208
 msgid ""
 "Pour des révisions des déclinaisons <a href='decl-ocius.php'>DECL-OCIVS</a> "
 "est plus approprié."
-msgstr ""
+msgstr "To revise declensions, <a href='decl-ocius.php'>DECL-OCIVS</a> is most appropriate."
 
 #: ../index.php:211
 msgid "Pour une connaissance plus approfondie de la valeur des cas : "
-msgstr ""
+msgstr "For a better knowledge of the value of cases:"
 
 #: ../index.php:213 ../index.php:469
 msgid "Valeur des cas et fonctions"
-msgstr ""
+msgstr "Values of cases and functions"
 
 #: ../index.php:217
 msgid ""
 "Comme pour toute langue, il faut non seulement acquérir du vocabulaire :"
-msgstr ""
+msgstr "As for any language, you must not only acquire vocabulary:"
 
 #: ../index.php:221 ../index.php:411
 msgid "CVIII noms de la deuxième déclinaison"
-msgstr ""
+msgstr "CVIII nouns of the second declension"
 
 #: ../index.php:224 ../index.php:414
 msgid "CLXXXVI noms de la troisième déclinaison"
-msgstr ""
+msgstr "CLXXXVI nouns of the third declension"
 
 #: ../index.php:227 ../index.php:320 ../index.php:417
 msgid "radicaux des noms de la 3e déclinaison"
-msgstr ""
+msgstr "radicals of nouns of the 3rd declension"
 
 #: ../index.php:230 ../index.php:420
 msgid "CLXXXVIII noms de la troisième déclinaison, avec génitif et genre"
-msgstr ""
+msgstr "CLXXXVIII nouns of the third declension, with genitive and gender"
 
 #: ../index.php:233 ../index.php:423
 msgid "XLII noms des quatrième et cinquième déclinaisons"
-msgstr ""
+msgstr "XLII nouns of the fourth and fifth declensions"
 
 #: ../index.php:238
 msgid ""
 "... mais aussi l'utiliser : <a href='valeurcas.php'>CVI phrases à étudier</"
 "a>."
-msgstr ""
+msgstr "... but also use it: <a href='valeurcas.php'>CVI phrases to study</a>."
 
 #: ../index.php:239
 msgid "Les crustula ont maintenant plusieurs niveaux."
-msgstr ""
+msgstr "The crustula have now many levels."
 
 #: ../index.php:240
 msgid ""
 "Au premier, il suffit de donner le cas utilisé, mais il faut ensuite "
 "décliner correctement le mot manquant."
-msgstr ""
+msgstr "At the first one, giving the used case is enough, but further one must decline correctly the missing word."
 
 #: ../index.php:241
 msgid "Dans le dernier niveau, aucune indication n'est donnée."
-msgstr ""
+msgstr "At top level, no indication is given."
 
 #: ../index.php:242
 msgid "Le mot manque, et il faut le retrouver."
-msgstr ""
+msgstr "The word is missing, one must find it out."
 
 #: ../index.php:245
 msgid ""
 "Le crustulum <a href='amatur.php'>QVIS QVEM AMAT ?</a> te familiarisera avec "
 "le passif."
-msgstr ""
+msgstr "The crustulum <a href='amatur.php'>QVIS QVEM AMAT?</a> will make you more familiar with the passive."
 
 #: ../index.php:249
 msgid ""
 "<a href='partparf.php'>Le participe parfait passif</a> est une forme très "
 "fréquente en latin."
-msgstr ""
+msgstr "<a href='partparf.php'>The perfect passive participle</a> is a very frequent form in Latin."
 
 #: ../index.php:255
 msgid ""
 "Parmi les pronoms, tu peux étudier <a href='iseaid.php'>is, ea, id</a> et <a "
 "href='relatifs.php'>qui, quae, quod</a>."
-msgstr ""
+msgstr "Among the pronouns, you can study <a href='iseaid.php'>is, ea, id</a> and <a href='relatifs.php'>qui, quae, quod</a>."
 
 #: ../index.php:259
 msgid "AVANCÉ"
-msgstr ""
+msgstr "ADVANCED"
 
 #: ../index.php:264
 msgid "Une révision de l'emploi de l'adjectif bonus :"
-msgstr ""
+msgstr "A revision of the adjective bonus:"
 
 #: ../index.php:266 ../index.php:514
 msgid "Bonus (phrases longues, chercher l'accord)"
-msgstr ""
+msgstr "Bonus (long phrases, search how to give the name)"
 
 #: ../index.php:269
 msgid "Les emplois de CVM"
-msgstr ""
+msgstr "Using CVM"
 
 #: ../index.php:272 ../index.php:511
 msgid "Syntaxe de DVM"
-msgstr ""
+msgstr "Syntax of DVM"
 
 #: ../index.php:275
 msgid ""
 "Dans <a href='orthographia.php'>De orthographia (Flauius Caper)</a>, un "
 "aperçu de la grammaire vue par les anciens."
-msgstr ""
+msgstr "In <a href='orthographia.php'>De orthographia (Flauius Caper)</a>, an overview of grammar seen by the ancients."
 
 #: ../index.php:280
 msgid "LES CRUSTULA QUI FONT TRAVAILLER DÉCLINAISON ET CONJUGAISON"
-msgstr ""
+msgstr "CRUSTULA TO WORK WITH DECLENSION AND CONJUGATION"
 
 #: ../index.php:284 ../index.php:442
 msgid "Nominatif et accusatif"
-msgstr ""
+msgstr "Nominative and accusative"
 
 #: ../index.php:287
 msgid "amo, présent de l'indicatif"
-msgstr ""
+msgstr "amo, indicative present"
 
 #: ../index.php:290
 msgid "sum, présent de l'indicatif"
-msgstr ""
+msgstr "sum, indicative present"
 
 #: ../index.php:293 ../index.php:445
 msgid "nominatif, génitif"
-msgstr ""
+msgstr "nominative, genitive"
 
 #: ../index.php:296 ../index.php:448
 msgid "nominatif, accusatif, datif"
-msgstr ""
+msgstr "nominative, accusative, dative"
 
 #: ../index.php:299
 msgid "déclinaison : nom. acc. gén. sing. decl. 1 et 2masc."
-msgstr ""
+msgstr "declension: nom. acc. gen. sing. decl. 1 et 2 masc."
 
 #: ../index.php:302
 msgid "déclinaison : nom. acc. gén. decl. 1 et 2masc."
-msgstr ""
+msgstr "declension: nom. acc. gen. decl. 1 et 2 masc."
 
 #: ../index.php:308 ../index.php:466
 msgid "Deuxième déclinaison et valeur des cas"
-msgstr ""
+msgstr "Second declension and value of cases"
 
 #: ../index.php:311
 msgid "modèles de déclinaison"
-msgstr ""
+msgstr "declension templates"
 
 #: ../index.php:314
 msgid "déclinaison, entraînement progressif"
-msgstr ""
+msgstr "declension, gradual training"
 
 #: ../index.php:317
 msgid "déclinaison, avance rapide"
-msgstr ""
+msgstr "declension, quick advance"
 
 #: ../index.php:323
 msgid "modèles de conjugaison"
-msgstr ""
+msgstr "conjugation templates"
 
 #: ../index.php:326 ../index.php:475
 msgid "Veho, uehor : actif et passif"
-msgstr ""
+msgstr "Veho, uehor: active and passive"
 
 #: ../index.php:329
 msgid "les trois radicaux des verbes"
-msgstr ""
+msgstr "the three radicals of verbs"
 
 #: ../index.php:332
 msgid "les temps primitifs"
-msgstr ""
+msgstr "pritive times"
 
 #: ../index.php:335
 msgid "le présent de l'indicatif"
-msgstr ""
+msgstr "the present of indicative"
 
 #: ../index.php:338
 msgid "l'indicatif actif</a>, entraînement progressif"
-msgstr ""
+msgstr "activie indicative</a>, gradual training"
 
 #: ../index.php:341
 msgid "le subjonctif actif"
-msgstr ""
+msgstr "active subjonctive"
 
 #: ../index.php:344
 msgid "le participe parfait passif"
-msgstr ""
+msgstr "perfect passive participle"
 
 #: ../index.php:347
 msgid "le parfait de sum"
-msgstr ""
+msgstr "perfect of sum"
 
 #: ../index.php:350
 msgid "amo, présent et parfait"
-msgstr ""
+msgstr "amo, present and perfect"
 
 #: ../index.php:359
 msgid ""
 "<a href='casus'>CASVS</a> est un assistant qui devrait te permettre de "
 "décliner n'importe quel nom à la forme que tu cherches."
 msgstr ""
+"<a href='casus'>CASVS</a> is a wizard which should allow you to decline\n"
+"any noun at the form which you want."
 
 #: ../index.php:360
 msgid "Il utilise son propre lexique."
-msgstr ""
+msgstr "It uses its own lexicon."
 
 #: ../index.php:365
 msgid "LES CRUSTULA QUI FONT TRAVAILLER LE VOCABULAIRE"
-msgstr ""
+msgstr "CRUSTULA TO WORK WITH VOCABULARY"
 
 #: ../index.php:369
 msgid "Les noms qu'il faut connaître en 5ème"
-msgstr ""
+msgstr "Nouns you must know in Year 8"
 
 #: ../index.php:372
 msgid "Les adjectifs qu'il faut connaître en 5ème"
-msgstr ""
+msgstr "Adjectives you must know in Year 8"
 
 #: ../index.php:375
 msgid "Les verbes qu'il faut connaître en 5ème"
-msgstr ""
+msgstr "Verbs you must know in Year 8"
 
 #: ../index.php:378
 msgid "Les adverbes qu'il faut connaître en 5ème"
-msgstr ""
+msgstr "Averbs you must know in Year 8"
 
 #: ../index.php:381
 msgid "Les noms qu'il faut connaître en 4ème"
-msgstr ""
+msgstr "Nouns you must know in Year 9"
 
 #: ../index.php:384
 msgid "Les adjectifs qu'il faut connaître en 4ème"
-msgstr ""
+msgstr "Adjectives you must know in Year 9"
 
 #: ../index.php:387
 msgid "Les verbes qu'il faut connaître en 4ème"
-msgstr ""
+msgstr "Verbs you must know in Year 9"
 
 #: ../index.php:390
 msgid "Les adverbes qu'il faut connaître en 4ème"
-msgstr ""
+msgstr "Adverbs you must know in Year 9"
 
 #: ../index.php:393
 msgid "Les noms qu'il faut connaître en 3ème"
-msgstr ""
+msgstr "Nouns you must know in Year 10"
 
 #: ../index.php:396
 msgid "Les adjectifs qu'il faut connaître en 3ème"
-msgstr ""
+msgstr "Adjectives you must know in Year 10"
 
 #: ../index.php:399
 msgid "Les verbes qu'il faut connaître en 3ème"
-msgstr ""
+msgstr "Verbs you must know in Year 10"
 
 #: ../index.php:402
 msgid "Les adverbes qu'il faut connaître en 3ème"
-msgstr ""
+msgstr "Adverbs you must know in Year 10"
 
 #: ../index.php:405
 msgid "Vocabulaire decl 1 et 2 masc."
-msgstr ""
+msgstr "Vocabulary decl 1 et 2 masc."
 
 #: ../index.php:408
 msgid "LXXXXVI noms de la première déclinaison"
-msgstr ""
+msgstr "LXXXXVI nouns of the first declension"
 
 #: ../index.php:426
 msgid "De orthographia (Flauius Caper)"
-msgstr ""
+msgstr "De orthographia (Flauius Caper)"
 
 #: ../index.php:432
 msgid "LES CRUSTULA QUI FONT TRAVAILLER LA SYNTAXE"
-msgstr ""
+msgstr "CRUSTULA TO WORK WITH THE SYNTAX"
 
 #: ../index.php:436
 msgid "Sujet, objet, verbe"
-msgstr ""
+msgstr "Subject, object, verb"
 
 #: ../index.php:439
 msgid "Sujet, objet, verbe (plus facile)"
-msgstr ""
+msgstr "Subject, object, verb (easier)"
 
 #: ../index.php:451
 msgid "Qui est l'ami de qui ?"
-msgstr ""
+msgstr "Who is the friend of whom?"
 
 #: ../index.php:457
 msgid "initiation aux cas : les valeurs"
-msgstr ""
+msgstr "initiation to cases: values"
 
 #: ../index.php:460
 msgid "quem casum ? (quel cas ?)"
-msgstr ""
+msgstr "quem casum? (which case?)"
 
 #: ../index.php:472
 msgid "Valeur des cas"
-msgstr ""
+msgstr "Values of cases"
 
 #: ../index.php:478
 msgid "transformation actif vers passif"
-msgstr ""
+msgstr "Active to passive transformation"
 
 #: ../index.php:481
 msgid "Ab, le lieu et le passif"
-msgstr ""
+msgstr "Ab, location and passive"
 
 #: ../index.php:487
 msgid "sujet, objet, verbe, présent"
-msgstr ""
+msgstr "subject, object, verb, present"
 
 #: ../index.php:490
 msgid "sujet, objet, verbe, CDN, présent, imparfait"
-msgstr ""
+msgstr "subject, object, verb, complement of noun, present, imperfect"
 
 #: ../index.php:502
 msgid "Gladius (à tous les cas)"
-msgstr ""
+msgstr "Gadius (at all the cases)"
 
 #: ../index.php:505
 msgid "Dux (à tous les cas)"
-msgstr ""
+msgstr "Dux (at all the cases)"
 
 #: ../index.php:508
 msgid "Syntaxe de CVM"
-msgstr ""
+msgstr "Syntax of CVM"
 
 #: ../index.php:520
 msgid "LES CRUSTULA QUI ACCOMPAGNENT LA LECTURE D'UN TEXTE"
-msgstr ""
+msgstr "CRUSTULA TO ENHANCE READING A TEXT"
 
 #: ../index.php:523
 msgid "LA MÉTHODE de CLAUDE PAVUR : GRASP"
-msgstr ""
+msgstr "CLAUDE PAVUR's METHOD: GRASP"
 
 #: ../index.php:529
 msgid ""
 "Consulter <a href='https://github.com/ycollatin/Crustula'> les codes "
 "sources</a> &copy; Yves Ouvrard, VII Kal. Oct. MMDCCLVIII AVC (27 septembre "
 "2005) - licentiâ <a href='LICENSE'>GPL</a>."
-msgstr ""
+msgstr "Access <a href='https://github.com/ycollatin/Crustula'>source code</a> &copy; Yves Ouvrard, VII Kal. Oct. MMDCCLVIII AVC (27 September 2005) - licentiâ <a href='LICENSE'>GPL</a>."
 
 #: ../index.php:531
 msgid ""
 "Pour installer ces Crustula, décompresser <a href='https://github.com/"
 "ycollatin/Crustula/archive/refs/heads/master.zip'>cette archive</a> dans la "
 "partie publique d'un serveur web équipé de PHP."
-msgstr ""
+msgstr "To intall those Crustula, uncompress <a href='https://github.com/ycollatin/Crustula/archive/refs/heads/master.zip'>this archive</a> in the public part of a PHP-enabled web server."

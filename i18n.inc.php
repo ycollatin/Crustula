@@ -30,4 +30,7 @@ $locale = setlocale(LC_MESSAGES, $lang); // this only works for enabled locales
 bindtextdomain("crustula", "./lang/locale");
 textdomain("crustula");
 
+header("Cache-Control: no-cache");
+header("Cache-Control: max-age=0");
+
 // no closing tag at the end of the file to prevent errors.
