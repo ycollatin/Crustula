@@ -1,0 +1,696 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-18 18:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../index.php:56
+msgid "Sommaire"
+msgstr ""
+
+#: ../index.php:62
+msgid "Je remercie Jacques Julien pour son aide amicale, et patiente."
+msgstr ""
+
+#: ../index.php:66
+msgid "Cher latiniste, débutant ou maître, salut."
+msgstr ""
+
+#: ../index.php:68
+msgid ""
+"Tu trouveras ici une collection d'exercices d'apprentissage de la langue "
+"latine."
+msgstr ""
+
+#: ../index.php:69
+msgid ""
+"Un lien au bas de cette page te permettra de les télécharger sur tout "
+"serveur web équipé du langage PHP."
+msgstr ""
+
+#: ../index.php:70
+msgid ""
+"Reviens souvent : de nouveaux crustula sont régulièrement ajoutés, et il "
+"n'est pas rare que les autres soient modifiés."
+msgstr ""
+
+#: ../index.php:73
+msgid "Tu peux chercher :"
+msgstr ""
+
+#: ../index.php:77
+msgid "les crustula correspondant à ton niveau ;"
+msgstr ""
+
+#: ../index.php:80
+msgid "débutant"
+msgstr ""
+
+#: ../index.php:83
+msgid "moyen"
+msgstr ""
+
+#: ../index.php:86
+msgid "avancé"
+msgstr ""
+
+#: ../index.php:90
+msgid "les crustula qui font travailler déclinaison et conjugaison ;"
+msgstr ""
+
+#: ../index.php:93
+msgid "les crustula qui font travailler le vocabulaire ;"
+msgstr ""
+
+#: ../index.php:96
+msgid "les crustula qui font travailler la syntaxe ;"
+msgstr ""
+
+#: ../index.php:99
+msgid "les crustula qui accompagnent la lecture d'un texte ;"
+msgstr ""
+
+#: ../index.php:102
+msgid "La méthode GRASP de Claude Pavur"
+msgstr ""
+
+#: ../index.php:104 ../index.php:525
+msgid "Claude Pavur enseigne à L'Université de Saint-Louis, aux USA."
+msgstr ""
+
+#: ../index.php:105 ../index.php:526
+msgid ""
+"Il a imaginé cette méthode qui fait lire la phrase par étapes successives, "
+"en la compliquant progressivement, pour retrouver finalement la phrase "
+"authentique."
+msgstr ""
+
+#: ../index.php:108
+msgid "dans la liste complète des crustula"
+msgstr ""
+
+#: ../index.php:114
+msgid "LES CRVSTVLA CORRESPONDANT À TON NIVEAU"
+msgstr ""
+
+#: ../index.php:117
+msgid "DÉBUTANT"
+msgstr ""
+
+#: ../index.php:120
+msgid ""
+"La langue française est proche de la langue latine parce qu'elle lui a "
+"emprunté la plus grande partie de son dictionnaire."
+msgstr ""
+
+#: ../index.php:121
+msgid "Pourtant elle est très difficile à apprendre. Pourquoi ?"
+msgstr ""
+
+#: ../index.php:124
+msgid ""
+"Parce que ce n'est pas <b>l'ordre</b> des mots qui permet de comprendre, "
+"mais <b>la fin</b> des mots."
+msgstr ""
+
+#: ../index.php:125
+msgid ""
+"Le crustulum <a href='sov.php'>QVIS QVEM AMAT ?</a> te propose de petites "
+"phrases qui t'initient à ce principe."
+msgstr ""
+
+#: ../index.php:126
+msgid "Évite de répondre automatiquement, et regarde bien la fin des noms."
+msgstr ""
+
+#: ../index.php:129
+msgid ""
+"Le crustulum <a href='gal.php'>NOMINATIF ET ACCUSATIF</a> lui ressemble, "
+"mais te permet de comprendre deux cas importants : le nominatif et "
+"l'accusatif."
+msgstr ""
+
+#: ../index.php:130
+msgid "Un nom sujet se met au nominatif, et un nom COD se met à l'accusatif."
+msgstr ""
+
+#: ../index.php:133
+msgid ""
+"Un peu plus difficile : tu dois écrire la traduction, soit du latin au "
+"français, soit du français au latin : <a href='sov1.php'>SOV bis</a>"
+msgstr ""
+
+#: ../index.php:136
+msgid ""
+"Le crustulum <a href='amo.php'>AMO, PRÉSENT DE L'INDICATIF</a> te montre "
+"comment conjuguer le verbe <i>amo</i> à toutes les personnes du présent."
+msgstr ""
+
+#: ../index.php:139
+msgid ""
+"La conjugaisons de <i>sum</i>, être, est abordée dans <a href='sum.php'>SVM, "
+"PRÉSENT DE L'INDICATIF</a>."
+msgstr ""
+
+#: ../index.php:142
+msgid ""
+"Un nom au génitif a de fortes chances d'être complément du nom. Pour "
+"t'entrainer à la lecture du génitif, tu peux pratiquer <a href='gen."
+"php'>CVIVS ?</a> et <a href='est-gen.php'>QVIS QVID EST CVIVS ?</a>"
+msgstr ""
+
+#: ../index.php:145
+msgid ""
+"Le datif est le cas de la personne ou de la chose à qui on destine ce qui "
+"est fait."
+msgstr ""
+
+#: ../index.php:146
+msgid ""
+"Le crustulum <a href='dat.php'>QVIS CVI QVEM COMMENDAT ?</a> est une "
+"initiation au datif, et <a href='dat1.php'>DATIVVS CASVS</a> en est une "
+"application plus complète."
+msgstr ""
+
+#: ../index.php:149
+msgid ""
+"Le crustulum pour <a href='ablatif.php'>l'ablatif</a> est un peu difficile."
+msgstr ""
+
+#: ../index.php:150
+msgid "N'insiste pas si tu ne parviens pas au cinquième niveau."
+msgstr ""
+
+#: ../index.php:153
+msgid ""
+"Deux crustula te permettront d'être parfaitement à l'aise dans le système "
+"des cas et de leurs valeurs : d'abord <a href='fonctions-fr.php'>Initiation "
+"aux cas : les valeurs </a> puis <a href='valeurk.php'>Quem casum ?</a>"
+msgstr ""
+
+#: ../index.php:156
+msgid ""
+"Maintenant que tu connais les cas et leurs valeurs, il faut apprendre les "
+"déclinaisons :"
+msgstr ""
+
+#: ../index.php:157
+msgid ""
+"D'abord, <a href='nag12.php'>Les deux premières déclinaisons nominatif, "
+"accusatif et génitif singuliers.</a>"
+msgstr ""
+
+#: ../index.php:159
+msgid "Puis <a href='nag12p.php'>les mêmes cas, en ajoutant le pluriel</a>."
+msgstr ""
+
+#: ../index.php:160
+msgid "Il faut ensuite apprendre"
+msgstr ""
+
+#: ../index.php:162
+msgid "un petit vocabulaire des deux premières déclinaisons"
+msgstr ""
+
+#: ../index.php:166
+msgid "Tu auras alors accès à une plus grande variété de phrases :"
+msgstr ""
+
+#: ../index.php:168 ../index.php:454
+msgid "Sujet, objet, verbe (+ modèles en -er)"
+msgstr ""
+
+#: ../index.php:170
+msgid "Voici un aperçu du même principe, avec la troisième déclinaison :"
+msgstr ""
+
+#: ../index.php:172 ../index.php:484
+msgid "sujet, objet, verbe (+ 3e déclinaison)"
+msgstr ""
+
+#: ../index.php:174
+msgid ""
+"Dans <a href='sov4.php'>sujet, objet, verbe (+ conjugaison)</a>, tu devras "
+"savoir conjuguer le présent de plusieurs verbes ;"
+msgstr ""
+
+#: ../index.php:175
+msgid ""
+"et dans <a href='sov5.php'>sujet, objet, verbe, génitif, imparfait</a>, il y "
+"aura des génitifs et des imparfaits."
+msgstr ""
+
+#: ../index.php:178
+msgid ""
+"Il est temps, maintenant, d'apprendre tous les cas grâce à des phrases "
+"d'exemple :"
+msgstr ""
+
+#: ../index.php:180 ../index.php:305 ../index.php:463
+msgid "Première déclinaison et valeur des cas"
+msgstr ""
+
+#: ../index.php:182
+msgid ""
+"et <a href='amicus.php'>Deuxième déclinaison et valeur des cas</a> <a "
+"href='gladius.php'>Gladius</a> et <a href='dux.php'>Dux</a> sont une rapide "
+"révision de cette notion."
+msgstr ""
+
+#: ../index.php:185
+msgid ""
+"Mais tu n'as encore vu que deux déclinaisons. Il y en a cinq ! Tu dois "
+"d'abord apprendre à reconnaître facilement les <a href='modeles.php'>modèles "
+"de déclinaison</a>."
+msgstr ""
+
+#: ../index.php:186
+msgid "Ensuite, il faut apprendre progressivement toutes les déclinaisons."
+msgstr ""
+
+#: ../index.php:187
+msgid ""
+"C'est assez long, et il faudra pratiquer longtemps un <a href='decliner."
+"php'>entraînement progressif à la déclinaison</a>."
+msgstr ""
+
+#: ../index.php:190
+msgid "L'étude du verbe se fait suivant le même principe :"
+msgstr ""
+
+#: ../index.php:191
+msgid ""
+"Tu dois apprendre à reconnaître facilement les <a href='modelesv."
+"php'>modèles de conjugaison</a>."
+msgstr ""
+
+#: ../index.php:192
+msgid "Il faut alors conjuguer."
+msgstr ""
+
+#: ../index.php:193
+msgid "Il est possible d'apprendre à la fois actif et passif au présent :"
+msgstr ""
+
+#: ../index.php:195
+msgid ""
+"La conjugaison d'un verbe s'appuie en latin sur trois radicaux : celui du "
+"présent (ou de l'infectum), du parfait (ou du perfectu), et du supin : <a "
+"href='radicaux.php'>les trois radicaux des verbes</a>."
+msgstr ""
+
+#: ../index.php:196
+msgid ""
+"Tu dois aussi apprendre à lire correctement ce que dit le dictionnaire "
+"lorsqu'il donne un verbe : <a href='primitifs.php'>les temps primitifs</a>."
+msgstr ""
+
+#: ../index.php:197
+msgid "Commence par le <a href='present.php'>présent</a>."
+msgstr ""
+
+#: ../index.php:198
+msgid ""
+"Le parfait utilise le radical du perfectum et des désinences particulières."
+msgstr ""
+
+#: ../index.php:199
+msgid "<a href='fui.php'>Le parfait de sum</a> en est un exemple."
+msgstr ""
+
+#: ../index.php:200
+msgid ""
+"Applique ce principe pour travailer les <a href='amaui.php'>présent et "
+"parfait de amo</a>."
+msgstr ""
+
+#: ../index.php:201
+msgid ""
+"Tu es alors équipé pour apprendre tout <a href='ind_actif.php'>l'indicatif "
+"actif</a>, l'exercice est progressif : il faut réussir le présent pour "
+"aborder le futur, le futur pour l'imparfait, etc."
+msgstr ""
+
+#: ../index.php:204
+msgid "MOYEN"
+msgstr ""
+
+#: ../index.php:208
+msgid ""
+"Pour des révisions des déclinaisons <a href='decl-ocius.php'>DECL-OCIVS</a> "
+"est plus approprié."
+msgstr ""
+
+#: ../index.php:211
+msgid "Pour une connaissance plus approfondie de la valeur des cas : "
+msgstr ""
+
+#: ../index.php:213 ../index.php:469
+msgid "Valeur des cas et fonctions"
+msgstr ""
+
+#: ../index.php:217
+msgid ""
+"Comme pour toute langue, il faut non seulement acquérir du vocabulaire :"
+msgstr ""
+
+#: ../index.php:221 ../index.php:411
+msgid "CVIII noms de la deuxième déclinaison"
+msgstr ""
+
+#: ../index.php:224 ../index.php:414
+msgid "CLXXXVI noms de la troisième déclinaison"
+msgstr ""
+
+#: ../index.php:227 ../index.php:320 ../index.php:417
+msgid "radicaux des noms de la 3e déclinaison"
+msgstr ""
+
+#: ../index.php:230 ../index.php:420
+msgid "CLXXXVIII noms de la troisième déclinaison, avec génitif et genre"
+msgstr ""
+
+#: ../index.php:233 ../index.php:423
+msgid "XLII noms des quatrième et cinquième déclinaisons"
+msgstr ""
+
+#: ../index.php:238
+msgid ""
+"... mais aussi l'utiliser : <a href='valeurcas.php'>CVI phrases à étudier</"
+"a>."
+msgstr ""
+
+#: ../index.php:239
+msgid "Les crustula ont maintenant plusieurs niveaux."
+msgstr ""
+
+#: ../index.php:240
+msgid ""
+"Au premier, il suffit de donner le cas utilisé, mais il faut ensuite "
+"décliner correctement le mot manquant."
+msgstr ""
+
+#: ../index.php:241
+msgid "Dans le dernier niveau, aucune indication n'est donnée."
+msgstr ""
+
+#: ../index.php:242
+msgid "Le mot manque, et il faut le retrouver."
+msgstr ""
+
+#: ../index.php:245
+msgid ""
+"Le crustulum <a href='amatur.php'>QVIS QVEM AMAT ?</a> te familiarisera avec "
+"le passif."
+msgstr ""
+
+#: ../index.php:249
+msgid ""
+"<a href='partparf.php'>Le participe parfait passif</a> est une forme très "
+"fréquente en latin."
+msgstr ""
+
+#: ../index.php:255
+msgid ""
+"Parmi les pronoms, tu peux étudier <a href='iseaid.php'>is, ea, id</a> et <a "
+"href='relatifs.php'>qui, quae, quod</a>."
+msgstr ""
+
+#: ../index.php:259
+msgid "AVANCÉ"
+msgstr ""
+
+#: ../index.php:264
+msgid "Une révision de l'emploi de l'adjectif bonus :"
+msgstr ""
+
+#: ../index.php:266 ../index.php:514
+msgid "Bonus (phrases longues, chercher l'accord)"
+msgstr ""
+
+#: ../index.php:269
+msgid "Les emplois de CVM"
+msgstr ""
+
+#: ../index.php:272 ../index.php:511
+msgid "Syntaxe de DVM"
+msgstr ""
+
+#: ../index.php:275
+msgid ""
+"Dans <a href='orthographia.php'>De orthographia (Flauius Caper)</a>, un "
+"aperçu de la grammaire vue par les anciens."
+msgstr ""
+
+#: ../index.php:280
+msgid "LES CRUSTULA QUI FONT TRAVAILLER DÉCLINAISON ET CONJUGAISON"
+msgstr ""
+
+#: ../index.php:284 ../index.php:442
+msgid "Nominatif et accusatif"
+msgstr ""
+
+#: ../index.php:287
+msgid "amo, présent de l'indicatif"
+msgstr ""
+
+#: ../index.php:290
+msgid "sum, présent de l'indicatif"
+msgstr ""
+
+#: ../index.php:293 ../index.php:445
+msgid "nominatif, génitif"
+msgstr ""
+
+#: ../index.php:296 ../index.php:448
+msgid "nominatif, accusatif, datif"
+msgstr ""
+
+#: ../index.php:299
+msgid "déclinaison : nom. acc. gén. sing. decl. 1 et 2masc."
+msgstr ""
+
+#: ../index.php:302
+msgid "déclinaison : nom. acc. gén. decl. 1 et 2masc."
+msgstr ""
+
+#: ../index.php:308 ../index.php:466
+msgid "Deuxième déclinaison et valeur des cas"
+msgstr ""
+
+#: ../index.php:311
+msgid "modèles de déclinaison"
+msgstr ""
+
+#: ../index.php:314
+msgid "déclinaison, entraînement progressif"
+msgstr ""
+
+#: ../index.php:317
+msgid "déclinaison, avance rapide"
+msgstr ""
+
+#: ../index.php:323
+msgid "modèles de conjugaison"
+msgstr ""
+
+#: ../index.php:326 ../index.php:475
+msgid "Veho, uehor : actif et passif"
+msgstr ""
+
+#: ../index.php:329
+msgid "les trois radicaux des verbes"
+msgstr ""
+
+#: ../index.php:332
+msgid "les temps primitifs"
+msgstr ""
+
+#: ../index.php:335
+msgid "le présent de l'indicatif"
+msgstr ""
+
+#: ../index.php:338
+msgid "l'indicatif actif</a>, entraînement progressif"
+msgstr ""
+
+#: ../index.php:341
+msgid "le subjonctif actif"
+msgstr ""
+
+#: ../index.php:344
+msgid "le participe parfait passif"
+msgstr ""
+
+#: ../index.php:347
+msgid "le parfait de sum"
+msgstr ""
+
+#: ../index.php:350
+msgid "amo, présent et parfait"
+msgstr ""
+
+#: ../index.php:359
+msgid ""
+"<a href='casus'>CASVS</a> est un assistant qui devrait te permettre de "
+"décliner n'importe quel nom à la forme que tu cherches."
+msgstr ""
+
+#: ../index.php:360
+msgid "Il utilise son propre lexique."
+msgstr ""
+
+#: ../index.php:365
+msgid "LES CRUSTULA QUI FONT TRAVAILLER LE VOCABULAIRE"
+msgstr ""
+
+#: ../index.php:369
+msgid "Les noms qu'il faut connaître en 5ème"
+msgstr ""
+
+#: ../index.php:372
+msgid "Les adjectifs qu'il faut connaître en 5ème"
+msgstr ""
+
+#: ../index.php:375
+msgid "Les verbes qu'il faut connaître en 5ème"
+msgstr ""
+
+#: ../index.php:378
+msgid "Les adverbes qu'il faut connaître en 5ème"
+msgstr ""
+
+#: ../index.php:381
+msgid "Les noms qu'il faut connaître en 4ème"
+msgstr ""
+
+#: ../index.php:384
+msgid "Les adjectifs qu'il faut connaître en 4ème"
+msgstr ""
+
+#: ../index.php:387
+msgid "Les verbes qu'il faut connaître en 4ème"
+msgstr ""
+
+#: ../index.php:390
+msgid "Les adverbes qu'il faut connaître en 4ème"
+msgstr ""
+
+#: ../index.php:393
+msgid "Les noms qu'il faut connaître en 3ème"
+msgstr ""
+
+#: ../index.php:396
+msgid "Les adjectifs qu'il faut connaître en 3ème"
+msgstr ""
+
+#: ../index.php:399
+msgid "Les verbes qu'il faut connaître en 3ème"
+msgstr ""
+
+#: ../index.php:402
+msgid "Les adverbes qu'il faut connaître en 3ème"
+msgstr ""
+
+#: ../index.php:405
+msgid "Vocabulaire decl 1 et 2 masc."
+msgstr ""
+
+#: ../index.php:408
+msgid "LXXXXVI noms de la première déclinaison"
+msgstr ""
+
+#: ../index.php:426
+msgid "De orthographia (Flauius Caper)"
+msgstr ""
+
+#: ../index.php:432
+msgid "LES CRUSTULA QUI FONT TRAVAILLER LA SYNTAXE"
+msgstr ""
+
+#: ../index.php:436
+msgid "Sujet, objet, verbe"
+msgstr ""
+
+#: ../index.php:439
+msgid "Sujet, objet, verbe (plus facile)"
+msgstr ""
+
+#: ../index.php:451
+msgid "Qui est l'ami de qui ?"
+msgstr ""
+
+#: ../index.php:457
+msgid "initiation aux cas : les valeurs"
+msgstr ""
+
+#: ../index.php:460
+msgid "quem casum ? (quel cas ?)"
+msgstr ""
+
+#: ../index.php:472
+msgid "Valeur des cas"
+msgstr ""
+
+#: ../index.php:478
+msgid "transformation actif vers passif"
+msgstr ""
+
+#: ../index.php:481
+msgid "Ab, le lieu et le passif"
+msgstr ""
+
+#: ../index.php:487
+msgid "sujet, objet, verbe, présent"
+msgstr ""
+
+#: ../index.php:490
+msgid "sujet, objet, verbe, CDN, présent, imparfait"
+msgstr ""
+
+#: ../index.php:502
+msgid "Gladius (à tous les cas)"
+msgstr ""
+
+#: ../index.php:505
+msgid "Dux (à tous les cas)"
+msgstr ""
+
+#: ../index.php:508
+msgid "Syntaxe de CVM"
+msgstr ""
+
+#: ../index.php:520
+msgid "LES CRUSTULA QUI ACCOMPAGNENT LA LECTURE D'UN TEXTE"
+msgstr ""
+
+#: ../index.php:523
+msgid "LA MÉTHODE de CLAUDE PAVUR : GRASP"
+msgstr ""
+
+#: ../index.php:529
+msgid ""
+"Consulter <a href='https://github.com/ycollatin/Crustula'> les codes "
+"sources</a> &copy; Yves Ouvrard, VII Kal. Oct. MMDCCLVIII AVC (27 septembre "
+"2005) - licentiâ <a href='LICENSE'>GPL</a>."
+msgstr ""
+
+#: ../index.php:531
+msgid ""
+"Pour installer ces Crustula, décompresser <a href='https://github.com/"
+"ycollatin/Crustula/archive/refs/heads/master.zip'>cette archive</a> dans la "
+"partie publique d'un serveur web équipé de PHP."
+msgstr ""
