@@ -127,7 +127,7 @@ session_start();
 QVIS CVI QVEM COMMENDAT ?
 </p>
 <?php
-if (!empty($priorsent)){
+if (!empty($priorsent)) {
    echo "prior quaestio : ".$priorsent.$alin;
    echo "gallice : ".gallice($priorsent).$alin;
    //echo "<br>sujet : $sujet, objet : $objet.<br>";
@@ -138,7 +138,7 @@ if (!empty($priorsent)){
    else 
 	   echo "<div class=\"faux\"> Errauisti. "
 		   ."Respondisti $respN reccommande $respA à $respD";
-   include "session.php.html"	
+   include "session.php.html";
 } else {
    $_SESSION['prius'] = 0;
    $_SESSION['consec'] = 0;
