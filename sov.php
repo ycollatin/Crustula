@@ -20,6 +20,9 @@
 #
 ###############################################################################
 */
+
+include_once 'i18n.inc.php';
+
 $alinea = "<br/>\n";
 
 $nominM = array(
@@ -54,7 +57,7 @@ function gallice($s) {
    foreach($coll as $uer) { 
        //echo '*'.$uer.'*'.$alinea;
        if ($uer == "amat")
-           $verbe = "aime";
+           $verbe = _("aime");
        elseif (preg_match("/m$/", $uer))
            $objet = $uer;
        else $sujet = $uer;
@@ -94,8 +97,8 @@ function IIPropositiones()
    // II sententias proponere
     global $subiectus, $lemma_obiecti;
     $p = array(
-      "$subiectus aime $lemma_obiecti.",
-      "$lemma_obiecti aime $subiectus.");
+        "$subiectus ". _("aime") . " $lemma_obiecti.",
+      "$lemma_obiecti ". _("aime") . " $subiectus.");
     shuffle ($p);
     return $p; 
 }
