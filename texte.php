@@ -62,7 +62,7 @@ function ql($ph, $n) {
 }        
 
 function qg($ph, $n) {
-   // retourne la phrase française $ph avec le segment $n en rouge
+   // retourne la phrase $ph avec le segment $n en rouge
    if (substr($ph[$n], -1) == '-') {
        $ph[$n] = preg_replace("/(-)$/", '', $ph[$n]);
        $ph[$n] = '<span class="conseil">'.$ph[$n].'</span>';
@@ -339,7 +339,6 @@ elseif ($niveau == 4) {
          AFFICHAGE DU FORMULAIRE
 
 ***************************************/
-
 
 if ($niveau == 0) {
    // données
