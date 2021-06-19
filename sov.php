@@ -57,7 +57,7 @@ function gallice($s) {
    foreach($coll as $uer) { 
        //echo '*'.$uer.'*'.$alinea;
        if ($uer == "amat")
-           $verbe = _("aime");
+           $verbe = T_("aime");
        elseif (preg_match("/m$/", $uer))
            $objet = $uer;
        else $sujet = $uer;
@@ -97,8 +97,8 @@ function IIPropositiones()
    // II sententias proponere
     global $subiectus, $lemma_obiecti;
     $p = array(
-        "$subiectus ". _("aime") . " $lemma_obiecti.",
-      "$lemma_obiecti ". _("aime") . " $subiectus.");
+        "$subiectus ". T_("aime") . " $lemma_obiecti.",
+      "$lemma_obiecti ". T_("aime") . " $subiectus.");
     shuffle ($p);
     return $p; 
 }

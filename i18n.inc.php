@@ -1,5 +1,8 @@
 <?php
 
+// depends on the package php-php-gettext!
+include_once "/usr/share/php/php-php-gettext/gettext.inc";
+
 // test a LANG environment variable eventually given to the browser
 $wanted1 = getenv("LANG");
 
@@ -29,12 +32,14 @@ default:
     break;
 }
 
-$locale = setlocale(LC_MESSAGES, $lang); // this only works for enabled locales
+$locale = T_setlocale(LC_MESSAGES, $lang); // this only works for enabled locales
 
 bindtextdomain("crustula", "./lang/locale");
+bind_textdomain_codeset("crustula", "utf-8");
 textdomain("crustula");
 
 header("Cache-Control: no-cache");
 header("Cache-Control: max-age=0");
+header("Content-type: text/html; charset=utf-8");
 
 // no closing tag at the end of the file to prevent errors.
