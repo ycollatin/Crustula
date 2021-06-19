@@ -9,9 +9,13 @@ $wanted2 = !empty($_SERVER['HTTP_ACCEPT_LANGUAGE']) ?  $_SERVER['HTTP_ACCEPT_LAN
 // test a GET parameter such as "lang"
 $wanted3 = !empty($_GET["lang"]) ? $_GET["lang"]: false;
 
+// test a cookie named preferred_language
+$wanted4 = !empty($_COOKIE["preferred_language"]) ? $_COOKIE["preferred_language"] : false;
+
 if ($wanted1) $lang = $wanted1;
 if ($wanted2) $lang = $wanted2;
 if ($wanted3) $lang = $wanted3;
+if ($wanted4) $lang = $wanted4;
 
 switch (substr($lang, 0, 2)) {
 case "en":
