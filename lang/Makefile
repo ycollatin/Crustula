@@ -20,6 +20,7 @@ locale/%/LC_MESSAGES/crustula.mo: %.po
 
 clean:
 	rm -f *~
+	find . -name "*.mo" | xargs rm -f
 	@for d in $(SUBDIRS); do $(MAKE) -C $$d $@ DESTDIR=$(DESTDIR) ; done
 
 install:
