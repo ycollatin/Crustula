@@ -1,5 +1,7 @@
 <?php
 
+putenv("LANGUAGE="); //	PHP seems to honor too much this variable!
+
 // depends on the package php-php-gettext!
 include_once "/usr/share/php/php-php-gettext/gettext.inc";
 
