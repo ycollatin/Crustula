@@ -121,7 +121,7 @@ if (isset($_REQUEST['sententia']))
 if (isset($priorsent)){
    	echo "prior sententia : ".$priorsent.$alinea;
    	$gallice = gallice($priorsent);
-   	echo "gallice : ".$gallice.$alinea;
+   	echo T_("gallice :")." ".$gallice.$alinea;
    	$resp = $_POST["resp"];
    	//echo "<br>sujet : $sujet, objet : $objet.<br>";
    	$recte = $resp == $gallice;
