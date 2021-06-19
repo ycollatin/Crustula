@@ -17,7 +17,7 @@ $data = array(
   ),
   array( 
       'lat' => array('quod','postea','Prometheus','in ferula','detulit','in terras'),
-      'fr'  => array('plus tard','Prométhée','le','fit descendre','sur les terres','dans une tige'),
+      'fr'  => array('plus tard','PromÃ©thÃ©e','le','fit descendre','sur les terres','dans une tige'),
       'ord' => array(2,0,1,5,3,4),
       'cas' => array(2=>'N',3=>'Ab',5=>'Ac')
   ),
@@ -31,31 +31,31 @@ $data = array(
       'lat' => array('ob hanc rem','Mercurius','Iouis','iussu','deligauit','eum','in monte Caucaso',
                      'ad saxum','clauis ferreis'),
       'fr'  => array('Pour cette raison','Mercure','sur l\'ordre','de Jupiter','l\'','attacha',
-                     'à un rocher','sur le mont Caucase','avec des liens de fer'), 
+                     'Ã  un rocher','sur le mont Caucase','avec des liens de fer'), 
       'ord' => array(0,1,3,2,5,4,7,6,8),
       'cas' => array(0=>'Ac',1=>'N',2=>'G',3=>'Ab',5=>'Ac',6=>'Ab',7=>'Ac',8=>'Ab')
   ),
   array( 
       'lat' => array('et','aquilam','apposuit','quae','cor eius','exesset'),
-      'fr'  => array('et','mit près de lui','un aigle','qui','devait manger','son coeur'),
+      'fr'  => array('et','mit prÃ¨s de lui','un aigle','qui','devait manger','son coeur'),
       'ord' => array(0,2,1,3,5,4),
       'cas' => array(1=>'Ac',3=>'N',4=>'Ac')
   ),
   array(
       'lat' => array('quantum','die','ederat', 'tantum','nocte','crescebat'), 
-      'fr'  => array('Tout ce qu\'','il avait mangé','le jour','repoussait','la nuit','en quantité égale'),
+      'fr'  => array('Tout ce qu\'','il avait mangÃ©','le jour','repoussait','la nuit','en quantitÃ© Ã©gale'),
       'ord' => array(0,2,1,5,4,3),
       'cas' => array(1=>'Ab',4=>'Ab')
   ),
   array(
       'lat' => array('hanc aquilam','post xxx annos','Hercules','interfecit'),
-      'fr'  => array('Hercule','trente ans après','tua','cet aigle'),
+      'fr'  => array('Hercule','trente ans aprÃ¨s','tua','cet aigle'),
       'ord' => array(3,1,0,2),
       'cas' => array(0=>'Ac',1=>'Ac',2=>'N')
   ),
   array( 
       'lat' => array('eumque','liberauit'),
-      'fr'  => array('et le','libéra'),
+      'fr'  => array('et le','libÃ©ra'),
       'ord' => array(0,1),
       'cas' => array(0=>'Ac')
   ),

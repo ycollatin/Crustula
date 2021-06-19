@@ -20,15 +20,17 @@
 #
 ###############################################################################
 */
+echo "<html>\n<head>\n<title>CRVSTVLA - $titre </title>\n";
+include "css.inc";
+include "meta.inc.php";
+echo "\n</head>\n";
+echo "<body>\n";
+echo "<p class=\"titre\">$titre</p>\n";
 $incl = $_POST['incl'];
 if ($incl) 
     include "texte.php";
 else {
 $titre = "TEXTES LATINS";
-include "css.inc";
-echo "<html>\n<head>\n<title>CRVSTVLA - $titre </title>\n</head>\n";
-echo "<body>\n";
-echo "<p class=\"titre\">$titre</p>\n";
 echo "<form method=\"post\">\n";
 $d = dir("txt/");
 while($entry=$d->read()) {
