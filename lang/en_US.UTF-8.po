@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-19 19:31+0200\n"
+"POT-Creation-Date: 2021-06-20 20:21+0200\n"
 "PO-Revision-Date: 2021-06-19 19:46+0200\n"
 "Last-Translator: Georges Khaznadar <georgesk@debian.org>\n"
 "Language-Team: en_US <LL@li.org>\n"
@@ -24,6 +24,6 @@ msgstr "Summary"
 msgid "aime"
 msgstr "loves"
 
-#: ../sov.php:124
+#: ../sov.php:124 ../sov.php:125
 msgid "gallice :"
 msgstr "anglice :"

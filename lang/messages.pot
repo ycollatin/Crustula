@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-19 19:31+0200\n"
+"POT-Creation-Date: 2021-06-20 20:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,6 @@ msgstr ""
 msgid "aime"
 msgstr ""
 
-#: ../sov.php:124
+#: ../sov.php:124 ../sov.php:125
 msgid "gallice :"
 msgstr ""
