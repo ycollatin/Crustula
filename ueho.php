@@ -20,6 +20,9 @@
 #
 ###############################################################################
 */
+// ad errores inueniendos. eradere ad productionem
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 $alin = "<br>\n";
 $version = array(
      "uehor"=>"je suis transporté",
@@ -71,12 +74,12 @@ if (isset($priorsent)){
 	   $sol = $version[$priorsent];
    else $sol = $theme[$priorsent];
 
-   echo "prior sententia : $priorsent, $sol $alin";
+   echo "prior sententia : $priorsent, solutio : $sol $alin";
    $recte = ($resp == $sol);
    if ($recte)
 	   echo "<div class=\"juste\">RECTE !</div>"; 
    else {
-	   echo "$solutio $alin";
+	   //echo "$solutio $alin";
 	   echo "<div class=\"faux\"> Errauisti. Respondisti $resp.</div>"; 
    }
    include "session.php.html";
