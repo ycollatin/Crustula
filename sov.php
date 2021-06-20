@@ -20,6 +20,9 @@
 #
 ###############################################################################
 */
+
+include_once 'i18n.inc.php';
+
 $alinea = "<br/>\n";
 
 $nominM = array(
@@ -54,7 +57,7 @@ function gallice($s) {
    foreach($coll as $uer) { 
        //echo '*'.$uer.'*'.$alinea;
        if ($uer == "amat")
-           $verbe = "aime";
+           $verbe = T_("aime");
        elseif (preg_match("/m$/", $uer))
            $objet = $uer;
        else $sujet = $uer;
@@ -94,8 +97,8 @@ function IIPropositiones()
    // II sententias proponere
     global $subiectus, $lemma_obiecti;
     $p = array(
-      "$subiectus aime $lemma_obiecti.",
-      "$lemma_obiecti aime $subiectus.");
+        "$subiectus ". T_("aime") . " $lemma_obiecti.",
+      "$lemma_obiecti ". T_("aime") . " $subiectus.");
     shuffle ($p);
     return $p; 
 }
@@ -104,7 +107,8 @@ session_start();
 echo "<html>\n"
 	."<head>\n"
 	."<title>CRVSTVLA - SOV</title>\n"
-	."<link rel=\"stylesheet\" href=\"crustula.css\" type=\"text/css\">\n";
+	."<link rel=\"stylesheet\" href=\"crustula.css\" type=\"text/css\">\n"
+    ."<link rel=\"icon\" href=\"favicon.ico\">\n";
 //include "css.inc";
 include "meta.inc.php";   
 echo "</head>\n"
@@ -118,7 +122,7 @@ if (isset($_REQUEST['sententia']))
 if (isset($priorsent)){
    	echo "prior sententia : ".$priorsent.$alinea;
    	$gallice = gallice($priorsent);
-   	echo "gallice : ".$gallice.$alinea;
+   	echo T_("gallice :")." ".$gallice.$alinea;
    	$resp = $_POST["resp"];
    	//echo "<br>sujet : $sujet, objet : $objet.<br>";
    	$recte = $resp == $gallice;
