@@ -20,6 +20,10 @@
 #
 ###############################################################################
 */
+// ad errores inueniendos. eradere ad productionem
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1); error_reporting(E_ALL);
+
 $alin = "<br>\n";
 $nomina = array(
    // dans l'ordre : le nom et sa déclinaison, le genre, la traduction, et 
@@ -97,7 +101,7 @@ function conj($u, $p, $n, $t='p')
        elseif ($pp == 'circumeo' ) $uoc = 'i';
        elseif ($pp == 'diligo') $uoc = 'e';
        else $uoc = 'ie';
-       $rad = ereg_replace("[ie]?o$","",$pp); 
+       $rad = preg_replace("/[ie]?o$/","",$pp); 
        return $rad.$uoc.$des[$n][$p-1];
    }
    // canonica forma
