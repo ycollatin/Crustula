@@ -107,7 +107,8 @@ session_start();
 echo "<html>\n"
 	."<head>\n"
 	."<title>CRVSTVLA - SOV</title>\n"
-	."<link rel=\"stylesheet\" href=\"crustula.css\" type=\"text/css\">\n";
+	."<link rel=\"stylesheet\" href=\"crustula.css\" type=\"text/css\">\n"
+    ."<link rel=\"icon\" href=\"favicon.ico\">\n";
 //include "css.inc";
 include "meta.inc.php";   
 echo "</head>\n"
