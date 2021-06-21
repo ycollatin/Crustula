@@ -24,6 +24,10 @@ ol {
 .hor{
     margin-left: 40px;
     font-style: italic;
+    background: url("images/marble.jpg");
+    display: inline-block;
+    padding: 1em;
+    border-radius: 5px;
 }
 p.indente{
     padding-left: 4em;
