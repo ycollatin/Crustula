@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-24 14:12+0200\n"
+"POT-Creation-Date: 2021-06-24 16:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,90 +23,96 @@ msgstr ""
 
 #: ../sov.php:60 ../sov.php:100 ../sov.php:101 ../sov_new.php:72
 #: ../sov_new.php:112 ../sov_new.php:113 ../sov.php:74 ../sov.php:113
-#: ../sov.php:114
+#: ../sov.php:114 ../sov.php:77 ../sov.php:120 ../sov.php:121 ../sov.php:83
+#: ../sov.php:139 ../sov.php:140
 msgid "aime"
 msgstr ""
 
 #: ../sov.php:124 ../sov.php:125 ../sov_new.php:137 ../sov.php:138
+#: ../sov.php:145 ../sov.php:164
 msgid "gallice :"
 msgstr ""
 
-#: ../sov.php:29
+#: ../sov.php:29 ../sov.php:32 ../sov.php:33
 msgid "Aemilius"
 msgstr ""
 
-#: ../sov.php:30
+#: ../sov.php:30 ../sov.php:33 ../sov.php:34
 msgid "Eupalamus"
 msgstr ""
 
-#: ../sov.php:31
+#: ../sov.php:31 ../sov.php:34 ../sov.php:35
 msgid "Publius"
 msgstr ""
 
-#: ../sov.php:32
+#: ../sov.php:32 ../sov.php:35 ../sov.php:36
 msgid "Aulus"
 msgstr ""
 
-#: ../sov.php:33
+#: ../sov.php:33 ../sov.php:36 ../sov.php:37
 msgid "Marcus"
 msgstr ""
 
-#: ../sov.php:36
+#: ../sov.php:36 ../sov.php:39 ../sov.php:40
 msgid "Aemilia"
 msgstr ""
 
-#: ../sov.php:37
+#: ../sov.php:37 ../sov.php:40 ../sov.php:41
 msgid "Iulia"
 msgstr ""
 
-#: ../sov.php:38
+#: ../sov.php:38 ../sov.php:41 ../sov.php:42
 msgid "Lucia"
 msgstr ""
 
-#: ../sov.php:39
+#: ../sov.php:39 ../sov.php:42 ../sov.php:43
 msgid "Lucretia"
 msgstr ""
 
-#: ../sov.php:40
+#: ../sov.php:40 ../sov.php:43 ../sov.php:44
 msgid "Sempronia"
 msgstr ""
 
-#: ../sov.php:43
+#: ../sov.php:43 ../sov.php:46 ../sov.php:47
 msgid "Aemilium"
 msgstr ""
 
-#: ../sov.php:44
+#: ../sov.php:44 ../sov.php:47 ../sov.php:48
 msgid "Eupalamum"
 msgstr ""
 
-#: ../sov.php:45
+#: ../sov.php:45 ../sov.php:48 ../sov.php:49
 msgid "Publium"
 msgstr ""
 
-#: ../sov.php:46
+#: ../sov.php:46 ../sov.php:49 ../sov.php:50
 msgid "Aulum"
 msgstr ""
 
-#: ../sov.php:47
+#: ../sov.php:47 ../sov.php:50 ../sov.php:51
 msgid "Marcum"
 msgstr ""
 
-#: ../sov.php:50
+#: ../sov.php:50 ../sov.php:53 ../sov.php:54
 msgid "Aemiliam"
 msgstr ""
 
-#: ../sov.php:51
+#: ../sov.php:51 ../sov.php:54 ../sov.php:55
 msgid "Iuliam"
 msgstr ""
 
-#: ../sov.php:52
+#: ../sov.php:52 ../sov.php:55 ../sov.php:56
 msgid "Luciam"
 msgstr ""
 
-#: ../sov.php:53
+#: ../sov.php:53 ../sov.php:56 ../sov.php:57
 msgid "Lucretiam"
 msgstr ""
 
-#: ../sov.php:54
+#: ../sov.php:54 ../sov.php:57 ../sov.php:58
 msgid "Semproniam"
+msgstr ""
+
+#: ../sov.php:27
+msgid "si non declinatione neque sermonem transferre"
 msgstr ""

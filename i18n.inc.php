@@ -40,6 +40,11 @@ bindtextdomain("crustula", "./lang/locale");
 bind_textdomain_codeset("crustula", "utf-8");
 textdomain("crustula");
 
+function N_($msg) {
+    // used to mark a string litteral as translatable, without translating it
+    return $msg;
+}
+
 header("Cache-Control: no-cache");
 header("Cache-Control: max-age=0");
 header("Content-type: text/html; charset=utf-8");
