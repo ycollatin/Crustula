@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-20 20:21+0200\n"
-"PO-Revision-Date: 2021-06-19 19:46+0200\n"
+"POT-Creation-Date: 2021-06-24 14:12+0200\n"
+"PO-Revision-Date: 2021-06-24 14:21+0200\n"
 "Last-Translator: Nikolay A <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: Russian\n"
@@ -20,13 +20,95 @@ msgstr ""
 msgid "Sommaire"
 msgstr "Резюме"
 
-#: ../sov.php:60 ../sov.php:100 ../sov.php:101
+#: ../sov.php:60 ../sov.php:100 ../sov.php:101 ../sov_new.php:72
+#: ../sov_new.php:112 ../sov_new.php:113 ../sov.php:74 ../sov.php:113
+#: ../sov.php:114
 msgid "aime"
 msgstr "любит"
 
-#: ../sov.php:124 ../sov.php:125
+#: ../sov.php:124 ../sov.php:125 ../sov_new.php:137 ../sov.php:138
 msgid "gallice :"
 msgstr "slavica :"
+
+#: ../sov.php:29
+msgid "Aemilius"
+msgstr "Эимлий"
+
+#: ../sov.php:30
+msgid "Eupalamus"
+msgstr "Эвпалам"
+
+#: ../sov.php:31
+msgid "Publius"
+msgstr "Публий"
+
+#: ../sov.php:32
+msgid "Aulus"
+msgstr "Авл"
+
+#: ../sov.php:33
+msgid "Marcus"
+msgstr "Марк"
+
+#: ../sov.php:36
+msgid "Aemilia"
+msgstr "Эмилия"
+
+#: ../sov.php:37
+msgid "Iulia"
+msgstr "Юлия"
+
+#: ../sov.php:38
+msgid "Lucia"
+msgstr "Луция"
+
+#: ../sov.php:39
+msgid "Lucretia"
+msgstr "Лукреция"
+
+#: ../sov.php:40
+msgid "Sempronia"
+msgstr "Семпрония"
+
+#: ../sov.php:43
+msgid "Aemilium"
+msgstr "Эмилия"
+
+#: ../sov.php:44
+msgid "Eupalamum"
+msgstr "Эвпалама"
+
+#: ../sov.php:45
+msgid "Publium"
+msgstr "Публия"
+
+#: ../sov.php:46
+msgid "Aulum"
+msgstr "Авла"
+
+#: ../sov.php:47
+msgid "Marcum"
+msgstr "Марка"
+
+#: ../sov.php:50
+msgid "Aemiliam"
+msgstr "Эмилию"
+
+#: ../sov.php:51
+msgid "Iuliam"
+msgstr "Юлию"
+
+#: ../sov.php:52
+msgid "Luciam"
+msgstr "Луцию"
+
+#: ../sov.php:53
+msgid "Lucretiam"
+msgstr "Лукрецию"
+
+#: ../sov.php:54
+msgid "Semproniam"
+msgstr "Семпронию"
 
 #~ msgid "Je remercie Jacques Julien pour son aide amicale, et patiente."
 #~ msgstr "Я благодарю Жака Жюльена за его дружескую помощь и терпение."

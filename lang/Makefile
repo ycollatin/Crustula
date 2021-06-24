@@ -9,7 +9,7 @@ all: messages.pot $(POFILES) $(MOFILES)
 	@for d in $(SUBDIRS); do $(MAKE) -C $$d $@ DESTDIR=$(DESTDIR) ; done
 
 messages.pot: $(TRANSLATABLE)
-	xgettext -o $@ $(TRANSLATABLE) --join-existing --language=PHP --from-code=utf-8 --keyword=T_
+	xgettext -o $@ $(TRANSLATABLE) --join-existing --language=PHP --from-code=utf-8 --keyword=T_ --keyword=N_
 
 %.po: messages.pot
 	msgmerge --update $@ messages.pot
