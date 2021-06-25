@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * This internationalization (i18n) include file relies on the
+ * pre-installd php-gettext package; on Debian systems, just do 
+ * `apt install php-php-gettext`.
+ *
+ * Localization (l10n) should work smoothly event when some locale
+ * is not installed at system level.
+ **/
+
 putenv("LANGUAGE="); //	PHP seems to honor too much this variable!
 
 // depends on the package php-php-gettext!
@@ -24,13 +33,16 @@ if ($wanted4) $lang = $wanted4;
 
 switch (substr($lang, 0, 2)) {
 case "en":
-    $lang = "en_US.UTF-8"; // this locale must be enabled at system level
+    $lang = "en_US.UTF-8";
+    $_COOKIE["preferred_language"] = "en_US.UTF-8";
     break;
 case "ru":
-    $lang = "ru_RU.UTF-8"; // this locale must be enabled at system level
+    $lang = "ru_RU.UTF-8";
+    $_COOKIE["preferred_language"] = "ru_RU.UTF-8";
     break;
 default:
-    $lang = "fr_FR.UTF-8"; // this locale must be enabled at system level
+    $lang = "fr_FR.UTF-8";
+    $_COOKIE["preferred_language"] = "fr_FR.UTF-8";
     break;
 }
 
