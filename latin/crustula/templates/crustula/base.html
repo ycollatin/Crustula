@@ -7,7 +7,7 @@
     <meta name="description" content="Crustula, exercices latins"/>
     <meta name="keywords" content="Latin, latin, exercice, exercices, exercise, exercises, Crustula, crustula"/>
     <link rel="stylesheet" href="{% static 'crustula/index.css' %}" type="text/css" />
-    <link rel="icon" href=" rel="stylesheet" href="{% static 'crustula/favicon.ico' %}"/>
+    <link rel="icon" rel="stylesheet" href="{% static 'crustula/favicon.ico' %}"/>
   </head>
   <body>
     {% block page_header %}
@@ -36,7 +36,7 @@
     </p>
     {% endblock %}
     {% block page_scripts %}
-    <script src="js/i18n.js"></script>
+    <script src="{% static 'crustula/js/i18n.js' %}"></script>
     {% endblock %}    
   </body>
 </html>
