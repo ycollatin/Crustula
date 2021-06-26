@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "mylatin";
+    src: url("fonts/FreeSansBoldLatinus.woff") format('woff');
+}
+.titre {
+    font-family : sans-serif;
+    font-size : 25px;
+    font-weight : bold;
+    text-align : center;
+    border : 1px solid black;
+    padding: 0.5px;
+    background-color : Silver;
+}
+p.sstitre {
+    font-family : sans-serif;
+    font-size : 16px;
+    font-weight : bold;
+    text-align : center;
+    border : 1px black solid;
+    margin: 0px auto;
+    padding: 0.5ex;
+    width: 80%;
+    background-color : Silver;
+}
+ol {
+    margin-left: 40px;
+}
+.hor{
+    margin-left: 40px;
+    font-style: italic;
+}
+#citation {
+    position: relative;
+    display: inline-block;
+}
+#citation p {
+    margin-left: 40px;
+    font-style: italic;
+    font-family: "mylatin";
+    background: url("images/marble.jpg");
+    color: brown;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+#citation .author {
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    font-style: normal;
+    font-size: 70%;
+}
+.nails-left::before {
+    content: ' ';
+    position: absolute;
+    background: radial-gradient(brown, gold 25%, black 95%);
+    height: 12px;
+    border-radius: 6px;
+    width: 12px;
+    top: 20px;
+    left: 45px;
+    z-index: 10;
+}
+.nails-right::after {
+    content: ' ';
+    position: absolute;
+    background: radial-gradient(brown, gold 25%, black 95%);
+    height: 12px;
+    border-radius: 6px;
+    width: 12px;
+    bottom: 20px;
+    right: 5px;
+    z-index: 10;
+}
+.nails-right::before {
+    content: ' ';
+    position: absolute;
+    background: radial-gradient(brown, gold 25%, black 95%);
+    height: 12px;
+    border-radius: 6px;
+    width: 12px;
+    top: 20px;
+    right: 5px;
+    z-index: 10;
+}
+.nails-left::after {
+    content: ' ';
+    position: absolute;
+    background: radial-gradient(brown, gold 25%, black 95%);
+    height: 12px;
+    border-radius: 6px;
+    width: 12px;
+    bottom: 20px;
+    left: 45px;
+    z-index: 10;
+}
+p.indente{
+    padding-left: 4em;
+}
+div#sommaire {
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    color: rgba(0,0,0,0.5);
+    background: rgba(128,128,128,0.5);
+    border: 1px solid black;
+    padding : 0.8ex;
+    border-radius: 0.8ex;
+    display: inline-block;
+}
+div#i18n {
+    background: grey;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+div#i18n img {
+    border: 1px solid black;
+    margin: 0px 2px;
+}
