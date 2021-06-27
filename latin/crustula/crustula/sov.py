@@ -18,7 +18,7 @@
 #
 ###############################################################################
 from django.shortcuts import render
-from django.utils.translation import gettext as _, gettext_noop as N_
+from .utils.i18n import *
 import random
 
 nominM = [
@@ -50,7 +50,8 @@ accusF = [
     N_("Semproniam")]
 
 declinatio = N_("si non declinatione neque sermonem transferre");
-declinatio_est = _(declinatio) != declinatio;
+def declinatio_est():
+    return _(declinatio) != declinatio
 
 nomina = nominF + nominM
 accus = accusF + accusM
@@ -75,7 +76,7 @@ def f_gallice(s):
             objet = uer
         else:
             sujet = uer
-    if declinatio_est:
+    if declinatio_est():
         sujet = _(sujet)
         objet = _(objet)
     else:
@@ -101,7 +102,7 @@ def IIPropositiones():
     @return une phrase, et deux propositions
     """
     subiectus, obiectus, lemma_obiecti = alea_jacta_est()
-    if declinatio_est:
+    if declinatio_est():
         s1 = _(subiectus)
         o1 = _(obiectus)
         s2 = _(accusADnomin[obiectus])
@@ -120,7 +121,9 @@ def IIPropositiones():
     random.shuffle(c)
     return " ".join(c) + ".", p[0], p[1]
 
+
 def index(request):
+    preferred_language(request)
     priorsent = request.POST.get("sententia","")
     gallice = ""
     resp=""
@@ -138,7 +141,11 @@ def index(request):
         else:
             if request.session['consec'] > request.session['prius']:
                 request.session['prius'] = request.session['consec']
-                request.session['consec']=0
+            request.session['consec']=0
+    else: ## priorsent == False
+        request.session["consec"] = 0
+        request.session['prius']  = 0
+                
     sententia, r1, r2 = IIPropositiones()
     return render(request,'crustula/sov.html', context={
         "priorsent": priorsent,

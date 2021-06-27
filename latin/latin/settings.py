@@ -119,3 +119,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LOCALE_PATHS = [os.path.join(BASE_DIR, "locale")]
+
+USE_I18N = True
+LANGUAGE_CODE = "fr-fr"
+
+GETTEXT_LANGUAGES = os.listdir(LOCALE_PATHS[0])

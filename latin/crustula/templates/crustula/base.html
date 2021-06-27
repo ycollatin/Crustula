@@ -10,18 +10,23 @@
     <link rel="icon" rel="stylesheet" href="{% static 'crustula/favicon.ico' %}"/>
   </head>
   <body>
+    {% block i18n %}
+    <div id="i18n">
+      <a href="javascript:document.location = '/crustula/?preferred_language=fr'">
+	<image src='/static/crustula/images/fr.png' alt='Français'/></a>
+      <a href="javascript:document.location = '/crustula/?preferred_language=en'">
+	<image src='/static/crustula/images/en.png' alt='English'/></a>
+      <a href="javascript:document.location = '/crustula/?preferred_language=ru'">
+	<image src='/static/crustula/images/ru.png' alt='русский'/></a>
+    </div>
+    {% endblock %}
     {% block page_header %}
-    <div id="sommaire"><a href="#top">Sommaire</a></div>
     <p class="titre">CRVSTVLA</p>
     <div id="citation" class="nails-right">
     <p class="nails-left"> ut pueris olim dant crustula blandi<br/>
     doctores, elementa velint ut discere prima ?<br/>
       <span class="author">Hor. Serm. I, 1, 25.</span></p>
     </div>
-    <p class="indente">
-      Je remercie Jacques Julien pour son aide amicale, et patiente.
-    </p>
-    <p style="text-align: center">-oOo-</p>
     {% endblock %}
     {% block main_content %}{% endblock %}
     {% block page_footer %}
@@ -36,7 +41,7 @@
     </p>
     {% endblock %}
     {% block page_scripts %}
-    <script src="{% static 'crustula/js/i18n.js' %}"></script>
+    <!-- <script src="{% static 'crustula/js/i18n.js' %}"></script> -->
     {% endblock %}    
   </body>
 </html>
