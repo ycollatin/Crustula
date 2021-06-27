@@ -15,13 +15,13 @@
     </p>
     {% if priorsent %}
     prior sententia : {{ priorsent }} <br>
-    gallice : {{ gallice }} <br>
+    {{ lingue }} : {{ gallice }} <br>
     {% if recte %}
     <div class="juste">RECTE !</div>
     {% else %}
     <div class="faux"> Errauisti. Respondisti {{ resp }}</div>
-    {{ consec }} prius {{ prius }}.
     {% endif %}
+    {{ consec }} prius {{ prius }}.
     {% endif %}
     <p class="question">{{ question }}</p>
     <form method="post">

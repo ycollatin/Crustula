@@ -18,11 +18,8 @@
 #
 ###############################################################################
 from django.shortcuts import render
-import gettext
+from django.utils.translation import gettext as _, gettext_noop as N_
 import random
-
-N_ = lambda x:x
-_ = gettext.gettext
 
 nominM = [
     N_("Aemilius"),
@@ -68,7 +65,6 @@ nominADaccus = {n: accus[i] for i, n in enumerate(nomina)}
 accusADnomin = {a: nomina[i] for i, a in enumerate(accus)}
 
 def f_gallice(s):
-    global sujet, verbe, objet
     ## in tabulam uertere sententiam :
     while s.endswith("."): s = s[:-1]
     coll = s.split(" ")
@@ -86,27 +82,25 @@ def f_gallice(s):
         objet = accusADnomin[objet]
     return f"{sujet} {verbe} {objet}."
 
-def sorsColl(c):
-    if len(c) == 1: return c[0]
-    return random.choice(c)
+def alea_jacta_est():
+    ## décider du sexe du sujet
+    sexus =('m','f')
+    if (random.choice(sexus) == 'm'):
+        subiectus = random.choice(nominM)
+        lemma_obiecti = random.choice(nominF)
+    else:
+        subiectus = random.choice(nominF)
+        lemma_obiecti = random.choice(nominM)
 
-## décider du sexe du sujet
-sexus =('m','f')
-if (sorsColl(sexus) == 'm'):
-    subiectus = sorsColl(nominM)
-    lemma_obiecti = sorsColl(nominF)
-else:
-    subiectus = sorsColl(nominF)
-    lemma_obiecti = sorsColl(nominM)
-
-obiectus = nominADaccus[lemma_obiecti]
-
-def sent():
-    c = [subiectus, obiectus, 'amat']
-    random.shuffle(c)
-    return " ".join(c) + "."
+    obiectus = nominADaccus[lemma_obiecti]
+    return subiectus, obiectus, lemma_obiecti
 
 def IIPropositiones():
+    """
+    fabrique de façon aléatoire le groupe sujet, verbe objet
+    @return une phrase, et deux propositions
+    """
+    subiectus, obiectus, lemma_obiecti = alea_jacta_est()
     if declinatio_est:
         s1 = _(subiectus)
         o1 = _(obiectus)
@@ -122,8 +116,10 @@ def IIPropositiones():
         f"{s2} {_('aime')} {o2}.",
     ]
     random.shuffle(p)
-    return p
-        
+    c = [subiectus, obiectus, 'amat']
+    random.shuffle(c)
+    return " ".join(c) + ".", p[0], p[1]
+
 def index(request):
     priorsent = request.POST.get("sententia","")
     gallice = ""
@@ -143,15 +139,15 @@ def index(request):
             if request.session['consec'] > request.session['prius']:
                 request.session['prius'] = request.session['consec']
                 request.session['consec']=0
-
-    r1, r2 = IIPropositiones()
+    sententia, r1, r2 = IIPropositiones()
     return render(request,'crustula/sov.html', context={
         "priorsent": priorsent,
         "gallice": gallice,
+        "lingue": _("gallice"),
         'prius': request.session['prius'],
         'consec': request.session['consec'],
         "resp": resp,
-        "question": sent(),
+        "question": sententia,
         "recte": recte,
         "r1": r1,
         "r2": r2,

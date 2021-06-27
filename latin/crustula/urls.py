@@ -15,13 +15,11 @@ for root, dirs, files in os.walk(c_dir):
             if not f.endswith(".py"): continue
             url = f[:-3]
             mod_name = f"crustula.crustula.{url}"
-            print("GRRRRRR ============>", url, mod_name)
             try:
                 imported_module = __import__(
                     mod_name, globals=None, locals=None, fromlist=True)
                 sys.modules[imported_module.__name__] = imported_module
                 globals()[imported_module.__name__] = imported_module
                 urlpatterns.append(path(url, imported_module.index, name = url))
-                print("GRRRRRR", urlpatterns)
             except ModuleNotFoundError as e:
                 print(e)
