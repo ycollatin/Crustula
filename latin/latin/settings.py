@@ -126,3 +126,10 @@ USE_I18N = True
 LANGUAGE_CODE = "fr-fr"
 
 GETTEXT_LANGUAGES = os.listdir(LOCALE_PATHS[0])
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.10/howto/static-files/
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
+    
