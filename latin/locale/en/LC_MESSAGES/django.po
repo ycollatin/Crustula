@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 18:45+0000\n"
+"POT-Creation-Date: 2021-06-27 18:56+0000\n"
 "PO-Revision-Date: 2021-06-27 16:37+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,188 +18,193 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: crustula/crustula/gal.py:26
-msgid "sujet du verbe"
-msgstr ""
-
-#: crustula/crustula/gal.py:27
-msgid "COD du verbe"
-msgstr ""
-
-#: crustula/crustula/gal.py:28
-msgid "attribut du sujet"
-msgstr ""
-
-#: crustula/crustula/gal.py:32
-msgid "au nominatif"
-msgstr ""
-
-#: crustula/crustula/gal.py:33
-msgid "à l'accusatif"
-msgstr ""
-
-#: crustula/crustula/gal.py:37 crustula/crustula/sov.py:25
+#: crustula/crustula/gal.py:26 crustula/crustula/sov.py:25
 msgid "Aemilius"
 msgstr ""
 
-#: crustula/crustula/gal.py:38 crustula/crustula/sov.py:26
+#: crustula/crustula/gal.py:27 crustula/crustula/sov.py:26
 msgid "Eupalamus"
 msgstr ""
 
-#: crustula/crustula/gal.py:39 crustula/crustula/sov.py:27
+#: crustula/crustula/gal.py:28 crustula/crustula/sov.py:27
 msgid "Publius"
 msgstr ""
 
-#: crustula/crustula/gal.py:40 crustula/crustula/sov.py:28
+#: crustula/crustula/gal.py:29 crustula/crustula/sov.py:28
 msgid "Aulus"
 msgstr ""
 
-#: crustula/crustula/gal.py:41 crustula/crustula/sov.py:29
+#: crustula/crustula/gal.py:30 crustula/crustula/sov.py:29
 msgid "Marcus"
 msgstr ""
 
-#: crustula/crustula/gal.py:44 crustula/crustula/sov.py:32
+#: crustula/crustula/gal.py:33 crustula/crustula/sov.py:32
 msgid "Aemilia"
 msgstr ""
 
-#: crustula/crustula/gal.py:45 crustula/crustula/sov.py:33
+#: crustula/crustula/gal.py:34 crustula/crustula/sov.py:33
 msgid "Iulia"
 msgstr ""
 
-#: crustula/crustula/gal.py:46 crustula/crustula/sov.py:34
+#: crustula/crustula/gal.py:35 crustula/crustula/sov.py:34
 msgid "Lucia"
 msgstr ""
 
-#: crustula/crustula/gal.py:47 crustula/crustula/sov.py:35
+#: crustula/crustula/gal.py:36 crustula/crustula/sov.py:35
 msgid "Lucretia"
 msgstr ""
 
-#: crustula/crustula/gal.py:48 crustula/crustula/sov.py:36
+#: crustula/crustula/gal.py:37 crustula/crustula/sov.py:36
 msgid "Sempronia"
 msgstr ""
 
-#: crustula/crustula/gal.py:51
+#: crustula/crustula/gal.py:40
 msgid "Aemilius(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:52
+#: crustula/crustula/gal.py:41
 msgid "Eupalamus(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:53
+#: crustula/crustula/gal.py:42
 msgid "Publius(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:54
+#: crustula/crustula/gal.py:43
 msgid "Aulus(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:55
+#: crustula/crustula/gal.py:44
 msgid "Marcus(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:58
+#: crustula/crustula/gal.py:47
 msgid "Aemilia(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:59
+#: crustula/crustula/gal.py:48
 msgid "Iulia(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:60
+#: crustula/crustula/gal.py:49
 msgid "Lucia(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:61
+#: crustula/crustula/gal.py:50
 msgid "Lucretia(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:62
+#: crustula/crustula/gal.py:51
 msgid "Sempronia(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:65
+#: crustula/crustula/gal.py:54
 msgid "mon_amie(attribut)"
 msgstr ""
 
-#: crustula/crustula/gal.py:66
+#: crustula/crustula/gal.py:55
 msgid "ma_sœur(attribut)"
 msgstr ""
 
-#: crustula/crustula/gal.py:67
+#: crustula/crustula/gal.py:56
 msgid "une_voisine(attribut)"
 msgstr ""
 
-#: crustula/crustula/gal.py:68
+#: crustula/crustula/gal.py:57
 msgid "sa_fille(attribut)"
 msgstr ""
 
-#: crustula/crustula/gal.py:69
+#: crustula/crustula/gal.py:58
 msgid "une_inconnue(attribut)"
 msgstr ""
 
-#: crustula/crustula/gal.py:73
+#: crustula/crustula/gal.py:62
 msgid "mon_amie(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:74
+#: crustula/crustula/gal.py:63
 msgid "ma_sœur(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:75
+#: crustula/crustula/gal.py:64
 msgid "une_voisine(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:76
+#: crustula/crustula/gal.py:65
 msgid "sa_fille(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:77
+#: crustula/crustula/gal.py:66
 msgid "une_inconnue(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:81
+#: crustula/crustula/gal.py:70
 msgid "son_ami(attribut)"
 msgstr ""
 
-#: crustula/crustula/gal.py:82
+#: crustula/crustula/gal.py:71
 msgid "mon_frère(attribut)"
 msgstr ""
 
-#: crustula/crustula/gal.py:83
+#: crustula/crustula/gal.py:72
 msgid "un_Gaulois(attribut)"
 msgstr ""
 
-#: crustula/crustula/gal.py:84
+#: crustula/crustula/gal.py:73
 msgid "le_consul(attribut)"
 msgstr ""
 
-#: crustula/crustula/gal.py:85
+#: crustula/crustula/gal.py:74
 msgid "un_marin(attribut)"
 msgstr ""
 
-#: crustula/crustula/gal.py:89
+#: crustula/crustula/gal.py:78
 msgid "son_ami(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:90
+#: crustula/crustula/gal.py:79
 msgid "mon_frère(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:91
+#: crustula/crustula/gal.py:80
 msgid "un_Gaulois(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:92
+#: crustula/crustula/gal.py:81
 msgid "le_consul(objet)"
 msgstr ""
 
-#: crustula/crustula/gal.py:93
+#: crustula/crustula/gal.py:82
 msgid "un_marin(objet)"
+msgstr ""
+
+#: crustula/crustula/gal.py:94
+msgid "sujet du verbe"
+msgstr ""
+
+#: crustula/crustula/gal.py:95
+msgid "COD du verbe"
+msgstr ""
+
+#: crustula/crustula/gal.py:96
+msgid "attribut du sujet"
+msgstr ""
+
+#: crustula/crustula/gal.py:100
+msgid "au nominatif"
+msgstr ""
+
+#: crustula/crustula/gal.py:101
+msgid "à l'accusatif"
 msgstr ""
 
 #: crustula/crustula/gal.py:114
 msgid "est"
+msgstr ""
+
+#: crustula/crustula/gal.py:164
+#, python-brace-format
+msgid "Phrase précédente : {phprec}"
 msgstr ""
 
 #: crustula/crustula/gal.py:165

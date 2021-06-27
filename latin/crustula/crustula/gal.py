@@ -22,17 +22,6 @@ from .utils.i18n import *
 import random
 import re
 
-fonctions = [
-    N_("sujet du verbe"),
-    N_("COD du verbe"),
-    N_("attribut du sujet")
-]
-
-cas = [
-    N_("au nominatif"),
-    N_("à l'accusatif")
-]
-
 nominM = [
     N_("Aemilius"),
     N_("Eupalamus"),
@@ -101,6 +90,17 @@ def index(request):
     respF = solF = respK = solK = attribut = motprec = mot = ""
     recte=False
     preferred_language(request)
+    fonctions = [
+        _("sujet du verbe"),
+        _("COD du verbe"),
+        _("attribut du sujet")
+    ]
+
+    cas = [
+        _("au nominatif"),
+        _("à l'accusatif")
+    ]
+
     phprec = request.POST.get("phprec","")
     if phprec:
         motprec = request.POST.get("motprec","")
@@ -161,7 +161,7 @@ def index(request):
     eclats = phrase.split(" ")
     mot = eclats[random.choice((0,2,2))]
     mot = mot.replace("_", " ")
-    phrase_precedente = f"{_('Phrase précédente :')} {phprec}"
+    phrase_precedente = _('Phrase précédente : {phprec}').format(phprec=phprec),
     mot_prec = _("{motprec} est {solF} ; il serait en latin au {solK}").format(
         motprec=motprec, solF=solF, solK=solK)
     return render(request,'crustula/gal.html', context={
