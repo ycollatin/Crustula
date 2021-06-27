@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 10:31+0000\n"
-"PO-Revision-Date: 2021-06-27 12:31+0200\n"
+"POT-Creation-Date: 2021-06-27 18:02+0000\n"
+"PO-Revision-Date: 2021-06-27 20:38+0200\n"
 "Last-Translator: Nikolay A <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: Russian\n"
@@ -19,45 +19,203 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: crustula/crustula/sov.py:25
+#: crustula/crustula/gal.py:26
+#, fuzzy
+msgid "sujet du verbe"
+msgstr "подлежащее глагола"
+
+#: crustula/crustula/gal.py:27
+msgid "COD du verbe"
+msgstr ""
+
+#: crustula/crustula/gal.py:28
+msgid "attribut du sujet"
+msgstr "атрибут предмета"
+
+#: crustula/crustula/gal.py:32
+msgid "au nominatif"
+msgstr "зарегистрированный"
+
+#: crustula/crustula/gal.py:33
+msgid "à l'accusatif"
+msgstr "винительный"
+
+#: crustula/crustula/gal.py:37 crustula/crustula/sov.py:25
 msgid "Aemilius"
 msgstr "Эимлий"
 
-#: crustula/crustula/sov.py:26
+#: crustula/crustula/gal.py:38 crustula/crustula/sov.py:26
 msgid "Eupalamus"
 msgstr "Эвпалам"
 
-#: crustula/crustula/sov.py:27
+#: crustula/crustula/gal.py:39 crustula/crustula/sov.py:27
 msgid "Publius"
 msgstr "Публий"
 
-#: crustula/crustula/sov.py:28
+#: crustula/crustula/gal.py:40 crustula/crustula/sov.py:28
 msgid "Aulus"
 msgstr "Авл"
 
-#: crustula/crustula/sov.py:29
+#: crustula/crustula/gal.py:41 crustula/crustula/sov.py:29
 msgid "Marcus"
 msgstr "Марк"
 
-#: crustula/crustula/sov.py:32
+#: crustula/crustula/gal.py:44 crustula/crustula/sov.py:32
 msgid "Aemilia"
 msgstr "Эмилия"
 
-#: crustula/crustula/sov.py:33
+#: crustula/crustula/gal.py:45 crustula/crustula/sov.py:33
 msgid "Iulia"
 msgstr "Юлия"
 
-#: crustula/crustula/sov.py:34
+#: crustula/crustula/gal.py:46 crustula/crustula/sov.py:34
 msgid "Lucia"
 msgstr "Луция"
 
-#: crustula/crustula/sov.py:35
+#: crustula/crustula/gal.py:47 crustula/crustula/sov.py:35
 msgid "Lucretia"
 msgstr "Лукреция"
 
-#: crustula/crustula/sov.py:36
+#: crustula/crustula/gal.py:48 crustula/crustula/sov.py:36
 msgid "Sempronia"
 msgstr "Семпрония"
+
+#: crustula/crustula/gal.py:51
+msgid "Aemilius(objet)"
+msgstr "Эмилия"
+
+#: crustula/crustula/gal.py:52
+msgid "Eupalamus(objet)"
+msgstr "Эвпалама"
+
+#: crustula/crustula/gal.py:53
+msgid "Publius(objet)"
+msgstr "Публия"
+
+#: crustula/crustula/gal.py:54
+msgid "Aulus(objet)"
+msgstr ""
+
+#: crustula/crustula/gal.py:55
+msgid "Marcus(objet)"
+msgstr "Марка"
+
+#: crustula/crustula/gal.py:58
+msgid "Aemilia(objet)"
+msgstr "Эмилию"
+
+#: crustula/crustula/gal.py:59
+msgid "Iulia(objet)"
+msgstr "Юлию"
+
+#: crustula/crustula/gal.py:60
+msgid "Lucia(objet)"
+msgstr "Луцию"
+
+#: crustula/crustula/gal.py:61
+msgid "Lucretia(objet)"
+msgstr "Лукрецию"
+
+#: crustula/crustula/gal.py:62
+msgid "Sempronia(objet)"
+msgstr "Семпронию"
+
+#: crustula/crustula/gal.py:65
+msgid "mon_amie(attribut)"
+msgstr "мой_друг"
+
+#: crustula/crustula/gal.py:66
+msgid "ma_sœur(attribut)"
+msgstr "моя_сестра"
+
+#: crustula/crustula/gal.py:67
+msgid "une_voisine(attribut)"
+msgstr "соседка"
+
+#: crustula/crustula/gal.py:68
+msgid "sa_fille(attribut)"
+msgstr "его дочь"
+
+#: crustula/crustula/gal.py:69
+msgid "une_inconnue(attribut)"
+msgstr "незнакомка"
+
+#: crustula/crustula/gal.py:73
+msgid "mon_amie(objet)"
+msgstr "моего друга"
+
+#: crustula/crustula/gal.py:74
+msgid "ma_sœur(objet)"
+msgstr "мою сестру"
+
+#: crustula/crustula/gal.py:75
+msgid "une_voisine(objet)"
+msgstr "соседа"
+
+#: crustula/crustula/gal.py:76
+msgid "sa_fille(objet)"
+msgstr "свою дочь"
+
+#: crustula/crustula/gal.py:77
+msgid "une_inconnue(objet)"
+msgstr "незнакомца"
+
+#: crustula/crustula/gal.py:81
+msgid "son_ami(attribut)"
+msgstr "ее друг"
+
+#: crustula/crustula/gal.py:82
+msgid "mon_frère(attribut)"
+msgstr "мой брат"
+
+#: crustula/crustula/gal.py:83
+msgid "un_Gaulois(attribut)"
+msgstr "галл"
+
+#: crustula/crustula/gal.py:84
+msgid "le_consul(attribut)"
+msgstr "консул"
+
+#: crustula/crustula/gal.py:85
+msgid "un_marin(attribut)"
+msgstr "моряк"
+
+#: crustula/crustula/gal.py:89
+msgid "son_ami(objet)"
+msgstr "своего друга"
+
+#: crustula/crustula/gal.py:90
+msgid "mon_frère(objet)"
+msgstr "моего брата"
+
+#: crustula/crustula/gal.py:91
+msgid "un_Gaulois(objet)"
+msgstr "галла"
+
+#: crustula/crustula/gal.py:92
+msgid "le_consul(objet)"
+msgstr "консула"
+
+#: crustula/crustula/gal.py:93
+msgid "un_marin(objet)"
+msgstr "консула"
+
+#: crustula/crustula/gal.py:114
+msgid "est"
+msgstr ""
+
+#: crustula/crustula/gal.py:165
+#, python-brace-format
+msgid "{motprec} est {solF} ; il serait en latin au {solK}"
+msgstr "{motprec} {solF} ; это будет на латыни {solK}"
+
+#: crustula/crustula/gal.py:174
+msgid "JUSTE !"
+msgstr "Справедливая !"
+
+#: crustula/crustula/gal.py:175
+msgid "Faux. Tu as répondu"
+msgstr "Ложь. Вы ответили"
 
 #: crustula/crustula/sov.py:39
 msgid "Aemilium"
@@ -103,11 +261,11 @@ msgstr "Семпронию"
 msgid "si non declinatione neque sermonem transferre"
 msgstr "имена доступны на русском языке"
 
-#: crustula/crustula/sov.py:73
+#: crustula/crustula/sov.py:74
 msgid "aime"
 msgstr "любит"
 
-#: crustula/crustula/sov.py:146
+#: crustula/crustula/sov.py:153
 msgid "gallice"
 msgstr "slavica :"
 
@@ -691,9 +849,6 @@ msgstr "slavica :"
 
 #~ msgid "LES CRUSTULA QUI FONT TRAVAILLER LA SYNTAXE"
 #~ msgstr "КРУСТУЛА, ПОМОГАЮЩИЕ В РАБОТЕ С СИНТАКСИСОМ"
-
-#~ msgid "Sujet, objet, verbe"
-#~ msgstr "Подлежащее, дополнение, глагол"
 
 #~ msgid "Sujet, objet, verbe (plus facile)"
 #~ msgstr "Подлежащее, дополнение, глагол (попроще)"
