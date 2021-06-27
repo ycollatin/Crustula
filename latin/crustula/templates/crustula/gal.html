@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="lt" xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title>CRVSTVLA - SOV</title>
+    <link rel="stylesheet" href="{% static 'crustula/crustula.css' %}" type="text/css">
+    <link rel="icon" href="{% static 'crustula/favicon.ico' %}">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Crustula, exercices latins">
+    <meta name="keywords" content="Latin, latin, exercice, exercices, exercise, exercises, Crustula, crustula">
+</head>
+<body>
+<p class="titre">
+QVIS QVEM AMAT ?
+</p>
+{% if phprec %}
+{{ phrase_precedente }}<br>
+{{ mot_prec }}
+{% if recte %}
+<div class="juste">{{ juste }}</div>
+{% else %}
+<div class=\"faux\">{{ faux_reponse }} {{ respF }}, {{ respK }}.</div>
+{% endif %}
+({{ conseq }} prius {{ prius }})
+{% endif %}
+
+<p class="question">
+   {{ phrase }}
+</p>
+<form method="post">
+  {% csrf_token %}
+
+  <p class="question">
+    {{ mot_est }}
+    <select name="respF">
+      {% for el in fonctions %}
+      <option value="{{ el }}" {{el.selected}}>{{ el }}</option>
+      {% endfor %}
+    </select>
+
+    En latin, ce mot serait donc
+
+    <select name="respK">
+      {% for el in cas %}
+      <option value="{{ el }}" {{ el.selected }} >{{ el }}</option>
+      {% endfor %}
+    </select>
+
+    <input type="submit" value=" Num recte dixi ?">
+    <input type="hidden" name="phprec" value="{{ phrase }}">
+    <input type="hidden" name="motprec" value="{{ mot }}">
+
+  </p>
+</form>
+<p class="redi"><a href='./'>reditus</a> <a href="gpl.html" target="gpl">Licence GPL</a></p>
+</body>
+</html>
