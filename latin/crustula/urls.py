@@ -12,7 +12,7 @@ c_dir = os.path.join("crustula", "crustula")
 for root, dirs, files in os.walk(c_dir):
     if root == os.path.join(c_dir):
         for f in files:
-            if not f.endswith(".py") or f == "i18n.py": continue
+            if not f.endswith(".py") or f == "SAMPLE.py": continue
             url = f[:-3]
             mod_name = f"crustula.crustula.{url}"
             try:
