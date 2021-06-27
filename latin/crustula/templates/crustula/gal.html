@@ -38,8 +38,8 @@ QVIS QVEM AMAT ?
       {% endfor %}
     </select>
 
-    En latin, ce mot serait donc
-
+    {{ en_latin }}
+    
     <select name="respK">
       {% for el in cas %}
       <option value="{{ el }}" {{ el.selected }} >{{ el }}</option>

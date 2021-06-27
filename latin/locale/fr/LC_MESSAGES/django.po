@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 18:02+0000\n"
+"POT-Creation-Date: 2021-06-27 18:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -213,6 +213,10 @@ msgstr ""
 
 #: crustula/crustula/gal.py:175
 msgid "Faux. Tu as répondu"
+msgstr ""
+
+#: crustula/crustula/gal.py:183
+msgid "En latin, ce mot serait donc"
 msgstr ""
 
 #: crustula/crustula/sov.py:39

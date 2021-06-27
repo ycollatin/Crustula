@@ -180,4 +180,6 @@ def index(request):
         "recte": recte,
         "fonctions": fonctions,
         "cas": cas,
+        "en_latin": _("En latin, ce mot serait donc"),
+
     })
