@@ -25,7 +25,7 @@ SECRET_KEY = 'm#tyck4(q*2lp^ou86sx_%n0a=35wkzz+cb9851l+d@390k%)h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

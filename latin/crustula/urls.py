@@ -1,5 +1,6 @@
 import os, sys
 from django.urls import path
+from latin.settings import BASE_DIR
 
 from . import views
 
@@ -8,9 +9,9 @@ urlpatterns = [
 ]
 
 
-c_dir = os.path.join("crustula", "crustula")
+c_dir = os.path.join(BASE_DIR, "crustula", "crustula")
 for root, dirs, files in os.walk(c_dir):
-    if root == os.path.join(c_dir):
+    if root == c_dir:
         for f in files:
             if not f.endswith(".py") or f == "SAMPLE.py": continue
             url = f[:-3]
