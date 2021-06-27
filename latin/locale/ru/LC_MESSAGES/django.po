@@ -1,0 +1,757 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Crustula 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-27 10:31+0000\n"
+"PO-Revision-Date: 2021-06-27 12:31+0200\n"
+"Last-Translator: Nikolay A <alexnikvik@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: crustula/crustula/sov.py:25
+msgid "Aemilius"
+msgstr "Эимлий"
+
+#: crustula/crustula/sov.py:26
+msgid "Eupalamus"
+msgstr "Эвпалам"
+
+#: crustula/crustula/sov.py:27
+msgid "Publius"
+msgstr "Публий"
+
+#: crustula/crustula/sov.py:28
+msgid "Aulus"
+msgstr "Авл"
+
+#: crustula/crustula/sov.py:29
+msgid "Marcus"
+msgstr "Марк"
+
+#: crustula/crustula/sov.py:32
+msgid "Aemilia"
+msgstr "Эмилия"
+
+#: crustula/crustula/sov.py:33
+msgid "Iulia"
+msgstr "Юлия"
+
+#: crustula/crustula/sov.py:34
+msgid "Lucia"
+msgstr "Луция"
+
+#: crustula/crustula/sov.py:35
+msgid "Lucretia"
+msgstr "Лукреция"
+
+#: crustula/crustula/sov.py:36
+msgid "Sempronia"
+msgstr "Семпрония"
+
+#: crustula/crustula/sov.py:39
+msgid "Aemilium"
+msgstr "Эмилия"
+
+#: crustula/crustula/sov.py:40
+msgid "Eupalamum"
+msgstr "Эвпалама"
+
+#: crustula/crustula/sov.py:41
+msgid "Publium"
+msgstr "Публия"
+
+#: crustula/crustula/sov.py:42
+msgid "Aulum"
+msgstr "Авла"
+
+#: crustula/crustula/sov.py:43
+msgid "Marcum"
+msgstr "Марка"
+
+#: crustula/crustula/sov.py:46
+msgid "Aemiliam"
+msgstr "Эмилию"
+
+#: crustula/crustula/sov.py:47
+msgid "Iuliam"
+msgstr "Юлию"
+
+#: crustula/crustula/sov.py:48
+msgid "Luciam"
+msgstr "Луцию"
+
+#: crustula/crustula/sov.py:49
+msgid "Lucretiam"
+msgstr "Лукрецию"
+
+#: crustula/crustula/sov.py:50
+msgid "Semproniam"
+msgstr "Семпронию"
+
+#: crustula/crustula/sov.py:52
+msgid "si non declinatione neque sermonem transferre"
+msgstr "имена доступны на русском языке"
+
+#: crustula/crustula/sov.py:73
+msgid "aime"
+msgstr "любит"
+
+#: crustula/crustula/sov.py:146
+msgid "gallice"
+msgstr "slavica :"
+
+#~ msgid "Sommaire"
+#~ msgstr "Резюме"
+
+#~ msgid "Je remercie Jacques Julien pour son aide amicale, et patiente."
+#~ msgstr "Я благодарю Жака Жюльена за его дружескую помощь и терпение."
+
+#~ msgid "Cher latiniste, débutant ou maître, salut."
+#~ msgstr "Дорогой латинист, начинающий или мастер, привет."
+
+#~ msgid ""
+#~ "Tu trouveras ici une collection d'exercices d'apprentissage de la langue "
+#~ "latine."
+#~ msgstr ""
+#~ "Ты найдешь здесь сборник упражнений, которые помогут тебе в изучении "
+#~ "латыни."
+
+#~ msgid ""
+#~ "Un lien au bas de cette page te permettra de les télécharger sur tout "
+#~ "serveur web équipé du langage PHP."
+#~ msgstr ""
+#~ "Ссылка внизу страницы позволит тебе загрузить их и запустить на "
+#~ "собственном PHP-сервере."
+
+#~ msgid ""
+#~ "Reviens souvent : de nouveaux crustula sont régulièrement ajoutés, et il "
+#~ "n'est pas rare que les autres soient modifiés."
+#~ msgstr ""
+#~ "Проверяй обновления почаще. Упражнения часто обновляются и добавляются "
+#~ "новые."
+
+#~ msgid "Tu peux chercher :"
+#~ msgstr "Здесь ты можешь найти :"
+
+# Примечания:
+# I am not sure, should I translate "Crustula" into Russian here? petite croûte, "сухарики". Or I must do a footnote with translation at the very beginning of the file?
+# (Правка)
+#~ msgid "les crustula correspondant à ton niveau ;"
+#~ msgstr "сухарики, соответствующие твоему уровню;"
+
+#~ msgid "débutant"
+#~ msgstr "начальный"
+
+#~ msgid "moyen"
+#~ msgstr "средний"
+
+#~ msgid "avancé"
+#~ msgstr "продвинутый"
+
+#~ msgid "les crustula qui font travailler déclinaison et conjugaison ;"
+#~ msgstr "сухарики для работы со склонениями и спряжениями;"
+
+#~ msgid "les crustula qui font travailler le vocabulaire ;"
+#~ msgstr "сухарики помогающие заучивать слова;"
+
+#~ msgid "les crustula qui font travailler la syntaxe ;"
+#~ msgstr "сухарики помогающие освоить синтаксис;"
+
+#~ msgid "les crustula qui accompagnent la lecture d'un texte ;"
+#~ msgstr "сухарики, которые помогают при чтении текста;"
+
+# I should know more about GRASP. I even don't know the meaning of this abbreviation.
+#~ msgid "La méthode GRASP de Claude Pavur"
+#~ msgstr "Метод GRASP Клода Павюра"
+
+#~ msgid "Claude Pavur enseigne à L'Université de Saint-Louis, aux USA."
+#~ msgstr "Клод Павюр преподает в университете Сент-Луиса, США."
+
+# I am not sure that this is the best version.
+#, fuzzy
+#~ msgid ""
+#~ "Il a imaginé cette méthode qui fait lire la phrase par étapes "
+#~ "successives, en la compliquant progressivement, pour retrouver finalement "
+#~ "la phrase authentique."
+#~ msgstr ""
+#~ "Он изобрел этот метод, который состоит в том, что сложное предложение "
+#~ "следует разбивать на части, легко доступные пониманию, чтобы постепенно "
+#~ "прийти к его пониманию в изначальном виде."
+
+#~ msgid "dans la liste complète des crustula"
+#~ msgstr "перейти к полному списку упражнений"
+
+#~ msgid "LES CRVSTVLA CORRESPONDANT À TON NIVEAU"
+#~ msgstr "СУХАРИКИ, СООТВЕТСТВУЮЩИЕ ТВОЕМУ УРОВНЮ"
+
+#~ msgid "DÉBUTANT"
+#~ msgstr "НАЧАЛЬНЫЙ"
+
+#~ msgid ""
+#~ "La langue française est proche de la langue latine parce qu'elle lui a "
+#~ "emprunté la plus grande partie de son dictionnaire."
+#~ msgstr ""
+#~ "Французский язык очень близок к латинскому, поскольку заимствовал из него "
+#~ "бо́льшую часть своего словаря."
+
+#~ msgid "Pourtant elle est très difficile à apprendre. Pourquoi ?"
+#~ msgstr "Однако латинский язык очень труден для понимания. Почему так?"
+
+#~ msgid ""
+#~ "Parce que ce n'est pas <b>l'ordre</b> des mots qui permet de comprendre, "
+#~ "mais <b>la fin</b> des mots."
+#~ msgstr ""
+#~ "Потому что не <b>порядок</b> слов позволяет важен для понимания, а "
+#~ "<b>окончания</b> слов."
+
+#~ msgid ""
+#~ "Le crustulum <a href='sov.php'>QVIS QVEM AMAT ?</a> te propose de petites "
+#~ "phrases qui t'initient à ce principe."
+#~ msgstr ""
+#~ "Сухарик <a href='sov.php'>QVIS QVEM AMAT ?</a> предлагает тебе небольшие "
+#~ "фразы, которые подготовят тебя к пониманию этого принципа."
+
+#~ msgid "Évite de répondre automatiquement, et regarde bien la fin des noms."
+#~ msgstr "Отвечай не спеша и внимательно смотри на окончания слов."
+
+# Though in the Russian grammar every case has it's proper name, I think it is necessary to use here Latin names of cases.
+#~ msgid ""
+#~ "Le crustulum <a href='gal.php'>NOMINATIF ET ACCUSATIF</a> lui ressemble, "
+#~ "mais te permet de comprendre deux cas importants : le nominatif et "
+#~ "l'accusatif."
+#~ msgstr ""
+#~ "Сухарик <a href='gal.php'>NOMINATIVUS ET ACCUSATIVUS</a> похож на "
+#~ "предыдущий. Он позволит тебе понять два важных падежа: Nominativus и "
+#~ "Accusativus."
+
+#, fuzzy
+#~ msgid ""
+#~ "Un nom sujet se met au nominatif, et un nom COD se met à l'accusatif."
+#~ msgstr ""
+#~ "Слово, обозначающее предмет, а не его отношения с другими предметами, "
+#~ "ставится в именительном падеже (casus Nominativus). Слово, обозначающее "
+#~ "предмет, на который направлено какое-либо действие, ставится в "
+#~ "винительном падеже (casus Accusativus)."
+
+#~ msgid ""
+#~ "Un peu plus difficile : tu dois écrire la traduction, soit du latin au "
+#~ "français, soit du français au latin : <a href='sov1.php'>SOV bis</a>"
+#~ msgstr ""
+#~ "Дальше немного сложнее: ты должен написать перевод либо с латинского на "
+#~ "французский, либо с французского на латинский: <a href='sov1.php'>SOV "
+#~ "bis</a>"
+
+#~ msgid ""
+#~ "Le crustulum <a href='amo.php'>AMO, PRÉSENT DE L'INDICATIF</a> te montre "
+#~ "comment conjuguer le verbe <i>amo</i> à toutes les personnes du présent."
+#~ msgstr ""
+#~ "Сухарик <a href='amo.php'>AMO, PRAESENS INDICATIVI</a> покажет тебе как "
+#~ "спрягается глагол <i>amo</i> во всех лицах настоящего времени."
+
+#~ msgid ""
+#~ "La conjugaisons de <i>sum</i>, être, est abordée dans <a href='sum."
+#~ "php'>SVM, PRÉSENT DE L'INDICATIF</a>."
+#~ msgstr ""
+#~ "Спряжение глагола <i>sum</i>, \"быть\", дано в <a href='sum.php'>SUM, "
+#~ "PRAESENS INDICATIVI</a>."
+
+#~ msgid ""
+#~ "Un nom au génitif a de fortes chances d'être complément du nom. Pour "
+#~ "t'entrainer à la lecture du génitif, tu peux pratiquer <a href='gen."
+#~ "php'>CVIVS ?</a> et <a href='est-gen.php'>QVIS QVID EST CVIVS ?</a>"
+#~ msgstr ""
+#~ "Слово в родительном падеже (casus GENITIVUS) часто бывает дополнением к "
+#~ "слову в именительном падеже. Помогут разобраться тебе с родительным "
+#~ "падежом <a href='gen.php'>CVIVS ?</a> и <a href='est-gen.php'>QVIS QVID "
+#~ "EST CVIVS ?</a>"
+
+#~ msgid ""
+#~ "Le datif est le cas de la personne ou de la chose à qui on destine ce qui "
+#~ "est fait."
+#~ msgstr ""
+#~ "Дательный падеж, (casus DATIVUS)  используется с глаголами, выражающими "
+#~ "действие, направленное к этому предмету."
+
+#~ msgid ""
+#~ "Le crustulum <a href='dat.php'>QVIS CVI QVEM COMMENDAT ?</a> est une "
+#~ "initiation au datif, et <a href='dat1.php'>DATIVVS CASVS</a> en est une "
+#~ "application plus complète."
+#~ msgstr ""
+#~ "Сухарик  <a href='dat.php'>QVIS CVI QVEM COMMENDAT ?</a> поможет "
+#~ "разобраться с дательным падежом, а <a href='dat1.php'>DATIVVS CASVS</a> "
+#~ "будет уже немного сложнее."
+
+#~ msgid ""
+#~ "Le crustulum pour <a href='ablatif.php'>l'ablatif</a> est un peu "
+#~ "difficile."
+#~ msgstr ""
+#~ "Сухарик  <a href='ablatif.php'>CASUS ABLATIVUS</a> довольно сложный."
+
+#~ msgid "N'insiste pas si tu ne parviens pas au cinquième niveau."
+#~ msgstr "Не старайся непременно добратьсядо пятого уровня."
+
+#~ msgid ""
+#~ "Deux crustula te permettront d'être parfaitement à l'aise dans le système "
+#~ "des cas et de leurs valeurs : d'abord <a href='fonctions-fr."
+#~ "php'>Initiation aux cas : les valeurs </a> puis <a href='valeurk."
+#~ "php'>Quem casum ?</a>"
+#~ msgstr ""
+#~ "Два сухарика помогут тебе в совершенстве усвоить систему падежей и их "
+#~ "значений: сначала <a href='fonctions-fr.php'>Введение в падежи: значения</"
+#~ "a>, затем  <a href='valeurk.php'>Quem casum ?</a>"
+
+#~ msgid ""
+#~ "Maintenant que tu connais les cas et leurs valeurs, il faut apprendre les "
+#~ "déclinaisons :"
+#~ msgstr ""
+#~ "Теперь, когда ты знаешь падежи и их значения, следует изучить склонения:"
+
+#~ msgid ""
+#~ "D'abord, <a href='nag12.php'>Les deux premières déclinaisons nominatif, "
+#~ "accusatif et génitif singuliers.</a>"
+#~ msgstr ""
+#~ "Начнем с <a href='nag12.php'>номинатива, аккузатива и генитива "
+#~ "единственного числа первых двух склонений.</a>"
+
+#~ msgid "Puis <a href='nag12p.php'>les mêmes cas, en ajoutant le pluriel</a>."
+#~ msgstr ""
+#~ "Затем <a href='nag12p.php'>те же падежи, с добавлением множественного "
+#~ "числа</a>."
+
+#~ msgid "Il faut ensuite apprendre"
+#~ msgstr "Затем следует заучить"
+
+#~ msgid "un petit vocabulaire des deux premières déclinaisons"
+#~ msgstr "небольшой словарик слов первых двух склонений"
+
+#~ msgid "Tu auras alors accès à une plus grande variété de phrases :"
+#~ msgstr "Тогда у тебя будет доступ к большему числу предложений:"
+
+#~ msgid "Sujet, objet, verbe (+ modèles en -er)"
+#~ msgstr ""
+#~ "<a href='sov2.php'>Подлежащее, дополнение, глагол (+ модели на -er) </a>."
+
+#~ msgid "Voici un aperçu du même principe, avec la troisième déclinaison :"
+#~ msgstr "Вот использование того же принципа с третьим склонением:"
+
+#~ msgid "sujet, objet, verbe (+ 3e déclinaison)"
+#~ msgstr ""
+#~ "<a href='sov3.php'> подлежащее, дополнение, глагол (+3-е склонение)</a>"
+
+#~ msgid ""
+#~ "Dans <a href='sov4.php'> sujet, objet, verbe (+ conjugaison)</a>, tu "
+#~ "devras savoir conjuguer le présent de plusieurs verbes ;"
+#~ msgstr ""
+#~ "Здесь <a href='sov4.php'>подлежащее, дополнение, глагол (+ спряжение)</a> "
+#~ "ты должен уметь спрягать глаголы в настоящем времени;"
+
+#~ msgid ""
+#~ "et dans <a href='sov5.php'>sujet, objet, verbe, génitif, imparfait</a>, "
+#~ "il y aura des génitifs et des imparfaits."
+#~ msgstr ""
+#~ "здесь <a href='sov5.php'>существительное, дополнение, глагол, родительный "
+#~ "падеж, имперфект</a> ты найдешь GENITIVUS и имперфект."
+
+#~ msgid ""
+#~ "Il est temps, maintenant, d'apprendre tous les cas grâce à des phrases "
+#~ "d'exemple :"
+#~ msgstr "Пришло время изучить все падежи на примерах предложений:"
+
+#~ msgid "Première déclinaison et valeur des cas"
+#~ msgstr "<a href='terra.php'>Падежи первого склонения</a>"
+
+#~ msgid ""
+#~ "et <a href='amicus.php'>Deuxième déclinaison et valeur des cas</a> <a "
+#~ "href='gladius.php'>Gladius</a> et <a href='dux.php'>Dux</a> sont une "
+#~ "rapide révision de cette notion."
+#~ msgstr ""
+#~ "и <a href='amicus.php'>падежи второго склонения</a>; <a href='gladius."
+#~ "php'>Gladius</a>  и <a href='dux.php'>Dux</a> являются более быстрой "
+#~ "версией этого упражнения."
+
+#~ msgid ""
+#~ "Mais tu n'as encore vu que deux déclinaisons. Il y en a cinq ! Tu dois "
+#~ "d'abord apprendre à reconnaître facilement les <a href='modeles."
+#~ "php'>modèles de déclinaison</a>."
+#~ msgstr ""
+#~ "Но ты ознакоммился только с двумя склонениями. А их пять! Ты должен, для "
+#~ "начала, научиться легко различать  <a href='modeles.php'>виды склонений</"
+#~ "a>."
+
+#~ msgid "Ensuite, il faut apprendre progressivement toutes les déclinaisons."
+#~ msgstr "Затем следует постепенно выучить все склонения."
+
+#~ msgid ""
+#~ "C'est assez long, et il faudra pratiquer longtemps un <a href='decliner."
+#~ "php'>entraînement progressif à la déclinaison</a>."
+#~ msgstr ""
+#~ "Чтобы достичь этого, потребуется много времени и много <a href='decliner."
+#~ "php'>упражнений</a>."
+
+#~ msgid "L'étude du verbe se fait suivant le même principe :"
+#~ msgstr "Изучение глагола строится следующим образом:"
+
+#~ msgid ""
+#~ "Tu dois apprendre à reconnaître facilement les <a href='modelesv."
+#~ "php'>modèles de conjugaison</a>."
+#~ msgstr ""
+#~ "Ты должен научиться легко определять, к какому <a href='modelesv."
+#~ "php'>спряжению</a> относится тот или иной глагол."
+
+#~ msgid "Il faut alors conjuguer."
+#~ msgstr "Следует упражняться в спряжении."
+
+#~ msgid "Il est possible d'apprendre à la fois actif et passif au présent :"
+#~ msgstr ""
+#~ "Это упражнение поможет выучить активный и пассивный залог настоящего "
+#~ "времени: <a href='ueho.php'>Ueho, uehor</a>:"
+
+#~ msgid ""
+#~ "La conjugaison d'un verbe s'appuie en latin sur trois radicaux : celui du "
+#~ "présent (ou de l'infectum), du parfait (ou du perfectu), et du supin : <a "
+#~ "href='radicaux.php'>les trois radicaux des verbes</a>."
+#~ msgstr ""
+#~ "Все формы глагола в латинском языке образуются от трех основ: основы "
+#~ "инфекта (от слова infectus,  \"незаконченный\"), перфекта (от слова "
+#~ "perfectus, законченный) и супина: <a href='radicaux.php'>три основы "
+#~ "глагола</a>."
+
+#~ msgid ""
+#~ "Tu dois aussi apprendre à lire correctement ce que dit le dictionnaire "
+#~ "lorsqu'il donne un verbe : <a href='primitifs.php'>les temps primitifs</"
+#~ "a>."
+#~ msgstr ""
+#~ "Ты должен также научиться правильно понимать, что дает словарная статья "
+#~ "при представлении глагола: <a href='primitifs.php'>основные времена</a>."
+
+#~ msgid "Commence par le <a href='present.php'>présent</a>."
+#~ msgstr "Начни с <a href='present.php'>настоящего времени</a>."
+
+#~ msgid ""
+#~ "Le parfait utilise le radical du perfectum et des désinences "
+#~ "particulières."
+#~ msgstr "Прошедшее время использует основу перфекта и особые окончания."
+
+#~ msgid "<a href='fui.php'>Le parfait de sum</a> en est un exemple."
+#~ msgstr "<a href='fui.php'>Перфект глагола SUM</a> как пример."
+
+#~ msgid ""
+#~ "Applique ce principe pour travailer les <a href='amaui.php'>présent et "
+#~ "parfait de amo</a>."
+#~ msgstr ""
+#~ "Примени этот принцип для работы с <a href='amaui.php'>настоящим и "
+#~ "прошедшим глагола AMO</a>."
+
+#~ msgid ""
+#~ "Tu es alors équipé pour apprendre tout <a href='ind_actif."
+#~ "php'>l'indicatif actif</a>, l'exercice est progressif : il faut réussir "
+#~ "le présent pour aborder le futur, le futur pour l'imparfait, etc."
+#~ msgstr ""
+#~ "Теперь ты готов изучать <a href='ind_actif.php'>Praesens indicativi "
+#~ "activi</a>, это упражнение в несколько этапов: нужно усвоить Praesens, "
+#~ "чтобы перейти к Futurum, потом к Imperfectum и т.д."
+
+#~ msgid "MOYEN"
+#~ msgstr "СРЕДНИЙ"
+
+#~ msgid ""
+#~ "Pour des révisions des déclinaisons <a href='decl-ocius.php'>DECL-OCIVS</"
+#~ "a> est plus approprié."
+#~ msgstr ""
+#~ "Чтобы освежить в памяти склонения <a href='decl-ocius.php'>DECL-OCIVS</a> "
+#~ "подойдет лучше всего."
+
+#~ msgid "Pour une connaissance plus approfondie de la valeur des cas : "
+#~ msgstr "Чтобы углубить знания о значении падежей: "
+
+#~ msgid "Valeur des cas et fonctions"
+#~ msgstr "<a href='fonctions.php'>Значения падежей и их функции</a>"
+
+#~ msgid ""
+#~ "Comme pour toute langue, il faut non seulement acquérir du vocabulaire :"
+#~ msgstr "Следует не только расширять свой словарь:"
+
+#~ msgid "CVIII noms de la deuxième déclinaison"
+#~ msgstr "CVIII существительных второго склонения"
+
+#~ msgid "CLXXXVI noms de la troisième déclinaison"
+#~ msgstr "CLXXXVI существительных третьего склонения"
+
+#~ msgid "radicaux des noms de la 3e déclinaison"
+#~ msgstr "основы слов третьего склонения"
+
+#~ msgid "CLXXXVIII noms de la troisième déclinaison, avec génitif et genre"
+#~ msgstr "CLXXXVIII существительных третьего склонения с генитивом и родом"
+
+#~ msgid "XLII noms des quatrième et cinquième déclinaisons"
+#~ msgstr "XLII существительных четвертого и пятого склонений"
+
+#~ msgid ""
+#~ "... mais aussi l'utiliser : <a href='valeurcas.php'>CVI phrases à "
+#~ "étudier</a>."
+#~ msgstr ""
+#~ "... но также и использовать его: <a href='valeurcas.php'>CVI фраз для "
+#~ "изучения</a>."
+
+#~ msgid "Les crustula ont maintenant plusieurs niveaux."
+#~ msgstr "Теперь crustula имеет несколько уровней."
+
+#~ msgid ""
+#~ "Au premier, il suffit de donner le cas utilisé, mais il faut ensuite "
+#~ "décliner correctement le mot manquant."
+#~ msgstr ""
+#~ "На первом уровне достаточно указать использованный падеж, а затем нужно "
+#~ "поставить недостающее слово в правильном падеже."
+
+#~ msgid "Dans le dernier niveau, aucune indication n'est donnée."
+#~ msgstr "На следующем уровне не дается никаких подсказок."
+
+#~ msgid "Le mot manque, et il faut le retrouver."
+#~ msgstr "Нужно самому вставить недостающее слово."
+
+#~ msgid ""
+#~ "Le crustulum <a href='amatur.php'>QVIS QVEM AMAT ?</a> te familiarisera "
+#~ "avec le passif."
+#~ msgstr ""
+#~ "Крустулюм <a href='amatur.php'>QVIS QVEM AMAT ?</a> познакомит тебя с "
+#~ "пассивным залогом."
+
+#~ msgid ""
+#~ "<a href='partparf.php'>Le participe parfait passif</a> est une forme très "
+#~ "fréquente en latin."
+#~ msgstr ""
+#~ "<a href='partparf.php'>Participium perfecti passivi</a> - форма очень "
+#~ "частая в латинском языке."
+
+#~ msgid ""
+#~ "Parmi les pronoms, tu peux étudier <a href='iseaid.php'>is, ea, id</a> et "
+#~ "<a href='relatifs.php'>qui, quae, quod</a>."
+#~ msgstr ""
+#~ "Из местоимений ты можешь изучить <a href='iseaid.php'>is, ea, id</a> и <a "
+#~ "href='relatifs.php'>qui, quae, quod</a>."
+
+#~ msgid "AVANCÉ"
+#~ msgstr "ПРОДВИНУТЫЙ"
+
+#~ msgid "Une révision de l'emploi de l'adjectif bonus :"
+#~ msgstr "Учимся использованию прилагательного bonus:"
+
+#~ msgid "Bonus (phrases longues, chercher l'accord)"
+#~ msgstr ""
+#~ "Bonus (длинные предложения, нужно правильно согласовать в падеже с "
+#~ "существительным)"
+
+#~ msgid "Les emplois de CVM"
+#~ msgstr "Использование CUM"
+
+#~ msgid "Syntaxe de DVM"
+#~ msgstr "Синтаксис для DUM"
+
+#~ msgid ""
+#~ "Dans <a href='orthographia.php'>De orthographia (Flauius Caper)</a>, un "
+#~ "aperçu de la grammaire vue par les anciens."
+#~ msgstr ""
+#~ "В <a href='orthographia.php'>De orthographia (Flauius Caper)</a> найдешь "
+#~ "краткий обзор представлений древних о грамматике."
+
+#~ msgid "LES CRUSTULA QUI FONT TRAVAILLER DÉCLINAISON ET CONJUGAISON"
+#~ msgstr "КРУСТУЛА ДЛЯ РАБОТЫ НАД СПРЯЖЕНИЕМ И СКЛОНЕНИЕМ"
+
+#~ msgid "Nominatif et accusatif"
+#~ msgstr "Nominativus et accusativus"
+
+#~ msgid "amo, présent de l'indicatif"
+#~ msgstr "amo, praesens indicativi"
+
+#~ msgid "sum, présent de l'indicatif"
+#~ msgstr "sum, praesens indicativi"
+
+#~ msgid "nominatif, génitif"
+#~ msgstr "nominativus, genitivus"
+
+#~ msgid "nominatif, accusatif, datif"
+#~ msgstr "nominativus, genitivus, dativus"
+
+#~ msgid "déclinaison : nom. acc. gén. sing. decl. 1 et 2masc."
+#~ msgstr "склонение: nom. acc. gen. sing. decl. 1 et 2masc."
+
+#~ msgid "déclinaison : nom. acc. gén. decl. 1 et 2masc."
+#~ msgstr "склонение: nom. acc. gen. decl. 1 et 2masc."
+
+#~ msgid "Deuxième déclinaison et valeur des cas"
+#~ msgstr "Второе склонение и значения падежей"
+
+#~ msgid "modèles de déclinaison"
+#~ msgstr "учимся определять склонения"
+
+#~ msgid "déclinaison, entraînement progressif"
+#~ msgstr "склоняем: постепенное обучение"
+
+#~ msgid "déclinaison, avance rapide"
+#~ msgstr "склоняем: быстрое продвижение"
+
+#~ msgid "modèles de conjugaison"
+#~ msgstr "типы спряжений"
+
+#~ msgid "Veho, uehor : actif et passif"
+#~ msgstr "Veho, uehor: действительный и страдательный залог"
+
+#~ msgid "les trois radicaux des verbes"
+#~ msgstr "три основы глаголов"
+
+#~ msgid "les temps primitifs"
+#~ msgstr "основные формы глагола"
+
+#~ msgid "le présent de l'indicatif"
+#~ msgstr "praesens indicatvi"
+
+#~ msgid "l'indicatif actif</a>, entraînement progressif"
+#~ msgstr "indicativi activi, постепенное обучение"
+
+#~ msgid "le subjonctif actif"
+#~ msgstr "conjunctivi activi"
+
+#~ msgid "le participe parfait passif"
+#~ msgstr "participium perfecti passivi"
+
+#~ msgid "le parfait de sum"
+#~ msgstr "прошедшее время SUM"
+
+#~ msgid "amo, présent et parfait"
+#~ msgstr "amo, настоящее и прошедшее"
+
+#~ msgid ""
+#~ "<a href='casus'>CASVS</a> est un assistant qui devrait te permettre de "
+#~ "décliner n'importe quel nom à la forme que tu cherches."
+#~ msgstr ""
+#~ "<a href='casus'>CASVS</a> поможет тебе просклонять любое существительное "
+#~ "в той форме, в какой тебе нужно."
+
+#~ msgid "Il utilise son propre lexique."
+#~ msgstr "Он использует собственную лексику."
+
+#~ msgid "LES CRUSTULA QUI FONT TRAVAILLER LE VOCABULAIRE"
+#~ msgstr "КРУСТУЛА, РАСШИРЯЮТ ТВОЙ СЛОВАРЬ"
+
+#~ msgid "Les noms qu'il faut connaître en 5ème"
+#~ msgstr "Существительные, которые нужно знать к концу 1 года"
+
+#~ msgid "Les adjectifs qu'il faut connaître en 5ème"
+#~ msgstr "Прилагательные, которые нужно знать к концу 1 года"
+
+#~ msgid "Les verbes qu'il faut connaître en 5ème"
+#~ msgstr "Глаголы, которые нужно знать к концу 1 года"
+
+#~ msgid "Les adverbes qu'il faut connaître en 5ème"
+#~ msgstr "Наречия, которые нужно знать к концу 1 года"
+
+#~ msgid "Les noms qu'il faut connaître en 4ème"
+#~ msgstr "Существительные, которые нужно знать к концу 2 года"
+
+#~ msgid "Les adjectifs qu'il faut connaître en 4ème"
+#~ msgstr "Прилагательные, которые нужно знать к концу 2 года"
+
+#~ msgid "Les verbes qu'il faut connaître en 4ème"
+#~ msgstr "Глаголы, которые нужно знать к концу 2 года"
+
+#~ msgid "Les adverbes qu'il faut connaître en 4ème"
+#~ msgstr "Наречия, которые нужно знать к концу 2 года"
+
+#~ msgid "Les noms qu'il faut connaître en 3ème"
+#~ msgstr "Существительные, которые нужно знать к концу 3 года"
+
+#~ msgid "Les adjectifs qu'il faut connaître en 3ème"
+#~ msgstr "Прилагательные, которые нужно знать к концу 3 года"
+
+#~ msgid "Les verbes qu'il faut connaître en 3ème"
+#~ msgstr "Глаголы, которые нужно знать к концу 3 года"
+
+#~ msgid "Les adverbes qu'il faut connaître en 3ème"
+#~ msgstr "Наречия, которые нужно знать к концу 3 года"
+
+#~ msgid "Vocabulaire decl 1 et 2 masc."
+#~ msgstr "Словарь склонений 1 и 2 masc."
+
+#~ msgid "LXXXXVI noms de la première déclinaison"
+#~ msgstr "LXXXXVI существительных первого склонения"
+
+#~ msgid "De orthographia (Flauius Caper)"
+#~ msgstr "De orthographia (Flauius Caper)"
+
+#~ msgid "LES CRUSTULA QUI FONT TRAVAILLER LA SYNTAXE"
+#~ msgstr "КРУСТУЛА, ПОМОГАЮЩИЕ В РАБОТЕ С СИНТАКСИСОМ"
+
+#~ msgid "Sujet, objet, verbe"
+#~ msgstr "Подлежащее, дополнение, глагол"
+
+#~ msgid "Sujet, objet, verbe (plus facile)"
+#~ msgstr "Подлежащее, дополнение, глагол (попроще)"
+
+#~ msgid "Qui est l'ami de qui ?"
+#~ msgstr "Кто кому друг?"
+
+#~ msgid "initiation aux cas : les valeurs"
+#~ msgstr "введение в падежи: значения"
+
+#~ msgid "quem casum ? (quel cas ?)"
+#~ msgstr "<a href='valeurk.php'>Quem casum ?</a> Какой падеж?"
+
+#~ msgid "Valeur des cas"
+#~ msgstr "Определить падеж"
+
+#~ msgid "transformation actif vers passif"
+#~ msgstr "превращение активной формы в пассивную"
+
+#~ msgid "Ab, le lieu et le passif"
+#~ msgstr "Ab, место и страдательный залог"
+
+#~ msgid "sujet, objet, verbe, présent"
+#~ msgstr "подлежащее, дополнение, глагол, praesens"
+
+#~ msgid "sujet, objet, verbe, CDN, présent, imparfait"
+#~ msgstr ""
+#~ "подлежащее, дополнение, обстоятельство, глагол, praesens, imperfectum"
+
+#~ msgid "Gladius (à tous les cas)"
+#~ msgstr "Gladius (все падежи)"
+
+#~ msgid "Dux (à tous les cas)"
+#~ msgstr "Dux (все падежи)"
+
+#~ msgid "Syntaxe de CVM"
+#~ msgstr "Синтаксис CUM"
+
+#~ msgid "LES CRUSTULA QUI ACCOMPAGNENT LA LECTURE D'UN TEXTE"
+#~ msgstr "КРУСТУЛА, ПОМОГАЮЩИЕ ПРИ ЧТЕНИИ ТЕКСТА"
+
+#~ msgid "LA MÉTHODE de CLAUDE PAVUR : GRASP"
+#~ msgstr "МЕТОД КЛОДА ПАВЮРА: GRASP"
+
+#~ msgid ""
+#~ "Consulter <a href='https://github.com/ycollatin/Crustula'> les codes "
+#~ "sources</a> &copy; Yves Ouvrard, VII Kal. Oct. MMDCCLVIII AVC (27 "
+#~ "septembre 2005) - licentiâ <a href='LICENSE'>GPL</a>."
+#~ msgstr ""
+#~ "Исходный код можно найти <a href='https://github.com/ycollatin/"
+#~ "Crustula'>здесь</a> &copy; Yves Ouvrard, VII Kal. Oct. MMDCCLVIII AVC (27 "
+#~ "сентября 2005) - лицензия <a href='LICENSE'>GPL</a>."
+
+#~ msgid ""
+#~ "Pour installer ces Crustula, décompresser <a href='https://github.com/"
+#~ "ycollatin/Crustula/archive/refs/heads/master.zip'>cette archive</a> dans "
+#~ "la partie publique d'un serveur web équipé de PHP."
+#~ msgstr ""
+#~ "Чтобы установить Crustula, распакуйте <a href='https://github.com/"
+#~ "ycollatin/Crustula/archive/refs/heads/master.zip'>этот архив</a> рабочую "
+#~ "папку сервера с поддержкой PHP."
