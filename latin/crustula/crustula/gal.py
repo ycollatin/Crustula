@@ -121,6 +121,7 @@ def index(request):
         request.session["prius"] = prius
         consec = request.session.get("consec", 0)
         request.session["consec"] = consec
+        recte = (respF == solF) and (respK == solK)
         if recte:
             request.session["consec"] += 1
         else:
@@ -130,7 +131,6 @@ def index(request):
     else:
         request.session['prius'] = 0
         request.session['consec'] = 0
-    recte = (respF == solF) and (respK == solK)
 
     ## décider du sexe du sujet
     sexus = random.choice(('m', 'f'))
@@ -168,7 +168,9 @@ def index(request):
         "phrase": phrase.replace("_", " "),
         "mot_est": f"{mot} {_('est')}",
         "phrase_precedente": phrase_precedente,
+        "phprec": phprec,
         "mot_prec": mot_prec,
+        "mot": mot,
         "juste": _("JUSTE !"),
         "faux_reponse": _("Faux. Tu as répondu"),
         "respF": respF,
