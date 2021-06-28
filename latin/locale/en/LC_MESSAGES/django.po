@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-27 18:56+0000\n"
-"PO-Revision-Date: 2021-06-27 16:37+0200\n"
+"PO-Revision-Date: 2021-06-27 23:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -100,43 +100,43 @@ msgstr ""
 
 #: crustula/crustula/gal.py:54
 msgid "mon_amie(attribut)"
-msgstr ""
+msgstr "my_friend"
 
 #: crustula/crustula/gal.py:55
 msgid "ma_sœur(attribut)"
-msgstr ""
+msgstr "my_sister"
 
 #: crustula/crustula/gal.py:56
 msgid "une_voisine(attribut)"
-msgstr ""
+msgstr "a_neighbor"
 
 #: crustula/crustula/gal.py:57
 msgid "sa_fille(attribut)"
-msgstr ""
+msgstr "his_daugter"
 
 #: crustula/crustula/gal.py:58
 msgid "une_inconnue(attribut)"
-msgstr ""
+msgstr "an_unknown_person"
 
 #: crustula/crustula/gal.py:62
 msgid "mon_amie(objet)"
-msgstr ""
+msgstr "my_friend"
 
 #: crustula/crustula/gal.py:63
 msgid "ma_sœur(objet)"
-msgstr ""
+msgstr "my_sister"
 
 #: crustula/crustula/gal.py:64
 msgid "une_voisine(objet)"
-msgstr ""
+msgstr "a_neighbor"
 
 #: crustula/crustula/gal.py:65
 msgid "sa_fille(objet)"
-msgstr ""
+msgstr "his_daughter"
 
 #: crustula/crustula/gal.py:66
 msgid "une_inconnue(objet)"
-msgstr ""
+msgstr "an_unknown_person"
 
 #: crustula/crustula/gal.py:70
 msgid "son_ami(attribut)"
@@ -144,85 +144,85 @@ msgstr ""
 
 #: crustula/crustula/gal.py:71
 msgid "mon_frère(attribut)"
-msgstr ""
+msgstr "my_brother"
 
 #: crustula/crustula/gal.py:72
 msgid "un_Gaulois(attribut)"
-msgstr ""
+msgstr "a_Gaul"
 
 #: crustula/crustula/gal.py:73
 msgid "le_consul(attribut)"
-msgstr ""
+msgstr "the_consul"
 
 #: crustula/crustula/gal.py:74
 msgid "un_marin(attribut)"
-msgstr ""
+msgstr "a_sailor"
 
 #: crustula/crustula/gal.py:78
 msgid "son_ami(objet)"
-msgstr ""
+msgstr "His_friend"
 
 #: crustula/crustula/gal.py:79
 msgid "mon_frère(objet)"
-msgstr ""
+msgstr "my_brother"
 
 #: crustula/crustula/gal.py:80
 msgid "un_Gaulois(objet)"
-msgstr ""
+msgstr "a_Gaul"
 
 #: crustula/crustula/gal.py:81
 msgid "le_consul(objet)"
-msgstr ""
+msgstr "the_consul"
 
 #: crustula/crustula/gal.py:82
 msgid "un_marin(objet)"
-msgstr ""
+msgstr "a_sailor"
 
 #: crustula/crustula/gal.py:94
 msgid "sujet du verbe"
-msgstr ""
+msgstr "subject of the verb"
 
 #: crustula/crustula/gal.py:95
 msgid "COD du verbe"
-msgstr ""
+msgstr "direct object of the verb"
 
 #: crustula/crustula/gal.py:96
 msgid "attribut du sujet"
-msgstr ""
+msgstr "attribute of the subject"
 
 #: crustula/crustula/gal.py:100
 msgid "au nominatif"
-msgstr ""
+msgstr "in nominative"
 
 #: crustula/crustula/gal.py:101
 msgid "à l'accusatif"
-msgstr ""
+msgstr "in accusative"
 
 #: crustula/crustula/gal.py:114
 msgid "est"
-msgstr ""
+msgstr "is"
 
 #: crustula/crustula/gal.py:164
 #, python-brace-format
 msgid "Phrase précédente : {phprec}"
-msgstr ""
+msgstr "Previous phrase: {phprec}"
 
 #: crustula/crustula/gal.py:165
 #, python-brace-format
 msgid "{motprec} est {solF} ; il serait en latin au {solK}"
-msgstr ""
+msgstr "{motprec} is {solF} ; in Latin, it vould be {solK}"
 
 #: crustula/crustula/gal.py:174
 msgid "JUSTE !"
-msgstr ""
+msgstr "RIGHT!"
 
 #: crustula/crustula/gal.py:175
 msgid "Faux. Tu as répondu"
-msgstr ""
+msgstr "Wrong. You replied"
 
 #: crustula/crustula/gal.py:183
 msgid "En latin, ce mot serait donc"
-msgstr ""
+msgstr "In Latin, this word would be"
 
 #: crustula/crustula/sov.py:39
 msgid "Aemilium"
