@@ -10,26 +10,9 @@
     <meta name="keywords" content="Latin, latin, exercice, exercices, exercise, exercises, Crustula, crustula">
   </head>
   <body>
-    <p class="titre">
-      QVIS QVEM AMAT ?
-    </p>
-    {% if priorsent %}
-    prior sententia : {{ priorsent }} <br>
-    {{ lingue }} : {{ gallice }} <br>
-    {% if recte %}
-    <div class="juste">RECTE !</div>
-    {% else %}
-    <div class="faux"> Errauisti. Respondisti {{ resp }}</div>
-    {% endif %}
-    {{ consec }} prius {{ prius }}.
-    {% endif %}
-    <p class="question">{{ question }}</p>
-    <form method="post">
-      {% csrf_token %}
-      <p class="question">
-	<input type="submit" name= "resp" value="{{ r1 }}" class="question"><br /><br />
-	<input type="submit" name= "resp" value="{{ r2 }}" class="question"><br /><br />
-	<input type="hidden" name="sententia" value="{{ question }}"></form>
+    <h1>
+      Me paenitet, in Pythone hoc crustulum nondum creatus est.
+    </h1>
     <p class="redi"><a href='./'>reditus</a> <a href="gpl.html" target="gpl">Licentia GPL</a></p>
   </body>
 </html>

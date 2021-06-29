@@ -28,5 +28,5 @@ def index(request):
     # as many program lines as you want #
     #                                   #
     #####################################
-    return render(request,'crustula/gal.html', context={
+    return render(request,'crustula/terra.html', context={
     })
