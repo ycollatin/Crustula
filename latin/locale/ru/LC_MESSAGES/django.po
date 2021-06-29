@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-27 18:56+0000\n"
-"PO-Revision-Date: 2021-06-27 20:57+0200\n"
-"Last-Translator: Nikolay A <alexnikvik@gmail.com>\n"
+"PO-Revision-Date: 2021-06-30 01:11+0300\n"
+"Last-Translator: Nikolay Alexandrov <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: crustula/crustula/gal.py:26 crustula/crustula/sov.py:25
 msgid "Aemilius"
-msgstr "Эимлий"
+msgstr "Эмилий"
 
 #: crustula/crustula/gal.py:27 crustula/crustula/sov.py:26
 msgid "Eupalamus"
@@ -74,7 +74,7 @@ msgstr "Публия"
 
 #: crustula/crustula/gal.py:43
 msgid "Aulus(objet)"
-msgstr ""
+msgstr "Авла"
 
 #: crustula/crustula/gal.py:44
 msgid "Marcus(objet)"
@@ -130,7 +130,7 @@ msgstr "мою сестру"
 
 #: crustula/crustula/gal.py:64
 msgid "une_voisine(objet)"
-msgstr "соседа"
+msgstr "соседку"
 
 #: crustula/crustula/gal.py:65
 msgid "sa_fille(objet)"
@@ -138,7 +138,7 @@ msgstr "свою дочь"
 
 #: crustula/crustula/gal.py:66
 msgid "une_inconnue(objet)"
-msgstr "незнакомца"
+msgstr "незнакомку"
 
 #: crustula/crustula/gal.py:70
 msgid "son_ami(attribut)"
@@ -187,15 +187,15 @@ msgstr "подлежащее глагола"
 
 #: crustula/crustula/gal.py:95
 msgid "COD du verbe"
-msgstr ""
+msgstr "Прямое дополнение"
 
 #: crustula/crustula/gal.py:96
 msgid "attribut du sujet"
-msgstr "атрибут предмета"
+msgstr "косвенное дополнение"
 
 #: crustula/crustula/gal.py:100
 msgid "au nominatif"
-msgstr "зарегистрированный"
+msgstr "именительный"
 
 #: crustula/crustula/gal.py:101
 msgid "à l'accusatif"
@@ -208,7 +208,7 @@ msgstr ""
 #: crustula/crustula/gal.py:164
 #, python-brace-format
 msgid "Phrase précédente : {phprec}"
-msgstr "предыдущее предложение: {phprec}"
+msgstr "Предыдущее предложение: {phprec}"
 
 #: crustula/crustula/gal.py:165
 #, python-brace-format
@@ -217,15 +217,16 @@ msgstr "{motprec} {solF} ; это будет на латыни {solK}"
 
 #: crustula/crustula/gal.py:174
 msgid "JUSTE !"
-msgstr "Справедливая !"
+msgstr "Верно!"
 
 #: crustula/crustula/gal.py:175
 msgid "Faux. Tu as répondu"
-msgstr "Ложь. Вы ответили"
+msgstr "Ошибка. Вы ответили"
 
+# To make translation shorter a bit I'd suppose instead of "следовательно" use a word "значит" or "итак".
 #: crustula/crustula/gal.py:183
 msgid "En latin, ce mot serait donc"
-msgstr "Следовательно, на латыни это слово будет"
+msgstr "Итак, на латыни это слово будет"
 
 #: crustula/crustula/sov.py:39
 msgid "Aemilium"
