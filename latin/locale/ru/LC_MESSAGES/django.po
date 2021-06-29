@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-27 18:56+0000\n"
-"PO-Revision-Date: 2021-06-28 16:54+0300\n"
+"PO-Revision-Date: 2021-06-28 17:36+0200\n"
 "Last-Translator: Nikolay Alexandrov <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -181,7 +181,6 @@ msgid "un_marin(objet)"
 msgstr "консула"
 
 #: crustula/crustula/gal.py:94
-#, fuzzy
 msgid "sujet du verbe"
 msgstr "подлежащее глагола"
 
@@ -203,7 +202,7 @@ msgstr "винительный"
 
 #: crustula/crustula/gal.py:114
 msgid "est"
-msgstr ""
+msgstr " "
 
 #: crustula/crustula/gal.py:164
 #, python-brace-format
