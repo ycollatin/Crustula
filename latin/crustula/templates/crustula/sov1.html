@@ -10,9 +10,36 @@
     <meta name="keywords" content="Latin, latin, exercice, exercices, exercise, exercises, Crustula, crustula">
   </head>
   <body>
-    <h1>
-      Me paenitet, in Pythone hoc crustulum nondum creatus est.
-    </h1>
+    <p class="titre">
+    SENTENTIAE SOV DICTAE (bis)
+    </p>
+    {% if schema %}
+    <p>
+      Solutio : « {{ sol}} »<br>
+      {% if recte %}
+      <div class=\"juste\">RECTE !</div>
+      {% else %}
+      <div class=\"faux\"> Errauisti. Respondisti « {{ resp }} »</div>
+      {% endif %}
+      {{ consec }} prius {{ prius }}.
+    </p>
+    {% endif %}
+    <p class="question">
+      {{ sententia }}
+    </p>
+    <form method="post">
+      {% csrf_token %}
+      <p class="question">
+	<input type="text" size="45" name="resp" />
+	<input type="submit" value=" Num recte dixi ?" />
+	<input type="hidden" name="meta" value="{{ meta }}" />
+	<input type="hidden" name="schema" value="{{ phrase_schema }}" />
+      </p>
+    </form>
+    <div class="conseil">
+      {{ help1 }} <br>
+      {{ help2 }} <em>diligo</em>.
+    </div>
     <p class="redi"><a href='./'>reditus</a> <a href="gpl.html" target="gpl">Licentia GPL</a></p>
   </body>
 </html>

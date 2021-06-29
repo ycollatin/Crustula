@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 18:56+0000\n"
+"POT-Creation-Date: 2021-06-29 21:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -268,10 +268,73 @@ msgstr ""
 msgid "si non declinatione neque sermonem transferre"
 msgstr ""
 
-#: crustula/crustula/sov.py:74
+#: crustula/crustula/sov.py:74 crustula/crustula/sov1.py:166
 msgid "aime"
 msgstr ""
 
 #: crustula/crustula/sov.py:153
 msgid "gallice"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:151
+msgid "mon père"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:153
+msgid "ma mère"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:155
+msgid "mon frère"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:157
+msgid "ma soeur"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:159
+msgid "mon fils"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:161
+msgid "ma fille"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:163
+msgid "ma femme"
+msgstr ""
+
+#: crustula/crustula/sov1.py:166
+msgid "j'aime"
+msgstr ""
+
+#: crustula/crustula/sov1.py:166
+msgid "tu aimes"
+msgstr ""
+
+#: crustula/crustula/sov1.py:167
+msgid "nous aimons"
+msgstr ""
+
+#: crustula/crustula/sov1.py:167
+msgid "vous aimez"
+msgstr ""
+
+#: crustula/crustula/sov1.py:167
+msgid "ils aiment"
+msgstr ""
+
+#: crustula/crustula/sov1.py:221
+msgid "Tous les déterminants sont des déterminants possessifs !"
+msgstr ""
+
+#: crustula/crustula/sov1.py:222
+msgid "pour « aimer », utilise le verbe"
 msgstr ""
