@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-27 18:56+0000\n"
-"PO-Revision-Date: 2021-06-27 16:37+0200\n"
+"POT-Creation-Date: 2021-06-29 21:16+0000\n"
+"PO-Revision-Date: 2021-06-27 23:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -59,170 +59,194 @@ msgid "Sempronia"
 msgstr ""
 
 #: crustula/crustula/gal.py:40
+#, fuzzy
+#| msgid "un_Gaulois(objet)"
 msgid "Aemilius(objet)"
-msgstr ""
+msgstr "a_Gaul"
 
 #: crustula/crustula/gal.py:41
+#, fuzzy
+#| msgid "un_Gaulois(objet)"
 msgid "Eupalamus(objet)"
-msgstr ""
+msgstr "a_Gaul"
 
 #: crustula/crustula/gal.py:42
+#, fuzzy
+#| msgid "un_Gaulois(objet)"
 msgid "Publius(objet)"
-msgstr ""
+msgstr "a_Gaul"
 
 #: crustula/crustula/gal.py:43
+#, fuzzy
+#| msgid "un_Gaulois(objet)"
 msgid "Aulus(objet)"
-msgstr ""
+msgstr "a_Gaul"
 
 #: crustula/crustula/gal.py:44
+#, fuzzy
+#| msgid "un_Gaulois(objet)"
 msgid "Marcus(objet)"
-msgstr ""
+msgstr "a_Gaul"
 
 #: crustula/crustula/gal.py:47
+#, fuzzy
+#| msgid "son_ami(objet)"
 msgid "Aemilia(objet)"
-msgstr ""
+msgstr "His_friend"
 
 #: crustula/crustula/gal.py:48
+#, fuzzy
+#| msgid "un_Gaulois(objet)"
 msgid "Iulia(objet)"
-msgstr ""
+msgstr "a_Gaul"
 
 #: crustula/crustula/gal.py:49
+#, fuzzy
+#| msgid "un_marin(objet)"
 msgid "Lucia(objet)"
-msgstr ""
+msgstr "a_sailor"
 
 #: crustula/crustula/gal.py:50
+#, fuzzy
+#| msgid "un_marin(objet)"
 msgid "Lucretia(objet)"
-msgstr ""
+msgstr "a_sailor"
 
 #: crustula/crustula/gal.py:51
+#, fuzzy
+#| msgid "mon_amie(objet)"
 msgid "Sempronia(objet)"
-msgstr ""
+msgstr "my_friend"
 
 #: crustula/crustula/gal.py:54
 msgid "mon_amie(attribut)"
-msgstr ""
+msgstr "my_friend"
 
 #: crustula/crustula/gal.py:55
 msgid "ma_sœur(attribut)"
-msgstr ""
+msgstr "my_sister"
 
 #: crustula/crustula/gal.py:56
 msgid "une_voisine(attribut)"
-msgstr ""
+msgstr "a_neighbor"
 
 #: crustula/crustula/gal.py:57
 msgid "sa_fille(attribut)"
-msgstr ""
+msgstr "his_daugter"
 
 #: crustula/crustula/gal.py:58
 msgid "une_inconnue(attribut)"
-msgstr ""
+msgstr "an_unknown_person"
 
 #: crustula/crustula/gal.py:62
 msgid "mon_amie(objet)"
-msgstr ""
+msgstr "my_friend"
 
 #: crustula/crustula/gal.py:63
 msgid "ma_sœur(objet)"
-msgstr ""
+msgstr "my_sister"
 
 #: crustula/crustula/gal.py:64
 msgid "une_voisine(objet)"
-msgstr ""
+msgstr "a_neighbor"
 
 #: crustula/crustula/gal.py:65
 msgid "sa_fille(objet)"
-msgstr ""
+msgstr "his_daughter"
 
 #: crustula/crustula/gal.py:66
 msgid "une_inconnue(objet)"
-msgstr ""
+msgstr "an_unknown_person"
 
 #: crustula/crustula/gal.py:70
+#, fuzzy
+#| msgid "mon_amie(attribut)"
 msgid "son_ami(attribut)"
-msgstr ""
+msgstr "my_friend"
 
 #: crustula/crustula/gal.py:71
 msgid "mon_frère(attribut)"
-msgstr ""
+msgstr "my_brother"
 
 #: crustula/crustula/gal.py:72
 msgid "un_Gaulois(attribut)"
-msgstr ""
+msgstr "a_Gaul"
 
 #: crustula/crustula/gal.py:73
 msgid "le_consul(attribut)"
-msgstr ""
+msgstr "the_consul"
 
 #: crustula/crustula/gal.py:74
 msgid "un_marin(attribut)"
-msgstr ""
+msgstr "a_sailor"
 
 #: crustula/crustula/gal.py:78
 msgid "son_ami(objet)"
-msgstr ""
+msgstr "His_friend"
 
 #: crustula/crustula/gal.py:79
+#, fuzzy
+#| msgid "mon_frère(attribut)"
 msgid "mon_frère(objet)"
-msgstr ""
+msgstr "my_brother"
 
 #: crustula/crustula/gal.py:80
 msgid "un_Gaulois(objet)"
-msgstr ""
+msgstr "a_Gaul"
 
 #: crustula/crustula/gal.py:81
 msgid "le_consul(objet)"
-msgstr ""
+msgstr "the_consul"
 
 #: crustula/crustula/gal.py:82
 msgid "un_marin(objet)"
-msgstr ""
+msgstr "a_sailor"
 
 #: crustula/crustula/gal.py:94
 msgid "sujet du verbe"
-msgstr ""
+msgstr "subject of the verb"
 
 #: crustula/crustula/gal.py:95
 msgid "COD du verbe"
-msgstr ""
+msgstr "direct object of the verb"
 
 #: crustula/crustula/gal.py:96
 msgid "attribut du sujet"
-msgstr ""
+msgstr "attribute of the subject"
 
 #: crustula/crustula/gal.py:100
 msgid "au nominatif"
-msgstr ""
+msgstr "in nominative"
 
 #: crustula/crustula/gal.py:101
 msgid "à l'accusatif"
-msgstr ""
+msgstr "in accusative"
 
 #: crustula/crustula/gal.py:114
 msgid "est"
-msgstr ""
+msgstr "is"
 
 #: crustula/crustula/gal.py:164
 #, python-brace-format
 msgid "Phrase précédente : {phprec}"
-msgstr ""
+msgstr "Previous phrase: {phprec}"
 
 #: crustula/crustula/gal.py:165
 #, python-brace-format
 msgid "{motprec} est {solF} ; il serait en latin au {solK}"
-msgstr ""
+msgstr "{motprec} is {solF} ; in Latin, it vould be {solK}"
 
 #: crustula/crustula/gal.py:174
 msgid "JUSTE !"
-msgstr ""
+msgstr "RIGHT!"
 
 #: crustula/crustula/gal.py:175
 msgid "Faux. Tu as répondu"
-msgstr ""
+msgstr "Wrong. You replied"
 
 #: crustula/crustula/gal.py:183
 msgid "En latin, ce mot serait donc"
-msgstr ""
+msgstr "In Latin, this word would be"
 
 #: crustula/crustula/sov.py:39
 msgid "Aemilium"
@@ -268,10 +292,79 @@ msgstr ""
 msgid "si non declinatione neque sermonem transferre"
 msgstr ""
 
-#: crustula/crustula/sov.py:74
+#: crustula/crustula/sov.py:74 crustula/crustula/sov1.py:166
 msgid "aime"
 msgstr "loves"
 
 #: crustula/crustula/sov.py:153
 msgid "gallice"
 msgstr "anglice"
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:151
+msgid "mon père"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:153
+msgid "ma mère"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:155
+#, fuzzy
+#| msgid "mon_frère(objet)"
+msgid "mon frère"
+msgstr "my_brother"
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:157
+msgid "ma soeur"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:159
+msgid "mon fils"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:161
+msgid "ma fille"
+msgstr ""
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:163
+msgid "ma femme"
+msgstr ""
+
+#: crustula/crustula/sov1.py:166
+#, fuzzy
+#| msgid "aime"
+msgid "j'aime"
+msgstr "loves"
+
+#: crustula/crustula/sov1.py:166
+#, fuzzy
+#| msgid "aime"
+msgid "tu aimes"
+msgstr "loves"
+
+#: crustula/crustula/sov1.py:167
+msgid "nous aimons"
+msgstr ""
+
+#: crustula/crustula/sov1.py:167
+msgid "vous aimez"
+msgstr ""
+
+#: crustula/crustula/sov1.py:167
+msgid "ils aiment"
+msgstr ""
+
+#: crustula/crustula/sov1.py:221
+msgid "Tous les déterminants sont des déterminants possessifs !"
+msgstr ""
+
+#: crustula/crustula/sov1.py:222
+msgid "pour « aimer », utilise le verbe"
+msgstr ""

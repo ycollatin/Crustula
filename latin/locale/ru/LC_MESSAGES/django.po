@@ -7,8 +7,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-06-27 18:56+0000\n"
 "PO-Revision-Date: 2021-06-30 01:11+0300\n"
+=======
+"POT-Creation-Date: 2021-06-29 21:16+0000\n"
+"PO-Revision-Date: 2021-06-29 23:30+0200\n"
+>>>>>>> 4d152744a74288c47e220543d72ac102dfc0a4fe
 "Last-Translator: Nikolay Alexandrov <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -181,7 +186,6 @@ msgid "un_marin(objet)"
 msgstr "консула"
 
 #: crustula/crustula/gal.py:94
-#, fuzzy
 msgid "sujet du verbe"
 msgstr "подлежащее глагола"
 
@@ -203,7 +207,7 @@ msgstr "винительный"
 
 #: crustula/crustula/gal.py:114
 msgid "est"
-msgstr ""
+msgstr " "
 
 #: crustula/crustula/gal.py:164
 #, python-brace-format
@@ -272,13 +276,76 @@ msgstr "Семпронию"
 msgid "si non declinatione neque sermonem transferre"
 msgstr "имена доступны на русском языке"
 
-#: crustula/crustula/sov.py:74
+#: crustula/crustula/sov.py:74 crustula/crustula/sov1.py:166
 msgid "aime"
 msgstr "любит"
 
 #: crustula/crustula/sov.py:153
 msgid "gallice"
 msgstr "slavica"
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:151
+msgid "mon père"
+msgstr "мой отец/своего отца"
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:153
+msgid "ma mère"
+msgstr "моей мате/мою мать"
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:155
+msgid "mon frère"
+msgstr "мой брат/моего брата"
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:157
+msgid "ma soeur"
+msgstr "моей сестре/мою сестру"
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:159
+msgid "mon fils"
+msgstr "мой сын/моего сына"
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:161
+msgid "ma fille"
+msgstr "моя девушка/мою дочь"
+
+#. Translators: for declensions, translate to: nominative/accusative
+#: crustula/crustula/sov1.py:163
+msgid "ma femme"
+msgstr "моя жена/moyu zhenu"
+
+#: crustula/crustula/sov1.py:166
+msgid "j'aime"
+msgstr "я люблю"
+
+#: crustula/crustula/sov1.py:166
+msgid "tu aimes"
+msgstr "ты любишь"
+
+#: crustula/crustula/sov1.py:167
+msgid "nous aimons"
+msgstr "мы любим"
+
+#: crustula/crustula/sov1.py:167
+msgid "vous aimez"
+msgstr "вы любите"
+
+#: crustula/crustula/sov1.py:167
+msgid "ils aiment"
+msgstr "im nravitsya"
+
+#: crustula/crustula/sov1.py:221
+msgid "Tous les déterminants sont des déterminants possessifs !"
+msgstr "Все детерминанты являются притяжательными детерминантами!"
+
+#: crustula/crustula/sov1.py:222
+msgid "pour « aimer », utilise le verbe"
+msgstr "для \"любить\" использует глагол"
 
 #~ msgid "Sommaire"
 #~ msgstr "Резюме"
