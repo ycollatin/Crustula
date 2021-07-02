@@ -13,6 +13,11 @@
     <h1>
       Me paenitet, in Pythone hoc crustulum nondum creatus est.
     </h1>
+    <ol>
+      {% for ligne in gaffiot %}
+      <li>{{ligne.latine}} ===> {{ligne.galle}}</li>
+      {% endfor %}
+    </ol>
     <p class="redi"><a href='./'>reditus</a> <a href="gpl.html" target="gpl">Licentia GPL</a></p>
   </body>
 </html>

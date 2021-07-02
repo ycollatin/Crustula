@@ -20,13 +20,11 @@
 from django.shortcuts import render
 from .utils.i18n import *
 import random
+from crustula.models import Gaffiot
 
 def index(request):
     preferred_language(request)
-    #####################################
-    #                                   #
-    # as many program lines as you want #
-    #                                   #
-    #####################################
+    
     return render(request,'crustula/uocesii.html', context={
+        "gaffiot" : Gaffiot.objects.filter(comment="thema2"),
     })
