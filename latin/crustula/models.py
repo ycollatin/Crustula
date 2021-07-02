@@ -42,3 +42,15 @@ class LogRecord(models.Model):
     def __str__(self):
         return f"[{self.timestamp}]: self.record"
     
+class Gaffiot(models.Model):
+    """
+    traductions latin-français
+    """
+    comment = models.CharField(max_length=20)
+    latine  = models.CharField(max_length=255)
+    galle   = models.CharField(max_length=255)
+
+    def __str__(self):
+        return f"{self.latine} : {self.galle}"
+
+    
