@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 21:16+0000\n"
+"POT-Creation-Date: 2021-07-02 15:44+0000\n"
 "PO-Revision-Date: 2021-06-29 23:30+0200\n"
 "Last-Translator: Nikolay Alexandrov <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -340,6 +340,436 @@ msgstr "Все детерминанты являются притяжатель�
 #: crustula/crustula/sov1.py:222
 msgid "pour « aimer », utilise le verbe"
 msgstr "для \"любить\" использует глагол"
+
+#: Gaffiot/thema2/amicus/:1
+msgid "ami"
+msgstr ""
+
+#: Gaffiot/thema2/animus/:2
+msgid "coeur, fierté, courage, esprit"
+msgstr ""
+
+#: Gaffiot/thema2/annus/:3
+msgid "année"
+msgstr ""
+
+#: Gaffiot/thema2/campus/:4
+msgid "plaine, champ"
+msgstr ""
+
+#: Gaffiot/thema2/cibus/:5
+msgid "nourriture"
+msgstr ""
+
+#: Gaffiot/thema2/deus/:6
+msgid "dieu"
+msgstr ""
+
+#: Gaffiot/thema2/digitus/:7
+msgid "doigt"
+msgstr ""
+
+#: Gaffiot/thema2/dolus/:8
+msgid "ruse, adresse"
+msgstr ""
+
+#: Gaffiot/thema2/dominus/:9
+msgid "maître, seigneur"
+msgstr ""
+
+#: Gaffiot/thema2/equus/:10
+msgid "cheval"
+msgstr ""
+
+#: Gaffiot/thema2/filius/:11
+#, fuzzy
+#| msgid "mon fils"
+msgid "fils"
+msgstr "мой сын/моего сына"
+
+#: Gaffiot/thema2/gladius/:12
+msgid "glaive"
+msgstr ""
+
+#: Gaffiot/thema2/humerus/:13
+msgid "épaule"
+msgstr ""
+
+#: Gaffiot/thema2/humus/:14
+msgid "sol, terre"
+msgstr ""
+
+#: Gaffiot/thema2/lacertus/:15
+msgid "bras ; pl. muscles"
+msgstr ""
+
+#: Gaffiot/thema2/lectus/:16
+msgid "lit"
+msgstr ""
+
+#: Gaffiot/thema2/legatus/:17
+msgid "ambassadeur, envoyé, légat"
+msgstr ""
+
+#: Gaffiot/thema2/locus/:18
+msgid "lieu, endroit - le pluriel est neutre -"
+msgstr ""
+
+#: Gaffiot/thema2/lucus/:19
+msgid "bois sacré"
+msgstr ""
+
+#: Gaffiot/thema2/maritus/:20
+msgid "mari"
+msgstr ""
+
+#: Gaffiot/thema2/modus/:21
+msgid "mesure, limite, manière"
+msgstr ""
+
+#: Gaffiot/thema2/morbus/:22
+msgid "maladie"
+msgstr ""
+
+#: Gaffiot/thema2/mundus/:23
+msgid "univers, monde"
+msgstr ""
+
+#: Gaffiot/thema2/murus/:24
+msgid "mur"
+msgstr ""
+
+#: Gaffiot/thema2/necessarius/:25
+msgid "ami intime, familier"
+msgstr ""
+
+#: Gaffiot/thema2/neruus/:26
+msgid "nerf"
+msgstr ""
+
+#: Gaffiot/thema2/numerus/:27
+msgid "nombre"
+msgstr ""
+
+#: Gaffiot/thema2/oculus/:28
+msgid "oeil"
+msgstr ""
+
+#: Gaffiot/thema2/oppidum/:29
+msgid "place forte, ville"
+msgstr ""
+
+#: Gaffiot/thema2/philosophus/:30
+msgid "philosophe"
+msgstr ""
+
+#: Gaffiot/thema2/populus/:31
+msgid "peuple"
+msgstr ""
+
+#: Gaffiot/thema2/praefectus/:32
+msgid "gouverneur, administrateur"
+msgstr ""
+
+#: Gaffiot/thema2/reus/:33
+msgid "accusé"
+msgstr ""
+
+#: Gaffiot/thema2/seruus/:34
+msgid "esclave"
+msgstr ""
+
+#: Gaffiot/thema2/somnus/:35
+msgid "sommeil"
+msgstr ""
+
+#: Gaffiot/thema2/taurus/:36
+msgid "taureau"
+msgstr ""
+
+#: Gaffiot/thema2/torus/:37
+msgid "renflement, muscle saillant ; lit"
+msgstr ""
+
+#: Gaffiot/thema2/tribunus/:38
+msgid "tribun"
+msgstr ""
+
+#: Gaffiot/thema2/uentus/:39
+msgid "vent"
+msgstr ""
+
+#: Gaffiot/thema2/uulgus/:40
+msgid "foule, le commun des hommes"
+msgstr ""
+
+#: Gaffiot/thema2/aedificium/:41
+msgid "édifice"
+msgstr ""
+
+#: Gaffiot/thema2/aeuum/:42
+msgid "époque, durée, âge"
+msgstr ""
+
+#: Gaffiot/thema2/argumentum/:43
+msgid "argument, preuve, matière, sujet"
+msgstr ""
+
+#: Gaffiot/thema2/aruum/:44
+msgid "terre labourée"
+msgstr ""
+
+#: Gaffiot/thema2/aurum/:45
+msgid "or"
+msgstr ""
+
+#: Gaffiot/thema2/auxilium/:46
+msgid "aide, secours"
+msgstr ""
+
+#: Gaffiot/thema2/bellum/:47
+msgid "guerre"
+msgstr ""
+
+#: Gaffiot/thema2/beneficium/:48
+msgid "bienfait, faveur"
+msgstr ""
+
+#: Gaffiot/thema2/caelum/:49
+msgid "ciel, climat"
+msgstr ""
+
+#: Gaffiot/thema2/castellum/:50
+msgid "redoute, fortin"
+msgstr ""
+
+#: Gaffiot/thema2/collum/:51
+msgid "cou"
+msgstr ""
+
+#: Gaffiot/thema2/consilium/:52
+msgid "délibération, décision, conseil, plan"
+msgstr ""
+
+#: Gaffiot/thema2/dictum/:53
+msgid "chose dite, promesse, proverbe"
+msgstr ""
+
+#: Gaffiot/thema2/donum/:54
+msgid "présent, cadeau"
+msgstr ""
+
+#: Gaffiot/thema2/dubium/:55
+msgid "doute"
+msgstr ""
+
+#: Gaffiot/thema2/exemplum/:56
+msgid "exemple"
+msgstr ""
+
+#: Gaffiot/thema2/exilium/:57 Gaffiot/thema2/exsilium/:58
+msgid "exil"
+msgstr ""
+
+#: Gaffiot/thema2/factum/:59
+msgid "fait, action, travail, ouvrage"
+msgstr ""
+
+#: Gaffiot/thema2/fatum/:60
+msgid "prédiction, destin, fatalité, destinée"
+msgstr ""
+
+#: Gaffiot/thema2/ferrum/:61
+msgid "fer, outil ou arme de fer"
+msgstr ""
+
+#: Gaffiot/thema2/forum/:62
+msgid "marché, forum"
+msgstr ""
+
+#: Gaffiot/thema2/fretum/:63
+msgid "détroit, mer, flots"
+msgstr ""
+
+#: Gaffiot/thema2/frumentum/:64
+msgid "blé"
+msgstr ""
+
+#: Gaffiot/thema2/gaudium/:65
+msgid "contentement, satisfaction, joie"
+msgstr ""
+
+#: Gaffiot/thema2/impedimentum/:66
+msgid "obstacle ; au pl. : bagages"
+msgstr ""
+
+#: Gaffiot/thema2/imperium/:67
+msgid "pouvoir absolu"
+msgstr ""
+
+#: Gaffiot/thema2/ingenium/:68
+msgid "qualités innées, caractère, esprit, intelligence"
+msgstr ""
+
+#: Gaffiot/thema2/initium/:69
+msgid "début, commencement"
+msgstr ""
+
+#: Gaffiot/thema2/interuallum/:70
+msgid "intervalle, distance"
+msgstr ""
+
+#: Gaffiot/thema2/iudicium/:71
+msgid "jugement, décision"
+msgstr ""
+
+#: Gaffiot/thema2/iugum/:72
+msgid "joug, attelage, chaîne de montagnes, cime, hauteur"
+msgstr ""
+
+#: Gaffiot/thema2/malum/:73
+msgid "pomme"
+msgstr ""
+
+#: Gaffiot/thema2/membrum/:74
+msgid "i, n. (généralement au plur] : membre, organe"
+msgstr ""
+
+#: Gaffiot/thema2/negotium/:75
+msgid "occupation, travail, affaire"
+msgstr ""
+
+#: Gaffiot/thema2/odium/:76
+msgid "haine"
+msgstr ""
+
+#: Gaffiot/thema2/officium/:77
+msgid "fonction, devoir, obligation morale"
+msgstr ""
+
+#: Gaffiot/thema2/otium/:78
+msgid "loisir, calme, repos"
+msgstr ""
+
+#: Gaffiot/thema2/pactum/:79
+msgid "pacte, convention, manière"
+msgstr ""
+
+#: Gaffiot/thema2/periculum/:80
+msgid "danger, essai, expérience"
+msgstr ""
+
+#: Gaffiot/thema2/pomum/:81
+msgid "fruit"
+msgstr ""
+
+#: Gaffiot/thema2/praeceptum/:82
+msgid "précepte, règle, leçon"
+msgstr ""
+
+#: Gaffiot/thema2/praemium/:83
+msgid "récompense"
+msgstr ""
+
+#: Gaffiot/thema2/praesidium/:84
+msgid "garde, garnison, protection"
+msgstr ""
+
+#: Gaffiot/thema2/pretium/:85
+msgid "prix, valeur, récompense, salaire"
+msgstr ""
+
+#: Gaffiot/thema2/principium/:86
+msgid "commencement, origine"
+msgstr ""
+
+#: Gaffiot/thema2/proelium/:87
+msgid "combat"
+msgstr ""
+
+#: Gaffiot/thema2/remedium/:88
+msgid "remède (+ gén : contre]"
+msgstr ""
+
+#: Gaffiot/thema2/saeculum/:89
+msgid "génération, époque, siècle"
+msgstr ""
+
+#: Gaffiot/thema2/saxum/:90
+msgid "pierre, rocher, roche"
+msgstr ""
+
+#: Gaffiot/thema2/seruitium/:91
+msgid "servitude, esclavage"
+msgstr ""
+
+#: Gaffiot/thema2/signum/:92
+msgid "signe, enseigne, oeuvre d'art"
+msgstr ""
+
+#: Gaffiot/thema2/spatium/:93
+msgid "vaste étendue, espace (lieu ou temps]"
+msgstr ""
+
+#: Gaffiot/thema2/studium/:94
+msgid "ardeur, affection, intérêt, passion, étude"
+msgstr ""
+
+#: Gaffiot/thema2/supplicium/:95
+msgid "supplice"
+msgstr ""
+
+#: Gaffiot/thema2/tectum/:96
+msgid "toit, maison"
+msgstr ""
+
+#: Gaffiot/thema2/telum/:97
+msgid "trait (javelot ou flèche]"
+msgstr ""
+
+#: Gaffiot/thema2/templum/:98
+msgid "temple"
+msgstr ""
+
+#: Gaffiot/thema2/tergum/:99
+msgid "dos"
+msgstr ""
+
+#: Gaffiot/thema2/tormentum/:100
+msgid "(intrument de] torture"
+msgstr ""
+
+#: Gaffiot/thema2/uallum/:101
+msgid "palissade, retranchement"
+msgstr ""
+
+#: Gaffiot/thema2/uelum/:102
+msgid "voile"
+msgstr ""
+
+#: Gaffiot/thema2/uerbum/:103
+msgid "mot, parole"
+msgstr ""
+
+#: Gaffiot/thema2/uestigium/:104
+msgid "trace de pas, trace"
+msgstr ""
+
+#: Gaffiot/thema2/uinculum/:105
+msgid "lien, chaîne"
+msgstr ""
+
+#: Gaffiot/thema2/uinum/:106
+msgid "vin"
+msgstr ""
+
+#: Gaffiot/thema2/uitium/:107
+msgid "vice, défaut"
+msgstr ""
+
+#: Gaffiot/thema2/uotum/:108
+msgid "voeu, offrande"
+msgstr ""
 
 #~ msgid "Sommaire"
 #~ msgstr "Резюме"
