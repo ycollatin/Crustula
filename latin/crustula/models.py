@@ -13,6 +13,7 @@ class Worksheet(models.Model):
     def __str__(self):
         return self.title
 
+
 class Exercise(models.Model):
     title = models.CharField(max_length=140)
     summary = models.TextField(blank=True)
@@ -48,9 +49,19 @@ class Gaffiot(models.Model):
     """
     comment = models.CharField(max_length=20)
     latine  = models.CharField(max_length=255)
-    galle   = models.CharField(max_length=255)
+    gallice = models.CharField(max_length=255)
 
     def __str__(self):
         return f"{self.latine} : {self.galle}"
 
+    @staticmethod
+    def traduction(comment, gettext):
+        """
+        produit une liste d'objets [{"latine": ..., "gallice": ...}, ...]
+        dont les items "gallice" sont traduits avec la fonction gettext
+        """
+        return [
+            {"latine": gaf.latine, "gallice": gettext(gaf.gallice)} for
+            gaf in Gaffiot.objects.filter(comment=comment)
+        ]
     
