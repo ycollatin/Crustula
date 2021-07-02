@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-02 15:44+0000\n"
+"POT-Creation-Date: 2021-07-02 16:39+0000\n"
 "PO-Revision-Date: 2021-06-29 23:30+0200\n"
 "Last-Translator: Nikolay Alexandrov <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -632,7 +632,7 @@ msgid "pomme"
 msgstr ""
 
 #: Gaffiot/thema2/membrum/:74
-msgid "i, n. (généralement au plur] : membre, organe"
+msgid "i, n. (généralement au plur) : membre, organe"
 msgstr ""
 
 #: Gaffiot/thema2/negotium/:75
@@ -688,7 +688,7 @@ msgid "combat"
 msgstr ""
 
 #: Gaffiot/thema2/remedium/:88
-msgid "remède (+ gén : contre]"
+msgid "remède (+ gén : contre)"
 msgstr ""
 
 #: Gaffiot/thema2/saeculum/:89
@@ -708,7 +708,7 @@ msgid "signe, enseigne, oeuvre d'art"
 msgstr ""
 
 #: Gaffiot/thema2/spatium/:93
-msgid "vaste étendue, espace (lieu ou temps]"
+msgid "vaste étendue, espace (lieu ou temps)"
 msgstr ""
 
 #: Gaffiot/thema2/studium/:94
@@ -724,7 +724,7 @@ msgid "toit, maison"
 msgstr ""
 
 #: Gaffiot/thema2/telum/:97
-msgid "trait (javelot ou flèche]"
+msgid "trait (javelot ou flèche)"
 msgstr ""
 
 #: Gaffiot/thema2/templum/:98
@@ -736,7 +736,7 @@ msgid "dos"
 msgstr ""
 
 #: Gaffiot/thema2/tormentum/:100
-msgid "(intrument de] torture"
+msgid "(intrument de) torture"
 msgstr ""
 
 #: Gaffiot/thema2/uallum/:101

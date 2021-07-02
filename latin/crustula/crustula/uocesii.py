@@ -24,7 +24,6 @@ from crustula.models import Gaffiot
 
 def index(request):
     preferred_language(request)
-    
     return render(request,'crustula/uocesii.html', context={
-        "gaffiot" : Gaffiot.objects.filter(comment="thema2"),
+        "gaffiot" : Gaffiot.traduction(comment="thema2", gettext = _),
     })
