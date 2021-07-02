@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-02 16:39+0000\n"
-"PO-Revision-Date: 2021-06-29 23:30+0200\n"
+"POT-Creation-Date: 2021-07-02 16:56+0000\n"
+"PO-Revision-Date: 2021-06-30 01:11+0300\n"
 "Last-Translator: Nikolay Alexandrov <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -222,9 +222,10 @@ msgstr "Верно!"
 msgid "Faux. Tu as répondu"
 msgstr "Ошибка. Вы ответили"
 
+# To make translation shorter a bit I'd suppose instead of "следовательно" use a word "значит" or "итак".
 #: crustula/crustula/gal.py:183
 msgid "En latin, ce mot serait donc"
-msgstr "Следовательно, на латыни это слово будет"
+msgstr "Итак, на латыни это слово будет"
 
 #: crustula/crustula/sov.py:39
 msgid "Aemilium"
