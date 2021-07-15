@@ -3,7 +3,7 @@ from django.core.management.utils import (
     find_command, handle_extensions, popen_wrapper,
 )
 from crustula.models import Gaffiot
-import os
+import os,re
 
 class Command(makemessages.Command):
     xgettext_options = makemessages.Command.xgettext_options + ['--keyword=N_']
@@ -18,6 +18,9 @@ class Command(makemessages.Command):
         file_list = self.find_files(".")
         self.remove_potfiles()
         self.process_files(file_list)
+        # POT-Creation-Date
+        pcd = re.compile(r'"POT-Creation-Date:.*"')
+        fixed_date = 'POT-Creation-Date: 2021-07-02 16:56+0000'
         potfiles = []
         for path in self.locale_paths:
             potfile = os.path.join(path, '%s.pot' % self.domain)
@@ -32,6 +35,7 @@ class Command(makemessages.Command):
                 elif self.verbosity > 0:
                     self.stdout.write(errors)
             msgs = makemessages.normalize_eols(msgs)
+            msgs = pcd.sub('"'+fixed_date+'\\\\n"', msgs)
             with open(potfile, 'w', encoding='utf-8') as fp:
                 fp.write(msgs)
             ### ici on ajoute des lignes dans le fichier potfile !!!!
