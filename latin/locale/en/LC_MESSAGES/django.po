@@ -1965,3 +1965,185 @@ msgstr "wound"
 #: Gaffiot/thema3/uxor/:392
 msgid "épouse, femme"
 msgstr "wife"
+
+#: Gaffiot/thema4/aditus/:393
+msgid "accès"
+msgstr ""
+
+#: Gaffiot/thema4/aduentus/:394
+msgid "arrivée, venue"
+msgstr ""
+
+#: Gaffiot/thema4/aestus/:395
+msgid "chaleur, bouillonnement, vagues, marée"
+msgstr ""
+
+#: Gaffiot/thema4/affectus/:396
+msgid "disposition de l'âme, sentiment"
+msgstr ""
+
+#: Gaffiot/thema4/casus/:397
+msgid "hasard, malheur, chute"
+msgstr ""
+
+#: Gaffiot/thema4/conspectus/:398
+msgid "vue, regard"
+msgstr ""
+
+#: Gaffiot/thema4/consulatus/:399
+#, fuzzy
+#| msgid "consul"
+msgid "consulat"
+msgstr "consul"
+
+#: Gaffiot/thema4/cornu/:400
+msgid "corne, aile d'une ligne de bataille. "
+msgstr ""
+
+#: Gaffiot/thema4/cultus/:401
+msgid "culture du sol, culture, éducation, culte, égards, moeurs, parure"
+msgstr ""
+
+#: Gaffiot/thema4/currus/:402
+msgid "char"
+msgstr ""
+
+#: Gaffiot/thema4/cursus/:403
+msgid "course, parcours, trajet"
+msgstr ""
+
+#: Gaffiot/thema4/domus/:404
+#, fuzzy
+#| msgid "toit, maison"
+msgid "maison"
+msgstr "roof, home"
+
+#: Gaffiot/thema4/equitatus/:405
+msgid "cavalerie"
+msgstr ""
+
+#: Gaffiot/thema4/exercitus/:406
+msgid "armée"
+msgstr ""
+
+#: Gaffiot/thema4/exitus/:407
+msgid "sortie, issue, résultat, aboutissement, mort, fin, conclusion"
+msgstr ""
+
+#: Gaffiot/thema4/fructus/:408
+msgid "droit qu'on a sur qqch, usufruit, fruit, récompense, résultat"
+msgstr ""
+
+#: Gaffiot/thema4/genu/:409
+msgid "genou"
+msgstr ""
+
+#: Gaffiot/thema4/gradus/:410
+#, fuzzy
+#| msgid "dignité, considération, rang"
+msgid "degré, échelon, rang"
+msgstr "dignity, consideration, rank"
+
+#: Gaffiot/thema4/habitus/:411
+msgid "manière d'être, apparence"
+msgstr ""
+
+#: Gaffiot/thema4/ictus/:412
+msgid "coup, choc"
+msgstr ""
+
+#: Gaffiot/thema4/impetus/:413
+msgid "mouvement en avant, élan, assaut"
+msgstr ""
+
+#: Gaffiot/thema4/magistratus/:414
+msgid "charge, magistrature, fonction publique"
+msgstr ""
+
+#: Gaffiot/thema4/manus/:415
+msgid "main, petite troupe"
+msgstr ""
+
+#: Gaffiot/thema4/metus/:416
+#, fuzzy
+#| msgid "clameur, cri"
+msgid "peur, crainte"
+msgstr "clamor, cry"
+
+#: Gaffiot/thema4/motus/:417
+msgid "mouvement, trouble, révolte, émotion, excitation, secousse"
+msgstr ""
+
+#: Gaffiot/thema4/paratus/:418
+msgid "préparation, apprêt, préparatif"
+msgstr ""
+
+#: Gaffiot/thema4/passus/:419
+msgid "pas (1, 479 m.)"
+msgstr ""
+
+#: Gaffiot/thema4/porticus/:420
+msgid "portique"
+msgstr ""
+
+#: Gaffiot/thema4/portus/:421
+msgid "port"
+msgstr ""
+
+#: Gaffiot/thema4/senatus/:422
+msgid "sénat"
+msgstr ""
+
+#: Gaffiot/thema4/sensus/:423
+msgid "sens, sentiments"
+msgstr ""
+
+#: Gaffiot/thema4/sinus/:424
+msgid "sein, courbure, golfe, anse"
+msgstr ""
+
+#: Gaffiot/thema4/spiritus/:425
+msgid "souffle, vie, inspiration"
+msgstr ""
+
+#: Gaffiot/thema4/uersus/:426
+msgid "sillon, ligne, vers"
+msgstr ""
+
+#: Gaffiot/thema4/usus/:427
+#, fuzzy
+#| msgid "utilité"
+msgid "usage, utilité"
+msgstr "usefulness"
+
+#: Gaffiot/thema4/uultus/:428
+msgid "regard, visage"
+msgstr ""
+
+#: Gaffiot/thema4/acies/:429
+msgid "ligne de bataille; regard"
+msgstr ""
+
+#: Gaffiot/thema4/dies/:430
+msgid "jour"
+msgstr ""
+
+#: Gaffiot/thema4/facies/:431
+msgid "forme extérieure, apparence, figure"
+msgstr ""
+
+#: Gaffiot/thema4/fides/:432
+msgid "confiance, loyauté"
+msgstr ""
+
+#: Gaffiot/thema4/res/:433
+msgid "chose, événement, circonstance, affaire judiciaire;  biens"
+msgstr ""
+
+#: Gaffiot/thema4/species/:434
+msgid "vision sans réalité, apparence, aspect, prétexte"
+msgstr ""
+
+#: Gaffiot/thema4/spes/:435
+msgid "espoir"
+msgstr ""
