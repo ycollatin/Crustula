@@ -23,9 +23,6 @@ from .utils.incrementum import *
 import random
 from crustula.models import Gaffiot
 
-def facQ(gallice):
-    return f"Quomodo latine dicitur : {gallice} ?"
-
 def index(request):
     preferred_language(request)
     cognita = request.POST.get("cognita", "0")

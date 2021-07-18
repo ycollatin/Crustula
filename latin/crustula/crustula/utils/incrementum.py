@@ -103,7 +103,6 @@ class Lexicum:
         listeN = self.listeN
         if listeN and (not listeC or random.randint(0,7) >= 3):
             liste = listeN
-            print("grrrr taking from listeN", listeN) 
         return random.choice(liste)
 
     def perfectum(self):
@@ -159,4 +158,5 @@ class Lexicum:
                 return data["latine"]
         return ""
     
-            
+def facQ(gallice):
+    return f"Quomodo latine dicitur : {gallice} ?"
