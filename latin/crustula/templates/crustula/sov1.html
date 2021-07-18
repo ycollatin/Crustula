@@ -1,46 +1,39 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="lt" xmlns="http://www.w3.org/1999/xhtml" >
-  <head>
-    <title>CRVSTVLA - SOV</title>
-    <link rel="stylesheet" href="{% static 'crustula/crustula.css' %}" type="text/css">
-    <link rel="icon" href="{% static 'crustula/favicon.ico' %}">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Crustula, exercices latins">
-    <meta name="keywords" content="Latin, latin, exercice, exercices, exercise, exercises, Crustula, crustula">
-  </head>
-  <body>
-    <p class="titre">
-    SENTENTIAE SOV DICTAE (bis)
-    </p>
-    {% if schema %}
-    <p>
-      Solutio : « {{ sol}} »<br>
-      {% if recte %}
-      <div class=\"juste\">RECTE !</div>
-      {% else %}
-      <div class=\"faux\"> Errauisti. Respondisti « {{ resp }} »</div>
-      {% endif %}
-      {{ consec }} prius {{ prius }}.
-    </p>
-    {% endif %}
-    <p class="question">
-      {{ sententia }}
-    </p>
-    <form method="post">
-      {% csrf_token %}
-      <p class="question">
-	<input type="text" size="45" name="resp" />
-	<input type="submit" value=" Num recte dixi ?" />
-	<input type="hidden" name="meta" value="{{ meta }}" />
-	<input type="hidden" name="schema" value="{{ phrase_schema }}" />
-      </p>
-    </form>
-    <div class="conseil">
-      {{ help1 }} <br>
-      {{ help2 }} <em>diligo</em>.
-    </div>
-    <p class="redi"><a href='./'>reditus</a> <a href="gpl.html" target="gpl">Licentia GPL</a></p>
-  </body>
-</html>
+{% extends "crustula/base-crustula.html" %}
 
+{% block subtitle %}
+SOV I
+{% endblock %}
+
+{% block main_content %}
+<p class="titre">
+  SENTENTIAE SOV DICTAE (bis)
+</p>
+{% if schema %}
+<p>
+  Solutio : « {{ sol}} »<br>
+  {% if recte %}
+  <div class=\"juste\">RECTE !</div>
+  {% else %}
+  <div class=\"faux\"> Errauisti. Respondisti « {{ resp }} »</div>
+  {% endif %}
+  {{ consec }} prius {{ prius }}.
+</p>
+{% endif %}
+<p class="question">
+  {{ sententia }}
+</p>
+<form method="post">
+  {% csrf_token %}
+  <p class="question">
+    <input type="text" size="45" name="resp" />
+    <input type="submit" value=" Num recte dixi ?" />
+    <input type="hidden" name="meta" value="{{ meta }}" />
+    <input type="hidden" name="schema" value="{{ phrase_schema }}" />
+  </p>
+</form>
+<div class="conseil">
+  {{ help1 }} <br>
+  {{ help2 }} <em>diligo</em>.
+</div>
+
+{% endblock %}
