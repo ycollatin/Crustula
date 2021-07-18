@@ -1,0 +1,24 @@
+{% extends "crustula/base.html" %}
+{% load static %}
+
+{% block style_js %}
+<link rel="stylesheet" href="{% static 'crustula/crustula.css' %}"
+      type="text/css" />
+<link rel="icon" href="{% static 'crustula/favicon.ico' %}"/>
+<script src="{% static 'crustula/crustula.js' %}"></script>
+{% endblock %}
+
+{% block i18n %}
+<!-- pas de drapeaux pour choisir la langue ici -->
+{% endblock %}
+
+{% block page_header %}
+<!-- pas de citation latine ici -->
+{% endblock %}
+
+{% block page_footer %}
+<p class="redi">
+  <a href='./'>reditus</a>
+  <a href="gpl.html" target="gpl">Licentia GPL</a>
+</p>
+{% endblock %}
