@@ -49,8 +49,9 @@ class Gaffiot(models.Model):
     """
     comment = models.CharField(max_length=20)
     latine  = models.CharField(max_length=255)
-    gallice = models.CharField(max_length=255)
-
+    gallice = models.CharField(max_length=255)  
+    genitif = models.CharField(max_length=255, default="")
+    genre = models.CharField(max_length=255, default="m")
     def __str__(self):
         return f"{self.latine} : {self.galle}"
 
