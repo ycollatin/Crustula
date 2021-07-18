@@ -19,11 +19,49 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from .utils.incrementum import *
 import random
 from crustula.models import Gaffiot
 
+def facQ(gallice):
+    return f"Quomodo latine dicitur : {gallice} ?"
+
 def index(request):
     preferred_language(request)
+    cognita = request.POST.get("cognita", "0")
+    lex = Lexicum("thema2", cognita)
+    gal = request.POST.get("priorQ", "")
+    r = request.POST.get("r", "")
+    s = ""
+    recte = False
+    resp = ""
+    priorQ = ""
+    if gal:
+        priorQ = facQ(gal)
+    if r:
+       resp = r
+       r = r.strip().lower()
+       s = lex.solutio(gal)
+       recte = s == r
+       if recte:
+           lex.succes(gal)
+       else:
+           lex.echec(gal)
+    facta = lex.bilan
+    discenda = len(lex.bini) - facta
+    linea = lex.Qincr()
+    latine = linea["latine"]
+    gallice = _(linea["gallice"])
+    quaestio = facQ(gallice)
     return render(request,'crustula/uocesii.html', context={
         "gaffiot" : Gaffiot.traduction(comment="thema2", gettext = _),
+        "priorQ": priorQ,
+        "s": s,
+        "recte": recte,
+        "resp": resp,
+        "facta": facta,
+        "discenda": discenda,
+        "quaestio": quaestio,
+        "gallice": gallice,
+        "cog": lex.cognita_bin,
     })
