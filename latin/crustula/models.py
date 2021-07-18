@@ -62,7 +62,8 @@ class Gaffiot(models.Model):
         dont les items "gallice" sont traduits avec la fonction gettext
         """
         return [
-            {"latine": gaf.latine, "gallice": gettext(gaf.gallice)} for
+            {"latine": gaf.latine, "gallice": gettext(gaf.gallice),
+             "genitif": gaf.genitif, "genre": gaf.genre} for
             gaf in Gaffiot.objects.filter(comment=comment)
         ]
     
