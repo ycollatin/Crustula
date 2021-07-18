@@ -19,14 +19,43 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from .utils.incrementum import *
 import random
 
 def index(request):
     preferred_language(request)
-    #####################################
-    #                                   #
-    # as many program lines as you want #
-    #                                   #
-    #####################################
+    cognita = request.POST.get("cognita", "0")
+    lex = Lexicum("uoc3", cognita)
+    gal = request.POST.get("priorQ", "")
+    r = request.POST.get("r", "")
+    s = ""
+    recte = False
+    resp = ""
+    priorQ = ""
+    if gal:
+        priorQ = facQ(gal)
+    if r:
+       resp = r
+       s, recte = lex.correct2(r, gal)
+       if recte:
+           lex.succes(gal)
+       else:
+           lex.echec(gal)
+    facta = lex.bilan
+    discenda = len(lex.bini) - facta
+    linea = lex.Qincr()
+    latine = linea["latine"]
+    gallice = _(linea["gallice"])
+    quaestio = facQ(gallice)
     return render(request,'crustula/uocesiiib.html', context={
+        "priorQ": priorQ,
+        "s": s,
+        "recte": recte,
+        "resp": resp,
+        "facta": facta,
+        "discenda": discenda,
+        "quaestio": quaestio,
+        "gallice": gallice,
+        "cog": lex.cognita_bin,
+        "conseil": _('donner le nom, son génitif et son genre (m, f, n ou mf)'),
     })

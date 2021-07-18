@@ -157,6 +157,27 @@ class Lexicum:
             if data["gallice"] == gal:
                 return data["latine"]
         return ""
+
+    def correct(self, r, gal):
+        r = r.strip().lower()
+        s = self.solutio2(gal)
+        return s, r==s
     
+    def solutio2(self, gal):
+        """
+        renvoie une solution : nominatif, génitif, genre
+        """
+        for data in self.bini:
+            if data["gallice"] == gal:
+                return ",".join((data["latine"], data["genitif"], data["genre"]))
+        return ""
+
+    def correct2(self, r, gal):
+        r = ",".join([i.lower().strip() for i in r.split(",")])
+        s = self.solutio2(gal)
+        print("GRRRRR, r,s = ", r, s)
+        return s, r==s
+    
+
 def facQ(gallice):
     return f"Quomodo latine dicitur : {gallice} ?"
