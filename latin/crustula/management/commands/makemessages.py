@@ -1,7 +1,9 @@
 from django.core.management.commands import makemessages
 from django.core.management.utils import (
     find_command, handle_extensions, popen_wrapper,
+    CommandError
 )
+from django.db.models import Q
 from crustula.models import Gaffiot
 import os,re
 
@@ -29,7 +31,9 @@ class Command(makemessages.Command):
             args = ['msguniq'] + self.msguniq_options + [potfile]
             msgs, errors, status = popen_wrapper(args)
             if errors:
+                STATUS_OK = 0
                 if status != STATUS_OK:
+                    # os.system(f"cp {potfile} /tmp")
                     raise CommandError(
                         "errors happened while running msguniq\n%s" % errors)
                 elif self.verbosity > 0:
@@ -47,7 +51,7 @@ class Command(makemessages.Command):
                     comments.sort()
                     i = 1
                     for c in comments:
-                        for g in Gaffiot.objects.filter(comment=c):
+                        for g in Gaffiot.objects.filter(comment=c).filter(~Q(gallice="")):
                             outfile.write(f"\n#: Gaffiot/{c}/{g.latine}/:{i}\n")
                             i+=1
                             protected = str(g.gallice).replace('"','\\"')

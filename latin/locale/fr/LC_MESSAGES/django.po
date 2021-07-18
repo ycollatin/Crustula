@@ -339,1742 +339,1750 @@ msgstr ""
 msgid "pour « aimer », utilise le verbe"
 msgstr ""
 
-#: crustula/crustula/uocesiiib.py:62
+#: crustula/crustula/uocesiiib.py:60
 msgid "donner le nom, son génitif et son genre (m, f, n ou mf)"
 msgstr ""
 
-#: Gaffiot/thema/agricola/:1
+#: Gaffiot/radices3/os/:1
+msgid "bouche, visage"
+msgstr ""
+
+#: Gaffiot/radices3/os/:2
+msgid "l'os"
+msgstr ""
+
+#: Gaffiot/thema/agricola/:3
 msgid "paysan"
 msgstr ""
 
-#: Gaffiot/thema/amicitia/:2
+#: Gaffiot/thema/amicitia/:4
 msgid "amitié"
 msgstr ""
 
-#: Gaffiot/thema/anima/:3
+#: Gaffiot/thema/anima/:5
 msgid "souffle, vie, souffle vital"
 msgstr ""
 
-#: Gaffiot/thema/aqua/:4
+#: Gaffiot/thema/aqua/:6
 msgid "eau"
 msgstr ""
 
-#: Gaffiot/thema/ara/:5
+#: Gaffiot/thema/ara/:7
 msgid "autel"
 msgstr ""
 
-#: Gaffiot/thema/arena/:6
+#: Gaffiot/thema/arena/:8
 msgid "sable"
 msgstr ""
 
-#: Gaffiot/thema/audacia/:7
+#: Gaffiot/thema/audacia/:9
 msgid "audace"
 msgstr ""
 
-#: Gaffiot/thema/auaritia/:8
+#: Gaffiot/thema/auaritia/:10
 msgid "avidité, cupidité, avarice"
 msgstr ""
 
-#: Gaffiot/thema/aura/:9
+#: Gaffiot/thema/aura/:11
 msgid "brise, vent léger"
 msgstr ""
 
-#: Gaffiot/thema/beneuolentia/:10
+#: Gaffiot/thema/beneuolentia/:12
 msgid "bienveillance"
 msgstr ""
 
-#: Gaffiot/thema/causa/:11
+#: Gaffiot/thema/causa/:13
 msgid "cause, procès"
 msgstr ""
 
-#: Gaffiot/thema/cena/:12
+#: Gaffiot/thema/cena/:14
 msgid "dîner, repas du soir"
 msgstr ""
 
-#: Gaffiot/thema/clementia/:13
+#: Gaffiot/thema/clementia/:15
 msgid "clémence"
 msgstr ""
 
-#: Gaffiot/thema/columna/:14
+#: Gaffiot/thema/columna/:16
 msgid "colonne"
 msgstr ""
 
-#: Gaffiot/thema/coma/:15
+#: Gaffiot/thema/coma/:17
 msgid "chevelure, cheveux"
 msgstr ""
 
-#: Gaffiot/thema/concordia/:16
+#: Gaffiot/thema/concordia/:18
 msgid "concorde, entente"
 msgstr ""
 
-#: Gaffiot/thema/copia/:17
+#: Gaffiot/thema/copia/:19
 msgid "abondance ; pl. richesses, troupes"
 msgstr ""
 
-#: Gaffiot/thema/corona/:18
+#: Gaffiot/thema/corona/:20
 msgid "couronne, badauds"
 msgstr ""
 
-#: Gaffiot/thema/culpa/:19
+#: Gaffiot/thema/culpa/:21
 msgid "faute"
 msgstr ""
 
-#: Gaffiot/thema/cura/:20
+#: Gaffiot/thema/cura/:22
 msgid "soin, souci"
 msgstr ""
 
-#: Gaffiot/thema/dea/:21
+#: Gaffiot/thema/dea/:23
 msgid "déesse"
 msgstr ""
 
-#: Gaffiot/thema/dextra/:22
+#: Gaffiot/thema/dextra/:24
 msgid "main droite"
 msgstr ""
 
-#: Gaffiot/thema/diligentia/:23
+#: Gaffiot/thema/diligentia/:25
 msgid "empressement, zêle, soin scrupuleux"
 msgstr ""
 
-#: Gaffiot/thema/disciplina/:24
+#: Gaffiot/thema/disciplina/:26
 msgid "enseignement"
 msgstr ""
 
-#: Gaffiot/thema/discordia/:25
+#: Gaffiot/thema/discordia/:27
 msgid "discorde"
 msgstr ""
 
-#: Gaffiot/thema/domina/:26
+#: Gaffiot/thema/domina/:28
 msgid "maîtresse"
 msgstr ""
 
-#: Gaffiot/thema/eloquentia/:27
+#: Gaffiot/thema/eloquentia/:29
 msgid "éloquence"
 msgstr ""
 
-#: Gaffiot/thema/epistula/:28
+#: Gaffiot/thema/epistula/:30
 msgid "lettre"
 msgstr ""
 
-#: Gaffiot/thema/fabula/:29
+#: Gaffiot/thema/fabula/:31
 msgid "mythe, fable, pièce de théâtre, histoire"
 msgstr ""
 
-#: Gaffiot/thema/fama/:30
+#: Gaffiot/thema/fama/:32
 msgid "nouvelle, rumeur, réputation"
 msgstr ""
 
-#: Gaffiot/thema/familia/:31
+#: Gaffiot/thema/familia/:33
 msgid "famille, maisonnée"
 msgstr ""
 
-#: Gaffiot/thema/flamma/:32 Gaffiot/thema/flamma/:35
+#: Gaffiot/thema/flamma/:34 Gaffiot/thema/flamma/:37
 msgid "flamme"
 msgstr ""
 
-#: Gaffiot/thema/fera/:33
+#: Gaffiot/thema/fera/:35
 msgid "bête sauvage"
 msgstr ""
 
-#: Gaffiot/thema/filia/:34
+#: Gaffiot/thema/filia/:36
 msgid "fille, par rapport à ses parents"
 msgstr ""
 
-#: Gaffiot/thema/forma/:36
+#: Gaffiot/thema/forma/:38
 msgid "forme, beauté"
 msgstr ""
 
-#: Gaffiot/thema/fortuna/:37
+#: Gaffiot/thema/fortuna/:39
 msgid "fortune, chance"
 msgstr ""
 
-#: Gaffiot/thema/fuga/:38
+#: Gaffiot/thema/fuga/:40
 msgid "fuite"
 msgstr ""
 
-#: Gaffiot/thema/gloria/:39
+#: Gaffiot/thema/gloria/:41
 msgid "gloire"
 msgstr ""
 
-#: Gaffiot/thema/gratia/:40
+#: Gaffiot/thema/gratia/:42
 msgid "grâce, reconnaissance"
 msgstr ""
 
-#: Gaffiot/thema/herba/:41
+#: Gaffiot/thema/herba/:43
 msgid "herbe"
 msgstr ""
 
-#: Gaffiot/thema/hora/:42
+#: Gaffiot/thema/hora/:44
 msgid "heure"
 msgstr ""
 
-#: Gaffiot/thema/incola/:43
+#: Gaffiot/thema/incola/:45
 msgid "habitant"
 msgstr ""
 
-#: Gaffiot/thema/industria/:44
+#: Gaffiot/thema/industria/:46
 msgid "activité"
 msgstr ""
 
-#: Gaffiot/thema/iniuria/:45
+#: Gaffiot/thema/iniuria/:47
 msgid "injustice, violation du droit"
 msgstr ""
 
-#: Gaffiot/thema/inopia/:46
+#: Gaffiot/thema/inopia/:48
 msgid "pauvreté, manque"
 msgstr ""
 
-#: Gaffiot/thema/insula/:47
+#: Gaffiot/thema/insula/:49
 msgid "île, immeuble à appartements"
 msgstr ""
 
-#: Gaffiot/thema/inuidia/:48
+#: Gaffiot/thema/inuidia/:50
 msgid "jalousie, envie, haine"
 msgstr ""
 
-#: Gaffiot/thema/ira/:49
+#: Gaffiot/thema/ira/:51
 msgid "colère"
 msgstr ""
 
-#: Gaffiot/thema/iustitia/:50
+#: Gaffiot/thema/iustitia/:52
 msgid "justice"
 msgstr ""
 
-#: Gaffiot/thema/lacrima/:51
+#: Gaffiot/thema/lacrima/:53
 msgid "larme"
 msgstr ""
 
-#: Gaffiot/thema/laetitia/:52
+#: Gaffiot/thema/laetitia/:54
 msgid "joie"
 msgstr ""
 
-#: Gaffiot/thema/licentia/:53
+#: Gaffiot/thema/licentia/:55
 msgid "liberté, pouvoir, licence"
 msgstr ""
 
-#: Gaffiot/thema/lingua/:54
+#: Gaffiot/thema/lingua/:56
 msgid "langue"
 msgstr ""
 
-#: Gaffiot/thema/littera/:55
+#: Gaffiot/thema/littera/:57
 msgid "lettre de l'alphabet"
 msgstr ""
 
-#: Gaffiot/thema/luna/:56
+#: Gaffiot/thema/luna/:58
 msgid "lune"
 msgstr ""
 
-#: Gaffiot/thema/materia/:57
+#: Gaffiot/thema/materia/:59
 msgid "matière, sujet, prétexte"
 msgstr ""
 
-#: Gaffiot/thema/memoria/:58
+#: Gaffiot/thema/memoria/:60
 msgid "mémoire, souvenir"
 msgstr ""
 
-#: Gaffiot/thema/mensa/:59
+#: Gaffiot/thema/mensa/:61
 msgid "table"
 msgstr ""
 
-#: Gaffiot/thema/militia/:60
+#: Gaffiot/thema/militia/:62
 msgid "service militaire"
 msgstr ""
 
-#: Gaffiot/thema/molestia/:61
+#: Gaffiot/thema/molestia/:63
 msgid "peine, chagrin, gêne"
 msgstr ""
 
-#: Gaffiot/thema/mora/:62
+#: Gaffiot/thema/mora/:64
 msgid "délai, retard, obstacle"
 msgstr ""
 
-#: Gaffiot/thema/natura/:63
+#: Gaffiot/thema/natura/:65
 msgid "nature"
 msgstr ""
 
-#: Gaffiot/thema/nauta/:64
+#: Gaffiot/thema/nauta/:66
 msgid "marin"
 msgstr ""
 
-#: Gaffiot/thema/opera/:65
+#: Gaffiot/thema/opera/:67
 msgid "travail, peine, effort"
 msgstr ""
 
-#: Gaffiot/thema/ora/:66
+#: Gaffiot/thema/ora/:68
 msgid "bord, limite, lisière, côte"
 msgstr ""
 
-#: Gaffiot/thema/patria/:67
+#: Gaffiot/thema/patria/:69
 msgid "patrie"
 msgstr ""
 
-#: Gaffiot/thema/pecunia/:68
+#: Gaffiot/thema/pecunia/:70
 msgid "argent"
 msgstr ""
 
-#: Gaffiot/thema/persona/:69
+#: Gaffiot/thema/persona/:71
 msgid "masque, rôle, caractère"
 msgstr ""
 
-#: Gaffiot/thema/philosophia/:70
+#: Gaffiot/thema/philosophia/:72
 msgid "philosophie"
 msgstr ""
 
-#: Gaffiot/thema/pirata/:71
+#: Gaffiot/thema/pirata/:73
 msgid "pirate"
 msgstr ""
 
-#: Gaffiot/thema/poena/:72
+#: Gaffiot/thema/poena/:74
 msgid "châtiment"
 msgstr ""
 
-#: Gaffiot/thema/poeta/:73
+#: Gaffiot/thema/poeta/:75
 msgid "poète"
 msgstr ""
 
-#: Gaffiot/thema/porta/:74
+#: Gaffiot/thema/porta/:76
 msgid "porte (d'une ville)"
 msgstr ""
 
-#: Gaffiot/thema/praeda/:75
+#: Gaffiot/thema/praeda/:77
 msgid "butin, dépouilles, proie"
 msgstr ""
 
-#: Gaffiot/thema/prouincia/:76
+#: Gaffiot/thema/prouincia/:78
 msgid "province"
 msgstr ""
 
-#: Gaffiot/thema/prudentia/:77
+#: Gaffiot/thema/prudentia/:79
 msgid "prévoyance, habileté, sagesse"
 msgstr ""
 
-#: Gaffiot/thema/puella/:78
+#: Gaffiot/thema/puella/:80
 msgid "jeune fille"
 msgstr ""
 
-#: Gaffiot/thema/pugna/:79
+#: Gaffiot/thema/pugna/:81
 msgid "bataille, combat"
 msgstr ""
 
-#: Gaffiot/thema/regina/:80
+#: Gaffiot/thema/regina/:82
 msgid "reine"
 msgstr ""
 
-#: Gaffiot/thema/respublica/:81
+#: Gaffiot/thema/respublica/:83
 msgid "état, politique"
 msgstr ""
 
-#: Gaffiot/thema/ripa/:82
+#: Gaffiot/thema/ripa/:84
 msgid "rive"
 msgstr ""
 
-#: Gaffiot/thema/sapientia/:83
+#: Gaffiot/thema/sapientia/:85
 msgid "sagesse, bon sens"
 msgstr ""
 
-#: Gaffiot/thema/saeuitia/:84
+#: Gaffiot/thema/saeuitia/:86
 msgid "cruauté"
 msgstr ""
 
-#: Gaffiot/thema/sententia/:85
+#: Gaffiot/thema/sententia/:87
 msgid "avis, opinion"
 msgstr ""
 
-#: Gaffiot/thema/silua/:86
+#: Gaffiot/thema/silua/:88
 msgid "forêt"
 msgstr ""
 
-#: Gaffiot/thema/superbia/:87
+#: Gaffiot/thema/superbia/:89
 msgid "orgueil, arrogance"
 msgstr ""
 
-#: Gaffiot/thema/temperantia/:88
+#: Gaffiot/thema/temperantia/:90
 msgid "modération, maîtrise de soi"
 msgstr ""
 
-#: Gaffiot/thema/terra/:89
+#: Gaffiot/thema/terra/:91
 msgid "terre"
 msgstr ""
 
-#: Gaffiot/thema/turba/:90
+#: Gaffiot/thema/turba/:92
 msgid "foule, désordre, trouble"
 msgstr ""
 
-#: Gaffiot/thema/uena/:91
+#: Gaffiot/thema/uena/:93
 msgid "veine"
 msgstr ""
 
-#: Gaffiot/thema/uenia/:92
+#: Gaffiot/thema/uenia/:94
 msgid "pardon"
 msgstr ""
 
-#: Gaffiot/thema/uia/:93
+#: Gaffiot/thema/uia/:95
 msgid "route, chemin, voyage"
 msgstr ""
 
-#: Gaffiot/thema/uictoria/:94
+#: Gaffiot/thema/uictoria/:96
 msgid "victoire"
 msgstr ""
 
-#: Gaffiot/thema/uita/:95
+#: Gaffiot/thema/uita/:97
 msgid "vie"
 msgstr ""
 
-#: Gaffiot/thema/umbra/:96
+#: Gaffiot/thema/umbra/:98
 msgid "ombre"
 msgstr ""
 
-#: Gaffiot/thema/unda/:97
+#: Gaffiot/thema/unda/:99
 msgid "onde, eau, flot"
 msgstr ""
 
-#: Gaffiot/thema2/amicus/:98
+#: Gaffiot/thema2/amicus/:100
 msgid "ami"
 msgstr ""
 
-#: Gaffiot/thema2/animus/:99
+#: Gaffiot/thema2/animus/:101
 msgid "coeur, fierté, courage, esprit"
 msgstr ""
 
-#: Gaffiot/thema2/annus/:100
+#: Gaffiot/thema2/annus/:102
 msgid "année"
 msgstr ""
 
-#: Gaffiot/thema2/campus/:101
+#: Gaffiot/thema2/campus/:103
 msgid "plaine, champ"
 msgstr ""
 
-#: Gaffiot/thema2/cibus/:102
+#: Gaffiot/thema2/cibus/:104
 msgid "nourriture"
 msgstr ""
 
-#: Gaffiot/thema2/deus/:103
+#: Gaffiot/thema2/deus/:105
 msgid "dieu"
 msgstr ""
 
-#: Gaffiot/thema2/digitus/:104
+#: Gaffiot/thema2/digitus/:106
 msgid "doigt"
 msgstr ""
 
-#: Gaffiot/thema2/dolus/:105
+#: Gaffiot/thema2/dolus/:107
 msgid "ruse, adresse"
 msgstr ""
 
-#: Gaffiot/thema2/dominus/:106
+#: Gaffiot/thema2/dominus/:108
 msgid "maître, seigneur"
 msgstr ""
 
-#: Gaffiot/thema2/equus/:107
+#: Gaffiot/thema2/equus/:109
 msgid "cheval"
 msgstr ""
 
-#: Gaffiot/thema2/filius/:108
+#: Gaffiot/thema2/filius/:110
 msgid "fils"
 msgstr ""
 
-#: Gaffiot/thema2/gladius/:109
+#: Gaffiot/thema2/gladius/:111
 msgid "glaive"
 msgstr ""
 
-#: Gaffiot/thema2/humerus/:110
+#: Gaffiot/thema2/humerus/:112
 msgid "épaule"
 msgstr ""
 
-#: Gaffiot/thema2/humus/:111
+#: Gaffiot/thema2/humus/:113
 msgid "sol, terre"
 msgstr ""
 
-#: Gaffiot/thema2/lacertus/:112
+#: Gaffiot/thema2/lacertus/:114
 msgid "bras ; pl. muscles"
 msgstr ""
 
-#: Gaffiot/thema2/lectus/:113
+#: Gaffiot/thema2/lectus/:115
 msgid "lit"
 msgstr ""
 
-#: Gaffiot/thema2/legatus/:114
+#: Gaffiot/thema2/legatus/:116
 msgid "ambassadeur, envoyé, légat"
 msgstr ""
 
-#: Gaffiot/thema2/locus/:115
+#: Gaffiot/thema2/locus/:117
 msgid "lieu, endroit - le pluriel est neutre -"
 msgstr ""
 
-#: Gaffiot/thema2/lucus/:116
+#: Gaffiot/thema2/lucus/:118
 msgid "bois sacré"
 msgstr ""
 
-#: Gaffiot/thema2/maritus/:117
+#: Gaffiot/thema2/maritus/:119
 msgid "mari"
 msgstr ""
 
-#: Gaffiot/thema2/modus/:118
+#: Gaffiot/thema2/modus/:120
 msgid "mesure, limite, manière"
 msgstr ""
 
-#: Gaffiot/thema2/morbus/:119
+#: Gaffiot/thema2/morbus/:121
 msgid "maladie"
 msgstr ""
 
-#: Gaffiot/thema2/mundus/:120
+#: Gaffiot/thema2/mundus/:122
 msgid "univers, monde"
 msgstr ""
 
-#: Gaffiot/thema2/murus/:121
+#: Gaffiot/thema2/murus/:123
 msgid "mur"
 msgstr ""
 
-#: Gaffiot/thema2/necessarius/:122
+#: Gaffiot/thema2/necessarius/:124
 msgid "ami intime, familier"
 msgstr ""
 
-#: Gaffiot/thema2/neruus/:123
+#: Gaffiot/thema2/neruus/:125
 msgid "nerf"
 msgstr ""
 
-#: Gaffiot/thema2/numerus/:124
+#: Gaffiot/thema2/numerus/:126
 msgid "nombre"
 msgstr ""
 
-#: Gaffiot/thema2/oculus/:125
+#: Gaffiot/thema2/oculus/:127
 msgid "oeil"
 msgstr ""
 
-#: Gaffiot/thema2/oppidum/:126
+#: Gaffiot/thema2/oppidum/:128
 msgid "place forte, ville"
 msgstr ""
 
-#: Gaffiot/thema2/philosophus/:127
+#: Gaffiot/thema2/philosophus/:129
 msgid "philosophe"
 msgstr ""
 
-#: Gaffiot/thema2/populus/:128
+#: Gaffiot/thema2/populus/:130
 msgid "peuple"
 msgstr ""
 
-#: Gaffiot/thema2/praefectus/:129
+#: Gaffiot/thema2/praefectus/:131
 msgid "gouverneur, administrateur"
 msgstr ""
 
-#: Gaffiot/thema2/reus/:130
+#: Gaffiot/thema2/reus/:132
 msgid "accusé"
 msgstr ""
 
-#: Gaffiot/thema2/seruus/:131
+#: Gaffiot/thema2/seruus/:133
 msgid "esclave"
 msgstr ""
 
-#: Gaffiot/thema2/somnus/:132
+#: Gaffiot/thema2/somnus/:134
 msgid "sommeil"
 msgstr ""
 
-#: Gaffiot/thema2/taurus/:133
+#: Gaffiot/thema2/taurus/:135
 msgid "taureau"
 msgstr ""
 
-#: Gaffiot/thema2/torus/:134
+#: Gaffiot/thema2/torus/:136
 msgid "renflement, muscle saillant ; lit"
 msgstr ""
 
-#: Gaffiot/thema2/tribunus/:135
+#: Gaffiot/thema2/tribunus/:137
 msgid "tribun"
 msgstr ""
 
-#: Gaffiot/thema2/uentus/:136
+#: Gaffiot/thema2/uentus/:138
 msgid "vent"
 msgstr ""
 
-#: Gaffiot/thema2/uulgus/:137
+#: Gaffiot/thema2/uulgus/:139
 msgid "foule, le commun des hommes"
 msgstr ""
 
-#: Gaffiot/thema2/aedificium/:138
+#: Gaffiot/thema2/aedificium/:140
 msgid "édifice"
 msgstr ""
 
-#: Gaffiot/thema2/aeuum/:139
+#: Gaffiot/thema2/aeuum/:141
 msgid "époque, durée, âge"
 msgstr ""
 
-#: Gaffiot/thema2/argumentum/:140
+#: Gaffiot/thema2/argumentum/:142
 msgid "argument, preuve, matière, sujet"
 msgstr ""
 
-#: Gaffiot/thema2/aruum/:141
+#: Gaffiot/thema2/aruum/:143
 msgid "terre labourée"
 msgstr ""
 
-#: Gaffiot/thema2/aurum/:142
+#: Gaffiot/thema2/aurum/:144
 msgid "or"
 msgstr ""
 
-#: Gaffiot/thema2/auxilium/:143
+#: Gaffiot/thema2/auxilium/:145
 msgid "aide, secours"
 msgstr ""
 
-#: Gaffiot/thema2/bellum/:144
+#: Gaffiot/thema2/bellum/:146
 msgid "guerre"
 msgstr ""
 
-#: Gaffiot/thema2/beneficium/:145
+#: Gaffiot/thema2/beneficium/:147
 msgid "bienfait, faveur"
 msgstr ""
 
-#: Gaffiot/thema2/caelum/:146
+#: Gaffiot/thema2/caelum/:148
 msgid "ciel, climat"
 msgstr ""
 
-#: Gaffiot/thema2/castellum/:147
+#: Gaffiot/thema2/castellum/:149
 msgid "redoute, fortin"
 msgstr ""
 
-#: Gaffiot/thema2/collum/:148
+#: Gaffiot/thema2/collum/:150
 msgid "cou"
 msgstr ""
 
-#: Gaffiot/thema2/consilium/:149
+#: Gaffiot/thema2/consilium/:151
 msgid "délibération, décision, conseil, plan"
 msgstr ""
 
-#: Gaffiot/thema2/dictum/:150
+#: Gaffiot/thema2/dictum/:152
 msgid "chose dite, promesse, proverbe"
 msgstr ""
 
-#: Gaffiot/thema2/donum/:151
+#: Gaffiot/thema2/donum/:153
 msgid "présent, cadeau"
 msgstr ""
 
-#: Gaffiot/thema2/dubium/:152
+#: Gaffiot/thema2/dubium/:154
 msgid "doute"
 msgstr ""
 
-#: Gaffiot/thema2/exemplum/:153
+#: Gaffiot/thema2/exemplum/:155
 msgid "exemple"
 msgstr ""
 
-#: Gaffiot/thema2/exilium/:154 Gaffiot/thema2/exsilium/:155
+#: Gaffiot/thema2/exilium/:156 Gaffiot/thema2/exsilium/:157
 msgid "exil"
 msgstr ""
 
-#: Gaffiot/thema2/factum/:156
+#: Gaffiot/thema2/factum/:158
 msgid "fait, action, travail, ouvrage"
 msgstr ""
 
-#: Gaffiot/thema2/fatum/:157
+#: Gaffiot/thema2/fatum/:159
 msgid "prédiction, destin, fatalité, destinée"
 msgstr ""
 
-#: Gaffiot/thema2/ferrum/:158
+#: Gaffiot/thema2/ferrum/:160
 msgid "fer, outil ou arme de fer"
 msgstr ""
 
-#: Gaffiot/thema2/forum/:159
+#: Gaffiot/thema2/forum/:161
 msgid "marché, forum"
 msgstr ""
 
-#: Gaffiot/thema2/fretum/:160
+#: Gaffiot/thema2/fretum/:162
 msgid "détroit, mer, flots"
 msgstr ""
 
-#: Gaffiot/thema2/frumentum/:161
+#: Gaffiot/thema2/frumentum/:163
 msgid "blé"
 msgstr ""
 
-#: Gaffiot/thema2/gaudium/:162
+#: Gaffiot/thema2/gaudium/:164
 msgid "contentement, satisfaction, joie"
 msgstr ""
 
-#: Gaffiot/thema2/impedimentum/:163
+#: Gaffiot/thema2/impedimentum/:165
 msgid "obstacle ; au pl. : bagages"
 msgstr ""
 
-#: Gaffiot/thema2/imperium/:164
+#: Gaffiot/thema2/imperium/:166
 msgid "pouvoir absolu"
 msgstr ""
 
-#: Gaffiot/thema2/ingenium/:165
+#: Gaffiot/thema2/ingenium/:167
 msgid "qualités innées, caractère, esprit, intelligence"
 msgstr ""
 
-#: Gaffiot/thema2/initium/:166
+#: Gaffiot/thema2/initium/:168
 msgid "début, commencement"
 msgstr ""
 
-#: Gaffiot/thema2/interuallum/:167
+#: Gaffiot/thema2/interuallum/:169
 msgid "intervalle, distance"
 msgstr ""
 
-#: Gaffiot/thema2/iudicium/:168
+#: Gaffiot/thema2/iudicium/:170
 msgid "jugement, décision"
 msgstr ""
 
-#: Gaffiot/thema2/iugum/:169
+#: Gaffiot/thema2/iugum/:171
 msgid "joug, attelage, chaîne de montagnes, cime, hauteur"
 msgstr ""
 
-#: Gaffiot/thema2/malum/:170
+#: Gaffiot/thema2/malum/:172
 msgid "pomme"
 msgstr ""
 
-#: Gaffiot/thema2/membrum/:171
+#: Gaffiot/thema2/membrum/:173
 msgid "i, n. (généralement au plur) : membre, organe"
 msgstr ""
 
-#: Gaffiot/thema2/negotium/:172
+#: Gaffiot/thema2/negotium/:174
 msgid "occupation, travail, affaire"
 msgstr ""
 
-#: Gaffiot/thema2/odium/:173
+#: Gaffiot/thema2/odium/:175
 msgid "haine"
 msgstr ""
 
-#: Gaffiot/thema2/officium/:174
+#: Gaffiot/thema2/officium/:176
 msgid "fonction, devoir, obligation morale"
 msgstr ""
 
-#: Gaffiot/thema2/otium/:175
+#: Gaffiot/thema2/otium/:177
 msgid "loisir, calme, repos"
 msgstr ""
 
-#: Gaffiot/thema2/pactum/:176
+#: Gaffiot/thema2/pactum/:178
 msgid "pacte, convention, manière"
 msgstr ""
 
-#: Gaffiot/thema2/periculum/:177
+#: Gaffiot/thema2/periculum/:179
 msgid "danger, essai, expérience"
 msgstr ""
 
-#: Gaffiot/thema2/pomum/:178
+#: Gaffiot/thema2/pomum/:180
 msgid "fruit"
 msgstr ""
 
-#: Gaffiot/thema2/praeceptum/:179
+#: Gaffiot/thema2/praeceptum/:181
 msgid "précepte, règle, leçon"
 msgstr ""
 
-#: Gaffiot/thema2/praemium/:180
+#: Gaffiot/thema2/praemium/:182
 msgid "récompense"
 msgstr ""
 
-#: Gaffiot/thema2/praesidium/:181
+#: Gaffiot/thema2/praesidium/:183
 msgid "garde, garnison, protection"
 msgstr ""
 
-#: Gaffiot/thema2/pretium/:182
+#: Gaffiot/thema2/pretium/:184
 msgid "prix, valeur, récompense, salaire"
 msgstr ""
 
-#: Gaffiot/thema2/principium/:183
+#: Gaffiot/thema2/principium/:185
 msgid "commencement, origine"
 msgstr ""
 
-#: Gaffiot/thema2/proelium/:184
+#: Gaffiot/thema2/proelium/:186
 msgid "combat"
 msgstr ""
 
-#: Gaffiot/thema2/remedium/:185
+#: Gaffiot/thema2/remedium/:187
 msgid "remède (+ gén : contre)"
 msgstr ""
 
-#: Gaffiot/thema2/saeculum/:186
+#: Gaffiot/thema2/saeculum/:188
 msgid "génération, époque, siècle"
 msgstr ""
 
-#: Gaffiot/thema2/saxum/:187
+#: Gaffiot/thema2/saxum/:189
 msgid "pierre, rocher, roche"
 msgstr ""
 
-#: Gaffiot/thema2/seruitium/:188
+#: Gaffiot/thema2/seruitium/:190
 msgid "servitude, esclavage"
 msgstr ""
 
-#: Gaffiot/thema2/signum/:189
+#: Gaffiot/thema2/signum/:191
 msgid "signe, enseigne, oeuvre d'art"
 msgstr ""
 
-#: Gaffiot/thema2/spatium/:190
+#: Gaffiot/thema2/spatium/:192
 msgid "vaste étendue, espace (lieu ou temps)"
 msgstr ""
 
-#: Gaffiot/thema2/studium/:191
+#: Gaffiot/thema2/studium/:193
 msgid "ardeur, affection, intérêt, passion, étude"
 msgstr ""
 
-#: Gaffiot/thema2/supplicium/:192
+#: Gaffiot/thema2/supplicium/:194
 msgid "supplice"
 msgstr ""
 
-#: Gaffiot/thema2/tectum/:193
+#: Gaffiot/thema2/tectum/:195
 msgid "toit, maison"
 msgstr ""
 
-#: Gaffiot/thema2/telum/:194
+#: Gaffiot/thema2/telum/:196
 msgid "trait (javelot ou flèche)"
 msgstr ""
 
-#: Gaffiot/thema2/templum/:195
+#: Gaffiot/thema2/templum/:197
 msgid "temple"
 msgstr ""
 
-#: Gaffiot/thema2/tergum/:196
+#: Gaffiot/thema2/tergum/:198
 msgid "dos"
 msgstr ""
 
-#: Gaffiot/thema2/tormentum/:197
+#: Gaffiot/thema2/tormentum/:199
 msgid "(intrument de) torture"
 msgstr ""
 
-#: Gaffiot/thema2/uallum/:198
+#: Gaffiot/thema2/uallum/:200
 msgid "palissade, retranchement"
 msgstr ""
 
-#: Gaffiot/thema2/uelum/:199
+#: Gaffiot/thema2/uelum/:201
 msgid "voile"
 msgstr ""
 
-#: Gaffiot/thema2/uerbum/:200
+#: Gaffiot/thema2/uerbum/:202
 msgid "mot, parole"
 msgstr ""
 
-#: Gaffiot/thema2/uestigium/:201
+#: Gaffiot/thema2/uestigium/:203
 msgid "trace de pas, trace"
 msgstr ""
 
-#: Gaffiot/thema2/uinculum/:202
+#: Gaffiot/thema2/uinculum/:204
 msgid "lien, chaîne"
 msgstr ""
 
-#: Gaffiot/thema2/uinum/:203
+#: Gaffiot/thema2/uinum/:205
 msgid "vin"
 msgstr ""
 
-#: Gaffiot/thema2/uitium/:204
+#: Gaffiot/thema2/uitium/:206
 msgid "vice, défaut"
 msgstr ""
 
-#: Gaffiot/thema2/uotum/:205
+#: Gaffiot/thema2/uotum/:207
 msgid "voeu, offrande"
 msgstr ""
 
-#: Gaffiot/thema3/aedes/:206 Gaffiot/uoc3/aedes/:436
+#: Gaffiot/thema3/aedes/:208 Gaffiot/uoc3/aedes/:438
 msgid "maison, temple"
 msgstr ""
 
-#: Gaffiot/thema3/aequor/:207 Gaffiot/uoc3/aequor/:437
+#: Gaffiot/thema3/aequor/:209 Gaffiot/uoc3/aequor/:439
 msgid "surface plane, poét. mer"
 msgstr ""
 
-#: Gaffiot/thema3/aer/:208 Gaffiot/uoc3/aer/:438
+#: Gaffiot/thema3/aer/:210 Gaffiot/uoc3/aer/:440
 msgid "air"
 msgstr ""
 
-#: Gaffiot/thema3/aes/:209 Gaffiot/uoc3/aes/:439
+#: Gaffiot/thema3/aes/:211 Gaffiot/uoc3/aes/:441
 msgid "cuivre, bronze ; - alienum : dette"
 msgstr ""
 
-#: Gaffiot/thema3/aetas/:210 Gaffiot/uoc3/aetas/:440
+#: Gaffiot/thema3/aetas/:212 Gaffiot/uoc3/aetas/:442
 msgid "partie de la vie, âge, époque"
 msgstr ""
 
-#: Gaffiot/thema3/agmen/:211 Gaffiot/uoc3/agmen/:441
+#: Gaffiot/thema3/agmen/:213 Gaffiot/uoc3/agmen/:443
 msgid "armée en marche, colonne de marche"
 msgstr ""
 
-#: Gaffiot/thema3/altitudo/:212 Gaffiot/uoc3/altitudo/:442
+#: Gaffiot/thema3/altitudo/:214 Gaffiot/uoc3/altitudo/:444
 msgid "altitude, hauteur"
 msgstr ""
 
-#: Gaffiot/thema3/amnis/:213 Gaffiot/uoc3/amnis/:443
+#: Gaffiot/thema3/amnis/:215 Gaffiot/uoc3/amnis/:445
 msgid "fleuve, rivière. - commence par la lettre a"
 msgstr ""
 
-#: Gaffiot/thema3/amor/:214 Gaffiot/uoc3/amor/:444
+#: Gaffiot/thema3/amor/:216 Gaffiot/uoc3/amor/:446
 msgid "amour"
 msgstr ""
 
-#: Gaffiot/thema3/animal/:215 Gaffiot/uoc3/animal/:445
+#: Gaffiot/thema3/animal/:217 Gaffiot/uoc3/animal/:447
 msgid "être vivant, animal"
 msgstr ""
 
-#: Gaffiot/thema3/apis/:216 Gaffiot/uoc3/apis/:446
+#: Gaffiot/thema3/apis/:218 Gaffiot/uoc3/apis/:448
 msgid "abeille"
 msgstr ""
 
-#: Gaffiot/thema3/arbor/:217 Gaffiot/uoc3/arbor/:447
+#: Gaffiot/thema3/arbor/:219 Gaffiot/uoc3/arbor/:449
 msgid "arbre"
 msgstr ""
 
-#: Gaffiot/thema3/ardor/:218 Gaffiot/uoc3/ardor/:448
+#: Gaffiot/thema3/ardor/:220 Gaffiot/uoc3/ardor/:450
 msgid "feu, embrasement, ardeur, passion"
 msgstr ""
 
-#: Gaffiot/thema3/ars/:219 Gaffiot/uoc3/ars/:449
+#: Gaffiot/thema3/ars/:221 Gaffiot/uoc3/ars/:451
 msgid "habileté, métier, profession, art"
 msgstr ""
 
-#: Gaffiot/thema3/arx/:220 Gaffiot/uoc3/arx/:450
+#: Gaffiot/thema3/arx/:222 Gaffiot/uoc3/arx/:452
 msgid "citadelle"
 msgstr ""
 
-#: Gaffiot/thema3/auctor/:221 Gaffiot/uoc3/auctor/:451
+#: Gaffiot/thema3/auctor/:223 Gaffiot/uoc3/auctor/:453
 msgid "garant, modèle, auteur"
 msgstr ""
 
-#: Gaffiot/thema3/auctoritas/:222 Gaffiot/uoc3/auctoritas/:452
+#: Gaffiot/thema3/auctoritas/:224 Gaffiot/uoc3/auctoritas/:454
 msgid "avis, prestige, autorité, volonté (du Sénat)"
 msgstr ""
 
-#: Gaffiot/thema3/auis/:223 Gaffiot/uoc3/auis/:453
+#: Gaffiot/thema3/auis/:225 Gaffiot/uoc3/auis/:455
 msgid "oiseau"
 msgstr ""
 
-#: Gaffiot/thema3/auris/:224 Gaffiot/uoc3/auris/:454
+#: Gaffiot/thema3/auris/:226 Gaffiot/uoc3/auris/:456
 msgid "oreille"
 msgstr ""
 
-#: Gaffiot/thema3/beatitudo/:225 Gaffiot/uoc3/beatitudo/:455
+#: Gaffiot/thema3/beatitudo/:227 Gaffiot/uoc3/beatitudo/:457
 msgid "bonheur. finit en -o"
 msgstr ""
 
-#: Gaffiot/thema3/bos/:226 Gaffiot/uoc3/bos/:456
+#: Gaffiot/thema3/bos/:228 Gaffiot/uoc3/bos/:458
 msgid "boeuf"
 msgstr ""
 
-#: Gaffiot/thema3/caedes/:227 Gaffiot/uoc3/caedes/:457
+#: Gaffiot/thema3/caedes/:229 Gaffiot/uoc3/caedes/:459
 msgid "meurtre, massacre"
 msgstr ""
 
-#: Gaffiot/thema3/canis/:228 Gaffiot/uoc3/canis/:458
+#: Gaffiot/thema3/canis/:230 Gaffiot/uoc3/canis/:460
 msgid "chien"
 msgstr ""
 
-#: Gaffiot/thema3/caput/:229 Gaffiot/uoc3/caput/:459
+#: Gaffiot/thema3/caput/:231 Gaffiot/uoc3/caput/:461
 msgid "tête, capitale"
 msgstr ""
 
-#: Gaffiot/thema3/carmen/:230 Gaffiot/uoc3/carmen/:460
+#: Gaffiot/thema3/carmen/:232 Gaffiot/uoc3/carmen/:462
 msgid "poème, incantation"
 msgstr ""
 
-#: Gaffiot/thema3/centurio/:231 Gaffiot/uoc3/centurio/:461
+#: Gaffiot/thema3/centurio/:233 Gaffiot/uoc3/centurio/:463
 msgid "centurion"
 msgstr ""
 
-#: Gaffiot/thema3/certamen/:232 Gaffiot/uoc3/certamen/:462
+#: Gaffiot/thema3/certamen/:234 Gaffiot/uoc3/certamen/:464
 msgid "combat, lutte, conflit"
 msgstr ""
 
-#: Gaffiot/thema3/ceruix/:233 Gaffiot/uoc3/ceruix/:463
+#: Gaffiot/thema3/ceruix/:235 Gaffiot/uoc3/ceruix/:465
 msgid "nuque, encolure"
 msgstr ""
 
-#: Gaffiot/thema3/ciuis/:234 Gaffiot/uoc3/ciuis/:464
+#: Gaffiot/thema3/ciuis/:236 Gaffiot/uoc3/ciuis/:466
 msgid "citoyen"
 msgstr ""
 
-#: Gaffiot/thema3/ciuitas/:235 Gaffiot/uoc3/ciuitas/:465
+#: Gaffiot/thema3/ciuitas/:237 Gaffiot/uoc3/ciuitas/:467
 msgid "cité, état"
 msgstr ""
 
-#: Gaffiot/thema3/clamor/:236 Gaffiot/uoc3/clamor/:466
+#: Gaffiot/thema3/clamor/:238 Gaffiot/uoc3/clamor/:468
 msgid "clameur, cri"
 msgstr ""
 
-#: Gaffiot/thema3/classis/:237 Gaffiot/uoc3/classis/:467
+#: Gaffiot/thema3/classis/:239 Gaffiot/uoc3/classis/:469
 msgid "classe, flotte"
 msgstr ""
 
-#: Gaffiot/thema3/cohors/:238 Gaffiot/uoc3/cohors/:468
+#: Gaffiot/thema3/cohors/:240 Gaffiot/uoc3/cohors/:470
 msgid "cohorte"
 msgstr ""
 
-#: Gaffiot/thema3/collis/:239 Gaffiot/uoc3/collis/:469
+#: Gaffiot/thema3/collis/:241 Gaffiot/uoc3/collis/:471
 msgid "colline"
 msgstr ""
 
-#: Gaffiot/thema3/color/:240 Gaffiot/uoc3/color/:470
+#: Gaffiot/thema3/color/:242 Gaffiot/uoc3/color/:472
 msgid "couleur, teint du visage, éclat (du style)"
 msgstr ""
 
-#: Gaffiot/thema3/comes/:241 Gaffiot/uoc3/comes/:471
+#: Gaffiot/thema3/comes/:243 Gaffiot/uoc3/comes/:473
 msgid "compagnon"
 msgstr ""
 
-#: Gaffiot/thema3/condicio/:242 Gaffiot/uoc3/condicio/:472
+#: Gaffiot/thema3/condicio/:244 Gaffiot/uoc3/condicio/:474
 msgid "condition"
 msgstr ""
 
-#: Gaffiot/thema3/coniux/:243 Gaffiot/uoc3/coniux/:473
+#: Gaffiot/thema3/coniux/:245 Gaffiot/uoc3/coniux/:475
 msgid "épouse, époux"
 msgstr ""
 
-#: Gaffiot/thema3/consuetudo/:244 Gaffiot/uoc3/consuetudo/:474
+#: Gaffiot/thema3/consuetudo/:246 Gaffiot/uoc3/consuetudo/:476
 msgid "habitude, coutume, usage - commence par c."
 msgstr ""
 
-#: Gaffiot/thema3/consul/:245 Gaffiot/uoc3/consul/:475
+#: Gaffiot/thema3/consul/:247 Gaffiot/uoc3/consul/:477
 msgid "consul"
 msgstr ""
 
-#: Gaffiot/thema3/corpus/:246 Gaffiot/uoc3/corpus/:476
+#: Gaffiot/thema3/corpus/:248 Gaffiot/uoc3/corpus/:478
 msgid "corps"
 msgstr ""
 
-#: Gaffiot/thema3/crassitudo/:247 Gaffiot/uoc3/crassitudo/:477
+#: Gaffiot/thema3/crassitudo/:249 Gaffiot/uoc3/crassitudo/:479
 msgid "épaisseur, grosseur"
 msgstr ""
 
-#: Gaffiot/thema3/crimen/:248 Gaffiot/uoc3/crimen/:478
+#: Gaffiot/thema3/crimen/:250 Gaffiot/uoc3/crimen/:480
 msgid "accusation, chef d'accusation"
 msgstr ""
 
-#: Gaffiot/thema3/cubile/:249 Gaffiot/uoc3/cubile/:479
+#: Gaffiot/thema3/cubile/:251 Gaffiot/uoc3/cubile/:481
 msgid "lit, couche"
 msgstr ""
 
-#: Gaffiot/thema3/cupido/:250 Gaffiot/uoc3/cupido/:480
+#: Gaffiot/thema3/cupido/:252 Gaffiot/uoc3/cupido/:482
 msgid "désir. finit en -o"
 msgstr ""
 
-#: Gaffiot/thema3/cupiditas/:251 Gaffiot/uoc3/cupiditas/:481
+#: Gaffiot/thema3/cupiditas/:253 Gaffiot/uoc3/cupiditas/:483
 msgid "désir. finit en -itas"
 msgstr ""
 
-#: Gaffiot/thema3/custos/:252 Gaffiot/uoc3/custos/:482
+#: Gaffiot/thema3/custos/:254 Gaffiot/uoc3/custos/:484
 msgid "gardien"
 msgstr ""
 
-#: Gaffiot/thema3/decus/:253 Gaffiot/uoc3/decus/:483
+#: Gaffiot/thema3/decus/:255 Gaffiot/uoc3/decus/:485
 msgid "gloire, honneur. commence en d-"
 msgstr ""
 
-#: Gaffiot/thema3/dens/:254 Gaffiot/uoc3/dens/:484
+#: Gaffiot/thema3/dens/:256 Gaffiot/uoc3/dens/:486
 msgid "dent"
 msgstr ""
 
-#: Gaffiot/thema3/difficultas/:255 Gaffiot/uoc3/difficultas/:485
+#: Gaffiot/thema3/difficultas/:257 Gaffiot/uoc3/difficultas/:487
 msgid "difficulté"
 msgstr ""
 
-#: Gaffiot/thema3/dignitas/:256 Gaffiot/uoc3/dignitas/:486
+#: Gaffiot/thema3/dignitas/:258 Gaffiot/uoc3/dignitas/:488
 msgid "dignité, considération, rang"
 msgstr ""
 
-#: Gaffiot/thema3/discrimen/:257 Gaffiot/uoc3/discrimen/:487
+#: Gaffiot/thema3/discrimen/:259 Gaffiot/uoc3/discrimen/:489
 msgid "différence, ligne de démarcation, position critique"
 msgstr ""
 
-#: Gaffiot/thema3/dolor/:258 Gaffiot/uoc3/dolor/:488
+#: Gaffiot/thema3/dolor/:260 Gaffiot/uoc3/dolor/:490
 msgid "douleur"
 msgstr ""
 
-#: Gaffiot/thema3/dux/:259 Gaffiot/uoc3/dux/:489
+#: Gaffiot/thema3/dux/:261 Gaffiot/uoc3/dux/:491
 msgid "chef, guide"
 msgstr ""
 
-#: Gaffiot/thema3/eques/:260 Gaffiot/uoc3/eques/:490
+#: Gaffiot/thema3/eques/:262 Gaffiot/uoc3/eques/:492
 msgid "chevalier, cavalier"
 msgstr ""
 
-#: Gaffiot/thema3/error/:261 Gaffiot/uoc3/error/:491
+#: Gaffiot/thema3/error/:263 Gaffiot/uoc3/error/:493
 msgid "action de s'égarer, erreur"
 msgstr ""
 
-#: Gaffiot/thema3/facinus/:262 Gaffiot/uoc3/facinus/:492
+#: Gaffiot/thema3/facinus/:264 Gaffiot/uoc3/facinus/:494
 msgid "action, acte, forfait,  crime"
 msgstr ""
 
-#: Gaffiot/thema3/fax/:263 Gaffiot/uoc3/fax/:493
+#: Gaffiot/thema3/fax/:265 Gaffiot/uoc3/fax/:495
 msgid "torche"
 msgstr ""
 
-#: Gaffiot/thema3/felicitas/:264 Gaffiot/uoc3/felicitas/:494
+#: Gaffiot/thema3/felicitas/:266 Gaffiot/uoc3/felicitas/:496
 msgid "bonheur. finit en -as"
 msgstr ""
 
-#: Gaffiot/thema3/fides/:265 Gaffiot/uoc3/fides/:495
+#: Gaffiot/thema3/fides/:267 Gaffiot/uoc3/fides/:497
 msgid "lyre. Toujours au pluriel"
 msgstr ""
 
-#: Gaffiot/thema3/finis/:266 Gaffiot/uoc3/finis/:496
+#: Gaffiot/thema3/finis/:268 Gaffiot/uoc3/finis/:498
 msgid "limite, fin ; pl., frontière, territoire"
 msgstr ""
 
-#: Gaffiot/thema3/flumen/:267 Gaffiot/uoc3/flumen/:497
+#: Gaffiot/thema3/flumen/:269 Gaffiot/uoc3/flumen/:499
 msgid "cours d'eau, fleuve, rivière - commence par la lettre f"
 msgstr ""
 
-#: Gaffiot/thema3/fons/:268 Gaffiot/uoc3/fons/:498
+#: Gaffiot/thema3/fons/:270 Gaffiot/uoc3/fons/:500
 msgid "source, fontaine, cause, principe"
 msgstr ""
 
-#: Gaffiot/thema3/frater/:269 Gaffiot/uoc3/frater/:499
+#: Gaffiot/thema3/frater/:271 Gaffiot/uoc3/frater/:501
 msgid "frère"
 msgstr ""
 
-#: Gaffiot/thema3/fraus/:270 Gaffiot/uoc3/fraus/:500
+#: Gaffiot/thema3/fraus/:272 Gaffiot/uoc3/fraus/:502
 msgid "mauvaise foi, tromperie"
 msgstr ""
 
-#: Gaffiot/thema3/frigus/:271 Gaffiot/uoc3/frigus/:501
+#: Gaffiot/thema3/frigus/:273 Gaffiot/uoc3/frigus/:503
 msgid "froid, froidure"
 msgstr ""
 
-#: Gaffiot/thema3/frons/:272 Gaffiot/uoc3/frons/:502
+#: Gaffiot/thema3/frons/:274 Gaffiot/uoc3/frons/:504
 msgid "feuillage"
 msgstr ""
 
-#: Gaffiot/thema3/fulmen/:273 Gaffiot/uoc3/fulmen/:503
+#: Gaffiot/thema3/fulmen/:275 Gaffiot/uoc3/fulmen/:505
 msgid "foudre"
 msgstr ""
 
-#: Gaffiot/thema3/funus/:274 Gaffiot/uoc3/funus/:504
+#: Gaffiot/thema3/funus/:276 Gaffiot/uoc3/funus/:506
 msgid "funérailles, ensevelissement ; mort, ruine"
 msgstr ""
 
-#: Gaffiot/thema3/gens/:275 Gaffiot/uoc3/gens/:505
+#: Gaffiot/thema3/gens/:277 Gaffiot/uoc3/gens/:507
 msgid "famille, nation"
 msgstr ""
 
-#: Gaffiot/thema3/genus/:276 Gaffiot/uoc3/genus/:506
+#: Gaffiot/thema3/genus/:278 Gaffiot/uoc3/genus/:508
 msgid "race, origine, espèce"
 msgstr ""
 
-#: Gaffiot/thema3/gladiator/:277 Gaffiot/uoc3/gladiator/:507
+#: Gaffiot/thema3/gladiator/:279 Gaffiot/uoc3/gladiator/:509
 msgid "gladiateur"
 msgstr ""
 
-#: Gaffiot/thema3/grauitas/:278 Gaffiot/uoc3/grauitas/:508
+#: Gaffiot/thema3/grauitas/:280 Gaffiot/uoc3/grauitas/:510
 msgid "pesanteur, sévérité, dignité, majesté, malaise"
 msgstr ""
 
-#: Gaffiot/thema3/grex/:279 Gaffiot/uoc3/grex/:509
+#: Gaffiot/thema3/grex/:281 Gaffiot/uoc3/grex/:511
 msgid "troupeau"
 msgstr ""
 
-#: Gaffiot/thema3/hiems/:280 Gaffiot/uoc3/hiems/:510
+#: Gaffiot/thema3/hiems/:282 Gaffiot/uoc3/hiems/:512
 msgid "hiver"
 msgstr ""
 
-#: Gaffiot/thema3/homo/:281 Gaffiot/uoc3/homo/:511
+#: Gaffiot/thema3/homo/:283 Gaffiot/uoc3/homo/:513
 msgid "homme, humain"
 msgstr ""
 
-#: Gaffiot/thema3/honos/:282 Gaffiot/uoc3/honos/:512
+#: Gaffiot/thema3/honos/:284 Gaffiot/uoc3/honos/:514
 msgid "honneur, hommage, charge, magistrature, honoraires. finit en -s"
 msgstr ""
 
-#: Gaffiot/thema3/hostis/:283 Gaffiot/uoc3/hostis/:513
+#: Gaffiot/thema3/hostis/:285 Gaffiot/uoc3/hostis/:515
 msgid "ennemi"
 msgstr ""
 
-#: Gaffiot/thema3/humor/:284 Gaffiot/uoc3/humor/:514
+#: Gaffiot/thema3/humor/:286 Gaffiot/uoc3/humor/:516
 msgid "eau, liquide. Finit en -mor"
 msgstr ""
 
-#: Gaffiot/thema3/ignis/:285 Gaffiot/uoc3/ignis/:515
+#: Gaffiot/thema3/ignis/:287 Gaffiot/uoc3/ignis/:517
 msgid "feu"
 msgstr ""
 
-#: Gaffiot/thema3/imago/:286 Gaffiot/uoc3/imago/:516
+#: Gaffiot/thema3/imago/:288 Gaffiot/uoc3/imago/:518
 msgid "imitation, image"
 msgstr ""
 
-#: Gaffiot/thema3/imber/:287 Gaffiot/uoc3/imber/:517
+#: Gaffiot/thema3/imber/:289 Gaffiot/uoc3/imber/:519
 msgid "pluie"
 msgstr ""
 
-#: Gaffiot/thema3/imperator/:288 Gaffiot/uoc3/imperator/:518
+#: Gaffiot/thema3/imperator/:290 Gaffiot/uoc3/imperator/:520
 msgid "général en chef"
 msgstr ""
 
-#: Gaffiot/thema3/infans/:289 Gaffiot/uoc3/infans/:519
+#: Gaffiot/thema3/infans/:291 Gaffiot/uoc3/infans/:521
 msgid "bébé"
 msgstr ""
 
-#: Gaffiot/thema3/intentio/:290 Gaffiot/uoc3/intentio/:520
+#: Gaffiot/thema3/intentio/:292 Gaffiot/uoc3/intentio/:522
 msgid "application, effort, volonté"
 msgstr ""
 
-#: Gaffiot/thema3/iter/:291 Gaffiot/uoc3/iter/:521
+#: Gaffiot/thema3/iter/:293 Gaffiot/uoc3/iter/:523
 msgid "chemin, voyage"
 msgstr ""
 
-#: Gaffiot/thema3/iudex/:292 Gaffiot/uoc3/iudex/:522
+#: Gaffiot/thema3/iudex/:294 Gaffiot/uoc3/iudex/:524
 msgid "juge"
 msgstr ""
 
-#: Gaffiot/thema3/ius/:293 Gaffiot/uoc3/ius/:523
+#: Gaffiot/thema3/ius/:295 Gaffiot/uoc3/ius/:525
 msgid "serment, droit"
 msgstr ""
 
-#: Gaffiot/thema3/iuuenis/:294 Gaffiot/uoc3/iuuenis/:524
+#: Gaffiot/thema3/iuuenis/:296 Gaffiot/uoc3/iuuenis/:526
 msgid "jeune homme/fille, citoyen en âge de porter les armes"
 msgstr ""
 
-#: Gaffiot/thema3/iuuentus/:295 Gaffiot/uoc3/iuuentus/:525
+#: Gaffiot/thema3/iuuentus/:297 Gaffiot/uoc3/iuuentus/:527
 msgid "jeunesse"
 msgstr ""
 
-#: Gaffiot/thema3/lapis/:296 Gaffiot/uoc3/lapis/:526
+#: Gaffiot/thema3/lapis/:298 Gaffiot/uoc3/lapis/:528
 msgid "pierre"
 msgstr ""
 
-#: Gaffiot/thema3/latitudo/:297 Gaffiot/uoc3/latitudo/:527
+#: Gaffiot/thema3/latitudo/:299 Gaffiot/uoc3/latitudo/:529
 msgid "largeur"
 msgstr ""
 
-#: Gaffiot/thema3/latus/:298 Gaffiot/uoc3/latus/:528
+#: Gaffiot/thema3/latus/:300 Gaffiot/uoc3/latus/:530
 msgid "côté"
 msgstr ""
 
-#: Gaffiot/thema3/laus/:299 Gaffiot/uoc3/laus/:529
+#: Gaffiot/thema3/laus/:301 Gaffiot/uoc3/laus/:531
 msgid "louange, gloire, honneur"
 msgstr ""
 
-#: Gaffiot/thema3/legio/:300 Gaffiot/uoc3/legio/:530
+#: Gaffiot/thema3/legio/:302 Gaffiot/uoc3/legio/:532
 msgid "légion"
 msgstr ""
 
-#: Gaffiot/thema3/lex/:301 Gaffiot/uoc3/lex/:531
+#: Gaffiot/thema3/lex/:303 Gaffiot/uoc3/lex/:533
 msgid "loi, condition(s) d'un traité"
 msgstr ""
 
-#: Gaffiot/thema3/libertas/:302 Gaffiot/uoc3/libertas/:532
+#: Gaffiot/thema3/libertas/:304 Gaffiot/uoc3/libertas/:534
 msgid "liberté"
 msgstr ""
 
-#: Gaffiot/thema3/libido/:303 Gaffiot/uoc3/libido/:533
+#: Gaffiot/thema3/libido/:305 Gaffiot/uoc3/libido/:535
 msgid "désir, envie, débauche"
 msgstr ""
 
-#: Gaffiot/thema3/limen/:304 Gaffiot/uoc3/limen/:534
+#: Gaffiot/thema3/limen/:306 Gaffiot/uoc3/limen/:536
 msgid "seuil, entrée"
 msgstr ""
 
-#: Gaffiot/thema3/litus/:305 Gaffiot/uoc3/litus/:535
+#: Gaffiot/thema3/litus/:307 Gaffiot/uoc3/litus/:537
 msgid "rivage"
 msgstr ""
 
-#: Gaffiot/thema3/lumen/:306 Gaffiot/uoc3/lumen/:536
+#: Gaffiot/thema3/lumen/:308 Gaffiot/uoc3/lumen/:538
 msgid "lumière, flambeau, pl. les yeux"
 msgstr ""
 
-#: Gaffiot/thema3/lux/:307 Gaffiot/uoc3/lux/:537
+#: Gaffiot/thema3/lux/:309 Gaffiot/uoc3/lux/:539
 msgid "lumière, jour"
 msgstr ""
 
-#: Gaffiot/thema3/magnitudo/:308 Gaffiot/uoc3/magnitudo/:538
+#: Gaffiot/thema3/magnitudo/:310 Gaffiot/uoc3/magnitudo/:540
 msgid "grande taille"
 msgstr ""
 
-#: Gaffiot/thema3/maiores/:309 Gaffiot/uoc3/maiores/:539
+#: Gaffiot/thema3/maiores/:311 Gaffiot/uoc3/maiores/:541
 msgid "ancêtres"
 msgstr ""
 
-#: Gaffiot/thema3/mare/:310 Gaffiot/uoc3/mare/:540
+#: Gaffiot/thema3/mare/:312 Gaffiot/uoc3/mare/:542
 msgid "mer"
 msgstr ""
 
-#: Gaffiot/thema3/mater/:311 Gaffiot/uoc3/mater/:541
+#: Gaffiot/thema3/mater/:313 Gaffiot/uoc3/mater/:543
 msgid "mère"
 msgstr ""
 
-#: Gaffiot/thema3/mens/:312 Gaffiot/uoc3/mens/:542
+#: Gaffiot/thema3/mens/:314 Gaffiot/uoc3/mens/:544
 msgid "esprit"
 msgstr ""
 
-#: Gaffiot/thema3/miles/:313 Gaffiot/uoc3/miles/:543
+#: Gaffiot/thema3/miles/:315 Gaffiot/uoc3/miles/:545
 msgid "soldat"
 msgstr ""
 
-#: Gaffiot/thema3/moenia/:314 Gaffiot/uoc3/moenia/:544
+#: Gaffiot/thema3/moenia/:316 Gaffiot/uoc3/moenia/:546
 msgid "murs, murailles, remparts"
 msgstr ""
 
-#: Gaffiot/thema3/moles/:315 Gaffiot/uoc3/moles/:545
+#: Gaffiot/thema3/moles/:317 Gaffiot/uoc3/moles/:547
 msgid "masse, poids, charge"
 msgstr ""
 
-#: Gaffiot/thema3/mons/:316 Gaffiot/uoc3/mons/:546
+#: Gaffiot/thema3/mons/:318 Gaffiot/uoc3/mons/:548
 msgid "montagne"
 msgstr ""
 
-#: Gaffiot/thema3/mors/:317 Gaffiot/uoc3/mors/:547
+#: Gaffiot/thema3/mors/:319 Gaffiot/uoc3/mors/:549
 msgid "mort"
 msgstr ""
 
-#: Gaffiot/thema3/mos/:318 Gaffiot/uoc3/mos/:548
+#: Gaffiot/thema3/mos/:320 Gaffiot/uoc3/mos/:550
 msgid "usage, habitude ; pl. moeurs -commence par m- "
 msgstr ""
 
-#: Gaffiot/thema3/multitudo/:319 Gaffiot/uoc3/multitudo/:549
+#: Gaffiot/thema3/multitudo/:321 Gaffiot/uoc3/multitudo/:551
 msgid "foule, grand nombre"
 msgstr ""
 
-#: Gaffiot/thema3/munitio/:320 Gaffiot/uoc3/munitio/:550
+#: Gaffiot/thema3/munitio/:322 Gaffiot/uoc3/munitio/:552
 msgid "terrassement, fortification"
 msgstr ""
 
-#: Gaffiot/thema3/munus/:321 Gaffiot/uoc3/munus/:551
+#: Gaffiot/thema3/munus/:323 Gaffiot/uoc3/munus/:553
 msgid "obligation, charge, spectacle public"
 msgstr ""
 
-#: Gaffiot/thema3/natio/:322 Gaffiot/uoc3/natio/:552
+#: Gaffiot/thema3/natio/:324 Gaffiot/uoc3/natio/:554
 msgid "nation, nationalité"
 msgstr ""
 
-#: Gaffiot/thema3/nauis/:323 Gaffiot/uoc3/nauis/:553
+#: Gaffiot/thema3/nauis/:325 Gaffiot/uoc3/nauis/:555
 msgid "navire"
 msgstr ""
 
-#: Gaffiot/thema3/necessitas/:324 Gaffiot/uoc3/necessitas/:554
+#: Gaffiot/thema3/necessitas/:326 Gaffiot/uoc3/necessitas/:556
 msgid "nécessité"
 msgstr ""
 
-#: Gaffiot/thema3/nemus/:325 Gaffiot/uoc3/nemus/:555
+#: Gaffiot/thema3/nemus/:327 Gaffiot/uoc3/nemus/:557
 msgid "forêt, bois"
 msgstr ""
 
-#: Gaffiot/thema3/nomen/:326 Gaffiot/uoc3/nomen/:556
+#: Gaffiot/thema3/nomen/:328 Gaffiot/uoc3/nomen/:558
 msgid "nom"
 msgstr ""
 
-#: Gaffiot/thema3/nox/:327 Gaffiot/uoc3/nox/:557
+#: Gaffiot/thema3/nox/:329 Gaffiot/uoc3/nox/:559
 msgid "nuit"
 msgstr ""
 
-#: Gaffiot/thema3/nubes/:328 Gaffiot/uoc3/nubes/:558
+#: Gaffiot/thema3/nubes/:330 Gaffiot/uoc3/nubes/:560
 msgid "nuage, nue, nuée"
 msgstr ""
 
-#: Gaffiot/thema3/numen/:329 Gaffiot/uoc3/numen/:559
+#: Gaffiot/thema3/numen/:331 Gaffiot/uoc3/numen/:561
 msgid "volonté des dieux, puissance divine; divinité"
 msgstr ""
 
-#: Gaffiot/thema3/onus/:330 Gaffiot/uoc3/onus/:560
+#: Gaffiot/thema3/onus/:332 Gaffiot/uoc3/onus/:562
 msgid "fardeau"
 msgstr ""
 
-#: Gaffiot/thema3/opinio/:331 Gaffiot/uoc3/opinio/:561
+#: Gaffiot/thema3/opinio/:333 Gaffiot/uoc3/opinio/:563
 msgid "opinion, préjugé"
 msgstr ""
 
-#: Gaffiot/thema3/ops/:332 Gaffiot/uoc3/ops/:562
+#: Gaffiot/thema3/ops/:334 Gaffiot/uoc3/ops/:564
 msgid "sing., pouvoir, aide ; pl., richesses"
 msgstr ""
 
-#: Gaffiot/thema3/opus/:333 Gaffiot/uoc3/opus/:563
+#: Gaffiot/thema3/opus/:335 Gaffiot/uoc3/opus/:565
 msgid "travail (- est mihi = j'ai besoin)"
 msgstr ""
 
-#: Gaffiot/thema3/oratio/:334 Gaffiot/uoc3/oratio/:564
+#: Gaffiot/thema3/oratio/:336 Gaffiot/uoc3/oratio/:566
 msgid "langage, parole, exposé, discours"
 msgstr ""
 
-#: Gaffiot/thema3/orbis/:335 Gaffiot/uoc3/orbis/:565
+#: Gaffiot/thema3/orbis/:337 Gaffiot/uoc3/orbis/:567
 msgid "globe, monde"
 msgstr ""
 
-#: Gaffiot/thema3/ordo/:336 Gaffiot/uoc3/ordo/:566
+#: Gaffiot/thema3/ordo/:338 Gaffiot/uoc3/ordo/:568
 msgid "ordre, disposition"
 msgstr ""
 
-#: Gaffiot/thema3/os/:337 Gaffiot/uoc3/os/:567
+#: Gaffiot/thema3/os/:339 Gaffiot/uoc3/os/:569
 msgid "os"
 msgstr ""
 
-#: Gaffiot/thema3/parens/:338 Gaffiot/uoc3/parens/:569
+#: Gaffiot/thema3/parens/:340 Gaffiot/uoc3/parens/:571
 msgid "parent"
 msgstr ""
 
-#: Gaffiot/thema3/paries/:339 Gaffiot/uoc3/paries/:570
+#: Gaffiot/thema3/paries/:341 Gaffiot/uoc3/paries/:572
 msgid "paroi, mur"
 msgstr ""
 
-#: Gaffiot/thema3/pars/:340 Gaffiot/uoc3/pars/:571
+#: Gaffiot/thema3/pars/:342 Gaffiot/uoc3/pars/:573
 msgid "partie, côté"
 msgstr ""
 
-#: Gaffiot/thema3/pater/:341 Gaffiot/uoc3/pater/:572
+#: Gaffiot/thema3/pater/:343 Gaffiot/uoc3/pater/:574
 msgid "père ; pl. sénateurs"
 msgstr ""
 
-#: Gaffiot/thema3/paupertas/:342 Gaffiot/uoc3/paupertas/:573
+#: Gaffiot/thema3/paupertas/:344 Gaffiot/uoc3/paupertas/:575
 msgid "pauvreté"
 msgstr ""
 
-#: Gaffiot/thema3/pax/:343 Gaffiot/uoc3/pax/:574
+#: Gaffiot/thema3/pax/:345 Gaffiot/uoc3/pax/:576
 msgid "paix"
 msgstr ""
 
-#: Gaffiot/thema3/pectus/:344 Gaffiot/uoc3/pectus/:575
+#: Gaffiot/thema3/pectus/:346 Gaffiot/uoc3/pectus/:577
 msgid "poitrine, coeur, intelligence"
 msgstr ""
 
-#: Gaffiot/thema3/pecus/:345 Gaffiot/uoc3/pecus/:576
+#: Gaffiot/thema3/pecus/:347 Gaffiot/uoc3/pecus/:578
 msgid "bétail"
 msgstr ""
 
-#: Gaffiot/thema3/pedes/:346 Gaffiot/uoc3/pedes/:577
+#: Gaffiot/thema3/pedes/:348 Gaffiot/uoc3/pedes/:579
 msgid "fantassin, piéton"
 msgstr ""
 
-#: Gaffiot/thema3/pes/:347 Gaffiot/uoc3/pes/:578
+#: Gaffiot/thema3/pes/:349 Gaffiot/uoc3/pes/:580
 msgid "pied"
 msgstr ""
 
-#: Gaffiot/thema3/pietas/:348 Gaffiot/uoc3/pietas/:579
+#: Gaffiot/thema3/pietas/:350 Gaffiot/uoc3/pietas/:581
 msgid "respect, patriotisme, piété, affection"
 msgstr ""
 
-#: Gaffiot/thema3/piscis/:349 Gaffiot/uoc3/piscis/:580
+#: Gaffiot/thema3/piscis/:351 Gaffiot/uoc3/piscis/:582
 msgid "poisson"
 msgstr ""
 
-#: Gaffiot/thema3/plebs/:350 Gaffiot/uoc3/plebs/:581
+#: Gaffiot/thema3/plebs/:352 Gaffiot/uoc3/plebs/:583
 msgid "plèbe"
 msgstr ""
 
-#: Gaffiot/thema3/pondus/:351 Gaffiot/uoc3/pondus/:582
+#: Gaffiot/thema3/pondus/:353 Gaffiot/uoc3/pondus/:584
 msgid "poids"
 msgstr ""
 
-#: Gaffiot/thema3/pons/:352 Gaffiot/uoc3/pons/:583
+#: Gaffiot/thema3/pons/:354 Gaffiot/uoc3/pons/:585
 msgid "pont"
 msgstr ""
 
-#: Gaffiot/thema3/potestas/:353 Gaffiot/uoc3/potestas/:584
+#: Gaffiot/thema3/potestas/:355 Gaffiot/uoc3/potestas/:586
 msgid "puissance, pouvoir, pouvoir d'un magistrat, occasion de faire qqch. "
 msgstr ""
 
-#: Gaffiot/thema3/praetor/:354 Gaffiot/uoc3/praetor/:585
+#: Gaffiot/thema3/praetor/:356 Gaffiot/uoc3/praetor/:587
 msgid "préteur"
 msgstr ""
 
-#: Gaffiot/thema3/pudor/:355 Gaffiot/uoc3/pudor/:586
+#: Gaffiot/thema3/pudor/:357 Gaffiot/uoc3/pudor/:588
 msgid "honte, réserve, timidité. Finit en -or"
 msgstr ""
 
-#: Gaffiot/thema3/puluis/:356 Gaffiot/uoc3/puluis/:587
+#: Gaffiot/thema3/puluis/:358 Gaffiot/uoc3/puluis/:589
 msgid "poussière"
 msgstr ""
 
-#: Gaffiot/thema3/quies/:357 Gaffiot/uoc3/quies/:588
+#: Gaffiot/thema3/quies/:359 Gaffiot/uoc3/quies/:590
 msgid "repos, calme, tranquilité"
 msgstr ""
 
-#: Gaffiot/thema3/ratio/:358 Gaffiot/uoc3/ratio/:589
+#: Gaffiot/thema3/ratio/:360 Gaffiot/uoc3/ratio/:591
 msgid "raison, raisonnement, compte"
 msgstr ""
 
-#: Gaffiot/thema3/ratis/:359 Gaffiot/uoc3/ratis/:590
+#: Gaffiot/thema3/ratis/:361 Gaffiot/uoc3/ratis/:592
 msgid "radeau, navire"
 msgstr ""
 
-#: Gaffiot/thema3/regio/:360 Gaffiot/uoc3/regio/:591
+#: Gaffiot/thema3/regio/:362 Gaffiot/uoc3/regio/:593
 msgid "région, quartier"
 msgstr ""
 
-#: Gaffiot/thema3/rex/:361 Gaffiot/uoc3/rex/:592
+#: Gaffiot/thema3/rex/:363 Gaffiot/uoc3/rex/:594
 msgid "roi"
 msgstr ""
 
-#: Gaffiot/thema3/robur/:362 Gaffiot/uoc3/robur/:593
+#: Gaffiot/thema3/robur/:364 Gaffiot/uoc3/robur/:595
 msgid "rouvre, chêne, dureté, solidité"
 msgstr ""
 
-#: Gaffiot/thema3/sanguis/:363 Gaffiot/uoc3/sanguis/:594
+#: Gaffiot/thema3/sanguis/:365 Gaffiot/uoc3/sanguis/:596
 msgid "sang, vigueur"
 msgstr ""
 
-#: Gaffiot/thema3/scelus/:364 Gaffiot/uoc3/scelus/:595
+#: Gaffiot/thema3/scelus/:366 Gaffiot/uoc3/scelus/:597
 msgid "crime"
 msgstr ""
 
-#: Gaffiot/thema3/sedes/:365 Gaffiot/uoc3/sedes/:596
+#: Gaffiot/thema3/sedes/:367 Gaffiot/uoc3/sedes/:598
 msgid "siège, place"
 msgstr ""
 
-#: Gaffiot/thema3/semen/:366 Gaffiot/uoc3/semen/:597
+#: Gaffiot/thema3/semen/:368 Gaffiot/uoc3/semen/:599
 msgid "graine, semence"
 msgstr ""
 
-#: Gaffiot/thema3/senectus/:367 Gaffiot/uoc3/senectus/:598
+#: Gaffiot/thema3/senectus/:369 Gaffiot/uoc3/senectus/:600
 msgid "vieillesse"
 msgstr ""
 
-#: Gaffiot/thema3/senex/:368 Gaffiot/uoc3/senex/:599
+#: Gaffiot/thema3/senex/:370 Gaffiot/uoc3/senex/:601
 msgid "vieillard"
 msgstr ""
 
-#: Gaffiot/thema3/sermo/:369 Gaffiot/uoc3/sermo/:600
+#: Gaffiot/thema3/sermo/:371 Gaffiot/uoc3/sermo/:602
 msgid "conversation, dialogue, discussion, discours, langue"
 msgstr ""
 
-#: Gaffiot/thema3/sol/:370 Gaffiot/uoc3/sol/:601
+#: Gaffiot/thema3/sol/:372 Gaffiot/uoc3/sol/:603
 msgid "soleil"
 msgstr ""
 
-#: Gaffiot/thema3/soror/:371 Gaffiot/uoc3/soror/:602
+#: Gaffiot/thema3/soror/:373 Gaffiot/uoc3/soror/:604
 msgid "soeur"
 msgstr ""
 
-#: Gaffiot/thema3/tellus/:372 Gaffiot/uoc3/tellus/:603
+#: Gaffiot/thema3/tellus/:374 Gaffiot/uoc3/tellus/:605
 msgid "terre, sol, terrain, pays"
 msgstr ""
 
-#: Gaffiot/thema3/tempestas/:373 Gaffiot/uoc3/tempestas/:604
+#: Gaffiot/thema3/tempestas/:375 Gaffiot/uoc3/tempestas/:606
 msgid "temps, mauvais temps"
 msgstr ""
 
-#: Gaffiot/thema3/tempus/:374 Gaffiot/uoc3/tempus/:605
+#: Gaffiot/thema3/tempus/:376 Gaffiot/uoc3/tempus/:607
 msgid "temps"
 msgstr ""
 
-#: Gaffiot/thema3/terror/:375 Gaffiot/uoc3/terror/:606
+#: Gaffiot/thema3/terror/:377 Gaffiot/uoc3/terror/:608
 msgid "terreur, effroi, épouvante. Ce n'est pas pauor."
 msgstr ""
 
-#: Gaffiot/thema3/testis/:376 Gaffiot/uoc3/testis/:607
+#: Gaffiot/thema3/testis/:378 Gaffiot/uoc3/testis/:609
 msgid "témoin"
 msgstr ""
 
-#: Gaffiot/thema3/timor/:377 Gaffiot/uoc3/timor/:608
+#: Gaffiot/thema3/timor/:379 Gaffiot/uoc3/timor/:610
 msgid "peur"
 msgstr ""
 
-#: Gaffiot/thema3/turris/:378 Gaffiot/uoc3/turris/:609
+#: Gaffiot/thema3/turris/:380 Gaffiot/uoc3/turris/:611
 msgid "tour"
 msgstr ""
 
-#: Gaffiot/thema3/uates/:379 Gaffiot/uoc3/uates/:610
+#: Gaffiot/thema3/uates/:381 Gaffiot/uoc3/uates/:612
 msgid "devin, poète"
 msgstr ""
 
-#: Gaffiot/thema3/uer/:380 Gaffiot/uoc3/uer/:611
+#: Gaffiot/thema3/uer/:382 Gaffiot/uoc3/uer/:613
 msgid "printemps"
 msgstr ""
 
-#: Gaffiot/thema3/uestis/:381 Gaffiot/uoc3/uestis/:612
+#: Gaffiot/thema3/uestis/:383 Gaffiot/uoc3/uestis/:614
 msgid "vêtement"
 msgstr ""
 
-#: Gaffiot/thema3/uictor/:382 Gaffiot/uoc3/uictor/:613
+#: Gaffiot/thema3/uictor/:384 Gaffiot/uoc3/uictor/:615
 msgid "vainqueur"
 msgstr ""
 
-#: Gaffiot/thema3/uirgo/:383 Gaffiot/uoc3/uirgo/:614
+#: Gaffiot/thema3/uirgo/:385 Gaffiot/uoc3/uirgo/:616
 msgid "vierge, jeune fille non mariée"
 msgstr ""
 
-#: Gaffiot/thema3/uirtus/:384 Gaffiot/uoc3/uirtus/:615
+#: Gaffiot/thema3/uirtus/:386 Gaffiot/uoc3/uirtus/:617
 msgid "courage, honnêteté"
 msgstr ""
 
-#: Gaffiot/thema3/uis/:385 Gaffiot/uoc3/uis/:616
+#: Gaffiot/thema3/uis/:387 Gaffiot/uoc3/uis/:618
 msgid "force"
 msgstr ""
 
-#: Gaffiot/thema3/uoluntas/:386 Gaffiot/uoc3/uoluntas/:617
+#: Gaffiot/thema3/uoluntas/:388 Gaffiot/uoc3/uoluntas/:619
 msgid "volonté"
 msgstr ""
 
-#: Gaffiot/thema3/uoluptas/:387 Gaffiot/uoc3/uoluptas/:618
+#: Gaffiot/thema3/uoluptas/:389 Gaffiot/uoc3/uoluptas/:620
 msgid "volupté"
 msgstr ""
 
-#: Gaffiot/thema3/uox/:388 Gaffiot/uoc3/uox/:619
+#: Gaffiot/thema3/uox/:390 Gaffiot/uoc3/uox/:621
 msgid "voix, son de la voix, parole, mot"
 msgstr ""
 
-#: Gaffiot/thema3/urbs/:389 Gaffiot/uoc3/urbs/:620
+#: Gaffiot/thema3/urbs/:391 Gaffiot/uoc3/urbs/:622
 msgid "ville"
 msgstr ""
 
-#: Gaffiot/thema3/utilitas/:390 Gaffiot/uoc3/utilitas/:621
+#: Gaffiot/thema3/utilitas/:392 Gaffiot/uoc3/utilitas/:623
 msgid "utilité"
 msgstr ""
 
-#: Gaffiot/thema3/uulnus/:391 Gaffiot/uoc3/uulnus/:622
+#: Gaffiot/thema3/uulnus/:393 Gaffiot/uoc3/uulnus/:624
 msgid "blessure"
 msgstr ""
 
-#: Gaffiot/thema3/uxor/:392 Gaffiot/uoc3/uxor/:623
+#: Gaffiot/thema3/uxor/:394 Gaffiot/uoc3/uxor/:625
 msgid "épouse, femme"
 msgstr ""
 
-#: Gaffiot/thema4/aditus/:393
+#: Gaffiot/thema4/aditus/:395
 msgid "accès"
 msgstr ""
 
-#: Gaffiot/thema4/aduentus/:394
+#: Gaffiot/thema4/aduentus/:396
 msgid "arrivée, venue"
 msgstr ""
 
-#: Gaffiot/thema4/aestus/:395
+#: Gaffiot/thema4/aestus/:397
 msgid "chaleur, bouillonnement, vagues, marée"
 msgstr ""
 
-#: Gaffiot/thema4/affectus/:396
+#: Gaffiot/thema4/affectus/:398
 msgid "disposition de l'âme, sentiment"
 msgstr ""
 
-#: Gaffiot/thema4/casus/:397
+#: Gaffiot/thema4/casus/:399
 msgid "hasard, malheur, chute"
 msgstr ""
 
-#: Gaffiot/thema4/conspectus/:398
+#: Gaffiot/thema4/conspectus/:400
 msgid "vue, regard"
 msgstr ""
 
-#: Gaffiot/thema4/consulatus/:399
+#: Gaffiot/thema4/consulatus/:401
 msgid "consulat"
 msgstr ""
 
-#: Gaffiot/thema4/cornu/:400
+#: Gaffiot/thema4/cornu/:402
 msgid "corne, aile d'une ligne de bataille. "
 msgstr ""
 
-#: Gaffiot/thema4/cultus/:401
+#: Gaffiot/thema4/cultus/:403
 msgid "culture du sol, culture, éducation, culte, égards, moeurs, parure"
 msgstr ""
 
-#: Gaffiot/thema4/currus/:402
+#: Gaffiot/thema4/currus/:404
 msgid "char"
 msgstr ""
 
-#: Gaffiot/thema4/cursus/:403
+#: Gaffiot/thema4/cursus/:405
 msgid "course, parcours, trajet"
 msgstr ""
 
-#: Gaffiot/thema4/domus/:404
+#: Gaffiot/thema4/domus/:406
 msgid "maison"
 msgstr ""
 
-#: Gaffiot/thema4/equitatus/:405
+#: Gaffiot/thema4/equitatus/:407
 msgid "cavalerie"
 msgstr ""
 
-#: Gaffiot/thema4/exercitus/:406
+#: Gaffiot/thema4/exercitus/:408
 msgid "armée"
 msgstr ""
 
-#: Gaffiot/thema4/exitus/:407
+#: Gaffiot/thema4/exitus/:409
 msgid "sortie, issue, résultat, aboutissement, mort, fin, conclusion"
 msgstr ""
 
-#: Gaffiot/thema4/fructus/:408
+#: Gaffiot/thema4/fructus/:410
 msgid "droit qu'on a sur qqch, usufruit, fruit, récompense, résultat"
 msgstr ""
 
-#: Gaffiot/thema4/genu/:409
+#: Gaffiot/thema4/genu/:411
 msgid "genou"
 msgstr ""
 
-#: Gaffiot/thema4/gradus/:410
+#: Gaffiot/thema4/gradus/:412
 msgid "degré, échelon, rang"
 msgstr ""
 
-#: Gaffiot/thema4/habitus/:411
+#: Gaffiot/thema4/habitus/:413
 msgid "manière d'être, apparence"
 msgstr ""
 
-#: Gaffiot/thema4/ictus/:412
+#: Gaffiot/thema4/ictus/:414
 msgid "coup, choc"
 msgstr ""
 
-#: Gaffiot/thema4/impetus/:413
+#: Gaffiot/thema4/impetus/:415
 msgid "mouvement en avant, élan, assaut"
 msgstr ""
 
-#: Gaffiot/thema4/magistratus/:414
+#: Gaffiot/thema4/magistratus/:416
 msgid "charge, magistrature, fonction publique"
 msgstr ""
 
-#: Gaffiot/thema4/manus/:415
+#: Gaffiot/thema4/manus/:417
 msgid "main, petite troupe"
 msgstr ""
 
-#: Gaffiot/thema4/metus/:416
+#: Gaffiot/thema4/metus/:418
 msgid "peur, crainte"
 msgstr ""
 
-#: Gaffiot/thema4/motus/:417
+#: Gaffiot/thema4/motus/:419
 msgid "mouvement, trouble, révolte, émotion, excitation, secousse"
 msgstr ""
 
-#: Gaffiot/thema4/paratus/:418
+#: Gaffiot/thema4/paratus/:420
 msgid "préparation, apprêt, préparatif"
 msgstr ""
 
-#: Gaffiot/thema4/passus/:419
+#: Gaffiot/thema4/passus/:421
 msgid "pas (1, 479 m.)"
 msgstr ""
 
-#: Gaffiot/thema4/porticus/:420
+#: Gaffiot/thema4/porticus/:422
 msgid "portique"
 msgstr ""
 
-#: Gaffiot/thema4/portus/:421
+#: Gaffiot/thema4/portus/:423
 msgid "port"
 msgstr ""
 
-#: Gaffiot/thema4/senatus/:422
+#: Gaffiot/thema4/senatus/:424
 msgid "sénat"
 msgstr ""
 
-#: Gaffiot/thema4/sensus/:423
+#: Gaffiot/thema4/sensus/:425
 msgid "sens, sentiments"
 msgstr ""
 
-#: Gaffiot/thema4/sinus/:424
+#: Gaffiot/thema4/sinus/:426
 msgid "sein, courbure, golfe, anse"
 msgstr ""
 
-#: Gaffiot/thema4/spiritus/:425
+#: Gaffiot/thema4/spiritus/:427
 msgid "souffle, vie, inspiration"
 msgstr ""
 
-#: Gaffiot/thema4/uersus/:426
+#: Gaffiot/thema4/uersus/:428
 msgid "sillon, ligne, vers"
 msgstr ""
 
-#: Gaffiot/thema4/usus/:427
+#: Gaffiot/thema4/usus/:429
 msgid "usage, utilité"
 msgstr ""
 
-#: Gaffiot/thema4/uultus/:428
+#: Gaffiot/thema4/uultus/:430
 msgid "regard, visage"
 msgstr ""
 
-#: Gaffiot/thema4/acies/:429
+#: Gaffiot/thema4/acies/:431
 msgid "ligne de bataille; regard"
 msgstr ""
 
-#: Gaffiot/thema4/dies/:430
+#: Gaffiot/thema4/dies/:432
 msgid "jour"
 msgstr ""
 
-#: Gaffiot/thema4/facies/:431
+#: Gaffiot/thema4/facies/:433
 msgid "forme extérieure, apparence, figure"
 msgstr ""
 
-#: Gaffiot/thema4/fides/:432
+#: Gaffiot/thema4/fides/:434
 msgid "confiance, loyauté"
 msgstr ""
 
-#: Gaffiot/thema4/res/:433
+#: Gaffiot/thema4/res/:435
 msgid "chose, événement, circonstance, affaire judiciaire;  biens"
 msgstr ""
 
-#: Gaffiot/thema4/species/:434
+#: Gaffiot/thema4/species/:436
 msgid "vision sans réalité, apparence, aspect, prétexte"
 msgstr ""
 
-#: Gaffiot/thema4/spes/:435
+#: Gaffiot/thema4/spes/:437
 msgid "espoir"
 msgstr ""
 
-#: Gaffiot/uoc3/os/:568
+#: Gaffiot/uoc3/os/:570
 msgid "visage, bouche"
 msgstr ""
