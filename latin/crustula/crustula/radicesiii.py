@@ -19,14 +19,44 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from .utils.incrementum import *
 import random
+from crustula.models import Gaffiot
 
 def index(request):
     preferred_language(request)
-    #####################################
-    #                                   #
-    # as many program lines as you want #
-    #                                   #
-    #####################################
+    cognita = request.POST.get("cognita", "0")
+    lex = Lexicum("radices3", cognita)
+    nominatiuum = request.POST.get("priorQ", "")
+    r = request.POST.get("r", "")
+    s = ""
+    recte = False
+    resp = ""
+    priorQ = ""
+    if nominatiuum:
+        priorQ = lex.facQgenit(nominatiuum)
+    if r:
+       resp = r
+       r = r.strip().lower()
+       s = lex.solutio2(nominatiuum)
+       recte = s == r
+       if recte:
+           lex.succes2(nominatiuum)
+       else:
+           lex.echec2(nominatiuum)
+    facta = lex.bilan
+    discenda = len(lex.bini) - facta
+    linea = lex.Qincr()
+    latine = linea["latine"]
+    quaestio = lex.facQgenit(latine)
     return render(request,'crustula/radicesiii.html', context={
+        "priorQ": priorQ,
+        "s": s,
+        "recte": recte,
+        "resp": resp,
+        "facta": facta,
+        "discenda": discenda,
+        "quaestio": quaestio,
+        "latine": latine,
+        "cog": lex.cognita_bin,
     })

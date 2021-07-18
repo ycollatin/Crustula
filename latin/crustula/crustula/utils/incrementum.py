@@ -120,11 +120,23 @@ class Lexicum:
         """
         return [i for i, voc in enumerate(self.bini) if voc["gallice"] == gal][0]
     
+    def index2(self, lat):
+        """
+        @return l'index d'un mot de vocabulaire, d'après sa valeur "latine"
+        """
+        return [i for i, voc in enumerate(self.bini) if voc["latine"] == lat][0]
+    
     def ultima(self, gal):
         """
         @return vrai si gal est le dernier item à avoir été présenté
         """
         return self.index(gal) == self.visible -1
+
+    def ultima2(self, lat):
+        """
+        @return vrai si lat est le dernier item à avoir été présenté
+        """
+        return self.index2(lat) == self.visible -1
 
     def succes (self, gal):
         """
@@ -140,12 +152,34 @@ class Lexicum:
             self.visible += 1
         return
         
+    def succes2 (self, lat):
+        """
+       armer le lat enclavé.
+       s'il n'y a plus d'enclave, 
+          et si la question posée était nouvelle,
+             ajouter un item dans le questionnement
+        @param lex nom d'un "commentaire" de la table Gaffiot de la BDD
+        """
+        self.cognita[self.index2(lat)] = True
+        if self.perfectum() and self.ultima2(lat) and \
+           self.bilan < len(self.bini):
+            self.visible += 1
+        return
+        
     def echec(self, gal):
         """
         déclare l'échec de gal, donc crée l'enclave correspondante
         @param gal un  mot dans la locale courante
         """
         self.cognita[self.index(gal)] = False
+        return
+
+    def echec2(self, lat):
+        """
+        déclare l'échec de lat, donc crée l'enclave correspondante
+        @param gal un  mot dans la locale courante
+        """
+        self.cognita[self.index2(lat)] = False
         return
 
     @property
@@ -163,21 +197,28 @@ class Lexicum:
         s = self.solutio2(gal)
         return s, r==s
     
-    def solutio2(self, gal):
+    def solutio2(self, lat):
         """
-        renvoie une solution : nominatif, génitif, genre
+        renvoie une solution : génitif
         """
         for data in self.bini:
-            if data["gallice"] == gal:
-                return ",".join((data["latine"], data["genitif"], data["genre"]))
+            if data["latine"] == lat:
+                return data["genitif"]
         return ""
 
     def correct2(self, r, gal):
         r = ",".join([i.lower().strip() for i in r.split(",")])
         s = self.solutio2(gal)
-        print("GRRRRR, r,s = ", r, s)
         return s, r==s
     
+    def facQgenit(self, nominatiuum):
+        i = self.index2(nominatiuum)
+        g = self.bini[i]["gallice"]
+        if g:
+            translation = _(g) 
+            return f"{nominatiuum} ({translation}): genitiuum ?"
+        return f"{nominatiuum} : genitiuum ?"
 
 def facQ(gallice):
     return f"Quomodo latine dicitur : {gallice} ?"
+
