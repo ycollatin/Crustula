@@ -85,7 +85,7 @@ class Ov(models.Model):
     """
     latine  = models.CharField(max_length=255)
     gallice = models.CharField(max_length=255)
-    genre = models.CharField(max_length=1, default="m")
+    genre   = models.CharField(max_length=1)
     sovs = models.ManyToManyField(Sov)
 
     def __str__(self):
