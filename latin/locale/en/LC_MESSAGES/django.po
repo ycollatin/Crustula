@@ -247,7 +247,7 @@ msgstr "Wrong. You replied"
 msgid "En latin, ce mot serait donc"
 msgstr "In Latin, this word would be"
 
-#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:166
+#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:158
 msgid "aime"
 msgstr "loves"
 
@@ -255,72 +255,35 @@ msgstr "loves"
 msgid "gallice"
 msgstr "anglice"
 
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:151
-msgid "mon père"
-msgstr ""
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:153
-msgid "ma mère"
-msgstr ""
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:155
-#, fuzzy
-#| msgid "mon_frère(objet)"
-msgid "mon frère"
-msgstr "my_brother"
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:157
-msgid "ma soeur"
-msgstr ""
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:159
-msgid "mon fils"
-msgstr ""
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:161
-msgid "ma fille"
-msgstr ""
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:163
-msgid "ma femme"
-msgstr ""
-
-#: crustula/crustula/sov1.py:166
+#: crustula/crustula/sov1.py:158
 #, fuzzy
 #| msgid "aime"
 msgid "j'aime"
 msgstr "loves"
 
-#: crustula/crustula/sov1.py:166
+#: crustula/crustula/sov1.py:158
 #, fuzzy
 #| msgid "aime"
 msgid "tu aimes"
 msgstr "loves"
 
-#: crustula/crustula/sov1.py:167
+#: crustula/crustula/sov1.py:159
 msgid "nous aimons"
 msgstr ""
 
-#: crustula/crustula/sov1.py:167
+#: crustula/crustula/sov1.py:159
 msgid "vous aimez"
 msgstr ""
 
-#: crustula/crustula/sov1.py:167
+#: crustula/crustula/sov1.py:159
 msgid "ils aiment"
 msgstr ""
 
-#: crustula/crustula/sov1.py:221
+#: crustula/crustula/sov1.py:213
 msgid "Tous les déterminants sont des déterminants possessifs !"
 msgstr ""
 
-#: crustula/crustula/sov1.py:222
+#: crustula/crustula/sov1.py:214
 msgid "pour « aimer », utilise le verbe"
 msgstr ""
 
@@ -2209,3 +2172,8 @@ msgstr "bee"
 #: subiectus-objectus/uxor/uxorem/:17
 msgid "ma femme/"
 msgstr ""
+
+#, fuzzy
+#~| msgid "mon_frère(objet)"
+#~ msgid "mon frère"
+#~ msgstr "my_brother"

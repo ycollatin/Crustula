@@ -227,7 +227,7 @@ msgstr "Ошибка. Вы ответили"
 msgid "En latin, ce mot serait donc"
 msgstr "Итак, на латыни это слово будет"
 
-#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:166
+#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:158
 msgid "aime"
 msgstr "любит"
 
@@ -235,66 +235,31 @@ msgstr "любит"
 msgid "gallice"
 msgstr "slavica"
 
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:151
-msgid "mon père"
-msgstr "мой отец/своего отца"
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:153
-msgid "ma mère"
-msgstr "моей мате/мою мать"
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:155
-msgid "mon frère"
-msgstr "мой брат/моего брата"
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:157
-msgid "ma soeur"
-msgstr "моей сестре/мою сестру"
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:159
-msgid "mon fils"
-msgstr "мой сын/моего сына"
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:161
-msgid "ma fille"
-msgstr "моя девушка/мою дочь"
-
-#. Translators: for declensions, translate to: nominative/accusative
-#: crustula/crustula/sov1.py:163
-msgid "ma femme"
-msgstr "моя жена/мою жену"
-
-#: crustula/crustula/sov1.py:166
+#: crustula/crustula/sov1.py:158
 msgid "j'aime"
 msgstr "я люблю"
 
-#: crustula/crustula/sov1.py:166
+#: crustula/crustula/sov1.py:158
 msgid "tu aimes"
 msgstr "ты любишь"
 
-#: crustula/crustula/sov1.py:167
+#: crustula/crustula/sov1.py:159
 msgid "nous aimons"
 msgstr "мы любим"
 
-#: crustula/crustula/sov1.py:167
+#: crustula/crustula/sov1.py:159
 msgid "vous aimez"
 msgstr "вы любите"
 
-#: crustula/crustula/sov1.py:167
+#: crustula/crustula/sov1.py:159
 msgid "ils aiment"
 msgstr "они любят"
 
-#: crustula/crustula/sov1.py:221
+#: crustula/crustula/sov1.py:213
 msgid "Tous les déterminants sont des déterminants possessifs !"
 msgstr "Все детерминанты являются притяжательными детерминантами!"
 
-#: crustula/crustula/sov1.py:222
+#: crustula/crustula/sov1.py:214
 msgid "pour « aimer », utilise le verbe"
 msgstr "для \"любить\" использует глагол"
 
@@ -2188,6 +2153,27 @@ msgstr "моя девушка/мою дочь"
 #: subiectus-objectus/uxor/uxorem/:17
 msgid "ma femme/"
 msgstr "моя жена/мою жену"
+
+#~ msgid "mon père"
+#~ msgstr "мой отец/своего отца"
+
+#~ msgid "ma mère"
+#~ msgstr "моей мате/мою мать"
+
+#~ msgid "mon frère"
+#~ msgstr "мой брат/моего брата"
+
+#~ msgid "ma soeur"
+#~ msgstr "моей сестре/мою сестру"
+
+#~ msgid "mon fils"
+#~ msgstr "мой сын/моего сына"
+
+#~ msgid "ma fille"
+#~ msgstr "моя девушка/мою дочь"
+
+#~ msgid "ma femme"
+#~ msgstr "моя жена/мою жену"
 
 #~ msgid "Aemilium"
 #~ msgstr "Эмилия"
