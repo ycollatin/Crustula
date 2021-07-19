@@ -19,51 +19,42 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from crustula.models import *
 import random
 
-nominM = [
-    N_("Aemilius"),
-    N_("Eupalamus"),
-    N_("Publius"),
-    N_("Aulus"),
-    N_("Marcus")]
+try:
+    vocab = Sov.objects.get(name="sov")
+    
 
-nominF = [
-    N_("Aemilia"),
-    N_("Iulia"),
-    N_("Lucia"),
-    N_("Lucretia"),
-    N_("Sempronia")]
+    M = list(vocab.ov_set.filter(genre="m"))
+    F = list(vocab.ov_set.filter(genre="f"))
+    acc = [(o.accLatine, o) for o in vocab.ov_set.all()] # tous les accusatifs latins
+    nom = [(o.nomLatine, o) for o in vocab.ov_set.all()] # tous les nominatifs latins
 
-accusM = [
-   N_("Aemilium"),
-   N_("Eupalamum"),
-   N_("Publium"),
-   N_("Aulum"),
-   N_("Marcum")]
+    print ("GRRRR nom =", nom)
+    print("GRRRR acc =", acc)
+except:
+    pass
 
-accusF = [
-    N_("Aemiliam"),
-    N_("Iuliam"),
-    N_("Luciam"),
-    N_("Lucretiam"),
-    N_("Semproniam")]
+def accusatiuus_est(uer):
+    """
+    Vérifie si uer est un accusatif
+    @return un Ov ayant uer pour accusatif, sinon None 
+    """
+    for latine, o in acc:
+        if latine == uer:
+            return o
+    return
 
-declinatio = N_("si non declinatione neque sermonem transferre");
-def declinatio_est():
-    return _(declinatio) != declinatio
-
-nomina = nominF + nominM
-accus = accusF + accusM
-
-nominADaccus = []
-accusADnomin = []
-
-def accusatiuus_est(n):
-    return n in accus
-
-nominADaccus = {n: accus[i] for i, n in enumerate(nomina)}            
-accusADnomin = {a: nomina[i] for i, a in enumerate(accus)}
+def nominatiuus_est(uer):
+    """
+    Vérifie si uer est un nominatif
+    @return un Ov ayant uer pour nominatif, sinon None 
+    """
+    for latine, o in nom:
+        if latine == uer:
+            return o
+    return
 
 def f_gallice(s):
     ## in tabulam uertere sententiam :
@@ -72,54 +63,46 @@ def f_gallice(s):
     for uer in coll:
         if uer == "amat":
             verbe = _("aime")
-        elif accusatiuus_est(uer):
-            objet = uer
-        else:
-            sujet = uer
-    if declinatio_est():
-        sujet = _(sujet)
-        objet = _(objet)
-    else:
-        objet = accusADnomin[objet]
-    return f"{sujet} {verbe} {objet}."
+            continue
+        a = accusatiuus_est(uer)
+        if a:
+            objet = a
+            continue
+        n = nominatiuus_est(uer)
+        if n:
+            sujet = n
+    return f"{sujet.nomGallice} {verbe} {objet.accGallice}."
 
 def alea_jacta_est():
-    ## décider du sexe du sujet
+    """
+    décider du sexe du sujet
+    @return une paire d'OV : un sujet et un objet de genre mf ou fm
+    """
     sexus =('m','f')
     if (random.choice(sexus) == 'm'):
-        subiectus = random.choice(nominM)
-        lemma_obiecti = random.choice(nominF)
+        return random.choice(M), random.choice(F)
     else:
-        subiectus = random.choice(nominF)
-        lemma_obiecti = random.choice(nominM)
-
-    obiectus = nominADaccus[lemma_obiecti]
-    return subiectus, obiectus, lemma_obiecti
+        return random.choice(F), random.choice(M)
 
 def IIPropositiones():
     """
     fabrique de façon aléatoire le groupe sujet, verbe objet
     @return une phrase, et deux propositions
     """
-    subiectus, obiectus, lemma_obiecti = alea_jacta_est()
-    if declinatio_est():
-        s1 = _(subiectus)
-        o1 = _(obiectus)
-        s2 = _(accusADnomin[obiectus])
-        o2 = _(nominADaccus[subiectus])
-    else:
-        s1 = subiectus
-        o1 = lemma_obiecti
-        s2 = lemma_obiecti
-        o2 = subiectus
+    subiectus, obiectus = alea_jacta_est()
+    s1 = subiectus.nomGallice
+    o1 = obiectus.accGallice
+    s2 = obiectus.nomGallice
+    o2 = subiectus.accGallice
     p = [
         f"{s1} {_('aime')} {o1}.",
         f"{s2} {_('aime')} {o2}.",
     ]
     random.shuffle(p)
-    c = [subiectus, obiectus, 'amat']
+    c = [subiectus.nomLatine, obiectus.accLatine, 'amat']
     random.shuffle(c)
-    return " ".join(c) + ".", p[0], p[1]
+    phrase = " ".join(c) + "."
+    return phrase, p[0], p[1]
 
 
 def index(request):

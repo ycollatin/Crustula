@@ -73,23 +73,23 @@ class Sov(models.Model):
     """
     classe utile pour chaque crutula de type "sov"
     """
-    name = models.CharField(max_length=10)
+    name = models.CharField(max_length=10, primary_key = True)
 
     def __str__(self):
-        return f"SOV: {self.name}"
+        return self.name
 
 class Ov(models.Model):
     """
     vocabulaire pour Sujet/Objet ; essentiellement des noms au nominatif
     et à l'accusatif
     """
-    latine  = models.CharField(max_length=255)
+    latine  = models.CharField(max_length=255, primary_key = True)
     gallice = models.CharField(max_length=255)
     genre   = models.CharField(max_length=1)
     sovs = models.ManyToManyField(Sov)
 
     def __str__(self):
-        return f"{self.latine} : {self.galle} ({self.genre}, {self.sovs.all()})"
+        return f"{self.latine} : {self.gallice} ({self.genre}, {self.sovs.all()})"
 
     @property
     def nomLatine(self):
