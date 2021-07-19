@@ -19,6 +19,7 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from crustula.models import *
 import random
 import re
 import json
@@ -40,6 +41,15 @@ def upper_first(s):
     return s[0].upper()+s[1:]
 
 class Phrase:
+    """
+    classe représentant une phrase.
+
+    Paramètres du constructeur:
+    @param person : 1, 2 ou 3
+    @param number : "s" ou "p" pour singulier, pluriel
+    @param aSubject sujet de type Ov
+    @param aObject objet de type Ov
+    """
     def __init__(self, person, number, aSubject, aObject):
         self.person = person
         self.number= number
@@ -49,7 +59,7 @@ class Phrase:
     
     @property
     def schema(self):
-        return json.dumps({"p": self.person, "n": self.number, "S": self.subject, "O": self.object})
+        return json.dumps({"p": self.person, "n": self.number, "S": self.subject.serializable, "O": self.object.serializable})
 
     def conj(self, uerbum):
         """
@@ -81,11 +91,11 @@ class Phrase:
         fVerbum = self.conj(uerbum)
         ## subiectum
         if self.person == 3 and self.number == 's':
-            sub = decl(self.subject, 'n') # nominative
+            sub = self.subject.nomLatine
         else:
             sub = ''
         ## obiectum
-        obj = decl(self.object, 'ac') # accusative
+        obj = self.object.accLatine
         ## ordinem
         tabula = [sub, obj, fVerbum]
         random.shuffle(tabula);
@@ -105,13 +115,9 @@ class Phrase:
         sujet = ""
         ## sujet
         if self.number == 's' and self.person == 3:
-            sujet = self.subject[2]
-            if "/" in sujet: # il faut choisir entre nominatif et accusatif
-                sujet = sujet.split("/")[0] 
-        ## objet 
-        objet = self.object[2];
-        if "/" in objet: # il faut choisir entre nominatif et accusatif
-                objet = objet.split("/")[1] 
+            sujet = self.subject.nomGallice
+        ## objet
+        objet = self.object.accGallice
         ## retour
         return upper_first("{} {} {}".format(sujet, formeV, objet))
 
@@ -124,8 +130,8 @@ class Phrase:
         eclats = json.loads(sch)
         return Phrase(eclats["p"],
                       eclats["n"],
-                      eclats["S"],
-                      eclats["O"])
+                      Ov.fromserial(eclats["S"]),
+                      Ov.fromserial(eclats["O"]))
 
 class RandomPhrase(Phrase):
     def __init__(self, nomina):
@@ -134,34 +140,20 @@ class RandomPhrase(Phrase):
             number = random.choice(('s', 'p'))
         else:
             number = random.choice(('s','s','s','s','s','s','p'))
-        aSubject = ""
+        aSubject = Ov("","","m")
         if person == 3 and number == 's':
             aSubject = random.choice(nomina)
         aObject = random.choice(nomina)
         while aObject == aSubject:
             aObject = random.choice(nomina)
-        Phrase.__init__(self, person,number, aSubject, aObject)
+        Phrase.__init__(self, person, number, aSubject, aObject)
         return
 
 
 def index(request):
     preferred_language(request)
-    nomina = [
-        # Translators: for declensions, translate to: nominative/accusative
-        ['pat-er-rem', 'm', _('mon père')],     # 0
-        # Translators: for declensions, translate to: nominative/accusative
-        ['mat-er-rem', 'f', _('ma mère')],      # 1
-        # Translators: for declensions, translate to: nominative/accusative
-        ['frat-er-rem', 'm', _('mon frère')],   # 2
-        # Translators: for declensions, translate to: nominative/accusative
-        ['sor-or-orem', 'm', _('ma soeur')],    # 3
-        # Translators: for declensions, translate to: nominative/accusative
-        ['filiu-s-m', 'n', _('mon fils')],      # 4
-        # Translators: for declensions, translate to: nominative/accusative
-        ['fili-a-am', 'f', _('ma fille')],      # 5
-        # Translators: for declensions, translate to: nominative/accusative
-        ['ux-or-orem',  'f', _('ma femme')],    # 6
-    ]
+    vocab = Sov.objects.get(name="sov1")
+    nomina = list(vocab.ov_set.all()) 
     uerbum = 'dilig-o-is-it-imus-itis-unt'
     verbe = [_("j'aime"),_('tu aimes'),_('aime'),
              _('nous aimons'), _('vous aimez'),_('ils aiment')]

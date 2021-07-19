@@ -90,6 +90,17 @@ class Ov(models.Model):
 
     def __str__(self):
         return f"{self.latine} : {self.gallice} ({self.genre}, {self.sovs.all()})"
+    @property
+    def serializable(self):
+        return {
+            "lat": self.latine,
+            "gal": self.gallice,
+            "gen" : self.genre,
+        }
+
+    @staticmethod
+    def fromserial(dic):
+        return Ov(latine=dic["lat"], gallice=dic["gal"], genre=dic["gen"])
 
     @property
     def nomLatine(self):
