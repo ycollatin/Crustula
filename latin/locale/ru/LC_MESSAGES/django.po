@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 16:56+0000\n"
-"PO-Revision-Date: 2021-07-19 22:21+0200\n"
+"PO-Revision-Date: 2021-07-19 22:44+0200\n"
 "Last-Translator: Nikolay Alexandrov <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -227,11 +227,11 @@ msgstr "Ошибка. Вы ответили"
 msgid "En latin, ce mot serait donc"
 msgstr "Итак, на латыни это слово будет"
 
-#: crustula/crustula/sov.py:65 crustula/crustula/sov1.py:166
+#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:166
 msgid "aime"
 msgstr "любит"
 
-#: crustula/crustula/sov.py:136
+#: crustula/crustula/sov.py:135
 msgid "gallice"
 msgstr "slavica"
 
@@ -2153,6 +2153,41 @@ msgstr "Публий/Публия"
 #: subiectus-objectus/Sempronia/Semproniam/:10
 msgid "Sempronia/"
 msgstr "Семпрония/Семпронию"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/pater/patrem/:11
+msgid "mon père/"
+msgstr "мой отец/своего отца"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/mater/matrem/:12
+msgid "ma mère/"
+msgstr "моей мате/мою мать"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/frater/fratrem/:13
+msgid "mon frère/"
+msgstr "мой брат/моего брата"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/soror/sororem/:14
+msgid "ma soeur/"
+msgstr "моей сестре/мою сестру"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/filius/filium/:15
+msgid "mon fils/"
+msgstr "мой сын/моего сына"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/filia/filiam/:16
+msgid "ma fille/"
+msgstr "моя девушка/мою дочь"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/uxor/uxorem/:17
+msgid "ma femme/"
+msgstr "моя жена/мою жену"
 
 #~ msgid "Aemilium"
 #~ msgstr "Эмилия"

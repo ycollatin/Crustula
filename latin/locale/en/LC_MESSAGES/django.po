@@ -247,11 +247,11 @@ msgstr "Wrong. You replied"
 msgid "En latin, ce mot serait donc"
 msgstr "In Latin, this word would be"
 
-#: crustula/crustula/sov.py:65 crustula/crustula/sov1.py:166
+#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:166
 msgid "aime"
 msgstr "loves"
 
-#: crustula/crustula/sov.py:136
+#: crustula/crustula/sov.py:135
 msgid "gallice"
 msgstr "anglice"
 
@@ -2162,3 +2162,50 @@ msgstr "a_Gaul"
 #| msgid "mon_amie(objet)"
 msgid "Sempronia/"
 msgstr "my_friend"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/pater/patrem/:11
+#, fuzzy
+#| msgid "mon_frère(objet)"
+msgid "mon père/"
+msgstr "my_brother"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/mater/matrem/:12
+#, fuzzy
+#| msgid "mère"
+msgid "ma mère/"
+msgstr "mother"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/frater/fratrem/:13
+#, fuzzy
+#| msgid "mon_frère(objet)"
+msgid "mon frère/"
+msgstr "my_brother"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/soror/sororem/:14
+#, fuzzy
+#| msgid "soeur"
+msgid "ma soeur/"
+msgstr "sister"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/filius/filium/:15
+#, fuzzy
+#| msgid "fils"
+msgid "mon fils/"
+msgstr "son"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/filia/filiam/:16
+#, fuzzy
+#| msgid "abeille"
+msgid "ma fille/"
+msgstr "bee"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/uxor/uxorem/:17
+msgid "ma femme/"
+msgstr ""

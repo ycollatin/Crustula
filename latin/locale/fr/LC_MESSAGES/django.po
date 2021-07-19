@@ -224,11 +224,11 @@ msgstr ""
 msgid "En latin, ce mot serait donc"
 msgstr ""
 
-#: crustula/crustula/sov.py:65 crustula/crustula/sov1.py:166
+#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:166
 msgid "aime"
 msgstr ""
 
-#: crustula/crustula/sov.py:136
+#: crustula/crustula/sov.py:135
 msgid "gallice"
 msgstr ""
 
@@ -2091,4 +2091,39 @@ msgstr ""
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
 #: subiectus-objectus/Sempronia/Semproniam/:10
 msgid "Sempronia/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/pater/patrem/:11
+msgid "mon père/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/mater/matrem/:12
+msgid "ma mère/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/frater/fratrem/:13
+msgid "mon frère/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/soror/sororem/:14
+msgid "ma soeur/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/filius/filium/:15
+msgid "mon fils/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/filia/filiam/:16
+msgid "ma fille/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/uxor/uxorem/:17
+msgid "ma femme/"
 msgstr ""
