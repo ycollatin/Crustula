@@ -31,9 +31,8 @@ try:
     acc = [(o.accLatine, o) for o in vocab.ov_set.all()] # tous les accusatifs latins
     nom = [(o.nomLatine, o) for o in vocab.ov_set.all()] # tous les nominatifs latins
 
-    print ("GRRRR nom =", nom)
-    print("GRRRR acc =", acc)
 except:
+    print("Warning: the database should contain data in the table crustula_ov, referenced by the name 'sov' in the table crustula_sov ... something went wrong!")
     pass
 
 def accusatiuus_est(uer):
