@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 16:56+0000\n"
-"PO-Revision-Date: 2021-07-13 22:20+0300\n"
+"PO-Revision-Date: 2021-07-19 22:21+0200\n"
 "Last-Translator: Nikolay Alexandrov <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -20,43 +20,43 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: crustula/crustula/gal.py:26 crustula/crustula/sov.py:25
+#: crustula/crustula/gal.py:26
 msgid "Aemilius"
 msgstr "Эмилий"
 
-#: crustula/crustula/gal.py:27 crustula/crustula/sov.py:26
+#: crustula/crustula/gal.py:27
 msgid "Eupalamus"
 msgstr "Эвпалам"
 
-#: crustula/crustula/gal.py:28 crustula/crustula/sov.py:27
+#: crustula/crustula/gal.py:28
 msgid "Publius"
 msgstr "Публий"
 
-#: crustula/crustula/gal.py:29 crustula/crustula/sov.py:28
+#: crustula/crustula/gal.py:29
 msgid "Aulus"
 msgstr "Авл"
 
-#: crustula/crustula/gal.py:30 crustula/crustula/sov.py:29
+#: crustula/crustula/gal.py:30
 msgid "Marcus"
 msgstr "Марк"
 
-#: crustula/crustula/gal.py:33 crustula/crustula/sov.py:32
+#: crustula/crustula/gal.py:33
 msgid "Aemilia"
 msgstr "Эмилия"
 
-#: crustula/crustula/gal.py:34 crustula/crustula/sov.py:33
+#: crustula/crustula/gal.py:34
 msgid "Iulia"
 msgstr "Юлия"
 
-#: crustula/crustula/gal.py:35 crustula/crustula/sov.py:34
+#: crustula/crustula/gal.py:35
 msgid "Lucia"
 msgstr "Луция"
 
-#: crustula/crustula/gal.py:36 crustula/crustula/sov.py:35
+#: crustula/crustula/gal.py:36
 msgid "Lucretia"
 msgstr "Лукреция"
 
-#: crustula/crustula/gal.py:37 crustula/crustula/sov.py:36
+#: crustula/crustula/gal.py:37
 msgid "Sempronia"
 msgstr "Семпрония"
 
@@ -227,55 +227,11 @@ msgstr "Ошибка. Вы ответили"
 msgid "En latin, ce mot serait donc"
 msgstr "Итак, на латыни это слово будет"
 
-#: crustula/crustula/sov.py:39
-msgid "Aemilium"
-msgstr "Эмилия"
-
-#: crustula/crustula/sov.py:40
-msgid "Eupalamum"
-msgstr "Эвпалама"
-
-#: crustula/crustula/sov.py:41
-msgid "Publium"
-msgstr "Публия"
-
-#: crustula/crustula/sov.py:42
-msgid "Aulum"
-msgstr "Авла"
-
-#: crustula/crustula/sov.py:43
-msgid "Marcum"
-msgstr "Марка"
-
-#: crustula/crustula/sov.py:46
-msgid "Aemiliam"
-msgstr "Эмилию"
-
-#: crustula/crustula/sov.py:47
-msgid "Iuliam"
-msgstr "Юлию"
-
-#: crustula/crustula/sov.py:48
-msgid "Luciam"
-msgstr "Луцию"
-
-#: crustula/crustula/sov.py:49
-msgid "Lucretiam"
-msgstr "Лукрецию"
-
-#: crustula/crustula/sov.py:50
-msgid "Semproniam"
-msgstr "Семпронию"
-
-#: crustula/crustula/sov.py:52
-msgid "si non declinatione neque sermonem transferre"
-msgstr "имена доступны на русском языке"
-
-#: crustula/crustula/sov.py:74 crustula/crustula/sov1.py:166
+#: crustula/crustula/sov.py:65 crustula/crustula/sov1.py:166
 msgid "aime"
 msgstr "любит"
 
-#: crustula/crustula/sov.py:153
+#: crustula/crustula/sov.py:136
 msgid "gallice"
 msgstr "slavica"
 
@@ -2147,6 +2103,89 @@ msgstr ""
 #: Gaffiot/uoc3/os/:570
 msgid "visage, bouche"
 msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Aemilia/Aemiliam/:1
+msgid "Aemilia/"
+msgstr "Эмилия/Эмилию"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Aemilius/Aemilium/:2
+msgid "Aemilius/"
+msgstr "Эмилий/Эмилия"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Aulus/Aulum/:3
+msgid "Aulus/"
+msgstr "Авл/Авла"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Eupalamus/Eupalamum/:4
+msgid "Eupalamus/"
+msgstr "Эвпалам/Эвпалама"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Iulia/Iuliam/:5
+msgid "Iulia/"
+msgstr "Юлия/Юлию"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Lucia/Luciam/:6
+msgid "Lucia/"
+msgstr "Луция/Луцию"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Lucretia/Lucretiam/:7
+msgid "Lucretia/"
+msgstr "Лукреция/Лукрецию"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Marcus/Marcum/:8
+msgid "Marcus/"
+msgstr "Марк/Марка"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Publius/Publium/:9
+msgid "Publius/"
+msgstr "Публий/Публия"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Sempronia/Semproniam/:10
+msgid "Sempronia/"
+msgstr "Семпрония/Семпронию"
+
+#~ msgid "Aemilium"
+#~ msgstr "Эмилия"
+
+#~ msgid "Eupalamum"
+#~ msgstr "Эвпалама"
+
+#~ msgid "Publium"
+#~ msgstr "Публия"
+
+#~ msgid "Aulum"
+#~ msgstr "Авла"
+
+#~ msgid "Marcum"
+#~ msgstr "Марка"
+
+#~ msgid "Aemiliam"
+#~ msgstr "Эмилию"
+
+#~ msgid "Iuliam"
+#~ msgstr "Юлию"
+
+#~ msgid "Luciam"
+#~ msgstr "Луцию"
+
+#~ msgid "Lucretiam"
+#~ msgstr "Лукрецию"
+
+#~ msgid "Semproniam"
+#~ msgstr "Семпронию"
+
+#~ msgid "si non declinatione neque sermonem transferre"
+#~ msgstr "имена доступны на русском языке"
 
 #~ msgid "Sommaire"
 #~ msgstr "Резюме"

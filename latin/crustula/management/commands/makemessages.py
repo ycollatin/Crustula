@@ -4,7 +4,7 @@ from django.core.management.utils import (
     CommandError
 )
 from django.db.models import Q
-from crustula.models import Gaffiot
+from crustula.models import Gaffiot, Ov
 import os,re
 
 class Command(makemessages.Command):
@@ -46,6 +46,7 @@ class Command(makemessages.Command):
             if not unefois:
                 unefois = True
                 with open(potfile, "a") as outfile:
+                    ###### ajout des données de la table crustula_gaffiot
                     comments = set ([ g.comment for g in Gaffiot.objects.all()])
                     comments = list(comments)
                     comments.sort()
@@ -56,6 +57,14 @@ class Command(makemessages.Command):
                             i+=1
                             protected = str(g.gallice).replace('"','\\"')
                             outfile.write(f'''msgid "{protected}"\nmsgstr ""\n''')
+                    ##### ajout des données de la table crutula_ov
+                    i = 1
+                    for ov in Ov.objects.all():
+                        outfile.write("\n#. Translators: if there is no declension, translate to: \"nominative/\" else to \"nominative/accusative\"\n")
+                        outfile.write(f"#: subiectus-objectus/{ov.latine}/:{i}\n")
+                        i+=1
+                        protected = str(ov.gallice).replace('"','\\"')
+                        outfile.write(f'''msgid "{protected}"\nmsgstr ""\n''')
             potfiles.append(potfile)
         return potfiles
         

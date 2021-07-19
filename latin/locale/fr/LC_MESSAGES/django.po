@@ -18,43 +18,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: crustula/crustula/gal.py:26 crustula/crustula/sov.py:25
+#: crustula/crustula/gal.py:26
 msgid "Aemilius"
 msgstr ""
 
-#: crustula/crustula/gal.py:27 crustula/crustula/sov.py:26
+#: crustula/crustula/gal.py:27
 msgid "Eupalamus"
 msgstr ""
 
-#: crustula/crustula/gal.py:28 crustula/crustula/sov.py:27
+#: crustula/crustula/gal.py:28
 msgid "Publius"
 msgstr ""
 
-#: crustula/crustula/gal.py:29 crustula/crustula/sov.py:28
+#: crustula/crustula/gal.py:29
 msgid "Aulus"
 msgstr ""
 
-#: crustula/crustula/gal.py:30 crustula/crustula/sov.py:29
+#: crustula/crustula/gal.py:30
 msgid "Marcus"
 msgstr ""
 
-#: crustula/crustula/gal.py:33 crustula/crustula/sov.py:32
+#: crustula/crustula/gal.py:33
 msgid "Aemilia"
 msgstr ""
 
-#: crustula/crustula/gal.py:34 crustula/crustula/sov.py:33
+#: crustula/crustula/gal.py:34
 msgid "Iulia"
 msgstr ""
 
-#: crustula/crustula/gal.py:35 crustula/crustula/sov.py:34
+#: crustula/crustula/gal.py:35
 msgid "Lucia"
 msgstr ""
 
-#: crustula/crustula/gal.py:36 crustula/crustula/sov.py:35
+#: crustula/crustula/gal.py:36
 msgid "Lucretia"
 msgstr ""
 
-#: crustula/crustula/gal.py:37 crustula/crustula/sov.py:36
+#: crustula/crustula/gal.py:37
 msgid "Sempronia"
 msgstr ""
 
@@ -224,55 +224,11 @@ msgstr ""
 msgid "En latin, ce mot serait donc"
 msgstr ""
 
-#: crustula/crustula/sov.py:39
-msgid "Aemilium"
-msgstr ""
-
-#: crustula/crustula/sov.py:40
-msgid "Eupalamum"
-msgstr ""
-
-#: crustula/crustula/sov.py:41
-msgid "Publium"
-msgstr ""
-
-#: crustula/crustula/sov.py:42
-msgid "Aulum"
-msgstr ""
-
-#: crustula/crustula/sov.py:43
-msgid "Marcum"
-msgstr ""
-
-#: crustula/crustula/sov.py:46
-msgid "Aemiliam"
-msgstr ""
-
-#: crustula/crustula/sov.py:47
-msgid "Iuliam"
-msgstr ""
-
-#: crustula/crustula/sov.py:48
-msgid "Luciam"
-msgstr ""
-
-#: crustula/crustula/sov.py:49
-msgid "Lucretiam"
-msgstr ""
-
-#: crustula/crustula/sov.py:50
-msgid "Semproniam"
-msgstr ""
-
-#: crustula/crustula/sov.py:52
-msgid "si non declinatione neque sermonem transferre"
-msgstr ""
-
-#: crustula/crustula/sov.py:74 crustula/crustula/sov1.py:166
+#: crustula/crustula/sov.py:65 crustula/crustula/sov1.py:166
 msgid "aime"
 msgstr ""
 
-#: crustula/crustula/sov.py:153
+#: crustula/crustula/sov.py:136
 msgid "gallice"
 msgstr ""
 
@@ -2085,4 +2041,54 @@ msgstr ""
 
 #: Gaffiot/uoc3/os/:570
 msgid "visage, bouche"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Aemilia/Aemiliam/:1
+msgid "Aemilia/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Aemilius/Aemilium/:2
+msgid "Aemilius/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Aulus/Aulum/:3
+msgid "Aulus/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Eupalamus/Eupalamum/:4
+msgid "Eupalamus/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Iulia/Iuliam/:5
+msgid "Iulia/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Lucia/Luciam/:6
+msgid "Lucia/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Lucretia/Lucretiam/:7
+msgid "Lucretia/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Marcus/Marcum/:8
+msgid "Marcus/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Publius/Publium/:9
+msgid "Publius/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Sempronia/Semproniam/:10
+msgid "Sempronia/"
 msgstr ""
