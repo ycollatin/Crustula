@@ -4,3 +4,4 @@ README.html
 *.mo
 install-locally
 todo
+*.sql
