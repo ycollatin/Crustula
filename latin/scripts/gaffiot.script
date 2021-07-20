@@ -1,0 +1,10 @@
+#! /usr/bin/python3
+from crustula.models import *
+import csv
+
+with open("scripts/crustula_gaffiot.csv") as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        print(row)
+        g = Gaffiot(comment=row["comment"], latine=row["latine"], gallice=row["gallice"], genitif=row["genitif"], genre=row["genre"])
+        g.save()

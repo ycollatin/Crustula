@@ -1,0 +1,33 @@
+#! /usr/bin/python3
+from crustula.models import *
+import csv
+
+sov, created = Sov.objects.get_or_create(name="sov")
+sov.save()
+with open("scripts/crustula_ov_sov.csv") as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        print(row)
+        try:
+            ov = Ov.objects.get(latine=row["latine"])
+            ov.gallice = row["gallice"]
+            ov.genre = row["genre"]
+        except:
+            ov = Ov(latine=row["latine"], gallice=row["gallice"], genre=row["genre"])
+        ov.save()
+        ov.sovs.add(sov)
+
+sov, created = Sov.objects.get_or_create(name="sov1")
+sov.save()
+with open("scripts/crustula_ov_sov1.csv") as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        print(row)
+        try:
+            ov = Ov.objects.get(latine=row["latine"])
+            ov.gallice = row["gallice"]
+            ov.genre = row["genre"]
+        except:
+            ov = Ov(latine=row["latine"], gallice=row["gallice"], genre=row["genre"])
+        ov.save()
+        ov.sovs.add(sov)

@@ -1,0 +1,812 @@
+id,comment,latine,gallice,genitif,genre
+1,thema2,amicus,ami,,m
+2,thema2,animus,"coeur, fierté, courage, esprit",,m
+3,thema2,annus,année,,m
+4,thema2,campus,"plaine, champ",,m
+5,thema2,cibus,nourriture,,m
+6,thema2,deus,dieu,,m
+7,thema2,digitus,doigt,,m
+8,thema2,dolus,"ruse, adresse",,m
+9,thema2,dominus,"maître, seigneur",,m
+10,thema2,equus,cheval,,m
+11,thema2,filius,fils,,m
+12,thema2,gladius,glaive,,m
+13,thema2,humerus,épaule,,m
+14,thema2,humus,"sol, terre",,m
+15,thema2,lacertus,bras ; pl. muscles,,m
+16,thema2,lectus,lit,,m
+17,thema2,legatus,"ambassadeur, envoyé, légat",,m
+18,thema2,locus,"lieu, endroit - le pluriel est neutre -",,m
+19,thema2,lucus,bois sacré,,m
+20,thema2,maritus,mari,,m
+21,thema2,modus,"mesure, limite, manière",,m
+22,thema2,morbus,maladie,,m
+23,thema2,mundus,"univers, monde",,m
+24,thema2,murus,mur,,m
+25,thema2,necessarius,"ami intime, familier",,m
+26,thema2,neruus,nerf,,m
+27,thema2,numerus,nombre,,m
+28,thema2,oculus,oeil,,m
+29,thema2,oppidum,"place forte, ville",,m
+30,thema2,philosophus,philosophe,,m
+31,thema2,populus,peuple,,m
+32,thema2,praefectus,"gouverneur, administrateur",,m
+33,thema2,reus,accusé,,m
+34,thema2,seruus,esclave,,m
+35,thema2,somnus,sommeil,,m
+36,thema2,taurus,taureau,,m
+37,thema2,torus,"renflement, muscle saillant ; lit",,m
+38,thema2,tribunus,tribun,,m
+39,thema2,uentus,vent,,m
+40,thema2,uulgus,"foule, le commun des hommes",,m
+41,thema2,aedificium,édifice,,m
+42,thema2,aeuum,"époque, durée, âge",,m
+43,thema2,argumentum,"argument, preuve, matière, sujet",,m
+44,thema2,aruum,terre labourée,,m
+45,thema2,aurum,or,,m
+46,thema2,auxilium,"aide, secours",,m
+47,thema2,bellum,guerre,,m
+48,thema2,beneficium,"bienfait, faveur",,m
+49,thema2,caelum,"ciel, climat",,m
+50,thema2,castellum,"redoute, fortin",,m
+51,thema2,collum,cou,,m
+52,thema2,consilium,"délibération, décision, conseil, plan",,m
+53,thema2,dictum,"chose dite, promesse, proverbe",,m
+54,thema2,donum,"présent, cadeau",,m
+55,thema2,dubium,doute,,m
+56,thema2,exemplum,exemple,,m
+57,thema2,exilium,exil,,m
+58,thema2,exsilium,exil,,m
+59,thema2,factum,"fait, action, travail, ouvrage",,m
+60,thema2,fatum,"prédiction, destin, fatalité, destinée",,m
+61,thema2,ferrum,"fer, outil ou arme de fer",,m
+62,thema2,forum,"marché, forum",,m
+63,thema2,fretum,"détroit, mer, flots",,m
+64,thema2,frumentum,blé,,m
+65,thema2,gaudium,"contentement, satisfaction, joie",,m
+66,thema2,impedimentum,obstacle ; au pl. : bagages,,m
+67,thema2,imperium,pouvoir absolu,,m
+68,thema2,ingenium,"qualités innées, caractère, esprit, intelligence",,m
+69,thema2,initium,"début, commencement",,m
+70,thema2,interuallum,"intervalle, distance",,m
+71,thema2,iudicium,"jugement, décision",,m
+72,thema2,iugum,"joug, attelage, chaîne de montagnes, cime, hauteur",,m
+73,thema2,malum,pomme,,m
+74,thema2,membrum,"i, n. (généralement au plur) : membre, organe",,m
+75,thema2,negotium,"occupation, travail, affaire",,m
+76,thema2,odium,haine,,m
+77,thema2,officium,"fonction, devoir, obligation morale",,m
+78,thema2,otium,"loisir, calme, repos",,m
+79,thema2,pactum,"pacte, convention, manière",,m
+80,thema2,periculum,"danger, essai, expérience",,m
+81,thema2,pomum,fruit,,m
+82,thema2,praeceptum,"précepte, règle, leçon",,m
+83,thema2,praemium,récompense,,m
+84,thema2,praesidium,"garde, garnison, protection",,m
+85,thema2,pretium,"prix, valeur, récompense, salaire",,m
+86,thema2,principium,"commencement, origine",,m
+87,thema2,proelium,combat,,m
+88,thema2,remedium,remède (+ gén : contre),,m
+89,thema2,saeculum,"génération, époque, siècle",,m
+90,thema2,saxum,"pierre, rocher, roche",,m
+91,thema2,seruitium,"servitude, esclavage",,m
+92,thema2,signum,"signe, enseigne, oeuvre d'art",,m
+93,thema2,spatium,"vaste étendue, espace (lieu ou temps)",,m
+94,thema2,studium,"ardeur, affection, intérêt, passion, étude",,m
+95,thema2,supplicium,supplice,,m
+96,thema2,tectum,"toit, maison",,m
+97,thema2,telum,trait (javelot ou flèche),,m
+98,thema2,templum,temple,,m
+99,thema2,tergum,dos,,m
+100,thema2,tormentum,(intrument de) torture,,m
+101,thema2,uallum,"palissade, retranchement",,m
+102,thema2,uelum,voile,,m
+103,thema2,uerbum,"mot, parole",,m
+104,thema2,uestigium,"trace de pas, trace",,m
+105,thema2,uinculum,"lien, chaîne",,m
+106,thema2,uinum,vin,,m
+107,thema2,uitium,"vice, défaut",,m
+108,thema2,uotum,"voeu, offrande",,m
+109,thema3,aedes,"maison, temple",,m
+110,thema3,aequor,"surface plane, poét. mer",,m
+111,thema3,aer,air,,m
+112,thema3,aes,"cuivre, bronze ; - alienum : dette",,m
+113,thema3,aetas,"partie de la vie, âge, époque",,m
+114,thema3,agmen,"armée en marche, colonne de marche",,m
+115,thema3,altitudo,"altitude, hauteur",,m
+116,thema3,amnis,"fleuve, rivière. - commence par la lettre a",,m
+117,thema3,amor,amour,,m
+118,thema3,animal,"être vivant, animal",,m
+119,thema3,apis,abeille,,m
+120,thema3,arbor,arbre,,m
+121,thema3,ardor,"feu, embrasement, ardeur, passion",,m
+122,thema3,ars,"habileté, métier, profession, art",,m
+123,thema3,arx,citadelle,,m
+124,thema3,auctor,"garant, modèle, auteur",,m
+125,thema3,auctoritas,"avis, prestige, autorité, volonté (du Sénat)",,m
+126,thema3,auis,oiseau,,m
+127,thema3,auris,oreille,,m
+128,thema3,beatitudo,bonheur. finit en -o,,m
+129,thema3,bos,boeuf,,m
+130,thema3,caedes,"meurtre, massacre",,m
+131,thema3,canis,chien,,m
+132,thema3,caput,"tête, capitale",,m
+133,thema3,carmen,"poème, incantation",,m
+134,thema3,centurio,centurion,,m
+135,thema3,certamen,"combat, lutte, conflit",,m
+136,thema3,ceruix,"nuque, encolure",,m
+137,thema3,ciuis,citoyen,,m
+138,thema3,ciuitas,"cité, état",,m
+139,thema3,clamor,"clameur, cri",,m
+140,thema3,classis,"classe, flotte",,m
+141,thema3,cohors,cohorte,,m
+142,thema3,collis,colline,,m
+143,thema3,color,"couleur, teint du visage, éclat (du style)",,m
+144,thema3,comes,compagnon,,m
+145,thema3,condicio,condition,,m
+146,thema3,coniux,"épouse, époux",,m
+147,thema3,consuetudo,"habitude, coutume, usage - commence par c.",,m
+148,thema3,consul,consul,,m
+149,thema3,corpus,corps,,m
+150,thema3,crassitudo,"épaisseur, grosseur",,m
+151,thema3,crimen,"accusation, chef d'accusation",,m
+152,thema3,cubile,"lit, couche",,m
+153,thema3,cupido,désir. finit en -o,,m
+154,thema3,cupiditas,désir. finit en -itas,,m
+155,thema3,custos,gardien,,m
+156,thema3,decus,"gloire, honneur. commence en d-",,m
+157,thema3,dens,dent,,m
+158,thema3,difficultas,difficulté,,m
+159,thema3,dignitas,"dignité, considération, rang",,m
+160,thema3,discrimen,"différence, ligne de démarcation, position critique",,m
+161,thema3,dolor,douleur,,m
+162,thema3,dux,"chef, guide",,m
+163,thema3,eques,"chevalier, cavalier",,m
+164,thema3,error,"action de s'égarer, erreur",,m
+165,thema3,facinus,"action, acte, forfait,  crime",,m
+166,thema3,fax,torche,,m
+167,thema3,felicitas,bonheur. finit en -as,,m
+168,thema3,fides,lyre. Toujours au pluriel,,m
+169,thema3,finis,"limite, fin ; pl., frontière, territoire",,m
+170,thema3,flumen,"cours d'eau, fleuve, rivière - commence par la lettre f",,m
+171,thema3,fons,"source, fontaine, cause, principe",,m
+172,thema3,frater,frère,,m
+173,thema3,fraus,"mauvaise foi, tromperie",,m
+174,thema3,frigus,"froid, froidure",,m
+175,thema3,frons,feuillage,,m
+176,thema3,fulmen,foudre,,m
+177,thema3,funus,"funérailles, ensevelissement ; mort, ruine",,m
+178,thema3,gens,"famille, nation",,m
+179,thema3,genus,"race, origine, espèce",,m
+180,thema3,gladiator,gladiateur,,m
+181,thema3,grauitas,"pesanteur, sévérité, dignité, majesté, malaise",,m
+182,thema3,grex,troupeau,,m
+183,thema3,hiems,hiver,,m
+184,thema3,homo,"homme, humain",,m
+185,thema3,honos,"honneur, hommage, charge, magistrature, honoraires. finit en -s",,m
+186,thema3,hostis,ennemi,,m
+187,thema3,humor,"eau, liquide. Finit en -mor",,m
+188,thema3,ignis,feu,,m
+189,thema3,imago,"imitation, image",,m
+190,thema3,imber,pluie,,m
+191,thema3,imperator,général en chef,,m
+192,thema3,infans,bébé,,m
+193,thema3,intentio,"application, effort, volonté",,m
+194,thema3,iter,"chemin, voyage",,m
+195,thema3,iudex,juge,,m
+196,thema3,ius,"serment, droit",,m
+197,thema3,iuuenis,"jeune homme/fille, citoyen en âge de porter les armes",,m
+198,thema3,iuuentus,jeunesse,,m
+199,thema3,lapis,pierre,,m
+200,thema3,latitudo,largeur,,m
+201,thema3,latus,côté,,m
+202,thema3,laus,"louange, gloire, honneur",,m
+203,thema3,legio,légion,,m
+204,thema3,lex,"loi, condition(s) d'un traité",,m
+205,thema3,libertas,liberté,,m
+206,thema3,libido,"désir, envie, débauche",,m
+207,thema3,limen,"seuil, entrée",,m
+208,thema3,litus,rivage,,m
+209,thema3,lumen,"lumière, flambeau, pl. les yeux",,m
+210,thema3,lux,"lumière, jour",,m
+211,thema3,magnitudo,grande taille,,m
+212,thema3,maiores,ancêtres,,m
+213,thema3,mare,mer,,m
+214,thema3,mater,mère,,m
+215,thema3,mens,esprit,,m
+216,thema3,miles,soldat,,m
+217,thema3,moenia,"murs, murailles, remparts",,m
+218,thema3,moles,"masse, poids, charge",,m
+219,thema3,mons,montagne,,m
+220,thema3,mors,mort,,m
+221,thema3,mos,"usage, habitude ; pl. moeurs -commence par m- ",,m
+222,thema3,multitudo,"foule, grand nombre",,m
+223,thema3,munitio,"terrassement, fortification",,m
+224,thema3,munus,"obligation, charge, spectacle public",,m
+225,thema3,natio,"nation, nationalité",,m
+226,thema3,nauis,navire,,m
+227,thema3,necessitas,nécessité,,m
+228,thema3,nemus,"forêt, bois",,m
+229,thema3,nomen,nom,,m
+230,thema3,nox,nuit,,m
+231,thema3,nubes,"nuage, nue, nuée",,m
+232,thema3,numen,"volonté des dieux, puissance divine; divinité",,m
+233,thema3,onus,fardeau,,m
+234,thema3,opinio,"opinion, préjugé",,m
+235,thema3,ops,"sing., pouvoir, aide ; pl., richesses",,m
+236,thema3,opus,travail (- est mihi = j'ai besoin),,m
+237,thema3,oratio,"langage, parole, exposé, discours",,m
+238,thema3,orbis,"globe, monde",,m
+239,thema3,ordo,"ordre, disposition",,m
+240,thema3,os,os,,m
+241,thema3,parens,parent,,m
+242,thema3,paries,"paroi, mur",,m
+243,thema3,pars,"partie, côté",,m
+244,thema3,pater,père ; pl. sénateurs,,m
+245,thema3,paupertas,pauvreté,,m
+246,thema3,pax,paix,,m
+247,thema3,pectus,"poitrine, coeur, intelligence",,m
+248,thema3,pecus,bétail,,m
+249,thema3,pedes,"fantassin, piéton",,m
+250,thema3,pes,pied,,m
+251,thema3,pietas,"respect, patriotisme, piété, affection",,m
+252,thema3,piscis,poisson,,m
+253,thema3,plebs,plèbe,,m
+254,thema3,pondus,poids,,m
+255,thema3,pons,pont,,m
+256,thema3,potestas,"puissance, pouvoir, pouvoir d'un magistrat, occasion de faire qqch. ",,m
+257,thema3,praetor,préteur,,m
+258,thema3,pudor,"honte, réserve, timidité. Finit en -or",,m
+259,thema3,puluis,poussière,,m
+260,thema3,quies,"repos, calme, tranquilité",,m
+261,thema3,ratio,"raison, raisonnement, compte",,m
+262,thema3,ratis,"radeau, navire",,m
+263,thema3,regio,"région, quartier",,m
+264,thema3,rex,roi,,m
+265,thema3,robur,"rouvre, chêne, dureté, solidité",,m
+266,thema3,sanguis,"sang, vigueur",,m
+267,thema3,scelus,crime,,m
+268,thema3,sedes,"siège, place",,m
+269,thema3,semen,"graine, semence",,m
+270,thema3,senectus,vieillesse,,m
+271,thema3,senex,vieillard,,m
+272,thema3,sermo,"conversation, dialogue, discussion, discours, langue",,m
+273,thema3,sol,soleil,,m
+274,thema3,soror,soeur,,m
+275,thema3,tellus,"terre, sol, terrain, pays",,m
+276,thema3,tempestas,"temps, mauvais temps",,m
+277,thema3,tempus,temps,,m
+278,thema3,terror,"terreur, effroi, épouvante. Ce n'est pas pauor.",,m
+279,thema3,testis,témoin,,m
+280,thema3,timor,peur,,m
+281,thema3,turris,tour,,m
+282,thema3,uates,"devin, poète",,m
+283,thema3,uer,printemps,,m
+284,thema3,uestis,vêtement,,m
+285,thema3,uictor,vainqueur,,m
+286,thema3,uirgo,"vierge, jeune fille non mariée",,m
+287,thema3,uirtus,"courage, honnêteté",,m
+288,thema3,uis,force,,m
+289,thema3,uoluntas,volonté,,m
+290,thema3,uoluptas,volupté,,m
+291,thema3,uox,"voix, son de la voix, parole, mot",,m
+292,thema3,urbs,ville,,m
+293,thema3,utilitas,utilité,,m
+294,thema3,uulnus,blessure,,m
+295,thema3,uxor,"épouse, femme",,m
+296,thema,agricola,paysan,,m
+297,thema,amicitia,amitié,,m
+298,thema,anima,"souffle, vie, souffle vital",,m
+299,thema,aqua,eau,,m
+300,thema,ara,autel,,m
+301,thema,arena,sable,,m
+302,thema,audacia,audace,,m
+303,thema,auaritia,"avidité, cupidité, avarice",,m
+304,thema,aura,"brise, vent léger",,m
+305,thema,beneuolentia,bienveillance,,m
+306,thema,causa,"cause, procès",,m
+307,thema,cena,"dîner, repas du soir",,m
+308,thema,clementia,clémence,,m
+309,thema,columna,colonne,,m
+310,thema,coma,"chevelure, cheveux",,m
+311,thema,concordia,"concorde, entente",,m
+312,thema,copia,"abondance ; pl. richesses, troupes",,m
+313,thema,corona,"couronne, badauds",,m
+314,thema,culpa,faute,,m
+315,thema,cura,"soin, souci",,m
+316,thema,dea,déesse,,m
+317,thema,dextra,main droite,,m
+318,thema,diligentia,"empressement, zêle, soin scrupuleux",,m
+319,thema,disciplina,enseignement,,m
+320,thema,discordia,discorde,,m
+321,thema,domina,maîtresse,,m
+322,thema,eloquentia,éloquence,,m
+323,thema,epistula,lettre,,m
+324,thema,fabula,"mythe, fable, pièce de théâtre, histoire",,m
+325,thema,fama,"nouvelle, rumeur, réputation",,m
+326,thema,familia,"famille, maisonnée",,m
+327,thema,flamma,flamme,,m
+328,thema,fera,bête sauvage,,m
+329,thema,filia,"fille, par rapport à ses parents",,m
+330,thema,flamma,flamme,,m
+331,thema,forma,"forme, beauté",,m
+332,thema,fortuna,"fortune, chance",,m
+333,thema,fuga,fuite,,m
+334,thema,gloria,gloire,,m
+335,thema,gratia,"grâce, reconnaissance",,m
+336,thema,herba,herbe,,m
+337,thema,hora,heure,,m
+338,thema,incola,habitant,,m
+339,thema,industria,activité,,m
+340,thema,iniuria,"injustice, violation du droit",,m
+341,thema,inopia,"pauvreté, manque",,m
+342,thema,insula,"île, immeuble à appartements",,m
+343,thema,inuidia,"jalousie, envie, haine",,m
+344,thema,ira,colère,,m
+345,thema,iustitia,justice,,m
+346,thema,lacrima,larme,,m
+347,thema,laetitia,joie,,m
+348,thema,licentia,"liberté, pouvoir, licence",,m
+349,thema,lingua,langue,,m
+350,thema,littera,lettre de l'alphabet,,m
+351,thema,luna,lune,,m
+352,thema,materia,"matière, sujet, prétexte",,m
+353,thema,memoria,"mémoire, souvenir",,m
+354,thema,mensa,table,,m
+355,thema,militia,service militaire,,m
+356,thema,molestia,"peine, chagrin, gêne",,m
+357,thema,mora,"délai, retard, obstacle",,m
+358,thema,natura,nature,,m
+359,thema,nauta,marin,,m
+360,thema,opera,"travail, peine, effort",,m
+361,thema,ora,"bord, limite, lisière, côte",,m
+362,thema,patria,patrie,,m
+363,thema,pecunia,argent,,m
+364,thema,persona,"masque, rôle, caractère",,m
+365,thema,philosophia,philosophie,,m
+366,thema,pirata,pirate,,m
+367,thema,poena,châtiment,,m
+368,thema,poeta,poète,,m
+369,thema,porta,porte (d'une ville),,m
+370,thema,praeda,"butin, dépouilles, proie",,m
+371,thema,prouincia,province,,m
+372,thema,prudentia,"prévoyance, habileté, sagesse",,m
+373,thema,puella,jeune fille,,m
+374,thema,pugna,"bataille, combat",,m
+375,thema,regina,reine,,m
+376,thema,respublica,"état, politique",,m
+377,thema,ripa,rive,,m
+378,thema,sapientia,"sagesse, bon sens",,m
+379,thema,saeuitia,cruauté,,m
+380,thema,sententia,"avis, opinion",,m
+381,thema,silua,forêt,,m
+382,thema,superbia,"orgueil, arrogance",,m
+383,thema,temperantia,"modération, maîtrise de soi",,m
+384,thema,terra,terre,,m
+385,thema,turba,"foule, désordre, trouble",,m
+386,thema,uena,veine,,m
+387,thema,uenia,pardon,,m
+388,thema,uia,"route, chemin, voyage",,m
+389,thema,uictoria,victoire,,m
+390,thema,uita,vie,,m
+391,thema,umbra,ombre,,m
+392,thema,unda,"onde, eau, flot",,m
+393,thema4,aditus,accès,,m
+394,thema4,aduentus,"arrivée, venue",,m
+395,thema4,aestus,"chaleur, bouillonnement, vagues, marée",,m
+396,thema4,affectus,"disposition de l'âme, sentiment",,m
+397,thema4,casus,"hasard, malheur, chute",,m
+398,thema4,conspectus,"vue, regard",,m
+399,thema4,consulatus,consulat,,m
+400,thema4,cornu,"corne, aile d'une ligne de bataille. ",,m
+401,thema4,cultus,"culture du sol, culture, éducation, culte, égards, moeurs, parure",,m
+402,thema4,currus,char,,m
+403,thema4,cursus,"course, parcours, trajet",,m
+404,thema4,domus,maison,,m
+405,thema4,equitatus,cavalerie,,m
+406,thema4,exercitus,armée,,m
+407,thema4,exitus,"sortie, issue, résultat, aboutissement, mort, fin, conclusion",,m
+408,thema4,fructus,"droit qu'on a sur qqch, usufruit, fruit, récompense, résultat",,m
+409,thema4,genu,genou,,m
+410,thema4,gradus,"degré, échelon, rang",,m
+411,thema4,habitus,"manière d'être, apparence",,m
+412,thema4,ictus,"coup, choc",,m
+413,thema4,impetus,"mouvement en avant, élan, assaut",,m
+414,thema4,magistratus,"charge, magistrature, fonction publique",,m
+415,thema4,manus,"main, petite troupe",,m
+416,thema4,metus,"peur, crainte",,m
+417,thema4,motus,"mouvement, trouble, révolte, émotion, excitation, secousse",,m
+418,thema4,paratus,"préparation, apprêt, préparatif",,m
+419,thema4,passus,"pas (1, 479 m.)",,m
+420,thema4,porticus,portique,,m
+421,thema4,portus,port,,m
+422,thema4,senatus,sénat,,m
+423,thema4,sensus,"sens, sentiments",,m
+424,thema4,sinus,"sein, courbure, golfe, anse",,m
+425,thema4,spiritus,"souffle, vie, inspiration",,m
+426,thema4,uersus,"sillon, ligne, vers",,m
+427,thema4,usus,"usage, utilité",,m
+428,thema4,uultus,"regard, visage",,m
+429,thema4,acies,ligne de bataille; regard,,m
+430,thema4,dies,jour,,m
+431,thema4,facies,"forme extérieure, apparence, figure",,m
+432,thema4,fides,"confiance, loyauté",,m
+433,thema4,res,"chose, événement, circonstance, affaire judiciaire;  biens",,m
+434,thema4,species,"vision sans réalité, apparence, aspect, prétexte",,m
+435,thema4,spes,espoir,,m
+436,uoc3,aedes,"maison, temple",aedis,f
+437,uoc3,aequor,"surface plane, poét. mer",aequoris,n
+438,uoc3,aer,air,aeris,n
+439,uoc3,aes,"cuivre, bronze ; - alienum : dette",aeris,n
+440,uoc3,aetas,"partie de la vie, âge, époque",aetatis,f
+441,uoc3,agmen,"armée en marche, colonne de marche",agminis,n
+442,uoc3,altitudo,"altitude, hauteur",altitudinis,f
+443,uoc3,amnis,"fleuve, rivière. - commence par la lettre a",amnis,m
+444,uoc3,amor,amour,amoris,m
+445,uoc3,animal,"être vivant, animal",animalis,n
+446,uoc3,apis,abeille,apis,f
+447,uoc3,arbor,arbre,arboris,f
+448,uoc3,ardor,"feu, embrasement, ardeur, passion",ardoris,m
+449,uoc3,ars,"habileté, métier, profession, art",artis,f
+450,uoc3,arx,citadelle,arcis,f
+451,uoc3,auctor,"garant, modèle, auteur",auctoris,m
+452,uoc3,auctoritas,"avis, prestige, autorité, volonté (du Sénat)",auctoritatis,f
+453,uoc3,auis,oiseau,auis,m
+454,uoc3,auris,oreille,auris,f
+455,uoc3,beatitudo,bonheur. finit en -o,beatitudinis,f
+456,uoc3,bos,boeuf,bouis,m
+457,uoc3,caedes,"meurtre, massacre",caedis,f
+458,uoc3,canis,chien,canis,mf
+459,uoc3,caput,"tête, capitale",capitis,n
+460,uoc3,carmen,"poème, incantation",carminis,n
+461,uoc3,centurio,centurion,centurionis,m
+462,uoc3,certamen,"combat, lutte, conflit",certaminis,n
+463,uoc3,ceruix,"nuque, encolure",ceruicis,f
+464,uoc3,ciuis,citoyen,ciuis,m
+465,uoc3,ciuitas,"cité, état",ciuitatis,f
+466,uoc3,clamor,"clameur, cri",clamoris,m
+467,uoc3,classis,"classe, flotte",classis,f
+468,uoc3,cohors,cohorte,cohortis,f
+469,uoc3,collis,colline,collis,m
+470,uoc3,color,"couleur, teint du visage, éclat (du style)",coloris,m
+471,uoc3,comes,compagnon,comitis,m
+472,uoc3,condicio,condition,condicionis,f
+473,uoc3,coniux,"épouse, époux",coniugis,mf
+474,uoc3,consuetudo,"habitude, coutume, usage - commence par c.",consuetudinis,f
+475,uoc3,consul,consul,consulis,m
+476,uoc3,corpus,corps,corporis,n
+477,uoc3,crassitudo,"épaisseur, grosseur",crassitudinis,f
+478,uoc3,crimen,"accusation, chef d'accusation",criminis,n
+479,uoc3,cubile,"lit, couche",cubilis,n
+480,uoc3,cupido,désir. finit en -o,cupidinis,m
+481,uoc3,cupiditas,désir. finit en -itas,cupiditatis,f
+482,uoc3,custos,gardien,custodis,m
+483,uoc3,decus,"gloire, honneur. commence en d-",decoris,n
+484,uoc3,dens,dent,dentis,f
+485,uoc3,difficultas,difficulté,difficultatis,f
+486,uoc3,dignitas,"dignité, considération, rang",dignitatis,f
+487,uoc3,discrimen,"différence, ligne de démarcation, position critique",discriminis,n
+488,uoc3,dolor,douleur,doloris,m
+489,uoc3,dux,"chef, guide",ducis,m
+490,uoc3,eques,"chevalier, cavalier",equitis,m
+491,uoc3,error,"action de s'égarer, erreur",erroris,m
+492,uoc3,facinus,"action, acte, forfait,  crime",facinoris,n
+493,uoc3,fax,torche,facis,f
+494,uoc3,felicitas,bonheur. finit en -as,felicitatis,f
+495,uoc3,fides,lyre. Toujours au pluriel,fidium,f
+496,uoc3,finis,"limite, fin ; pl., frontière, territoire",finis,f
+497,uoc3,flumen,"cours d'eau, fleuve, rivière - commence par la lettre f",fluminis,n
+498,uoc3,fons,"source, fontaine, cause, principe",fontis,f
+499,uoc3,frater,frère,fratris,m
+500,uoc3,fraus,"mauvaise foi, tromperie",fraudis,f
+501,uoc3,frigus,"froid, froidure",frigoris,n
+502,uoc3,frons,feuillage,frondis,f
+503,uoc3,fulmen,foudre,fulminis,n
+504,uoc3,funus,"funérailles, ensevelissement ; mort, ruine",funeris,n
+505,uoc3,gens,"famille, nation",gentis,f
+506,uoc3,genus,"race, origine, espèce",generis,n
+507,uoc3,gladiator,gladiateur,gladiatoris,m
+508,uoc3,grauitas,"pesanteur, sévérité, dignité, majesté, malaise",grauitatis,f
+509,uoc3,grex,troupeau,gregis,m
+510,uoc3,hiems,hiver,hiemis,m
+511,uoc3,homo,"homme, humain",hominis,m
+512,uoc3,honos,"honneur, hommage, charge, magistrature, honoraires. finit en -s",honoris,m
+513,uoc3,hostis,ennemi,hostis,m
+514,uoc3,humor,"eau, liquide. Finit en -mor",humoris,m
+515,uoc3,ignis,feu,iginis,m
+516,uoc3,imago,"imitation, image",imaginis,f
+517,uoc3,imber,pluie,imbris,m
+518,uoc3,imperator,général en chef,imperatoris,m
+519,uoc3,infans,bébé,infantis,m
+520,uoc3,intentio,"application, effort, volonté",intentionis,f
+521,uoc3,iter,"chemin, voyage",itineris,n
+522,uoc3,iudex,juge,iudicis,m
+523,uoc3,ius,"serment, droit",iuris,n
+524,uoc3,iuuenis,"jeune homme/fille, citoyen en âge de porter les armes",iuuenis,mf
+525,uoc3,iuuentus,jeunesse,iuuentutis,f
+526,uoc3,lapis,pierre,lapidis,m
+527,uoc3,latitudo,largeur,latitudinis,f
+528,uoc3,latus,côté,lateris,n
+529,uoc3,laus,"louange, gloire, honneur",laudis,f
+530,uoc3,legio,légion,legionis,f
+531,uoc3,lex,"loi, condition(s) d'un traité",legis,f
+532,uoc3,libertas,liberté,libertatis,f
+533,uoc3,libido,"désir, envie, débauche",libidinis,f
+534,uoc3,limen,"seuil, entrée",liminis,n
+535,uoc3,litus,rivage,litoris,n
+536,uoc3,lumen,"lumière, flambeau, pl. les yeux",luminis,n
+537,uoc3,lux,"lumière, jour",lucis,f
+538,uoc3,magnitudo,grande taille,magnitudinis,f
+539,uoc3,maiores,ancêtres,maiorum,m
+540,uoc3,mare,mer,maris,n
+541,uoc3,mater,mère,matris,f
+542,uoc3,mens,esprit,mentis,f
+543,uoc3,miles,soldat,militis,m
+544,uoc3,moenia,"murs, murailles, remparts",moenium,n
+545,uoc3,moles,"masse, poids, charge",molis,f
+546,uoc3,mons,montagne,montis,m
+547,uoc3,mors,mort,mortis,f
+548,uoc3,mos,"usage, habitude ; pl. moeurs -commence par m- ",moris,m
+549,uoc3,multitudo,"foule, grand nombre",multitudinis,f
+550,uoc3,munitio,"terrassement, fortification",munitionis,f
+551,uoc3,munus,"obligation, charge, spectacle public",muneris,n
+552,uoc3,natio,"nation, nationalité",nationis,f
+553,uoc3,nauis,navire,nauis,f
+554,uoc3,necessitas,nécessité,necessitatis,f
+555,uoc3,nemus,"forêt, bois",nemoris,n
+556,uoc3,nomen,nom,nominis,n
+557,uoc3,nox,nuit,noctis,f
+558,uoc3,nubes,"nuage, nue, nuée",nubis,f
+559,uoc3,numen,"volonté des dieux, puissance divine; divinité",numinis,n
+560,uoc3,onus,fardeau,oneris,n
+561,uoc3,opinio,"opinion, préjugé",opinionis,f
+562,uoc3,ops,"sing., pouvoir, aide ; pl., richesses",opis,f
+563,uoc3,opus,travail (- est mihi = j'ai besoin),operis,n
+564,uoc3,oratio,"langage, parole, exposé, discours",orationis,f
+565,uoc3,orbis,"globe, monde",orbis,m
+566,uoc3,ordo,"ordre, disposition",ordinis,m
+567,uoc3,os,os,ossis,n
+568,uoc3,os,"visage, bouche",oris,n
+569,uoc3,parens,parent,parentis,m
+570,uoc3,paries,"paroi, mur",parietis,m
+571,uoc3,pars,"partie, côté",partis,f
+572,uoc3,pater,père ; pl. sénateurs,patris,m
+573,uoc3,paupertas,pauvreté,paupertatis,f
+574,uoc3,pax,paix,pacis,f
+575,uoc3,pectus,"poitrine, coeur, intelligence",pectoris,n
+576,uoc3,pecus,bétail,pecoris,n
+577,uoc3,pedes,"fantassin, piéton",peditis,m
+578,uoc3,pes,pied,pedis,m
+579,uoc3,pietas,"respect, patriotisme, piété, affection",pietatis,f
+580,uoc3,piscis,poisson,piscis,m
+581,uoc3,plebs,plèbe,plebis,f
+582,uoc3,pondus,poids,ponderis,n
+583,uoc3,pons,pont,pontis,m
+584,uoc3,potestas,"puissance, pouvoir, pouvoir d'un magistrat, occasion de faire qqch. ",potestatis,f
+585,uoc3,praetor,préteur,praetoris,m
+586,uoc3,pudor,"honte, réserve, timidité. Finit en -or",pudoris,m
+587,uoc3,puluis,poussière,puluis,m
+588,uoc3,quies,"repos, calme, tranquilité",quietis,f
+589,uoc3,ratio,"raison, raisonnement, compte",rationis,f
+590,uoc3,ratis,"radeau, navire",ratis,f
+591,uoc3,regio,"région, quartier",regionis,f
+592,uoc3,rex,roi,regis,m
+593,uoc3,robur,"rouvre, chêne, dureté, solidité",roboris,n
+594,uoc3,sanguis,"sang, vigueur",sanguis,m
+595,uoc3,scelus,crime,sceleris,n
+596,uoc3,sedes,"siège, place",sedis,f
+597,uoc3,semen,"graine, semence",seminis,n
+598,uoc3,senectus,vieillesse,senectutis,f
+599,uoc3,senex,vieillard,senis,f
+600,uoc3,sermo,"conversation, dialogue, discussion, discours, langue",sermonis,m
+601,uoc3,sol,soleil,solis,m
+602,uoc3,soror,soeur,sororis,f
+603,uoc3,tellus,"terre, sol, terrain, pays",telluris,f
+604,uoc3,tempestas,"temps, mauvais temps",tempestatis,f
+605,uoc3,tempus,temps,temporis,n
+606,uoc3,terror,"terreur, effroi, épouvante. Ce n'est pas pauor.",terroris,m
+607,uoc3,testis,témoin,testis,m
+608,uoc3,timor,peur,timoris,m
+609,uoc3,turris,tour,turris,f
+610,uoc3,uates,"devin, poète",uatis,m
+611,uoc3,uer,printemps,ueris,n
+612,uoc3,uestis,vêtement,uestis,f
+613,uoc3,uictor,vainqueur,uictoris,m
+614,uoc3,uirgo,"vierge, jeune fille non mariée",uirginis,f
+615,uoc3,uirtus,"courage, honnêteté",uirtutis,f
+616,uoc3,uis,force,nihil,f
+617,uoc3,uoluntas,volonté,uoluntatis,f
+618,uoc3,uoluptas,volupté,uoluptatis,f
+619,uoc3,uox,"voix, son de la voix, parole, mot",uocis,f
+620,uoc3,urbs,ville,urbis,f
+621,uoc3,utilitas,utilité,utilitatis,f
+622,uoc3,uulnus,blessure,uulneris,n
+623,uoc3,uxor,"épouse, femme",uxoris,f
+624,radices3,aer,,aeris,m
+625,radices3,aetas,,aetatis,m
+626,radices3,altitudo,,altitudinis,m
+627,radices3,amor,,amoris,m
+628,radices3,arbor,,arboris,m
+629,radices3,ardor,,ardoris,m
+630,radices3,arx,,arcis,m
+631,radices3,auctor,,auctoris,m
+632,radices3,auctoritas,,auctoritatis,m
+633,radices3,bos,,bouis,m
+634,radices3,canis,,canis,m
+635,radices3,centurio,,centurionis,m
+636,radices3,ceruix,,ceruicis,m
+637,radices3,ciuitas,,ciuitatis,m
+638,radices3,clamor,,clamoris,m
+639,radices3,cohors,,cohortis,m
+640,radices3,color,,coloris,m
+641,radices3,comes,,comitis,m
+642,radices3,condicio,,condicionis,m
+643,radices3,coniux,,coniugis,m
+644,radices3,consuetudo,,consuetudinis,m
+645,radices3,consul,,consulis,m
+646,radices3,crassitudo,,crassitudinis,m
+647,radices3,cupiditas,,cupiditatis,m
+648,radices3,custos,,custodis,m
+649,radices3,difficultas,,difficultatis,m
+650,radices3,dignitas,,dignitatis,m
+651,radices3,dolor,,doloris,m
+652,radices3,dux,,ducis,m
+653,radices3,eques,,equitis,m
+654,radices3,error,,erroris,m
+655,radices3,fax,,facis,m
+656,radices3,felicitas,,felicitatis,m
+657,radices3,frater,,fratris,m
+658,radices3,fraus,,fraudis,m
+659,radices3,"frons (feuillage, )",,frondis,m
+660,radices3,"frons (front, )",,frontis,m
+661,radices3,gladiator,,gladiatoris,m
+662,radices3,grauitas,,grauitatis,m
+663,radices3,grex,,gregis,m
+664,radices3,hiems,,hiemis,m
+665,radices3,homo,,hominis,m
+666,radices3,honos,,honoris,m
+667,radices3,humor,,humoris,m
+668,radices3,imago,,imaginis,m
+669,radices3,imber,,imbris,m
+670,radices3,imperator,,imperatoris,m
+671,radices3,intentio,,intentionis,m
+672,radices3,iudex,,iudicis,m
+673,radices3,iuuenis,,iuuenis,m
+674,radices3,iuuentus,,iuuentutis,m
+675,radices3,lapis,,lapidis,m
+676,radices3,latitudo,,latitudinis,m
+677,radices3,laus,,laudis,m
+678,radices3,legio,,legionis,m
+679,radices3,lex,,legis,m
+680,radices3,libertas,,libertatis,m
+681,radices3,libido,,libidinis,m
+682,radices3,lux,,lucis,m
+683,radices3,magnitudo,,magnitudinis,m
+684,radices3,maiores,,maiorum,m
+685,radices3,mater,,matris,m
+686,radices3,mens,,mentis,m
+687,radices3,miles,,militis,m
+688,radices3,mons,,montis,m
+689,radices3,mors,,mortis,m
+690,radices3,mos,,moris,m
+691,radices3,multitudo,,multitudinis,m
+692,radices3,munitio,,munitionis,m
+693,radices3,natio,,nationis,m
+694,radices3,necessitas,,necessitatis,m
+695,radices3,opinio,,opinionis,m
+696,radices3,ops,,opis,m
+697,radices3,oratio,,orationis,m
+698,radices3,ordo,,ordinis,m
+699,radices3,paries,,parietis,m
+700,radices3,pater,,patris,m
+701,radices3,paupertas,,paupertatis,m
+702,radices3,pax,,pacis,m
+703,radices3,pedes,,peditis,m
+704,radices3,pes,,pedis,m
+705,radices3,pietas,,pietatis,m
+706,radices3,plebs,,plebis,m
+707,radices3,potestas,,potestatis,m
+708,radices3,praetor,,praetoris,m
+709,radices3,pudor,,pudoris,m
+710,radices3,puluis,,pulueris,m
+711,radices3,quies,,quietis,m
+712,radices3,ratio,,rationis,m
+713,radices3,regio,,regionis,m
+714,radices3,rex,,regis,m
+715,radices3,sanguis,,sanguinis,m
+716,radices3,sedes,,sedis,m
+717,radices3,senectus,,senectutis,m
+718,radices3,senex,,senis,m
+719,radices3,sermo,,sermonis,m
+720,radices3,sol,,solis,m
+721,radices3,soror,,sororis,m
+722,radices3,tellus,,telluris,m
+723,radices3,tempestas,,tempestatis,m
+724,radices3,terror,,terroris,m
+725,radices3,timor,,timoris,m
+726,radices3,uates,,uatis,m
+727,radices3,uictor,,uictoris,m
+728,radices3,uirgo,,uirginis,m
+729,radices3,uirtus,,uirtutis,m
+730,radices3,uoluntas,,uoluntatis,m
+731,radices3,uoluptas,,uoluptatis,m
+732,radices3,uox,,uocis,m
+733,radices3,utilitas,,utilitatis,m
+734,radices3,uxor,,uxoris,m
+735,radices3,adulescens,,adulescentis,m
+736,radices3,aedes,,aedis,m
+737,radices3,amnis,,amnis,m
+738,radices3,apis,,apis,m
+739,radices3,ars,,artis,m
+740,radices3,auis,,auis,m
+741,radices3,auris,,auris,m
+742,radices3,caedes,,caedis,m
+743,radices3,ciuis,,ciuis,m
+744,radices3,classis,,classis,m
+745,radices3,collis,,collis,m
+746,radices3,dens,,dentis,m
+747,radices3,finis,,finis,m
+748,radices3,fons,,fontis,m
+749,radices3,gentis,,gens,m
+750,radices3,hostis,,hostis,m
+751,radices3,ignis,,ignis,m
+752,radices3,infans,,infantis,m
+753,radices3,moles,,molis,m
+754,radices3,nauis,,nauis,m
+755,radices3,nox,,noctis,m
+756,radices3,nubes,,nubis,m
+757,radices3,orbis,,orbis,m
+758,radices3,parens,,parentis,m
+759,radices3,pars,,partis,m
+760,radices3,piscis,,piscis,m
+761,radices3,pons,,pontis,m
+762,radices3,ratis,,ratis,m
+763,radices3,testis,,testis,m
+764,radices3,turris,,turris,m
+765,radices3,uestis,,uestis,m
+766,radices3,urbs,,urbis,m
+767,radices3,aequor,,aequoris,m
+768,radices3,aes,,aeris,m
+769,radices3,agmen,,agminis,m
+770,radices3,caput,,capitis,m
+771,radices3,carmen,,carminis,m
+772,radices3,certamen,,certaminis,m
+773,radices3,corpus,,corporis,m
+774,radices3,crimen,,criminis,m
+775,radices3,decus,,decoris,m
+776,radices3,discrimen,,discriminis,m
+777,radices3,facinus,,facinoris,m
+778,radices3,flumen,,fluminis,m
+779,radices3,foramen,,foraminis,m
+780,radices3,frigus,,frigoris,m
+781,radices3,fulmen,,fulminis,m
+782,radices3,funus,,funeris,m
+783,radices3,genus,,generis,m
+784,radices3,iter,,itineris,m
+785,radices3,ius,,iuris,m
+786,radices3,latus,,lateris,m
+787,radices3,limen,,liminis,m
+788,radices3,litus,,litoris,m
+789,radices3,lumen,,luminis,m
+790,radices3,munus,,muneris,m
+791,radices3,nemus,,nemoris,m
+792,radices3,nomen,,nominis,m
+793,radices3,numen,,numinis,m
+794,radices3,onus,,oneris,m
+795,radices3,opus,,operis,m
+796,radices3,os,"bouche, visage",oris,m
+797,radices3,os,l'os,ossis,m
+798,radices3,pectus,,pectoris,m
+799,radices3,pecus,,pecoris,m
+800,radices3,plus,,pluris,m
+801,radices3,pondus,,ponderis,m
+802,radices3,robur,,roboris,m
+803,radices3,scelus,,sceleris,m
+804,radices3,semen,,seminis,m
+805,radices3,tempus,,temporis,m
+806,radices3,uer,,ueris,m
+807,radices3,uulnus,,uulneris,m
+808,radices3,animal,,animalis,m
+809,radices3,cubile,,cubilis,m
+810,radices3,mare,,maris,m
+811,radices3,moenia,,moenium,m

@@ -1,0 +1,39 @@
+#! /usr/bin/python3
+from crustula.models import *
+
+galsov, created = Sov.objects.get_or_create(name="gal")
+galsov.save()
+
+a = [
+    ("Aemilia/Aemiliam", "Aemilia/", "f"),
+    ("Iulia/Iuliam", "Iulia/", "f"),
+    ("Lucia/Luciam", "Lucia/", "f"),
+    ("Lucretia/Lucretiam", "Lucretia/", "f"),
+    ("Sempronia/Semproniam", "Sempronia/", "f"),
+    ("Aemilius/Aemilium", "Aemilius/", "m"),
+    ("Eupalamus/Eupalamum", "Eupalamus/", "m"),
+    ("Publius/Publium", "Publius/", "m"),
+    ("Aulus/Aulum", "Aulus/", "m"),
+    ("Marcus/Marcum", "Marcus/", "m"),
+   ("amica/amicam", "mon amie/", "f"),
+   ("soror/sororem", "ma soeur/", "f"),
+   ("uicina/uicinam", "une voisine/", "f"),
+   ("filia/filiam", "sa fille/", "f"),
+   ("incognita/incognitam", "une inconnue", "f"),
+   ("amicus/amicum", "son ami/", "m"),
+   ("frater/fratrem", "mon frère/", "m"),
+   ("Gallicus/Gallicum", "un Gaulois/", "m"),
+   ("consul/consulis", "le consul/", "m"),
+     ("nauta/nautam", "un marin", "f"),
+]
+
+for lat, gal, gen in a:
+     print(lat, gal, gen)
+     try:
+          ov = Ov.objects.get(latine=lat)
+          ov.gallice=gal
+          ov.genre=gen
+     except:
+          ov = Ov(latine=lat, gallice=gal, genre=gen)
+     ov.save()
+     ov.sovs.add(galsov)
