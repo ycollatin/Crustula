@@ -17,233 +17,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: crustula/crustula/gal.py:26
-msgid "Aemilius"
-msgstr ""
-
-#: crustula/crustula/gal.py:27
-msgid "Eupalamus"
-msgstr ""
-
-#: crustula/crustula/gal.py:28
-msgid "Publius"
-msgstr ""
-
-#: crustula/crustula/gal.py:29
-msgid "Aulus"
-msgstr ""
-
-#: crustula/crustula/gal.py:30
-msgid "Marcus"
-msgstr ""
-
 #: crustula/crustula/gal.py:33
-msgid "Aemilia"
-msgstr ""
-
-#: crustula/crustula/gal.py:34
-msgid "Iulia"
-msgstr ""
-
-#: crustula/crustula/gal.py:35
-msgid "Lucia"
-msgstr ""
-
-#: crustula/crustula/gal.py:36
-msgid "Lucretia"
-msgstr ""
-
-#: crustula/crustula/gal.py:37
-msgid "Sempronia"
-msgstr ""
-
-#: crustula/crustula/gal.py:40
-#, fuzzy
-#| msgid "un_Gaulois(objet)"
-msgid "Aemilius(objet)"
-msgstr "a_Gaul"
-
-#: crustula/crustula/gal.py:41
-#, fuzzy
-#| msgid "un_Gaulois(objet)"
-msgid "Eupalamus(objet)"
-msgstr "a_Gaul"
-
-#: crustula/crustula/gal.py:42
-#, fuzzy
-#| msgid "un_Gaulois(objet)"
-msgid "Publius(objet)"
-msgstr "a_Gaul"
-
-#: crustula/crustula/gal.py:43
-#, fuzzy
-#| msgid "un_Gaulois(objet)"
-msgid "Aulus(objet)"
-msgstr "a_Gaul"
-
-#: crustula/crustula/gal.py:44
-#, fuzzy
-#| msgid "un_Gaulois(objet)"
-msgid "Marcus(objet)"
-msgstr "a_Gaul"
-
-#: crustula/crustula/gal.py:47
-#, fuzzy
-#| msgid "son_ami(objet)"
-msgid "Aemilia(objet)"
-msgstr "His_friend"
-
-#: crustula/crustula/gal.py:48
-#, fuzzy
-#| msgid "un_Gaulois(objet)"
-msgid "Iulia(objet)"
-msgstr "a_Gaul"
-
-#: crustula/crustula/gal.py:49
-#, fuzzy
-#| msgid "un_marin(objet)"
-msgid "Lucia(objet)"
-msgstr "a_sailor"
-
-#: crustula/crustula/gal.py:50
-#, fuzzy
-#| msgid "un_marin(objet)"
-msgid "Lucretia(objet)"
-msgstr "a_sailor"
-
-#: crustula/crustula/gal.py:51
-#, fuzzy
-#| msgid "mon_amie(objet)"
-msgid "Sempronia(objet)"
-msgstr "my_friend"
-
-#: crustula/crustula/gal.py:54
-msgid "mon_amie(attribut)"
-msgstr "my_friend"
-
-#: crustula/crustula/gal.py:55
-msgid "ma_sœur(attribut)"
-msgstr "my_sister"
-
-#: crustula/crustula/gal.py:56
-msgid "une_voisine(attribut)"
-msgstr "a_neighbor"
-
-#: crustula/crustula/gal.py:57
-msgid "sa_fille(attribut)"
-msgstr "his_daugter"
-
-#: crustula/crustula/gal.py:58
-msgid "une_inconnue(attribut)"
-msgstr "an_unknown_person"
-
-#: crustula/crustula/gal.py:62
-msgid "mon_amie(objet)"
-msgstr "my_friend"
-
-#: crustula/crustula/gal.py:63
-msgid "ma_sœur(objet)"
-msgstr "my_sister"
-
-#: crustula/crustula/gal.py:64
-msgid "une_voisine(objet)"
-msgstr "a_neighbor"
-
-#: crustula/crustula/gal.py:65
-msgid "sa_fille(objet)"
-msgstr "his_daughter"
-
-#: crustula/crustula/gal.py:66
-msgid "une_inconnue(objet)"
-msgstr "an_unknown_person"
-
-#: crustula/crustula/gal.py:70
-#, fuzzy
-#| msgid "mon_amie(attribut)"
-msgid "son_ami(attribut)"
-msgstr "my_friend"
-
-#: crustula/crustula/gal.py:71
-msgid "mon_frère(attribut)"
-msgstr "my_brother"
-
-#: crustula/crustula/gal.py:72
-msgid "un_Gaulois(attribut)"
-msgstr "a_Gaul"
-
-#: crustula/crustula/gal.py:73
-msgid "le_consul(attribut)"
-msgstr "the_consul"
-
-#: crustula/crustula/gal.py:74
-msgid "un_marin(attribut)"
-msgstr "a_sailor"
-
-#: crustula/crustula/gal.py:78
-msgid "son_ami(objet)"
-msgstr "His_friend"
-
-#: crustula/crustula/gal.py:79
-#, fuzzy
-#| msgid "mon_frère(attribut)"
-msgid "mon_frère(objet)"
-msgstr "my_brother"
-
-#: crustula/crustula/gal.py:80
-msgid "un_Gaulois(objet)"
-msgstr "a_Gaul"
-
-#: crustula/crustula/gal.py:81
-msgid "le_consul(objet)"
-msgstr "the_consul"
-
-#: crustula/crustula/gal.py:82
-msgid "un_marin(objet)"
-msgstr "a_sailor"
-
-#: crustula/crustula/gal.py:94
 msgid "sujet du verbe"
 msgstr "subject of the verb"
 
-#: crustula/crustula/gal.py:95
+#: crustula/crustula/gal.py:34
 msgid "COD du verbe"
 msgstr "direct object of the verb"
 
-#: crustula/crustula/gal.py:96
+#: crustula/crustula/gal.py:35
 msgid "attribut du sujet"
 msgstr "attribute of the subject"
 
-#: crustula/crustula/gal.py:100
+#: crustula/crustula/gal.py:39
 msgid "au nominatif"
 msgstr "in nominative"
 
-#: crustula/crustula/gal.py:101
+#: crustula/crustula/gal.py:40
 msgid "à l'accusatif"
 msgstr "in accusative"
 
-#: crustula/crustula/gal.py:114
+#: crustula/crustula/gal.py:53
 msgid "est"
 msgstr "is"
 
-#: crustula/crustula/gal.py:164
+#: crustula/crustula/gal.py:112
 #, python-brace-format
 msgid "Phrase précédente : {phprec}"
 msgstr "Previous phrase: {phprec}"
 
-#: crustula/crustula/gal.py:165
+#: crustula/crustula/gal.py:113
 #, python-brace-format
 msgid "{motprec} est {solF} ; il serait en latin au {solK}"
 msgstr "{motprec} is {solF} ; in Latin, it vould be {solK}"
 
-#: crustula/crustula/gal.py:174
+#: crustula/crustula/gal.py:122
 msgid "JUSTE !"
 msgstr "RIGHT!"
 
-#: crustula/crustula/gal.py:175
+#: crustula/crustula/gal.py:123
 msgid "Faux. Tu as répondu"
 msgstr "Wrong. You replied"
 
-#: crustula/crustula/gal.py:183
+#: crustula/crustula/gal.py:131
 msgid "En latin, ce mot serait donc"
 msgstr "In Latin, this word would be"
 
@@ -2070,108 +1886,269 @@ msgid "Aemilia/"
 msgstr "His_friend"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Aemilius/Aemilium/:2
-#, fuzzy
-#| msgid "un_Gaulois(objet)"
-msgid "Aemilius/"
-msgstr "a_Gaul"
-
-#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Aulus/Aulum/:3
-msgid "Aulus/"
-msgstr ""
-
-#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Eupalamus/Eupalamum/:4
-#, fuzzy
-#| msgid "un_Gaulois(objet)"
-msgid "Eupalamus/"
-msgstr "a_Gaul"
-
-#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Iulia/Iuliam/:5
+#: subiectus-objectus/Iulia/Iuliam/:2
 msgid "Iulia/"
 msgstr ""
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Lucia/Luciam/:6
+#: subiectus-objectus/Lucia/Luciam/:3
 msgid "Lucia/"
 msgstr ""
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Lucretia/Lucretiam/:7
+#: subiectus-objectus/Lucretia/Lucretiam/:4
 #, fuzzy
 #| msgid "un_marin(objet)"
 msgid "Lucretia/"
 msgstr "a_sailor"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Marcus/Marcum/:8
-#, fuzzy
-#| msgid "un_Gaulois(objet)"
-msgid "Marcus/"
-msgstr "a_Gaul"
-
-#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Publius/Publium/:9
-#, fuzzy
-#| msgid "un_Gaulois(objet)"
-msgid "Publius/"
-msgstr "a_Gaul"
-
-#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Sempronia/Semproniam/:10
+#: subiectus-objectus/Sempronia/Semproniam/:5
 #, fuzzy
 #| msgid "mon_amie(objet)"
 msgid "Sempronia/"
 msgstr "my_friend"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/pater/patrem/:11
+#: subiectus-objectus/Aemilius/Aemilium/:6
 #, fuzzy
-#| msgid "mon_frère(objet)"
-msgid "mon père/"
-msgstr "my_brother"
+#| msgid "un_Gaulois(objet)"
+msgid "Aemilius/"
+msgstr "a_Gaul"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/mater/matrem/:12
+#: subiectus-objectus/Eupalamus/Eupalamum/:7
 #, fuzzy
-#| msgid "mère"
-msgid "ma mère/"
-msgstr "mother"
+#| msgid "un_Gaulois(objet)"
+msgid "Eupalamus/"
+msgstr "a_Gaul"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/frater/fratrem/:13
+#: subiectus-objectus/Publius/Publium/:8
 #, fuzzy
-#| msgid "mon_frère(objet)"
-msgid "mon frère/"
-msgstr "my_brother"
+#| msgid "un_Gaulois(objet)"
+msgid "Publius/"
+msgstr "a_Gaul"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/soror/sororem/:14
+#: subiectus-objectus/Aulus/Aulum/:9
+msgid "Aulus/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Marcus/Marcum/:10
+#, fuzzy
+#| msgid "un_Gaulois(objet)"
+msgid "Marcus/"
+msgstr "a_Gaul"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/amica/amicam/:11
+#, fuzzy
+#| msgid "fils"
+msgid "mon amie/"
+msgstr "son"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/soror/sororem/:12
 #, fuzzy
 #| msgid "soeur"
 msgid "ma soeur/"
 msgstr "sister"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/filius/filium/:15
+#: subiectus-objectus/uicina/uicinam/:13
 #, fuzzy
-#| msgid "fils"
-msgid "mon fils/"
-msgstr "son"
+#| msgid "une_voisine(objet)"
+msgid "une voisine/"
+msgstr "a_neighbor"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/filia/filiam/:16
+#: subiectus-objectus/filia/filiam/:14
 #, fuzzy
 #| msgid "abeille"
 msgid "ma fille/"
 msgstr "bee"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/uxor/uxorem/:17
+#: subiectus-objectus/incognita/incognitam/:15
+#, fuzzy
+#| msgid "une_inconnue(objet)"
+msgid "une inconnue"
+msgstr "an_unknown_person"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/amicus/amicum/:16
+msgid "son ami/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/frater/fratrem/:17
+#, fuzzy
+#| msgid "mon_frère(objet)"
+msgid "mon frère/"
+msgstr "my_brother"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Gallicus/Gallicum/:18
+#, fuzzy
+#| msgid "un_Gaulois(objet)"
+msgid "un Gaulois/"
+msgstr "a_Gaul"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/consul/consulis/:19
+#, fuzzy
+#| msgid "consul"
+msgid "le consul/"
+msgstr "consul"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/nauta/nautam/:20
+#, fuzzy
+#| msgid "mari"
+msgid "un marin"
+msgstr "husband"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/pater/patrem/:21
+#, fuzzy
+#| msgid "mon_frère(objet)"
+msgid "mon père/"
+msgstr "my_brother"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/mater/matrem/:22
+#, fuzzy
+#| msgid "mère"
+msgid "ma mère/"
+msgstr "mother"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/filius/filium/:23
+#, fuzzy
+#| msgid "fils"
+msgid "mon fils/"
+msgstr "son"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/uxor/uxorem/:24
 msgid "ma femme/"
 msgstr ""
+
+#, fuzzy
+#~| msgid "un_Gaulois(objet)"
+#~ msgid "Aemilius(objet)"
+#~ msgstr "a_Gaul"
+
+#, fuzzy
+#~| msgid "un_Gaulois(objet)"
+#~ msgid "Eupalamus(objet)"
+#~ msgstr "a_Gaul"
+
+#, fuzzy
+#~| msgid "un_Gaulois(objet)"
+#~ msgid "Publius(objet)"
+#~ msgstr "a_Gaul"
+
+#, fuzzy
+#~| msgid "un_Gaulois(objet)"
+#~ msgid "Aulus(objet)"
+#~ msgstr "a_Gaul"
+
+#, fuzzy
+#~| msgid "un_Gaulois(objet)"
+#~ msgid "Marcus(objet)"
+#~ msgstr "a_Gaul"
+
+#, fuzzy
+#~| msgid "son_ami(objet)"
+#~ msgid "Aemilia(objet)"
+#~ msgstr "His_friend"
+
+#, fuzzy
+#~| msgid "un_Gaulois(objet)"
+#~ msgid "Iulia(objet)"
+#~ msgstr "a_Gaul"
+
+#, fuzzy
+#~| msgid "un_marin(objet)"
+#~ msgid "Lucia(objet)"
+#~ msgstr "a_sailor"
+
+#, fuzzy
+#~| msgid "un_marin(objet)"
+#~ msgid "Lucretia(objet)"
+#~ msgstr "a_sailor"
+
+#, fuzzy
+#~| msgid "mon_amie(objet)"
+#~ msgid "Sempronia(objet)"
+#~ msgstr "my_friend"
+
+#~ msgid "mon_amie(attribut)"
+#~ msgstr "my_friend"
+
+#~ msgid "ma_sœur(attribut)"
+#~ msgstr "my_sister"
+
+#~ msgid "une_voisine(attribut)"
+#~ msgstr "a_neighbor"
+
+#~ msgid "sa_fille(attribut)"
+#~ msgstr "his_daugter"
+
+#~ msgid "une_inconnue(attribut)"
+#~ msgstr "an_unknown_person"
+
+#~ msgid "mon_amie(objet)"
+#~ msgstr "my_friend"
+
+#~ msgid "ma_sœur(objet)"
+#~ msgstr "my_sister"
+
+#~ msgid "une_voisine(objet)"
+#~ msgstr "a_neighbor"
+
+#~ msgid "sa_fille(objet)"
+#~ msgstr "his_daughter"
+
+#~ msgid "une_inconnue(objet)"
+#~ msgstr "an_unknown_person"
+
+#, fuzzy
+#~| msgid "mon_amie(attribut)"
+#~ msgid "son_ami(attribut)"
+#~ msgstr "my_friend"
+
+#~ msgid "mon_frère(attribut)"
+#~ msgstr "my_brother"
+
+#~ msgid "un_Gaulois(attribut)"
+#~ msgstr "a_Gaul"
+
+#~ msgid "le_consul(attribut)"
+#~ msgstr "the_consul"
+
+#~ msgid "un_marin(attribut)"
+#~ msgstr "a_sailor"
+
+#~ msgid "son_ami(objet)"
+#~ msgstr "His_friend"
+
+#, fuzzy
+#~| msgid "mon_frère(attribut)"
+#~ msgid "mon_frère(objet)"
+#~ msgstr "my_brother"
+
+#~ msgid "un_Gaulois(objet)"
+#~ msgstr "a_Gaul"
+
+#~ msgid "le_consul(objet)"
+#~ msgstr "the_consul"
+
+#~ msgid "un_marin(objet)"
+#~ msgstr "a_sailor"
 
 #, fuzzy
 #~| msgid "mon_frère(objet)"

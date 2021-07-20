@@ -19,77 +19,16 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from crustula.models import *
 import random
 import re
-
-nominM = [
-    N_("Aemilius"),
-    N_("Eupalamus"),
-    N_("Publius"),
-    N_("Aulus"),
-    N_("Marcus")]
-
-nominF = [
-    N_("Aemilia"),
-    N_("Iulia"),
-    N_("Lucia"),
-    N_("Lucretia"),
-    N_("Sempronia")]
-
-nominMaccus = [
-    N_("Aemilius(objet)"),
-    N_("Eupalamus(objet)"),
-    N_("Publius(objet)"),
-    N_("Aulus(objet)"),
-    N_("Marcus(objet)")]
-
-nominFaccus = [
-    N_("Aemilia(objet)"),
-    N_("Iulia(objet)"),
-    N_("Lucia(objet)"),
-    N_("Lucretia(objet)"),
-    N_("Sempronia(objet)")]
-
-attFnomin = [
-   N_("mon_amie(attribut)"),
-   N_("ma_sœur(attribut)"),
-   N_("une_voisine(attribut)"),
-   N_("sa_fille(attribut)"),
-   N_("une_inconnue(attribut)")
-]
-
-attFaccus = [
-   N_("mon_amie(objet)"),
-   N_("ma_sœur(objet)"),
-   N_("une_voisine(objet)"),
-   N_("sa_fille(objet)"),
-   N_("une_inconnue(objet)")
-]
-
-attMnomin = [
-   N_("son_ami(attribut)"),
-   N_("mon_frère(attribut)"),
-   N_("un_Gaulois(attribut)"),
-   N_("le_consul(attribut)"),
-   N_("un_marin(attribut)")
-]
-
-attMaccus = [
-   N_("son_ami(objet)"),
-   N_("mon_frère(objet)"),
-   N_("un_Gaulois(objet)"),
-   N_("le_consul(objet)"),
-   N_("un_marin(objet)")
-]
-
-
-nomina = nominF + nominM
-
 
 def index(request):
     respF = solF = respK = solK = attribut = motprec = mot = ""
     recte=False
     preferred_language(request)
+    vocab = Sov.objects.get(name="gal")
+    nomina = list(vocab.ov_set.all()) 
     fonctions = [
         _("sujet du verbe"),
         _("COD du verbe"),
@@ -134,6 +73,10 @@ def index(request):
 
     ## décider du sexe du sujet
     sexus = random.choice(('m', 'f'))
+    nominM = [o for o in nomina if o.genre=="m" and not o.imprecis]
+    nominF = [o for o in nomina if o.genre=="f" and not o.imprecis]
+    nominAttF = [o for o in nomina if o.genre =="f" and o.imprecis]
+    nominAttM = [o for o in nomina if o.genre =="m" and o.imprecis]
     if (sexus == 'm'):
         sujet = random.choice(nominM)
     else:
@@ -142,25 +85,30 @@ def index(request):
     ## tirer le type de phrase
     thetype = random.choice(('svo','sva'))
     if (thetype == 'svo'):
-        if sexus == 'f':
-            objet = random.choice(nominMaccus + attMaccus)
+        if sexus == "f":
+            objet = random.choice(nominAttM)
         else:
-            objet = random.choice(nominFaccus + attFaccus)
+            objet = random.choice(nominAttM)
         phrase = re.sub(
             r"\(.*\)", "",
-            f"{_(sujet)} {_('aime')} {_(objet)}")
+            f"{sujet.nomGallice} {_('aime')} {objet.accGallice}")
+        if random.random() > 1/3:
+            mot = objet.accGallice
+        else:
+            mot = sujet.nomGallice
     else:
         if sexus == 'f':
-            attribut = random.choice(attFnomin)
+            attribut = random.choice(nominAttF)
         else:
-            attribut = random.choice(attMnomin)
+            attribut = random.choice(nominAttM)
         phrase = re.sub(
             r"\(.*\)", "",
-            f"{_(sujet)} {_('est')} {_(attribut)}")
+            f"{sujet.nomGallice} {_('est')} {attribut.nomGallice}")
+        if random.random() > 1/3:
+            mot = attribut.nomGallice
+        else:
+            mot = sujet.nomGallice
     # la phrase es choisie
-    eclats = phrase.split(" ")
-    mot = eclats[random.choice((0,2,2))]
-    mot = mot.replace("_", " ")
     phrase_precedente = _('Phrase précédente : {phprec}').format(phprec=phprec),
     mot_prec = _("{motprec} est {solF} ; il serait en latin au {solK}").format(
         motprec=motprec, solF=solF, solK=solK)

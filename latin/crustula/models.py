@@ -73,7 +73,7 @@ class Sov(models.Model):
     """
     classe utile pour chaque crutula de type "sov"
     """
-    name = models.CharField(max_length=10, primary_key = True)
+    name = models.CharField(max_length=10, unique = True)
 
     def __str__(self):
         return self.name
@@ -83,13 +83,22 @@ class Ov(models.Model):
     vocabulaire pour Sujet/Objet ; essentiellement des noms au nominatif
     et à l'accusatif
     """
-    latine  = models.CharField(max_length=255, primary_key = True)
-    gallice = models.CharField(max_length=255)
-    genre   = models.CharField(max_length=1)
+    latine  = models.CharField(max_length=255, unique = True)
+    gallice = models.CharField(max_length=255, default="<nominatif>/")
+    genre   = models.CharField(max_length=1, default="m")
     sovs = models.ManyToManyField(Sov)
 
     def __str__(self):
         return f"{self.latine} : {self.gallice} ({self.genre}, {self.sovs.all()})"
+    @property
+    def imprecis(self):
+        """
+        signale si un mot ne désigne Pas une personne précise ; en français
+        ça se traduit généralement par le fait que la traduction française
+        tient en deux mots, un article et un nom
+        """
+        return " " in self.gallice
+    
     @property
     def serializable(self):
         return {
@@ -129,8 +138,9 @@ class Ov(models.Model):
         @return l'accusatif, en "gaulois"
         """
         g = _(self.gallice).split("/")
-        if g[1]:
-            # la traduction est déclinée à l'accusatif
-            return g[1]
+        if len(g) > 0:
+            if g[1]:
+                # la traduction est déclinée à l'accusatif
+                return g[1]
         # pas de déclinaison : on renvoie le nominatif
         return g[0]

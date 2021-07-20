@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 16:56+0000\n"
-"PO-Revision-Date: 2021-07-19 22:44+0200\n"
+"PO-Revision-Date: 2021-07-20 12:15+0200\n"
 "Last-Translator: Nikolay Alexandrov <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -20,210 +20,50 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: crustula/crustula/gal.py:26
-msgid "Aemilius"
-msgstr "Эмилий"
-
-#: crustula/crustula/gal.py:27
-msgid "Eupalamus"
-msgstr "Эвпалам"
-
-#: crustula/crustula/gal.py:28
-msgid "Publius"
-msgstr "Публий"
-
-#: crustula/crustula/gal.py:29
-msgid "Aulus"
-msgstr "Авл"
-
-#: crustula/crustula/gal.py:30
-msgid "Marcus"
-msgstr "Марк"
-
 #: crustula/crustula/gal.py:33
-msgid "Aemilia"
-msgstr "Эмилия"
-
-#: crustula/crustula/gal.py:34
-msgid "Iulia"
-msgstr "Юлия"
-
-#: crustula/crustula/gal.py:35
-msgid "Lucia"
-msgstr "Луция"
-
-#: crustula/crustula/gal.py:36
-msgid "Lucretia"
-msgstr "Лукреция"
-
-#: crustula/crustula/gal.py:37
-msgid "Sempronia"
-msgstr "Семпрония"
-
-#: crustula/crustula/gal.py:40
-msgid "Aemilius(objet)"
-msgstr "Эмилия"
-
-#: crustula/crustula/gal.py:41
-msgid "Eupalamus(objet)"
-msgstr "Эвпалама"
-
-#: crustula/crustula/gal.py:42
-msgid "Publius(objet)"
-msgstr "Публия"
-
-#: crustula/crustula/gal.py:43
-msgid "Aulus(objet)"
-msgstr "Авла"
-
-#: crustula/crustula/gal.py:44
-msgid "Marcus(objet)"
-msgstr "Марка"
-
-#: crustula/crustula/gal.py:47
-msgid "Aemilia(objet)"
-msgstr "Эмилию"
-
-#: crustula/crustula/gal.py:48
-msgid "Iulia(objet)"
-msgstr "Юлию"
-
-#: crustula/crustula/gal.py:49
-msgid "Lucia(objet)"
-msgstr "Луцию"
-
-#: crustula/crustula/gal.py:50
-msgid "Lucretia(objet)"
-msgstr "Лукрецию"
-
-#: crustula/crustula/gal.py:51
-msgid "Sempronia(objet)"
-msgstr "Семпронию"
-
-#: crustula/crustula/gal.py:54
-msgid "mon_amie(attribut)"
-msgstr "мой_друг"
-
-#: crustula/crustula/gal.py:55
-msgid "ma_sœur(attribut)"
-msgstr "моя_сестра"
-
-#: crustula/crustula/gal.py:56
-msgid "une_voisine(attribut)"
-msgstr "соседка"
-
-#: crustula/crustula/gal.py:57
-msgid "sa_fille(attribut)"
-msgstr "его дочь"
-
-#: crustula/crustula/gal.py:58
-msgid "une_inconnue(attribut)"
-msgstr "незнакомка"
-
-#: crustula/crustula/gal.py:62
-msgid "mon_amie(objet)"
-msgstr "моего друга"
-
-#: crustula/crustula/gal.py:63
-msgid "ma_sœur(objet)"
-msgstr "мою сестру"
-
-#: crustula/crustula/gal.py:64
-msgid "une_voisine(objet)"
-msgstr "соседку"
-
-#: crustula/crustula/gal.py:65
-msgid "sa_fille(objet)"
-msgstr "свою дочь"
-
-#: crustula/crustula/gal.py:66
-msgid "une_inconnue(objet)"
-msgstr "незнакомку"
-
-#: crustula/crustula/gal.py:70
-msgid "son_ami(attribut)"
-msgstr "ее друг"
-
-#: crustula/crustula/gal.py:71
-msgid "mon_frère(attribut)"
-msgstr "мой брат"
-
-#: crustula/crustula/gal.py:72
-msgid "un_Gaulois(attribut)"
-msgstr "галл"
-
-#: crustula/crustula/gal.py:73
-msgid "le_consul(attribut)"
-msgstr "консул"
-
-#: crustula/crustula/gal.py:74
-msgid "un_marin(attribut)"
-msgstr "моряк"
-
-#: crustula/crustula/gal.py:78
-msgid "son_ami(objet)"
-msgstr "своего друга"
-
-#: crustula/crustula/gal.py:79
-msgid "mon_frère(objet)"
-msgstr "моего брата"
-
-#: crustula/crustula/gal.py:80
-msgid "un_Gaulois(objet)"
-msgstr "галла"
-
-#: crustula/crustula/gal.py:81
-msgid "le_consul(objet)"
-msgstr "консула"
-
-#: crustula/crustula/gal.py:82
-msgid "un_marin(objet)"
-msgstr "консула"
-
-#: crustula/crustula/gal.py:94
 msgid "sujet du verbe"
 msgstr "подлежащее глагола"
 
-#: crustula/crustula/gal.py:95
+#: crustula/crustula/gal.py:34
 msgid "COD du verbe"
 msgstr "Прямое дополнение"
 
-#: crustula/crustula/gal.py:96
+#: crustula/crustula/gal.py:35
 msgid "attribut du sujet"
 msgstr "косвенное дополнение"
 
-#: crustula/crustula/gal.py:100
+#: crustula/crustula/gal.py:39
 msgid "au nominatif"
 msgstr "именительный"
 
-#: crustula/crustula/gal.py:101
+#: crustula/crustula/gal.py:40
 msgid "à l'accusatif"
 msgstr "винительный"
 
-#: crustula/crustula/gal.py:114
+#: crustula/crustula/gal.py:53
 msgid "est"
 msgstr "—"
 
-#: crustula/crustula/gal.py:164
+#: crustula/crustula/gal.py:112
 #, python-brace-format
 msgid "Phrase précédente : {phprec}"
 msgstr "Предыдущее предложение: {phprec}"
 
-#: crustula/crustula/gal.py:165
+#: crustula/crustula/gal.py:113
 #, python-brace-format
 msgid "{motprec} est {solF} ; il serait en latin au {solK}"
 msgstr "{motprec} {solF} ; это будет на латыни {solK}"
 
-#: crustula/crustula/gal.py:174
+#: crustula/crustula/gal.py:122
 msgid "JUSTE !"
 msgstr "Верно!"
 
-#: crustula/crustula/gal.py:175
+#: crustula/crustula/gal.py:123
 msgid "Faux. Tu as répondu"
 msgstr "Ошибка. Вы ответили"
 
 # To make translation shorter a bit I'd suppose instead of "следовательно" use a word "значит" or "итак".
-#: crustula/crustula/gal.py:183
+#: crustula/crustula/gal.py:131
 msgid "En latin, ce mot serait donc"
 msgstr "Итак, на латыни это слово будет"
 
@@ -2075,84 +1915,239 @@ msgid "Aemilia/"
 msgstr "Эмилия/Эмилию"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Aemilius/Aemilium/:2
-msgid "Aemilius/"
-msgstr "Эмилий/Эмилия"
-
-#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Aulus/Aulum/:3
-msgid "Aulus/"
-msgstr "Авл/Авла"
-
-#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Eupalamus/Eupalamum/:4
-msgid "Eupalamus/"
-msgstr "Эвпалам/Эвпалама"
-
-#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Iulia/Iuliam/:5
+#: subiectus-objectus/Iulia/Iuliam/:2
 msgid "Iulia/"
 msgstr "Юлия/Юлию"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Lucia/Luciam/:6
+#: subiectus-objectus/Lucia/Luciam/:3
 msgid "Lucia/"
 msgstr "Луция/Луцию"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Lucretia/Lucretiam/:7
+#: subiectus-objectus/Lucretia/Lucretiam/:4
 msgid "Lucretia/"
 msgstr "Лукреция/Лукрецию"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Marcus/Marcum/:8
-msgid "Marcus/"
-msgstr "Марк/Марка"
-
-#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Publius/Publium/:9
-msgid "Publius/"
-msgstr "Публий/Публия"
-
-#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/Sempronia/Semproniam/:10
+#: subiectus-objectus/Sempronia/Semproniam/:5
 msgid "Sempronia/"
 msgstr "Семпрония/Семпронию"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/pater/patrem/:11
-msgid "mon père/"
-msgstr "мой отец/своего отца"
+#: subiectus-objectus/Aemilius/Aemilium/:6
+msgid "Aemilius/"
+msgstr "Эмилий/Эмилия"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/mater/matrem/:12
-msgid "ma mère/"
-msgstr "моей мате/мою мать"
+#: subiectus-objectus/Eupalamus/Eupalamum/:7
+msgid "Eupalamus/"
+msgstr "Эвпалам/Эвпалама"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/frater/fratrem/:13
-msgid "mon frère/"
-msgstr "мой брат/моего брата"
+#: subiectus-objectus/Publius/Publium/:8
+msgid "Publius/"
+msgstr "Публий/Публия"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/soror/sororem/:14
+#: subiectus-objectus/Aulus/Aulum/:9
+msgid "Aulus/"
+msgstr "Авл/Авла"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Marcus/Marcum/:10
+msgid "Marcus/"
+msgstr "Марк/Марка"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/amica/amicam/:11
+msgid "mon amie/"
+msgstr "мой_друг/моего друга"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/soror/sororem/:12
 msgid "ma soeur/"
-msgstr "моей сестре/мою сестру"
+msgstr "моя сестра/мою сестру"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/filius/filium/:15
-msgid "mon fils/"
-msgstr "мой сын/моего сына"
+#: subiectus-objectus/uicina/uicinam/:13
+msgid "une voisine/"
+msgstr "соседка/соседку"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/filia/filiam/:16
+#: subiectus-objectus/filia/filiam/:14
 msgid "ma fille/"
 msgstr "моя девушка/мою дочь"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/uxor/uxorem/:17
+#: subiectus-objectus/incognita/incognitam/:15
+msgid "une inconnue"
+msgstr "незнакомка/незнакомку"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/amicus/amicum/:16
+msgid "son ami/"
+msgstr "ее друг/своего друга"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/frater/fratrem/:17
+msgid "mon frère/"
+msgstr "мой брат/моего брата"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/Gallicus/Gallicum/:18
+msgid "un Gaulois/"
+msgstr "галл/галла"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/consul/consulis/:19
+msgid "le consul/"
+msgstr "консул/консула"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/nauta/nautam/:20
+msgid "un marin"
+msgstr "моряк/консула"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/pater/patrem/:21
+msgid "mon père/"
+msgstr "мой отец/своего отца"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/mater/matrem/:22
+msgid "ma mère/"
+msgstr "моей мате/мою мать"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/filius/filium/:23
+msgid "mon fils/"
+msgstr "мой сын/моего сына"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/uxor/uxorem/:24
 msgid "ma femme/"
 msgstr "моя жена/мою жену"
+
+#~ msgid "Aemilius"
+#~ msgstr "Эмилий"
+
+#~ msgid "Eupalamus"
+#~ msgstr "Эвпалам"
+
+#~ msgid "Publius"
+#~ msgstr "Публий"
+
+#~ msgid "Aulus"
+#~ msgstr "Авл"
+
+#~ msgid "Marcus"
+#~ msgstr "Марк"
+
+#~ msgid "Aemilia"
+#~ msgstr "Эмилия"
+
+#~ msgid "Iulia"
+#~ msgstr "Юлия"
+
+#~ msgid "Lucia"
+#~ msgstr "Луция"
+
+#~ msgid "Lucretia"
+#~ msgstr "Лукреция"
+
+#~ msgid "Sempronia"
+#~ msgstr "Семпрония"
+
+#~ msgid "Aemilius(objet)"
+#~ msgstr "Эмилия"
+
+#~ msgid "Eupalamus(objet)"
+#~ msgstr "Эвпалама"
+
+#~ msgid "Publius(objet)"
+#~ msgstr "Публия"
+
+#~ msgid "Aulus(objet)"
+#~ msgstr "Авла"
+
+#~ msgid "Marcus(objet)"
+#~ msgstr "Марка"
+
+#~ msgid "Aemilia(objet)"
+#~ msgstr "Эмилию"
+
+#~ msgid "Iulia(objet)"
+#~ msgstr "Юлию"
+
+#~ msgid "Lucia(objet)"
+#~ msgstr "Луцию"
+
+#~ msgid "Lucretia(objet)"
+#~ msgstr "Лукрецию"
+
+#~ msgid "Sempronia(objet)"
+#~ msgstr "Семпронию"
+
+#~ msgid "mon_amie(attribut)"
+#~ msgstr "мой_друг"
+
+#~ msgid "ma_sœur(attribut)"
+#~ msgstr "моя_сестра"
+
+#~ msgid "une_voisine(attribut)"
+#~ msgstr "соседка"
+
+#~ msgid "sa_fille(attribut)"
+#~ msgstr "его дочь"
+
+#~ msgid "une_inconnue(attribut)"
+#~ msgstr "незнакомка"
+
+#~ msgid "mon_amie(objet)"
+#~ msgstr "моего друга"
+
+#~ msgid "ma_sœur(objet)"
+#~ msgstr "мою сестру"
+
+#~ msgid "une_voisine(objet)"
+#~ msgstr "соседку"
+
+#~ msgid "sa_fille(objet)"
+#~ msgstr "свою дочь"
+
+#~ msgid "une_inconnue(objet)"
+#~ msgstr "незнакомку"
+
+#~ msgid "son_ami(attribut)"
+#~ msgstr "ее друг"
+
+#~ msgid "mon_frère(attribut)"
+#~ msgstr "мой брат"
+
+#~ msgid "un_Gaulois(attribut)"
+#~ msgstr "галл/галла"
+
+#~ msgid "le_consul(attribut)"
+#~ msgstr "консул"
+
+#~ msgid "un_marin(attribut)"
+#~ msgstr "моряк"
+
+#~ msgid "son_ami(objet)"
+#~ msgstr "своего друга"
+
+#~ msgid "mon_frère(objet)"
+#~ msgstr "моего брата"
+
+#~ msgid "un_Gaulois(objet)"
+#~ msgstr "галла"
+
+#~ msgid "le_consul(objet)"
+#~ msgstr "консула"
+
+#~ msgid "un_marin(objet)"
+#~ msgstr "консула"
 
 #~ msgid "mon père"
 #~ msgstr "мой отец/своего отца"
