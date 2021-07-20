@@ -24,19 +24,6 @@ import random
 import re
 import json
 
-def decl(nomen, k):
-    """
-    décline un nom
-    @param nomem une liste telle que ['pat-er-rem', 'm', _('mon père')]
-    @param k un cas tel que "n" ou "a"
-    @return le nom décliné : "pater" ou "patrem"
-    """
-    eclats = nomen[0].split("-");
-    radical = eclats[0]
-    if (k == 'n'):
-        return radical + eclats[1]
-    return radical + eclats[2]
-
 def upper_first(s):
     return s[0].upper()+s[1:]
 

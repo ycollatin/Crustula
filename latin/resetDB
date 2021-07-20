@@ -1,0 +1,9 @@
+#! /bin/sh
+rm db.sqlite3
+rm -rf crustula/migrations
+./manage.py makemigrations crustula
+./manage.py migrate
+for f in ls scripts/*.script; do
+    echo "====================== $f ========================="
+    cat $f | ./manage.py shell
+done

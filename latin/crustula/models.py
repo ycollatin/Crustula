@@ -98,6 +98,14 @@ class Ov(models.Model):
         tient en deux mots, un article et un nom
         """
         return " " in self.gallice
+
+    @property
+    def nompropre(self):
+        """
+        Signale les noms propres (qui commencent par une capitale)
+        """
+        nom = self.latine.split("/")[0]
+        return nom == nom[0].upper() + nom[1:].lower()
     
     @property
     def serializable(self):

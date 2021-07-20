@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Crustula 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 16:56+0000\n"
-"PO-Revision-Date: 2021-07-20 12:15+0200\n"
+"PO-Revision-Date: 2021-07-20 19:10+0200\n"
 "Last-Translator: Nikolay Alexandrov <alexnikvik@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -67,7 +67,8 @@ msgstr "Ошибка. Вы ответили"
 msgid "En latin, ce mot serait donc"
 msgstr "Итак, на латыни это слово будет"
 
-#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:158
+#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:145
+#: crustula/crustula/sov2.py:28
 msgid "aime"
 msgstr "любит"
 
@@ -75,33 +76,37 @@ msgstr "любит"
 msgid "gallice"
 msgstr "slavica"
 
-#: crustula/crustula/sov1.py:158
+#: crustula/crustula/sov1.py:145
 msgid "j'aime"
 msgstr "я люблю"
 
-#: crustula/crustula/sov1.py:158
+#: crustula/crustula/sov1.py:145
 msgid "tu aimes"
 msgstr "ты любишь"
 
-#: crustula/crustula/sov1.py:159
+#: crustula/crustula/sov1.py:146
 msgid "nous aimons"
 msgstr "мы любим"
 
-#: crustula/crustula/sov1.py:159
+#: crustula/crustula/sov1.py:146
 msgid "vous aimez"
 msgstr "вы любите"
 
-#: crustula/crustula/sov1.py:159
+#: crustula/crustula/sov1.py:146
 msgid "ils aiment"
 msgstr "они любят"
 
-#: crustula/crustula/sov1.py:213
+#: crustula/crustula/sov1.py:200
 msgid "Tous les déterminants sont des déterminants possessifs !"
 msgstr "Все детерминанты являются притяжательными детерминантами!"
 
-#: crustula/crustula/sov1.py:214
+#: crustula/crustula/sov1.py:201
 msgid "pour « aimer », utilise le verbe"
 msgstr "для \"любить\" использует глагол"
+
+#: crustula/crustula/sov2.py:30
+msgid "regarde"
+msgstr "смотрит"
 
 #: crustula/crustula/uocesiiib.py:60
 msgid "donner le nom, son génitif et son genre (m, f, n ou mf)"
@@ -2010,22 +2015,94 @@ msgid "un marin"
 msgstr "моряк/консула"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/pater/patrem/:21
+#: subiectus-objectus/uir/uirum/:21
+#, fuzzy
+#| msgid "mon amie/"
+msgid "mon mari/"
+msgstr "мой_друг/моего друга"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/gener/generum/:22
+#, fuzzy
+#| msgid "mon père/"
+msgid "mon gendre/"
+msgstr "мой отец/своего отца"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/socer/socerum/:23
+#, fuzzy
+#| msgid "mon père/"
+msgid "mon beau-père/"
+msgstr "мой отец/своего отца"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/puer/puerum/:24
+msgid "un enfant/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/aper/aprum/:25
+msgid "un sanglier/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/faber/fabrum/:26
+msgid "un ouvrier/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/magister/magistrum/:27
+#, fuzzy
+#| msgid "maître, seigneur"
+msgid "le maître/"
+msgstr "хозяин, господин"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/capra/capram/:28
+msgid "une chèvre/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/fera/feram/:29
+msgid "une bête/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/panthera/pantheram/:30
+#, fuzzy
+#| msgid "mon père/"
+msgid "une panthère/"
+msgstr "мой отец/своего отца"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/scurra/scurram/:31
+msgid "un bouffon/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/uipera/uiperam/:32
+#, fuzzy
+#| msgid "mon père/"
+msgid "une vipère/"
+msgstr "мой отец/своего отца"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/pater/patrem/:33
 msgid "mon père/"
 msgstr "мой отец/своего отца"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/mater/matrem/:22
+#: subiectus-objectus/mater/matrem/:34
 msgid "ma mère/"
 msgstr "моей мате/мою мать"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/filius/filium/:23
+#: subiectus-objectus/filius/filium/:35
 msgid "mon fils/"
 msgstr "мой сын/моего сына"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/uxor/uxorem/:24
+#: subiectus-objectus/uxor/uxorem/:36
 msgid "ma femme/"
 msgstr "моя жена/мою жену"
 

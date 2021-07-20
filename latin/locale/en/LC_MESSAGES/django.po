@@ -63,7 +63,8 @@ msgstr "Wrong. You replied"
 msgid "En latin, ce mot serait donc"
 msgstr "In Latin, this word would be"
 
-#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:158
+#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:145
+#: crustula/crustula/sov2.py:28
 msgid "aime"
 msgstr "loves"
 
@@ -71,37 +72,43 @@ msgstr "loves"
 msgid "gallice"
 msgstr "anglice"
 
-#: crustula/crustula/sov1.py:158
+#: crustula/crustula/sov1.py:145
 #, fuzzy
 #| msgid "aime"
 msgid "j'aime"
 msgstr "loves"
 
-#: crustula/crustula/sov1.py:158
+#: crustula/crustula/sov1.py:145
 #, fuzzy
 #| msgid "aime"
 msgid "tu aimes"
 msgstr "loves"
 
-#: crustula/crustula/sov1.py:159
+#: crustula/crustula/sov1.py:146
 msgid "nous aimons"
 msgstr ""
 
-#: crustula/crustula/sov1.py:159
+#: crustula/crustula/sov1.py:146
 msgid "vous aimez"
 msgstr ""
 
-#: crustula/crustula/sov1.py:159
+#: crustula/crustula/sov1.py:146
 msgid "ils aiment"
 msgstr ""
 
-#: crustula/crustula/sov1.py:213
+#: crustula/crustula/sov1.py:200
 msgid "Tous les déterminants sont des déterminants possessifs !"
 msgstr ""
 
-#: crustula/crustula/sov1.py:214
+#: crustula/crustula/sov1.py:201
 msgid "pour « aimer », utilise le verbe"
 msgstr ""
+
+#: crustula/crustula/sov2.py:30
+#, fuzzy
+#| msgid "gardien"
+msgid "regarde"
+msgstr "keeper"
 
 #: crustula/crustula/uocesiiib.py:60
 msgid "donner le nom, son génitif et son genre (m, f, n ou mf)"
@@ -2011,28 +2018,100 @@ msgid "un marin"
 msgstr "husband"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/pater/patrem/:21
+#: subiectus-objectus/uir/uirum/:21
+#, fuzzy
+#| msgid "fils"
+msgid "mon mari/"
+msgstr "son"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/gener/generum/:22
+#, fuzzy
+#| msgid "mon_frère(objet)"
+msgid "mon gendre/"
+msgstr "my_brother"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/socer/socerum/:23
+#, fuzzy
+#| msgid "mon_frère(objet)"
+msgid "mon beau-père/"
+msgstr "my_brother"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/puer/puerum/:24
+msgid "un enfant/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/aper/aprum/:25
+msgid "un sanglier/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/faber/fabrum/:26
+msgid "un ouvrier/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/magister/magistrum/:27
+#, fuzzy
+#| msgid "maître, seigneur"
+msgid "le maître/"
+msgstr "lord, commender"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/capra/capram/:28
+msgid "une chèvre/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/fera/feram/:29
+msgid "une bête/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/panthera/pantheram/:30
+#, fuzzy
+#| msgid "mon_frère(objet)"
+msgid "une panthère/"
+msgstr "my_brother"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/scurra/scurram/:31
+msgid "un bouffon/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/uipera/uiperam/:32
+#, fuzzy
+#| msgid "mon_frère(objet)"
+msgid "une vipère/"
+msgstr "my_brother"
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/pater/patrem/:33
 #, fuzzy
 #| msgid "mon_frère(objet)"
 msgid "mon père/"
 msgstr "my_brother"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/mater/matrem/:22
+#: subiectus-objectus/mater/matrem/:34
 #, fuzzy
 #| msgid "mère"
 msgid "ma mère/"
 msgstr "mother"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/filius/filium/:23
+#: subiectus-objectus/filius/filium/:35
 #, fuzzy
 #| msgid "fils"
 msgid "mon fils/"
 msgstr "son"
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/uxor/uxorem/:24
+#: subiectus-objectus/uxor/uxorem/:36
 msgid "ma femme/"
 msgstr ""
 

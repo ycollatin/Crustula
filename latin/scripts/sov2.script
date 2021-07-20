@@ -1,0 +1,42 @@
+#! /usr/bin/python3
+from crustula.models import *
+
+sov2, created = Sov.objects.get_or_create(name="sov2")
+sov2.save()
+
+
+a = [
+    ("Aemilius/Aemilium", "Aemilius/", "m"),
+    ("Eupalamus/Eupalamum", "Eupalamus/", "m"),
+    ("Publius/Publium", "Publius/", "m"),
+    ("Aulus/Aulum", "Aulus/", "m"),
+    ("Marcus/Marcum", "Marcus/", "m"),
+    ("uir/uirum","mon mari/", "m"),
+    ("gener/generum", "mon gendre/", "m"),
+    ("socer/socerum", "mon beau-père/", "m"),
+    ("puer/puerum", "un enfant/", "m"),
+    ("aper/aprum", "un sanglier/", "m"),
+    ("faber/fabrum", "un ouvrier/", "m"),
+    ("magister/magistrum", "le maître/", "m"),
+    ("Aemilia/Aemiliam", "Aemilia/", "f"),
+    ("Iulia/Iuliam", "Iulia/", "f"),
+    ("Lucia/Luciam", "Lucia/", "f"),
+    ("Lucretia/Lucretiam", "Lucretia/", "f"),
+    ("Sempronia/Semproniam", "Sempronia/", "f"),
+    ("capra/capram", "une chèvre/", "f"),
+    ("fera/feram", "une bête/", "f"),
+    ("panthera/pantheram", "une panthère/", "f"),
+    ("scurra/scurram", "un bouffon/", "f"),
+    ("uipera/uiperam", "une vipère/", "f"),
+]
+
+for lat, gal, gen in a:
+     print(lat, gal, gen)
+     try:
+          ov = Ov.objects.get(latine=lat)
+          ov.gallice=gal
+          ov.genre=gen
+     except:
+          ov = Ov(latine=lat, gallice=gal, genre=gen)
+     ov.save()
+     ov.sovs.add(sov2)

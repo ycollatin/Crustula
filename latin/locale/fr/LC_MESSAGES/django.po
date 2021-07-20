@@ -64,7 +64,8 @@ msgstr ""
 msgid "En latin, ce mot serait donc"
 msgstr ""
 
-#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:158
+#: crustula/crustula/sov.py:64 crustula/crustula/sov1.py:145
+#: crustula/crustula/sov2.py:28
 msgid "aime"
 msgstr ""
 
@@ -72,32 +73,36 @@ msgstr ""
 msgid "gallice"
 msgstr ""
 
-#: crustula/crustula/sov1.py:158
+#: crustula/crustula/sov1.py:145
 msgid "j'aime"
 msgstr ""
 
-#: crustula/crustula/sov1.py:158
+#: crustula/crustula/sov1.py:145
 msgid "tu aimes"
 msgstr ""
 
-#: crustula/crustula/sov1.py:159
+#: crustula/crustula/sov1.py:146
 msgid "nous aimons"
 msgstr ""
 
-#: crustula/crustula/sov1.py:159
+#: crustula/crustula/sov1.py:146
 msgid "vous aimez"
 msgstr ""
 
-#: crustula/crustula/sov1.py:159
+#: crustula/crustula/sov1.py:146
 msgid "ils aiment"
 msgstr ""
 
-#: crustula/crustula/sov1.py:213
+#: crustula/crustula/sov1.py:200
 msgid "Tous les déterminants sont des déterminants possessifs !"
 msgstr ""
 
-#: crustula/crustula/sov1.py:214
+#: crustula/crustula/sov1.py:201
 msgid "pour « aimer », utilise le verbe"
+msgstr ""
+
+#: crustula/crustula/sov2.py:30
+msgid "regarde"
 msgstr ""
 
 #: crustula/crustula/uocesiiib.py:60
@@ -1949,21 +1954,81 @@ msgid "un marin"
 msgstr ""
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/pater/patrem/:21
+#: subiectus-objectus/uir/uirum/:21
+msgid "mon mari/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/gener/generum/:22
+msgid "mon gendre/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/socer/socerum/:23
+msgid "mon beau-père/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/puer/puerum/:24
+msgid "un enfant/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/aper/aprum/:25
+msgid "un sanglier/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/faber/fabrum/:26
+msgid "un ouvrier/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/magister/magistrum/:27
+msgid "le maître/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/capra/capram/:28
+msgid "une chèvre/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/fera/feram/:29
+msgid "une bête/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/panthera/pantheram/:30
+msgid "une panthère/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/scurra/scurram/:31
+msgid "un bouffon/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/uipera/uiperam/:32
+msgid "une vipère/"
+msgstr ""
+
+#. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
+#: subiectus-objectus/pater/patrem/:33
 msgid "mon père/"
 msgstr ""
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/mater/matrem/:22
+#: subiectus-objectus/mater/matrem/:34
 msgid "ma mère/"
 msgstr ""
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/filius/filium/:23
+#: subiectus-objectus/filius/filium/:35
 msgid "mon fils/"
 msgstr ""
 
 #. Translators: if there is no declension, translate to: "nominative/" else to "nominative/accusative"
-#: subiectus-objectus/uxor/uxorem/:24
+#: subiectus-objectus/uxor/uxorem/:36
 msgid "ma femme/"
 msgstr ""
