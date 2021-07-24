@@ -152,3 +152,63 @@ class Ov(models.Model):
                 return g[1]
         # pas de déclinaison : on renvoie le nominatif
         return g[0]
+
+class Uerbum(models.Model):
+    """
+    Une classe pour les verbes
+    """
+
+    latine  = models.CharField(max_length=255, unique = True)
+    gallice = models.CharField(max_length=255, default="")
+    
+    def __str__(self):
+        return self.latine + " => " + _(self.gal)
+
+    def latConiug(self, pers, nomb):
+        """
+        @param pers la personne, 1, 2 ou 3
+        @param nomb le nombre, "s" ou "p"
+        """
+        if nomb == "s":
+            index = p-1
+        else:
+            index = p+2
+        return self.latine.split("/")[index]
+    
+    def galConiug(self, pers, nomb):
+        """
+        @param pers la personne, 1, 2 ou 3
+        @param nomb le nombre, "s" ou "p"
+        """
+        if nomb == "s":
+            index = p-1
+        else:
+            index = p+2
+        return _(self.gallice.split("/")[index])
+
+class Sum(models.Model):
+    """
+    Une classe pour des sujets et des attributs ; facilite la manipulation
+    de nominatifs, au singulier, au pluriel
+    """
+    latine  = models.CharField(max_length=255, unique = True)
+    gallice = models.CharField(max_length=255, default="<singulier>/<pluriel>")
+    genre   = models.CharField(max_length=1, default="m")
+    
+    def __str__(self):
+        return self.latine + " => " + _(self.gal)
+
+
+    def latNom(self, nomb):
+        if nomb == "s":
+            index = 0
+        else:
+            index = 1
+        return self.lat.split("/")[index]
+
+    def galNom(self, nomb):
+        if nomb == "s":
+            index = 0
+        else:
+            index = 1
+        return _(self.gal).split("/")[index]

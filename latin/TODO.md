@@ -6,3 +6,10 @@ Next crustula to rework
  - radicesiii.php
  - uocesiiii.php
  - uocesiiii.php
+
+ - sum.php
+ - est-gen.php
+ - nag12.php
+ - amatur.php                                                                   
+ - partparf.php
+ 
