@@ -4,7 +4,7 @@ from django.core.management.utils import (
     CommandError
 )
 from django.db.models import Q
-from crustula.models import Gaffiot, Ov
+from crustula.models import Gaffiot, Ov, Uerbum, Sum
 import os,re
 
 class Command(makemessages.Command):
@@ -65,6 +65,20 @@ class Command(makemessages.Command):
                         i+=1
                         protected = str(ov.gallice).replace('"','\\"')
                         outfile.write(f'''msgid "{protected}"\nmsgstr ""\n''')
+                    ##### ajout des données de la table crutula_uerbum
+                    i = 1
+                    for uerb in Uerbum.objects.all():
+                        outfile.write("\n#. Translators: conjugate the verb, separated by slashes\"\n")
+                        outfile.write(f"#: uerbum/{uerb.latine}/:{i}\n")
+                        i+=1
+                        outfile.write(f'''msgid "{uerb.gallice}"\nmsgstr ""\n''')
+                    ##### ajout des données de la table crutula_sum
+                    i = 1
+                    for attr in Sum.objects.all():
+                        outfile.write("\n#. Translators: nominative singular/nominative plural\"\n")
+                        outfile.write(f"#: sum/{attr.latine}/:{i}\n")
+                        i+=1
+                        outfile.write(f'''msgid "{attr.gallice}"\nmsgstr ""\n''')
             potfiles.append(potfile)
         return potfiles
         

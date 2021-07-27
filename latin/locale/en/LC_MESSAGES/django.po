@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 16:56+0000\n"
-"PO-Revision-Date: 2021-07-18 23:33+0200\n"
+"PO-Revision-Date: 2021-07-27 12:31+0200\n"
 "Last-Translator: Georges Khaznadar <georgesk@debian.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -109,6 +109,35 @@ msgstr ""
 #| msgid "gardien"
 msgid "regarde"
 msgstr "keeper"
+
+#: crustula/crustula/sum.py:28
+msgid "Je "
+msgstr "I "
+
+#: crustula/crustula/sum.py:29
+msgid "Tu "
+msgstr "You (singular) "
+
+#: crustula/crustula/sum.py:30
+msgid "C'"
+msgstr "It "
+
+#: crustula/crustula/sum.py:33
+msgid "Nous "
+msgstr "We "
+
+#: crustula/crustula/sum.py:34
+msgid "Vous "
+msgstr "You (plural) "
+
+#: crustula/crustula/sum.py:35
+msgid "Ce "
+msgstr "They "
+
+#: crustula/crustula/sum.py:54
+#, python-brace-format
+msgid "{subiect}{uerb} {attr}"
+msgstr ""
 
 #: crustula/crustula/uocesiiib.py:60
 msgid "donner le nom, son génitif et son genre (m, f, n ou mf)"
@@ -2114,6 +2143,51 @@ msgstr "son"
 #: subiectus-objectus/uxor/uxorem/:36
 msgid "ma femme/"
 msgstr ""
+
+#. Translators: conjugate the verb, separated by slashes"
+#: uerbum/sum/es/est/sumus/estis/sunt/:1
+msgid "suis/es/est/sommes/êtes/sont"
+msgstr "am/are/is/are/are/are"
+
+#. Translators: nominative singular/nominative plural"
+#: sum/amica/amicae/:1
+msgid "une amie/des amies"
+msgstr "a girlfriend/girlfriends"
+
+#. Translators: nominative singular/nominative plural"
+#: sum/deus/dei/:2
+msgid "un dieu/des dieux"
+msgstr "a god/gods"
+
+#. Translators: nominative singular/nominative plural"
+#: sum/puella/puellae/:3
+msgid "une fille/des filles"
+msgstr "a girl/girls"
+
+#. Translators: nominative singular/nominative plural"
+#: sum/seruus/serui/:4
+msgid "un esclave/des esclaves"
+msgstr "a slave/slaves"
+
+#. Translators: nominative singular/nominative plural"
+#: sum/equus/equi/:5
+msgid "un cheval/des chevaux"
+msgstr "a horse/horses"
+
+#. Translators: nominative singular/nominative plural"
+#: sum/silua/siluae/:6
+msgid "une forêt/des forêts"
+msgstr "a forest/forests"
+
+#. Translators: nominative singular/nominative plural"
+#: sum/uia/uiae/:7
+msgid "une route/des routes"
+msgstr "a road/roads"
+
+#. Translators: nominative singular/nominative plural"
+#: sum/insula/insulae/:8
+msgid "une île/des îles"
+msgstr "an island/islands"
 
 #, fuzzy
 #~| msgid "un_Gaulois(objet)"
