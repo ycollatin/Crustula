@@ -158,11 +158,12 @@ class Uerbum(models.Model):
     Une classe pour les verbes
     """
 
-    latine  = models.CharField(max_length=255, unique = True)
+    name    = models.CharField(max_length=25, unique = True)
+    latine  = models.CharField(max_length=255)
     gallice = models.CharField(max_length=255, default="")
     
     def __str__(self):
-        return self.latine + " => " + _(self.gal)
+        return self.latine + " => " + _(self.gallice)
 
     def latConiug(self, pers, nomb):
         """
@@ -170,9 +171,9 @@ class Uerbum(models.Model):
         @param nomb le nombre, "s" ou "p"
         """
         if nomb == "s":
-            index = p-1
+            index = pers-1
         else:
-            index = p+2
+            index = pers+2
         return self.latine.split("/")[index]
     
     def galConiug(self, pers, nomb):
@@ -181,9 +182,9 @@ class Uerbum(models.Model):
         @param nomb le nombre, "s" ou "p"
         """
         if nomb == "s":
-            index = p-1
+            index = pers-1
         else:
-            index = p+2
+            index = pers+2
         return _(self.gallice.split("/")[index])
 
 class Sum(models.Model):
@@ -193,10 +194,24 @@ class Sum(models.Model):
     """
     latine  = models.CharField(max_length=255, unique = True)
     gallice = models.CharField(max_length=255, default="<singulier>/<pluriel>")
+    genus   = models.CharField(max_length=25, default="homines")
     genre   = models.CharField(max_length=1, default="m")
     
+    @property
+    def serializable(self):
+        return {
+            "latine": self.latine,
+            "gallice": self.gallice,
+            "genus" : self.genus,
+            "genre" : self.genre,
+        }
+
+    @staticmethod
+    def fromserial(dic):
+        return Sum(latine=dic["latine"], gallice=dic["gallice"], genre=dic["genre"], genus=dic["genus"])
+    
     def __str__(self):
-        return self.latine + " => " + _(self.gal)
+        return self.latine + " => " + _(self.gallice)
 
 
     def latNom(self, nomb):
@@ -204,11 +219,11 @@ class Sum(models.Model):
             index = 0
         else:
             index = 1
-        return self.lat.split("/")[index]
+        return self.latine.split("/")[index]
 
     def galNom(self, nomb):
         if nomb == "s":
             index = 0
         else:
             index = 1
-        return _(self.gal).split("/")[index]
+        return _(self.gallice).split("/")[index]

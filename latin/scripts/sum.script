@@ -1,0 +1,10 @@
+#! /usr/bin/python3
+from crustula.models import *
+import csv
+
+with open("scripts/crustula_sum.csv") as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        print(row)
+        s = Sum(latine = row["latine"], gallice = row["gallice"], genus=row["genus"], genre=row["genre"])
+        s.save()
