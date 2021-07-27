@@ -23,19 +23,6 @@ import random, json, re
 
 from crustula.models import Sum, Uerbum
 
-subiect = {
-    "s": {
-        1: _("Je "),
-        2: _("Tu "),
-        3: _("C'")
-    },
-    "p": {
-        1: _("Nous "),
-        2: _("Vous "),
-        3: _("Ce ")
-    }
-}
-        
 def sententia():
     """
     Tire au sort un nombre et une personne, puis un attribut
@@ -50,14 +37,14 @@ def sententia():
                              list(Sum.objects.filter(genus="alia")))
     return nomb, pers, attr
 
-def sent_gallice(sum, nomb, pers, attr):
+def sent_gallice(subiect, sum, nomb, pers, attr):
     return  _("{subiect}{uerb} {attr}").format(
         subiect =subiect[nomb][pers],
         uerb = sum.galConiug(pers, nomb),
         attr = attr.galNom(nomb)
     )
 
-def sent_latine(sum, nomb, pers, attr):
+def sent_latine(subiect, sum, nomb, pers, attr):
     return "{attr} {uerb}.".format(
            attr = attr.latNom(nomb),
            uerb = sum.latConiug(pers, nomb)
@@ -66,9 +53,22 @@ def sent_latine(sum, nomb, pers, attr):
 def index(request):
     preferred_language(request)
     sum = Uerbum.objects.get(name="sum")
+    subiect = {
+        "s": {
+            1: _("Je "),
+            2: _("Tu "),
+            3: _("C'")
+        },
+        "p": {
+            1: _("Nous "),
+            2: _("Vous "),
+            3: _("Ce ")
+        }
+    }
+
     nomb, pers, attr = sententia()
-    sentGallice = sent_gallice(sum, nomb, pers, attr)
-    resp = question = sentLatine = priorent = ""
+    sentGallice = sent_gallice(subiect, sum, nomb, pers, attr)
+    resp = question = sentLatine = priorsent = ""
     s = ""
     recte = False
     prius = request.session.get("prius", 0)
@@ -83,8 +83,8 @@ def index(request):
        prevNomb = decoded["nomb"]
        prevPers = decoded["pers"]
        prevAttr = Sum.fromserial(decoded["attr"])
-       sentLatine = sent_latine(sum, prevNomb, prevPers, prevAttr)
-       priorsent = sent_gallice(sum, prevNomb, prevPers, prevAttr)
+       sentLatine = sent_latine(subiect, sum, prevNomb, prevPers, prevAttr)
+       priorsent = sent_gallice(subiect, sum, prevNomb, prevPers, prevAttr)
        r = r.replace(".","").strip().lower()
        s = sentLatine.replace(".","").strip().lower()
        recte = set(re.split(r"\s+", r)) == set(re.split(r"\s+", s))

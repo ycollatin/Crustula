@@ -109,6 +109,35 @@ msgstr "для \"любить\" использует глагол"
 msgid "regarde"
 msgstr "страж, надзиратель"
 
+#: crustula/crustula/sum.py:28
+msgid "Je "
+msgstr ""
+
+#: crustula/crustula/sum.py:29
+msgid "Tu "
+msgstr ""
+
+#: crustula/crustula/sum.py:30
+msgid "C'"
+msgstr ""
+
+#: crustula/crustula/sum.py:33
+msgid "Nous "
+msgstr ""
+
+#: crustula/crustula/sum.py:34
+msgid "Vous "
+msgstr ""
+
+#: crustula/crustula/sum.py:35
+msgid "Ce "
+msgstr ""
+
+#: crustula/crustula/sum.py:54
+#, python-brace-format
+msgid "{subiect}{uerb} {attr}"
+msgstr ""
+
 #: crustula/crustula/uocesiiib.py:60
 msgid "donner le nom, son génitif et son genre (m, f, n ou mf)"
 msgstr ""
@@ -2069,6 +2098,53 @@ msgstr "мой сын/моего сына"
 #, fuzzy
 msgid "ma femme/"
 msgstr "моя жена/мою жену"
+
+#. Translators: conjugate the verb, separated by slashes"
+#: uerbum/sum/es/est/sumus/estis/sunt/:1
+msgid "suis/es/est/sommes/êtes/sont"
+msgstr ""
+
+#. Translators: nominative singular/nominative plural"
+#: sum/amica/amicae/:1
+msgid "une amie/des amies"
+msgstr ""
+
+#. Translators: nominative singular/nominative plural"
+#: sum/deus/dei/:2
+msgid "un dieu/des dieux"
+msgstr ""
+
+#. Translators: nominative singular/nominative plural"
+#: sum/puella/puellae/:3
+msgid "une fille/des filles"
+msgstr ""
+
+#. Translators: nominative singular/nominative plural"
+#: sum/seruus/serui/:4
+msgid "un esclave/des esclaves"
+msgstr ""
+
+#. Translators: nominative singular/nominative plural"
+#: sum/equus/equi/:5
+#, fuzzy
+#| msgid "chevelure, cheveux"
+msgid "un cheval/des chevaux"
+msgstr "волосы, прическа"
+
+#. Translators: nominative singular/nominative plural"
+#: sum/silua/siluae/:6
+msgid "une forêt/des forêts"
+msgstr ""
+
+#. Translators: nominative singular/nominative plural"
+#: sum/uia/uiae/:7
+msgid "une route/des routes"
+msgstr ""
+
+#. Translators: nominative singular/nominative plural"
+#: sum/insula/insulae/:8
+msgid "une île/des îles"
+msgstr ""
 
 #~ msgid "Aemilius"
 #~ msgstr "Эмилий"

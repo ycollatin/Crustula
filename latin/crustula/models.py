@@ -185,7 +185,7 @@ class Uerbum(models.Model):
             index = pers-1
         else:
             index = pers+2
-        return _(self.gallice.split("/")[index])
+        return _(self.gallice).split("/")[index]
 
 class Sum(models.Model):
     """
