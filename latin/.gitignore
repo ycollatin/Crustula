@@ -1,4 +1,5 @@
 db.sqlite3
+crustula/migrations/
 __pycache__/
 README.html
 *.mo

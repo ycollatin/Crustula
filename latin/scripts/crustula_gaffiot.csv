@@ -810,3 +810,23 @@ id,comment,latine,gallice,genitif,genre
 809,radices3,cubile,,cubilis,m
 810,radices3,mare,,maris,m
 811,radices3,moenia,,moenium,m
+812,est-gen,Gaius,Gaius,Gaii,m
+813,est-gen,Marcus,Marcus,Marci,m
+814,est-gen,Publius,Publius,Publii,m
+815,est-gen,Sempronius,Sempronius,Sempronii,m
+816,est-gen,Titus,Titus,Titi,m
+817,est-gen,Arria,Arria,Arriae,f
+818,est-gen,Caecilia,Cécilia,Caeciliae,f
+819,est-gen,Cornelia,Cornélia,Corneliae,f
+820,est-gen,Lepida,Lépida,Lepidae,f
+821,est-gen,Seuera,Sévéra,Seuerae,f
+822,est-gen,amica,l'amie,amicae,f
+823,est-gen,uicina,la voisine,uicinae,f
+824,est-gen,mater,la mère,matris,f
+825,est-gen,soror,la sœur,sororis,f
+826,est-gen,amicus,l'ami,amici,m
+827,est-gen,auus,le grand-père,aui,m
+828,est-gen,discipulus,l'élève,discipuli,m
+829,est-gen,frater,le frère,fratris,m
+830,est-gen,medicus,le médecin,medici,m
+831,est-gen,uicinus,le voisin,uicini,m

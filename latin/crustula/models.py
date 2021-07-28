@@ -55,7 +55,7 @@ class Gaffiot(models.Model):
     genitif = models.CharField(max_length=255, default="")
     genre = models.CharField(max_length=255, default="m")
     def __str__(self):
-        return f"{self.latine} : {self.galle}"
+        return f"{self.latine} : {self.gallice}"
 
     @staticmethod
     def traduction(comment, gettext):
@@ -68,6 +68,28 @@ class Gaffiot(models.Model):
              "genitif": gaf.genitif, "genre": gaf.genre} for
             gaf in Gaffiot.objects.filter(comment=comment)
         ]
+
+    @property
+    def nompropre(self):
+        """
+        Signale les noms propres (qui commencent par une capitale)
+        """
+        nom = self.latine.split("/")[0]
+        return nom == nom[0].upper() + nom[1:].lower()
+
+    @property
+    def serializable(self):
+        return {
+            "comment": self.comment,
+            "latine": self.latine,
+            "gallice": self.gallice,
+            "genitif": self.genitif,
+            "genre" : self.genre,
+        }
+
+    @staticmethod
+    def fromserial(dic):
+        return Gaffiot(comment=dic["comment"], latine=dic["latine"], gallice=dic["gallice"], genitif=dic["genitif"], genre=dic["genre"])
 
 class Sov(models.Model):
     """
