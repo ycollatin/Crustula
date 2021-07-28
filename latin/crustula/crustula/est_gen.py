@@ -59,8 +59,12 @@ def index(request):
     coll = [s.latine, att.latine, est, g.genitif]
     random.shuffle(coll)
     sententia = " ".join(coll) + "."
-    galPriorSent = latPriorsent = ""
+    galPriorsent = latPriorsent = r = ""
     recte = False
+    prius = request.session.get("prius", 0)
+    request.session["prius"] = prius
+    consec = request.session.get("consec", 0)
+    request.session["consec"] = consec
     schema = request.POST.get("schema", "")
     if schema:
         sch = json.loads(schema)
@@ -92,7 +96,7 @@ def index(request):
         request.session['prius']  = 0
     return render(request,'crustula/est-gen.html', context={
         "sententia": sententia,
-        "est": est,
+        "est": Uerbum.objects.get(name="sum").galConiug(3, "s"),
         "de": _("de/d'"),
         "quis": [_(q.gallice) for q in quis],
         "mancipiaFr": [_(o.gallice) for o in mancipia],
