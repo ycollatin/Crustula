@@ -19,6 +19,7 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from .utils.recte import *
 import random
 
 from crustula.models import Gaffiot
@@ -82,17 +83,7 @@ def index(request):
         priorGaffiot = gaffiotFromLemma(vocab, priorL)
         sol = declin(priorGaffiot, priorK)
         recte = sol == resp
-        print("GRRRR priorQ, priorL, priorK, priorGaffiot, sol, resp, recte =",priorQ, priorL, priorK, priorGaffiot, sol, resp, recte)
-        if recte:
-            request.session["consec"] += 1
-        else:
-            if request.session['consec'] > request.session['prius']:
-                request.session['prius'] = request.session['consec']
-            request.session['consec']=0
-    else: ## priorQ == ""
-        request.session["consec"] = 0
-        request.session['prius']  = 0
-        
+    compte_points(request, recte)
     lemme = gaf2lemma(random.choice(vocab))
     quaestio = random.choice((
         _("nominatif"), _("accusatif"), _("genitif")

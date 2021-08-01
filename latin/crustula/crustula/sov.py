@@ -19,6 +19,7 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from .utils.recte import *
 from crustula.models import *
 import random
 
