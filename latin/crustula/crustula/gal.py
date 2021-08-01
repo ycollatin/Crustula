@@ -19,6 +19,7 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from .utils.recte import *
 from crustula.models import *
 import random
 import re
@@ -61,16 +62,7 @@ def index(request):
         consec = request.session.get("consec", 0)
         request.session["consec"] = consec
         recte = (respF == solF) and (respK == solK)
-        if recte:
-            request.session["consec"] += 1
-        else:
-            if request.session['consec'] > request.session['prius']:
-                request.session['prius'] = request.session['consec']
-            request.session['consec']=0
-    else:
-        request.session['prius'] = 0
-        request.session['consec'] = 0
-
+    compte_points(request, recte)
     ## décider du sexe du sujet
     sexus = random.choice(('m', 'f'))
     nominM = [o for o in nomina if o.genre=="m" and not o.imprecis]

@@ -19,6 +19,7 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from .utils.recte import *
 from crustula.models import *
 import random
 import re
@@ -180,19 +181,11 @@ def index(request):
         solC = solC.strip()
         respC = respC.strip()
         recte = solC.lower() == respC.lower()
-        ## include "session.php.html" !!!!!!!!!!!!
-        if recte:
-            request.session["consec"] += 1
-        else:
-            if request.session['consec'] > request.session['prius']:
-                request.session['prius'] = request.session['consec']
-            request.session['consec']=0
-    else:
-        request.session["consec"] = 0
-        request.session['prius']  = 0        
+    compte_points(request, recte)
     return render(request,'crustula/sov1.html', context={
         "schema": schema,
         "sol": sol,
+        "resp": resp,
         "recte": recte,
         "sententia": sententia,
         "meta": meta,

@@ -17,17 +17,25 @@
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 ###############################################################################
-from django.shortcuts import render
-from .utils.i18n import *
-from .utils.recte import *
-import random
 
-def index(request):
-    preferred_language(request)
-    #####################################
-    #                                   #
-    # as many program lines as you want #
-    #                                   #
-    #####################################
-    return render(request,'crustula/partparf.html', context={
-    })
+"""
+Cet utilitaire facilite une bonne intégration des variables de session
+"prius" et "consec"
+"""
+
+def compte_points(request, recte):
+    if request.method == "GET":
+        request.session["consec"] = 0
+        request.session['prius']  = 0
+    else:
+        if recte:
+            request.session["consec"] += 1
+        else:
+            # mémorise la meilleure valeur de "consec" dans "prius"
+            if request.session['consec'] > request.session['prius']:
+                request.session['prius'] = request.session['consec']
+            # remet à zéro "consec"
+            request.session['consec']=0
+    return
+
+         

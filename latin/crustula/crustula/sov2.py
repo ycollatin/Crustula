@@ -19,6 +19,7 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from .utils.recte import *
 from crustula.models import *
 import random, json
 
@@ -115,17 +116,7 @@ def index(request):
         correct = prior_phrase.sGal()
         prior_phrase_sLat = prior_phrase.sLat()
         recte = correct.lower().replace(".", "") == resp.lower().replace(".", "")
-        ## include "session.php.html" !!!!!!!!!!!!
-        if recte:
-            request.session["consec"] += 1
-        else:
-            if request.session['consec'] > request.session['prius']:
-                request.session['prius'] = request.session['consec']
-            request.session['consec']=0
-    else:
-        request.session["consec"] = 0
-        request.session['prius']  = 0        
-        
+    compte_points(request, recte)
     return render(request,'crustula/sov2.html', context={
         "schema": phrase.schema,
         "sententia": sententia,

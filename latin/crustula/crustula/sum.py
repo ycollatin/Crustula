@@ -19,6 +19,7 @@
 ###############################################################################
 from django.shortcuts import render
 from .utils.i18n import *
+from .utils.recte import *
 import random, json, re
 
 from crustula.models import Sum, Uerbum
@@ -88,15 +89,7 @@ def index(request):
        r = r.replace(".","").strip().lower()
        s = sentLatine.replace(".","").strip().lower()
        recte = set(re.split(r"\s+", r)) == set(re.split(r"\s+", s))
-       if recte:
-            request.session["consec"] += 1
-       else:
-            if request.session['consec'] > request.session['prius']:
-                request.session['prius'] = request.session['consec']
-            request.session['consec']=0
-    else: ## r = ""
-        request.session["consec"] = 0
-        request.session['prius']  = 0
+    compte_points(request, recte)
     return render(request,'crustula/sum.html', context={
         "question": sentGallice,
         "schema": json.dumps({
