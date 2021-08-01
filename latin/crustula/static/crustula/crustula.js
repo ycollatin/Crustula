@@ -7,4 +7,19 @@ function focusInput(){
     }
 }
 
-window.onload = focusInput;
+// ajoute une vérification au formulaire pour empêcher l'envoi de
+// réponse vide
+function checkSubmit(){
+    var form = document.querySelector("form");
+    if (form) {
+	var input1 = form.querySelector('input[type="text"]');
+	form.onsubmit = function(){
+	    var ok = input1.value.length > 0;
+	    return ok;
+	}
+    }
+}
+window.onload = function(){
+    focusInput();
+    checkSubmit();
+}
