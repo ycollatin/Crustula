@@ -21,12 +21,90 @@ from django.shortcuts import render
 from .utils.i18n import *
 import random
 
+from crustula.models import Gaffiot
+
+def gaffiotFromLemma(vocab, lemma):
+    """
+    retrouve la ligne de Gaffiot étant donné un lemme
+    @param vocab une liste d'objets de type Gaffiot
+    @param lemma un lemme, dont le premier mot est un nominatif
+    @return un objet de type Gaffiot
+    """
+    nom = lemma.split(" ")[0]
+    for v in vocab:
+        if v.latine == nom:
+            return v
+    return
+
+def declin(gaf, K):
+    """
+    décline un mot latin
+    @param gaf une entrée du Gaffiot
+    @param K un cas, en "gaulois"
+    """
+    if K == _("nominatif"):
+        return gaf.latine
+    elif K == _("genitif"):
+        return gaf.genitif
+    elif K == _("accusatif"):
+        if gaf.genre == "f":
+            return gaf.latine + "m"
+        else:
+            return gaf.latine[:-1] + "m"
+    return
+
+def gaf2lemma(g):
+    """
+    Formule un lemme à partir d'une entrée de la table Gaffiot
+    """
+    if g.genre == "f":
+        gen = "ae"
+    else: # g.genre in ("m", "n")
+        if g.latine.endswith("ius"):
+            gen = "ii"
+        else:
+            gen = "i"
+    return f"{g.latine} {gen}, {g.genre}. : {_(g.gallice)}"
+    
 def index(request):
     preferred_language(request)
-    #####################################
-    #                                   #
-    # as many program lines as you want #
-    #                                   #
-    #####################################
+    vocab = list(Gaffiot.objects.filter(comment="nag12"))
+    priorQ = request.POST.get("priorQ", "")
+    resp = request.POST.get("resp", "").strip()
+    sol = ""
+    recte = False
+    priorL = ""
+    if priorQ:
+        eclats = priorQ.split("|")
+        priorL = eclats[0]
+        priorQ = eclats[1]
+        priorK = priorQ.split(" ")[0]
+        priorGaffiot = gaffiotFromLemma(vocab, priorL)
+        sol = declin(priorGaffiot, priorK)
+        recte = sol == resp
+        print("GRRRR priorQ, priorL, priorK, priorGaffiot, sol, resp, recte =",priorQ, priorL, priorK, priorGaffiot, sol, resp, recte)
+        if recte:
+            request.session["consec"] += 1
+        else:
+            if request.session['consec'] > request.session['prius']:
+                request.session['prius'] = request.session['consec']
+            request.session['consec']=0
+    else: ## priorQ == ""
+        request.session["consec"] = 0
+        request.session['prius']  = 0
+        
+    lemme = gaf2lemma(random.choice(vocab))
+    quaestio = random.choice((
+        _("nominatif"), _("accusatif"), _("genitif")
+    ))
     return render(request,'crustula/nag12.html', context={
+        "priorQ": priorQ,
+        "priorL": priorL,
+        "lemme": lemme,
+        "quaestio": quaestio,
+        "resp": resp,
+        "sol": sol,
+        "recte": recte,
+        'prius': request.session['prius'],
+        'consec': request.session['consec'],
     })

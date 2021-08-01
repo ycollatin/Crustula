@@ -830,3 +830,75 @@ id,comment,latine,gallice,genitif,genre
 829,est-gen,frater,le frère,fratris,m
 830,est-gen,medicus,le médecin,medici,m
 831,est-gen,uicinus,le voisin,uicini,m
+832,nag12,ira,colère,irae,f
+833,nag12,natura,nature,naturae,f
+834,nag12,memoria,"mémoire, souvenir",memoriae,f
+835,nag12,pugna,"la bataille, le combat, le pugilat",pugnae,f
+836,nag12,cura,"soin, souci",curae,f
+837,nag12,fama,"la nouvelle, la rumeur, la réputation",famae,f
+838,nag12,uia,"route, chemin, voyage",uiae,f
+839,nag12,herba,herbe,herbae,f
+840,nag12,columna,colonne,columnae,f
+841,nag12,gratia,reconnaissance,gratiae,f
+842,nag12,inuidia,"jalousie, envie, haine",inuidiae,f
+843,nag12,hora,heure,horae,f
+844,nag12,gloria,gloire,gloriae,f
+845,nag12,anima,"coeur, âme",animae,f
+846,nag12,forma,"forme, beauté",formae,f
+847,nag12,fortuna,"fortune, chance",fortunae,f
+848,nag12,regina,reine,reginae,f
+849,nag12,sapientia,sagesse,sapientiae,f
+850,nag12,arena,sable,arenae,f
+851,nag12,turba,"foule, désordre, émoi",turbae,f
+852,nag12,umbra,ombre,umbrae,f
+853,nag12,puella,"fille, jeune fille",puellae,f
+854,nag12,flamma,flamme,flammae,f
+855,nag12,iniuria,"injustice, violation du droit",iniuriae,f
+856,nag12,aqua,eau,aquae,f
+857,nag12,uita,vie,uitae,f
+858,nag12,fuga,la fuite,fugae,f
+859,nag12,poena,châtiment,poenae,f
+860,nag12,silua,forêt,siluae,f
+861,nag12,dea,déesse,deae,f
+862,nag12,porta,porte (d'une ville),portae,f
+863,nag12,amicitia,amitié,amicitiae,f
+864,nag12,lacrima,larme,lacrimae,f
+865,nag12,prudentia,prévoyance,prudentiae,f
+866,nag12,uictoria,victoire,uictoriae,f
+867,nag12,prouincia,province,prouinciae,f
+868,nag12,terra,terre,terrae,f
+869,nag12,causa,cause,causae,f
+870,nag12,fera,la bête sauvage,ferae,f
+871,nag12,mora,"délai, retard, obstacle",morae,f
+872,nag12,sententia,"avis, opinion",sententiae,f
+873,nag12,opera,"le soin, l'effort",operae,f
+874,nag12,coma,"chevelure, cheveux",comae,f
+875,nag12,ara,autel,arae,f
+876,nag12,praeda,"butin, dépouilles, proie",praedae,f
+877,nag12,persona,"masque, rôle, caractère",personae,f
+878,nag12,pecunia,argent,pecuniae,f
+879,nag12,patria,patrie,patriae,f
+880,nag12,oculus,oeil,oculi,m
+881,nag12,humerus,épaule,humeri,m
+882,nag12,uentus,vent,uenti,m
+883,nag12,numerus,nombre,numeri,m
+884,nag12,somnus,sommeil,somni,m
+885,nag12,deus,dieu,dei,m
+886,nag12,seruus,esclave,serui,m
+887,nag12,dominus,maître,domini,m
+888,nag12,tribunus,tribun,tribuni,m
+889,nag12,cibus,nourriture,cibi,m
+890,nag12,amicus,ami,amici,m
+891,nag12,legatus,"légat, envoyé",legati,m
+892,nag12,campus,plaine,campi,m
+893,nag12,filius,fils,filii,m
+894,nag12,morbus,maladie,morbi,m
+895,nag12,populus,peuple,populi,m
+896,nag12,uulgus,foule,uulgi,n
+897,nag12,annus,année,anni,m
+898,nag12,animus,"coeur, courage",animi,m
+899,nag12,necessarius,"le parent, l'ami, l'allié",necessarii,m
+900,nag12,umerus,l'épaule,umeri,m
+901,nag12,mundus,"monde, univers",mundi,m
+902,nag12,equus,cheval,equi,m
+903,nag12,lucus,bois sacré,luci,m
