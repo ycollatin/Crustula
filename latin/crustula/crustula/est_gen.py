@@ -86,15 +86,7 @@ def index(request):
             attr = respAttr,
         )
         recte = r == galPriorsent
-        if recte:
-            request.session["consec"] += 1
-        else:
-            if request.session['consec'] > request.session['prius']:
-                request.session['prius'] = request.session['consec']
-            request.session['consec']=0
-    else: # schema est ""
-        request.session["consec"] = 0
-        request.session['prius']  = 0
+    compte_points(request, recte)
     return render(request,'crustula/est-gen.html', context={
         "sententia": sententia,
         "est": Uerbum.objects.get(name="sum").galConiug(3, "s"),

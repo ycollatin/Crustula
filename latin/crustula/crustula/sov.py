@@ -119,16 +119,7 @@ def index(request):
         gallice = f_gallice(priorsent)
         resp = request.POST.get("resp","")
         recte = resp == gallice
-        if recte:
-            request.session["consec"] += 1
-        else:
-            if request.session['consec'] > request.session['prius']:
-                request.session['prius'] = request.session['consec']
-            request.session['consec']=0
-    else: ## priorsent == False
-        request.session["consec"] = 0
-        request.session['prius']  = 0
-                
+    compte_points(request, recte)
     sententia, r1, r2 = IIPropositiones()
     return render(request,'crustula/sov.html', context={
         "priorsent": priorsent,
