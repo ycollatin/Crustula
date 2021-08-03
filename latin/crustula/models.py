@@ -4,6 +4,8 @@ from django.utils import timezone
 
 from .crustula.utils.i18n import *
 
+import re
+
 class Student(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     classe = models.CharField(max_length=20)
@@ -178,6 +180,15 @@ class Ov(models.Model):
 class Uerbum(models.Model):
     """
     Une classe pour les verbes
+    - name est la forme du verbe au présent de l'indicatif, première p. du s.
+    - latine peut être quelque chose comme :
+      sum/es/est/sumus/estis/sunt
+      ou :
+      constituo, is, ere, tui, tutum
+    - gallice peut être quelque chose comme :
+      suis/es/est/sommes/êtes/sont
+      ou :
+      organiser, organisé
     """
 
     name    = models.CharField(max_length=25, unique = True)
@@ -187,27 +198,75 @@ class Uerbum(models.Model):
     def __str__(self):
         return self.latine + " => " + _(self.gallice)
 
-    def latConiug(self, pers, nomb):
+    def latConiug(self, pers = 0, nomb = "s", mode = "indic", temps = "pres"):
         """
-        @param pers la personne, 1, 2 ou 3
-        @param nomb le nombre, "s" ou "p"
+        Conjugaison latine, sur la base de self.latine
+        - self.latine peut être quelque chose comme :
+          sum/es/est/sumus/estis/sunt
+          ou :
+          constituo, is, ere, tui, tutum
+        @param pers la personne, 1, 2 ou 3 (0 par défaut)
+        @param nomb le nombre, "s" ou "p" ("s" par défaut)
+        @param mode le mode, indicatif par défaut ; valeurs possibles :
+          "indic", "infin", "partic", ...
+        @param temps le temps, présent par défaut ; valeurs possibles :
+          "pres", ...
         """
-        if nomb == "s":
-            index = pers-1
-        else:
-            index = pers+2
-        return self.latine.split("/")[index]
+        eclats = re.split(r", *", self.latine)
+        # toujours là, le présent de l'indicatif
+        pres_indic1 = eclats[0]
+        # les autres sont là, éventuellement
+        if len(eclats) > 1: pres_indic20 = eclats[1] # termin. 2ème pers.
+        if len(eclats) > 2: infin0 = eclats[2]       # termin. inifinitif
+        if len(eclats) > 3: parf0 = eclats[3]        # termin. parfait
+        if len(eclats) > 4: part0 = eclats[4]        # participe, (in)complet
+        #########################################
+        if mode == "indic":
+            if temps == "pres":
+                formes = pres_indic1.split("/")
+                if len(formes) == 6:
+                    if nomb == "s":
+                        index = pers-1
+                    else:
+                        index = pers+2
+                    return self.latine.split("/")[index]
+        return
     
-    def galConiug(self, pers, nomb):
+    def galConiug(self, pers = 0, nomb = "s", mode = "indic", temps = "pres"):
         """
-        @param pers la personne, 1, 2 ou 3
-        @param nomb le nombre, "s" ou "p"
+        Conjugaison "gauloise", sur la base de _(self.gallice)
+        - gallice peut être quelque chose comme :
+          suis/es/est/sommes/êtes/sont
+          ou :
+          organiser, organisé
+        @param pers la personne, 1, 2 ou 3 (0 par défaut)
+        @param nomb le nombre, "s" ou "p" ("s" par défaut)
+        @param mode le mode, indicatif par défaut ; valeurs possibles :
+          "indic", "infin", "partic", ...
+        @param temps le temps, présent par défaut ; valeurs possibles :
+          "pres", ...
         """
-        if nomb == "s":
-            index = pers-1
-        else:
-            index = pers+2
-        return _(self.gallice).split("/")[index]
+        eclats = re.split(r", *", _(self.gallice))
+        # eclats peut être [_("suis/es/est/sommes/êtes/sont")]
+        # ou :
+        # [_("organiser"), _("organisé")]
+        ###########################################
+        # l'index 0 est toujours là, c'est un présent (6 formes) ou un infinitif
+        if "/" in eclats[0]:
+            formes = eclats[0].split("/")
+            if mode == "indic":
+                if temps == "pres":
+                    if nomb == "s":
+                        index = pers-1
+                    else:
+                        index = pers+2
+                    return formes[index]
+        else: # pas de / dans le premier éclat
+            if mode == "infin":
+                return eclats[0]
+            elif mode == "partic":
+                return eclats[1]
+        return
 
 class Sum(models.Model):
     """
