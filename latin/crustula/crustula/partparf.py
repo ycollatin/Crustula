@@ -29,7 +29,7 @@ import random, re, json
 def index(request):
     preferred_language(request)
     recte = False
-    solutio = resp = priorQ = ""
+    solutio = resp = priorQ = traductio = ""
     
     if request.method == "POST":
         priorQ = request.POST.get("priorQ")
@@ -54,6 +54,7 @@ def index(request):
     quaestio = f"{uerb.latine} : {traduc}<br/>"
     if lingua == "l":
         quaestio += uerb.latConiug(mode="partic", genre = genus)
+        traductio = _('traduction ?')
     else:
         quaestio += _("participe parfait")
         if genus == "m":
@@ -68,6 +69,7 @@ def index(request):
         "schema": schema,
         "resp": resp,
         "solutio": solutio,
+        "traductio": traductio,
         "recte": recte,
         'prius': request.session['prius'],
         'consec': request.session['consec'],

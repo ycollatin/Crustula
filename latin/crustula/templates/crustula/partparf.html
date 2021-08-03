@@ -24,6 +24,7 @@ solutio : {{ solutio }} <br/>
 <form method="post">
   <p class="question">
     {% csrf_token %}
+    {{ traductio }}
     <input class="question" type="text" name="resp"/>&nbsp;
     <input type="submit" value=" Num recte dixi ? "/>
     <input type="hidden" value="{{ quaestio }}" name="priorQ">
