@@ -1,0 +1,30 @@
+#! /usr/bin/python3
+
+from subprocess import getoutput, run
+
+from bs4 import BeautifulSoup
+
+indexfiles = getoutput('ls crustula/templates/crustula/index-??.html').split("\n")
+
+for ifile in indexfiles:
+    with open(ifile) as htmlfile:
+        doc = BeautifulSoup(htmlfile, 'html.parser')
+    crustula_anchors = [ a for a in doc.find_all("a")
+                         if a.get("class") and "crustulum" in a.get("class")]
+    for a in crustula_anchors:
+        href= a.get("href")
+        filename = "crustula/templates/crustula/" + href + ".html"
+        rep = getoutput(f'grep "Me paenitet" {filename}')
+        if "Me paenitet" in rep:
+            a["class"] = "crustulum non_implemente"
+        else:
+            a["class"] = "crustulum"
+
+    outfilename = ifile+".tmp"
+    with open(outfilename, "w") as outfile:
+        outfile.write(str(doc))
+    run(f"mv {outfilename} {ifile}", shell = True)
+    print("Modifié", ifile)
+
+        
+    
