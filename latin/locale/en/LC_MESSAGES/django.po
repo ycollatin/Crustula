@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-02 16:56+0000\n"
-"PO-Revision-Date: 2021-08-01 18:38+0200\n"
+"PO-Revision-Date: 2021-08-03 12:37+0200\n"
 "Last-Translator: Georges Khaznadar <georgesk@debian.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -2440,10 +2440,166 @@ msgstr "son"
 msgid "ma femme/"
 msgstr ""
 
-#. Translators: conjugate the verb, separated by slashes"
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
 #: uerbum/sum/es/est/sumus/estis/sunt/:1
 msgid "suis/es/est/sommes/êtes/sont"
 msgstr "am/are/is/are/are/are"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/moueo, es, ere, moui, motum/:2
+msgid "émouvoir, ému"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/accipio, is, ere, accepi, acceptum/:3
+msgid "recevoir, reçu"
+msgstr "recieve, recieved"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/frango, is, ere, fregi, fractum/:4
+msgid "briser, brisé"
+msgstr "break, broken"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/augeo, es, ere, auxi, auctum/:5
+msgid "augmenter, augmenté"
+msgstr "increase, increased"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/sentio, is, ire, sensi, sensum/:6
+msgid "percevoir, perçu"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/uinco, is, ere, uici, uictum/:7
+msgid "vaincre, vaincu"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/uoco, as, are/:8
+msgid "appeler, appelé"
+msgstr "call, called"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/tango, is, ere, tetigi, tactum/:9
+msgid "toucher, touché"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/diuido, is, ere, diuisi, diuisum/:10
+msgid "diviser, divisé"
+msgstr "divide, divided"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/conloco, as, are/:11
+msgid "placer, placé"
+msgstr "place, placed"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/maneo, es, ere, mansi, mansum/:12
+msgid "rester, resté"
+msgstr "remain, remained"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/specto, as, are/:13 uerbum/aspicio, is, ere, aspexi, aspectum/:15
+msgid "regarder, regardé"
+msgstr "look, looked"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/incipio, is, ere, incepi, inceptum/:14
+msgid "commencer, commencé"
+msgstr "begin, begun"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/sumo, is, ere, sumpsi, sumptum/:16
+msgid "prendre, pris"
+msgstr "take, taken"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/depello, is, ere, depuli, depulsum/:17 uerbum/deicio, ieci,
+#: iectum/:31
+msgid "chasser, chassé"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/constituo, is, ere, tui, tutum/:18
+msgid "organiser, organisé"
+msgstr "organise, organised"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/deleo, es, ere, evi, etum/:19
+msgid "détruire, détruit"
+msgstr "destroy, destroied"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/audio, is, ire, audiui, auditum/:20
+msgid "venir, venu"
+msgstr "come, came"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/trado, is, ere, didi, ditum/:21
+msgid "transmettre, transmis"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/adduco, is, ere, duxi, ductum/:22
+msgid "conduire, conduit"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/defendo, is, ere, fendi, fensum/:23
+msgid "défendre, défendu"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/soluo, is, ere, solui, solutum/:24
+msgid "payer, payé"
+msgstr "pay, paid"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/reddo, is, ere, reddidi, redditum/:25
+msgid "rendre, rendu"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/inuenio, is, ire, ueni, uentum/:26
+msgid "trouver, trouvé"
+msgstr "find, found"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/uideo, es, ere, uidi, uisum/:27
+msgid "voir, vu"
+msgstr "see, seen"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/rogo, as, are/:28
+msgid "interroger, interrogé"
+msgstr "ask, asked"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/cupio, is, ere, cupi(u)i, cupitum/:29
+msgid "désirer, désiré"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/sustineo, es, ere, tinui, tentum/:30
+msgid "soutenir, soutenu"
+msgstr ""
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/muto, as, are/:32
+msgid "changer, changé"
+msgstr "change, changed"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/traho, is, ere, traxi, tractum/:33
+msgid "tirer, tiré"
+msgstr "draw, drawn"
+
+#. Translators: if there are slashes, conjugate the verb, separated by slashes"
+#: uerbum/relinquo, is, ere, reliqui, relictum/:34
+msgid "abandonner, abandonné"
+msgstr ""
 
 #. Translators: nominative singular/nominative plural"
 #: sum/amica/amicae/:1
