@@ -198,7 +198,8 @@ class Uerbum(models.Model):
     def __str__(self):
         return self.latine + " => " + _(self.gallice)
 
-    def latConiug(self, pers = 0, nomb = "s", mode = "indic", temps = "pres"):
+    def latConiug(self, pers = 0, nomb = "s", mode = "indic", temps = "pres",
+                  genre = "m"):
         """
         Conjugaison latine, sur la base de self.latine
         - self.latine peut être quelque chose comme :
@@ -211,6 +212,7 @@ class Uerbum(models.Model):
           "indic", "infin", "partic", ...
         @param temps le temps, présent par défaut ; valeurs possibles :
           "pres", ...
+        @param genre le genre, "m" par défault
         """
         eclats = re.split(r", *", self.latine)
         # toujours là, le présent de l'indicatif
@@ -229,10 +231,38 @@ class Uerbum(models.Model):
                         index = pers-1
                     else:
                         index = pers+2
-                    return self.latine.split("/")[index]
+                    return formes[index]
+        elif mode == "infin":
+            infin = re.sub(r"o$", infin0, pres_indic1)
+            return infin
+        elif mode == "partic":
+            if infin0 == "are": # verbe du 1er groupe
+                part = re.sub(r"o$", "atum", pres_indic1)
+            elif len(part0) >= len(pres_indic1) and part0[0] == pres_indic1[0]:
+                # le participe est complet s'il commence par la même lettre
+                # que le présent, et que sa longueur est au moins la même.
+                part = part0
+            else:
+                trouve = False
+                for i in reversed(range(1,len(pres_indic1))):
+                    if trouve: break
+                    deb = pres_indic1[:i] # deb est de plus en plus court
+                    for j in range(1,min(len(deb), len(part0))):
+                        # on cherche une coïncidence entre le début de part0
+                        # et la fin du morceau raccourci de pres_indic1
+                        if part0[:j] == deb[-j:] and not trouve:
+                            part = deb[:-j] + part0
+                            trouve = True
+                            break
+            if genre == "f":
+                part = re.sub("um$", "a", part)
+            elif genre == "m":
+                part = re.sub("um$", "us", part)
+            return part
         return
     
-    def galConiug(self, pers = 0, nomb = "s", mode = "indic", temps = "pres"):
+    def galConiug(self, pers = 0, nomb = "s", mode = "indic", temps = "pres",
+                  genre = "m"):
         """
         Conjugaison "gauloise", sur la base de _(self.gallice)
         - gallice peut être quelque chose comme :
@@ -245,6 +275,7 @@ class Uerbum(models.Model):
           "indic", "infin", "partic", ...
         @param temps le temps, présent par défaut ; valeurs possibles :
           "pres", ...
+        @param genre "m" ou "f"; "m" par défaut.
         """
         eclats = re.split(r", *", _(self.gallice))
         # eclats peut être [_("suis/es/est/sommes/êtes/sont")]
@@ -265,8 +296,32 @@ class Uerbum(models.Model):
             if mode == "infin":
                 return eclats[0]
             elif mode == "partic":
-                return eclats[1]
+                return self.avecGenre(eclats[1], genre)
         return
+
+    def avecGenre(self, partic, genre):
+        """
+        Accorde le participe en fonction du genre
+        """
+        if _("gallice") == "gallice": # en gaulois
+            if genre == "f":
+                return partic + "e"
+            else:
+                return partic
+        else:
+            return f"{partic} ' (sorry : gender not applied: {genre})"
+
+    @property
+    def serializable(self):
+        return {
+            "name": self.name,
+            "latine": self.latine,
+            "gallice": self.gallice,
+        }
+
+    @staticmethod
+    def fromserial(dic):
+        return Uerbum(latine=dic["latine"], gallice=dic["gallice"], name=dic["name"])
 
 class Sum(models.Model):
     """
