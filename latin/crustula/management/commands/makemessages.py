@@ -68,7 +68,7 @@ class Command(makemessages.Command):
                     ##### ajout des données de la table crutula_uerbum
                     i = 1
                     for uerb in Uerbum.objects.all():
-                        outfile.write("\n#. Translators: conjugate the verb, separated by slashes\"\n")
+                        outfile.write("\n#. Translators: if there are slashes, conjugate the verb, separated by slashes\"\n")
                         outfile.write(f"#: uerbum/{uerb.latine}/:{i}\n")
                         i+=1
                         outfile.write(f'''msgid "{uerb.gallice}"\nmsgstr ""\n''')
