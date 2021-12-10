@@ -1,0 +1,10 @@
+#! /bin/sh
+
+thisdir=$(dirname $0)
+cd ${thisdir}
+echo pwd = $(pwd)
+
+# update static files and database structure
+./manage.py collectstatic --noinput
+./manage.py makemigrations
+./manage.py migrate

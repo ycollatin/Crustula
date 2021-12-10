@@ -1,0 +1,18 @@
+#!/bin/sh
+
+targetdir=/srv/latin
+host=freeduc.science
+
+echo "Installing the last version locally, to $targetdir"
+# update MO files
+./manage.py compilemessages
+# copy everything except the database
+rsync --exclude="db*" --delete -av * ${host}:/srv/latin
+[ "$1" = "--db" ] || scp db.sqlite3 ${host}:/srv/latin/
+
+ssh ${host} /srv/latin/update-static-and-db
+
+echo "installation complete."
+echo " activate it with:"
+echo "ssh ${host} sudo service apache2 restart"
+
