@@ -146,6 +146,7 @@ def index(request):
     verbe = [_("j'aime"),_('tu aimes'),_('aime'),
              _('nous aimons'), _('vous aimez'),_('ils aiment')]
     sol = ""
+    resp = ""
     recte = False
     meta = random.choice(('latine','gallice'));
     phrase = RandomPhrase(nomina); 
