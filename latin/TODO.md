@@ -1,15 +1,7 @@
-Next crustula to rework
+prochains crustula à travailler
+===============================
+
+développements généraux
 =======================
 
- - uocesii.php
- - uocesiii.php
- - radicesiii.php
- - uocesiiii.php
- - uocesiiii.php
-
- - sum.php
- - est-gen.php
- - nag12.php
- - amatur.php                                                                   
- - partparf.php
- 
+mettre un frein aux demandes répétées de rechargement de page.

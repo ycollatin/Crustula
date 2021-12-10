@@ -27,9 +27,14 @@ def compte_points(request, recte):
     if request.method == "GET":
         request.session["consec"] = 0
         request.session['prius']  = 0
+        request.session['vista'] = []
     else:
+        csrf = request.POST.get("csrfmiddlewaretoken")
+        dejavu = csrf in request.session['vista']
+        if not dejavu : request.session['vista'].append(csrf)
         if recte:
-            request.session["consec"] += 1
+            if not dejavu:
+                request.session["consec"] += 1
         else:
             # mémorise la meilleure valeur de "consec" dans "prius"
             if request.session['consec'] > request.session['prius']:
